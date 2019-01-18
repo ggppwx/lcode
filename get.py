@@ -10,22 +10,21 @@ import json
 
 class Problem(object):
     def __init__(self, id, title, url):
-        self._id = id
-        self._title = title
-        self._url = url
+        self.id = id
+        self.title = title
+        self.url = url
 
 
 
 class WebParser(object):
     def __init__(self):
-        self._root_url = url
         self._problems = {}
         self.get_all_problems()
 
     def get_all_problems(self):
         """Get all problems """
         query = 'https://leetcode.com/api/problems/algorithms/'
-        response = requests.get(query)
+        response = requests.get(query, verify=False)
         content = json.loads(response.content)
         problems = content['stat_status_pairs']
         for problem in problems:
@@ -42,9 +41,26 @@ class WebParser(object):
 
 
 
-class LocalProblemCreator(object):
-    pass
+class TemplateCreator(object):
+    def __init__(self, dir):
+        self._dir = dir
+        
 
+    def create_template(self, problem):
+        """Create a local problem template
+        dir
+        - problem name
+        -- README
+        -- problem.py
+        -- problem.cpp
+        """
+        dir_name = problem.title
+        # generate a dir with title
+
+
+
+        # generate file: readme
+        # generate file: python code 
 
 
 class ReadmeContent(object):
@@ -62,10 +78,11 @@ def main():
 
 
     print(args)
-    problem_index = args.i
+    problem_index = int(args.i)
 
 
-
+    web_parser = WebParser()
+    problem = web_parser.get_problem(problem_index)
 
 
     # going over all problems
