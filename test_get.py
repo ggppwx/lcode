@@ -2,6 +2,7 @@
 import unittest
 import get
 from pprint import pprint
+import shutil
 
 class TestWebParser(unittest.TestCase):
 
@@ -11,7 +12,17 @@ class TestWebParser(unittest.TestCase):
         pprint(vars(p))
 
 
+class TestTemplateCreator(unittest.TestCase):
+    def test_create_template(self):
+        test_dir = '.'
+        problem = get.Problem(1, 'test', 'tst1', 'http://test')
+        wp = get.TemplateCreator(test_dir)
+        wp.create_template(problem)
+        shutil.rmtree('test')
+
+
 
 if __name__ == '__main__':
     unittest.main()
 
+ 

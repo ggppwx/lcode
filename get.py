@@ -4,14 +4,17 @@ This script downloads the code
 import argparse
 import requests
 import json
+import os
+import string
 
-
+PROBELM_DIR = 'Algorithm'
 
 
 class Problem(object):
-    def __init__(self, id, title, url):
+    def __init__(self, id, title, slug,  url):
         self.id = id
         self.title = title
+        self.slug = slug
         self.url = url
 
 
@@ -31,8 +34,10 @@ class WebParser(object):
             id = problem['stat']['question_id']
             title = problem['stat']['question__title']
             slug = problem['stat']['question__title_slug']
-            url = '' + slug
-            self._problems[id] = Problem(id, title, url)
+
+            url = 'https://leetcode.com/problems/' + slug
+            self._problems[id] = Problem(id, title, slug,  url)
+
 
 
     def get_problem(self, id):
@@ -44,6 +49,11 @@ class WebParser(object):
 class TemplateCreator(object):
     def __init__(self, dir):
         self._dir = dir
+        self._templates = {}
+
+        with open('source_code.py.tmpl') as f:
+            self._templates['py'] =   string.Template( f.read() )
+
         
 
     def create_template(self, problem):
@@ -54,14 +64,26 @@ class TemplateCreator(object):
         -- problem.py
         -- problem.cpp
         """
-        dir_name = problem.title
+        print('creating ... ')
+        dir_name = self._dir + '/' + str(problem.id) + '. ' + problem.title
         # generate a dir with title
 
-
+        try:
+            print(dir_name)
+            os.mkdir(dir_name)
+        except FileExistsError:
+            print("Dir ", dir_name, " already exists ")
 
         # generate file: readme
-        # generate file: python code 
+        with open(dir_name + '/' + 'README.md', 'w') as f:
+            f.write('# test')
 
+        # generate file: python code 
+        file_path  = dir_name + '/' + problem.slug + '.py'
+        substitutes = {'title' : problem.title, 'url': problem.url}
+        py_source = self._templates['py'].substitute(substitutes)
+        with open(file_path, "w") as f:
+            f.write( py_source)
 
 class ReadmeContent(object):
     pass
@@ -72,37 +94,22 @@ class ReadmeContent(object):
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument('-c', '--config', help='config file')
+    #parser.add_argument('-c', '--config', help='config file')
     parser.add_argument('-i', '--index', help='index of the probelms' )
     args = parser.parse_args()
 
 
     print(args)
-    problem_index = int(args.i)
+    problem_index = int(args.index)
 
 
     web_parser = WebParser()
     problem = web_parser.get_problem(problem_index)
 
 
-    # going over all problems
-    for i in range(1, problem_index):
-
-        # get the problem from internet
-
-
-
-
-
-
-
-        pass
-
-
-
-
-
-
+    tmpl = TemplateCreator(PROBELM_DIR)
+    tmpl.create_template(problem)
+    
 
 
 if __name__ == "__main__":
