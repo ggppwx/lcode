@@ -18,7 +18,7 @@ class TestTemplateCreator(unittest.TestCase):
         problem = get.Problem(1, 'test', 'tst1', 'http://test')
         wp = get.TemplateCreator(test_dir)
         wp.create_template(problem)
-        shutil.rmtree('test')
+        shutil.rmtree('1. test')
 
 
 
