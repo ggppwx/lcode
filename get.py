@@ -86,7 +86,17 @@ class TemplateCreator(object):
             f.write( py_source)
 
 class ReadmeContent(object):
-    pass
+    def __init__(self, dir):
+        self._dir = dir 
+
+    def get_info(self):
+        """Get probelm in info """
+        pass 
+
+
+    def create_readme_content(self):
+        pass 
+
 
 
 
