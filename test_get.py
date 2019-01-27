@@ -21,6 +21,16 @@ class TestTemplateCreator(unittest.TestCase):
         shutil.rmtree('1. test')
 
 
+class TestReadmeContent(unittest.TestCase):
+    def test_get_info(self):
+        rc = get.ReadmeContent('./Algorithm')
+        rc.get_info()
+        print(rc._problems)
+
+    def test_create_readme_content(self):
+        rc = get.ReadmeContent('./Algorithm', './test.md')
+        rc.create_readme_content()
+
 
 if __name__ == '__main__':
     unittest.main()

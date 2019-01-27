@@ -86,20 +86,39 @@ class TemplateCreator(object):
             f.write( py_source)
 
 class ReadmeContent(object):
-    def __init__(self, dir):
-        self._dir = dir 
+    def __init__(self, dir, dest='./README.md'):
+        self._dest = dest
+        self._dir = dir
+        self._problems = []
+        self.get_info()
 
     def get_info(self):
         """Get probelm in info """
-        pass 
-
+        for root, dirs, _ in os.walk(self._dir):
+            for dir_name in dirs:
+                print(dir_name)
+                for problem_dir, _, files in os.walk(os.path.join(root, dir_name)):
+                    for file_name in files:
+                        print(file_name)
+                        if file_name.endswith('.py'):
+                            name = dir_name
+                            location = os.path.join(problem_dir, file_name)
+                            slug = os.path.splitext(file_name)[0]
+                            url = 'https://leetcode.com/problems/' + slug
+                            problem = { 'name': name, 'location' : location, 'url': url}
+                            self._problems.append(problem)
+            
 
     def create_readme_content(self):
-        pass 
+        with open(os.path.join(self._dest), 'w') as f:
+            f.write("# Solution table\n")
+            f.write("|Name| Title | Solution |\n")
+            for problem in self._problems:
+                line = "|{name}|[{name}]({url})|[python]({location})|\n".format(**problem)
+                f.write(line)
 
 
-
-
+                
 
 
 def main():
