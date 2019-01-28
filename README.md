@@ -16,4 +16,5 @@ This is a personal repo for some code
 
 ## problem table
 |Name| Title | Solution |
-|1. Two Sum|[1. Two Sum](https://leetcode.com/problems/two-sum)|[python](Algorithm/1. Two Sum/two-sum.py)|
+|----|-------|----------|
+|1. Two Sum|[1. Two Sum](https://leetcode.com/problems/two-sum)|[python](./Algorithm/1. Two Sum/two-sum.py)|

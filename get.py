@@ -104,7 +104,7 @@ class ReadmeContent(object):
                         print(file_name)
                         if file_name.endswith('.py'):
                             name = dir_name
-                            location = os.path.join(problem_dir, file_name)
+                            location = os.path.join('.', problem_dir, file_name)
                             slug = os.path.splitext(file_name)[0]
                             url = 'https://leetcode.com/problems/' + slug
                             problem = { 'name': name, 'location' : location, 'url': url}
@@ -116,6 +116,7 @@ class ReadmeContent(object):
             content = self._template.substitute()
             f.write(content)
             f.write("|Name| Title | Solution |\n")
+            f.write("|----|-------|----------|\n")
             for problem in self._problems:
                 line = "|{name}|[{name}]({url})|[python]({location})|\n".format(**problem)
                 f.write(line)
