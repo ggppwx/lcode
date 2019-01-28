@@ -91,6 +91,8 @@ class ReadmeContent(object):
         self._dir = dir
         self._problems = []
         self.get_info()
+        with open('README.md.tmpl') as f:
+            self._template = string.Template(f.read())
 
     def get_info(self):
         """Get probelm in info """
@@ -111,7 +113,8 @@ class ReadmeContent(object):
 
     def create_readme_content(self):
         with open(os.path.join(self._dest), 'w') as f:
-            f.write("# Solution table\n")
+            content = self._template.substitute()
+            f.write(content)
             f.write("|Name| Title | Solution |\n")
             for problem in self._problems:
                 line = "|{name}|[{name}]({url})|[python]({location})|\n".format(**problem)
@@ -138,6 +141,10 @@ def main():
 
     tmpl = TemplateCreator(PROBELM_DIR)
     tmpl.create_template(problem)
+
+
+    readme_content = ReadmeContent(PROBELM_DIR)
+    readme_content.create_readme_content()
     
 
 
