@@ -31,7 +31,7 @@ class WebParser(object):
         content = json.loads(response.content)
         problems = content['stat_status_pairs']
         for problem in problems:
-            id = problem['stat']['question_id']
+            id = problem['stat']['frontend_question_id']
             title = problem['stat']['question__title']
             slug = problem['stat']['question__title_slug']
 
