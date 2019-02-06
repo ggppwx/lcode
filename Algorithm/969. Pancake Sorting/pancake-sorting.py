@@ -39,6 +39,45 @@ import unittest
 
 class Solution:
     # copy the funtion here
+    def pancakeSort(self, A: 'List[int]') -> 'List[int]':
+        # 1, 2 3,   len(A)
+        def swap(A, length):
+            # swap from 0 to length - 1
+            if length == 0:
+                return
+
+            i = 0
+            j = length - 1
+            while i < j:
+                A[i], A[j] = A[j], A[i]
+                i += 1
+                j -= 1
+
+
+
+        current_max = len(A)
+        if current_max == 1:
+            return []
+
+        result = []
+        while current_max > 0:
+            for i in range(current_max):
+                if A[i] == current_max:
+                    if i == current_max - 1:
+                        # no move
+                        current_max -= 1
+                    elif i == 0:
+                        # the max on first
+                        swap(A, current_max)
+                        result.append(current_max)
+                        current_max -= 1
+                    else:
+                        swap(A, i + 1)
+                        result.append(i+1)
+                    break
+
+
+        return result
 
 
 
@@ -48,7 +87,8 @@ class TestSolution(unittest.TestCase):
     def test_function(self):
         s = Solution()
         # ret = s.new_function()
-
+        ret = s.pancakeSort([3, 2, 4, 1])
+        print(ret)
 
 if __name__ == '__main__':
     unittest.main()
