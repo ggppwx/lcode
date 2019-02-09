@@ -23,3 +23,4 @@ This is a personal repo for some code
 |969. Pancake Sorting|[969. Pancake Sorting](https://leetcode.com/problems/pancake-sorting)|[python](./Algorithm/969. Pancake Sorting/pancake-sorting.py)|
 |779. K-th Symbol in Grammar|[779. K-th Symbol in Grammar](https://leetcode.com/problems/k-th-symbol-in-grammar)|[python](./Algorithm/779. K-th Symbol in Grammar/k-th-symbol-in-grammar.py)|
 |524. Longest Word in Dictionary through Deleting|[524. Longest Word in Dictionary through Deleting](https://leetcode.com/problems/longest-word-in-dictionary-through-deleting)|[python](./Algorithm/524. Longest Word in Dictionary through Deleting/longest-word-in-dictionary-through-deleting.py)|
+|875. Koko Eating Bananas|[875. Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas)|[python](./Algorithm/875. Koko Eating Bananas/koko-eating-bananas.py)|
