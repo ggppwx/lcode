@@ -5,7 +5,6 @@ from pprint import pprint
 import shutil
 
 class TestWebParser(unittest.TestCase):
-
     def test_get_problem(self):
         wp = get.WebParser()
         p = wp.get_problem(1)

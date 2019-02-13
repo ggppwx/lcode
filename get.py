@@ -18,6 +18,13 @@ class Problem(object):
         self.url = url
 
 
+    def fillDescription(self):
+        #print(connection.read())
+        #soup = BeautifulSoup(connection)
+        #body = soup.find('body')
+        #app = body.find('div', {'id' : 'app'})
+        #print(app.prettify())
+        pass
 
 class WebParser(object):
     def __init__(self):
@@ -42,7 +49,12 @@ class WebParser(object):
 
     def get_problem(self, id):
         """Get the problem info based on id"""
-        return self._problems.get(id, {})
+        # TBD: use beautiful soup to get the description 
+        problem = self._problems.get(id, {})
+        problem.fillDescription()
+        return problem
+
+
 
 
 

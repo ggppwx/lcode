@@ -38,28 +38,40 @@ import collections
 import itertools
 import bisect
 class TopVotedCandidate:
-    # copy the funtion here
+    def __init__(self, persons: 'List[int]', times: 'List[int]'):
+        count = {}
+        max_person = -1
+        max_count = 0
+        self.max_persons = []
+        for p in persons:
+            count[p] = count.get(p, 0) + 1
+            if count[p] >= max_count:
+                max_count = count[p]
+                max_person = p
+
+            self.max_persons.append(max_person)
 
 
-    def __init__(self, persons, times):
-        self.A = []
-        count = collections.Counter()
-        leader, m = None, 0  # leader, num votes for leader
+        self.times = times
+        self.persons = persons
 
-        for p, t in itertools.izip(persons, times):
-            count[p] += 1
-            c = count[p]
-            if c >= m:
-                if p != leader:  # lead change
-                    leader = p
-                    self.A.append((t, leader))
+    def q(self, t: 'int') -> 'int':
+        if len(self.max_persons) == 0:
+            return None
 
-                if c > m:
-                    m = c
+        low = 0
+        high = len(self.times) - 1
+        while (low <= high):
+            mid = int((low + high) / 2)
+            if t > self.times[mid]:
+                low = mid + 1
+            elif t < self.times[mid]:
+                high = mid - 1
+            else:
+                return self.max_persons[mid]
 
-    def q(self, t):
-        i = bisect.bisect(self.A, (t, float('inf')), 1)
-        return self.A[i-1][1]
+        # the value is between high -> low
+        return self.max_persons[high]
 
 
 
