@@ -19,10 +19,12 @@ This is a personal repo for some code
 |----|-------|----------|
 |814. Binary Tree Pruning|[814. Binary Tree Pruning](https://leetcode.com/problems/binary-tree-pruning)|[python](./Algorithm/814. Binary Tree Pruning/binary-tree-pruning.py)|
 |779. K-th Symbol in Grammar|[779. K-th Symbol in Grammar](https://leetcode.com/problems/k-th-symbol-in-grammar)|[python](./Algorithm/779. K-th Symbol in Grammar/k-th-symbol-in-grammar.py)|
+|969. Pancake Sorting|[969. Pancake Sorting](https://leetcode.com/problems/.#pancake-sorting)|[python](./Algorithm/969. Pancake Sorting/.#pancake-sorting.py)|
 |969. Pancake Sorting|[969. Pancake Sorting](https://leetcode.com/problems/pancake-sorting)|[python](./Algorithm/969. Pancake Sorting/pancake-sorting.py)|
 |528. Random Pick with Weight|[528. Random Pick with Weight](https://leetcode.com/problems/random-pick-with-weight)|[python](./Algorithm/528. Random Pick with Weight/random-pick-with-weight.py)|
 |1. Two Sum|[1. Two Sum](https://leetcode.com/problems/two-sum)|[python](./Algorithm/1. Two Sum/two-sum.py)|
 |698. Partition to K Equal Sum Subsets|[698. Partition to K Equal Sum Subsets](https://leetcode.com/problems/partition-to-k-equal-sum-subsets)|[python](./Algorithm/698. Partition to K Equal Sum Subsets/partition-to-k-equal-sum-subsets.py)|
+|979. Distribute Coins in Binary Tree|[979. Distribute Coins in Binary Tree](https://leetcode.com/problems/distribute-coins-in-binary-tree)|[python](./Algorithm/979. Distribute Coins in Binary Tree/distribute-coins-in-binary-tree.py)|
 |497. Random Point in Non-overlapping Rectangles|[497. Random Point in Non-overlapping Rectangles](https://leetcode.com/problems/random-point-in-non-overlapping-rectangles)|[python](./Algorithm/497. Random Point in Non-overlapping Rectangles/random-point-in-non-overlapping-rectangles.py)|
 |894. All Possible Full Binary Trees|[894. All Possible Full Binary Trees](https://leetcode.com/problems/all-possible-full-binary-trees)|[python](./Algorithm/894. All Possible Full Binary Trees/all-possible-full-binary-trees.py)|
 |875. Koko Eating Bananas|[875. Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas)|[python](./Algorithm/875. Koko Eating Bananas/koko-eating-bananas.py)|
