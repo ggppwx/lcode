@@ -35,7 +35,29 @@ import unittest
 
 class Solution:
     # copy the funtion here
+    def distributeCoins(self, root: 'TreeNode') -> 'int':
+        """
+        Looking at the problem with Sub-problem concept in mind
+        # of coin current node needs = # missing on left + # surplus on right  + current node surplus
+        but # of steps =  # missing on left + # surplus on right
+        solve the problem by writing down examples 
+        """
+        self.steps = 0
+        self.visit(root)
+        return self.steps
 
+
+
+    def visit(self, node):
+        if node == None:
+            return 0
+        
+        left = self.visit(node.left)
+        right = self.visit(node.right)
+
+        self.steps += abs(left) + abs(right)
+        offset = node.val - 1
+        return left + right + offset
 
 
 
