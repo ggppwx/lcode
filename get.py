@@ -7,7 +7,7 @@ import json
 import os
 import string
 import urllib.parse
-from collectionss import defaultdict
+from collections import defaultdict
 
 PROBELM_DIR = 'Algorithm'
 
@@ -90,7 +90,8 @@ class TemplateCreator(object):
 
         # generate file: readme
         with open(dir_name + '/' + 'README.md', 'w') as f:
-            f.write('# test')
+            f.write('# Info')
+            f.write('## Tags')
 
         # generate file: python code 
         file_path  = dir_name + '/' + problem.slug + '.py'
@@ -105,6 +106,7 @@ class ReadmeContent(object):
         self._dir = dir
         self._problems = []
         self._tag_problems = defaultdict(list)
+        self._un_tag_problems = []
         self.get_info()
         with open('README.md.tmpl') as f:
             self._template = string.Template(f.read())
@@ -117,7 +119,7 @@ class ReadmeContent(object):
                     # read tags
                     tag_line = True
                 elif tag_line:
-                    tags = list(fliter(None, line.split('|')))
+                    tags = list(filter(None, line.rstrip().split('|')))
                     return tags
 
             return []
@@ -127,7 +129,7 @@ class ReadmeContent(object):
         """Get probelm in info """
         for root, dirs, _ in os.walk(self._dir):
             for dir_name in dirs:
-                print(dir_name)
+                #print(dir_name)
                 for problem_dir, _, files in os.walk(os.path.join(root, dir_name)):
                     id = dir_name.split('.')[0]
                     name = dir_name.split('.')[1].strip(' ')
@@ -137,7 +139,7 @@ class ReadmeContent(object):
                     python_link = None
                     tags = []
                     for file_name in files:
-                        print(file_name)
+                        #print(file_name)
                         if file_name.endswith('.py'):
                             location = os.path.join('.', problem_dir, file_name)
                             problem_dir_quoted = urllib.parse.quote(dir_name)
@@ -149,6 +151,7 @@ class ReadmeContent(object):
                             # it contains the tag info
                             file_path = os.path.join('.', problem_dir, file_name)
                             tags = self._get_tags_from_md(file_path)
+                            #print(tags)
 
 
                     problem = {
@@ -163,7 +166,7 @@ class ReadmeContent(object):
                     for tag in tags:
                         self._tag_problems[tag].append(problem)
                     if not tags:
-                        self._tag_problems['Others'].append(problem)
+                        self._un_tag_problems.append(problem)
 
 
     def create_readme_content(self):
@@ -171,15 +174,22 @@ class ReadmeContent(object):
             content = self._template.substitute()
             f.write(content)
             # tags ###
-            for tag, problems in self._tag_problems.items():
+            for tag, problems in sorted(self._tag_problems.items()):
                 f.write('### {}\n'.format(tag))
                 f.write("| Id |Name| Title | Solution |\n")
                 f.write("|----|----|-------|----------|\n")
                 for problem in problems:
                     line = "|{id}|{name}|[{name}]({url})|[python]({python})|\n".format(**problem)
                     f.write(line)
-
                 f.write('\n')
+
+            f.write('### {}\n'.format('Untagged'))
+            f.write("| Id |Name| Title | Solution |\n")
+            f.write("|----|----|-------|----------|\n")
+            for problem in self._un_tag_problems:
+                line = "|{id}|{name}|[{name}]({url})|[python]({python})|\n".format(**problem)
+                f.write(line)
+            f.write('\n')
 
 
 
