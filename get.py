@@ -7,6 +7,7 @@ import json
 import os
 import string
 import urllib.parse
+from collectionss import defaultdict
 
 PROBELM_DIR = 'Algorithm'
 
@@ -103,9 +104,24 @@ class ReadmeContent(object):
         self._dest = dest
         self._dir = dir
         self._problems = []
+        self._tag_problems = defaultdict(list)
         self.get_info()
         with open('README.md.tmpl') as f:
             self._template = string.Template(f.read())
+
+    def _get_tags_from_md(self, file_path):
+        with open(file_path) as f:
+            tag_line = False
+            for line in f:
+                if line.startswith('## Tags'):
+                    # read tags
+                    tag_line = True
+                elif tag_line:
+                    tags = list(fliter(None, line.split('|')))
+                    return tags
+
+            return []
+
 
     def get_info(self):
         """Get probelm in info """
@@ -113,32 +129,59 @@ class ReadmeContent(object):
             for dir_name in dirs:
                 print(dir_name)
                 for problem_dir, _, files in os.walk(os.path.join(root, dir_name)):
+                    id = dir_name.split('.')[0]
+                    name = dir_name.split('.')[1].strip(' ')
+                    location = None
+                    slug = None
+                    url = None
+                    python_link = None
+                    tags = []
                     for file_name in files:
                         print(file_name)
                         if file_name.endswith('.py'):
-                            id = dir_name.split('.')[0]
-                            name = dir_name.split('.')[1].strip(' ')
                             location = os.path.join('.', problem_dir, file_name)
                             problem_dir_quoted = urllib.parse.quote(dir_name)
                             python_link  = os.path.join('https://github.com/ggppwx/lcode/blob/master/Algorithm', problem_dir_quoted , file_name)
                             slug = os.path.splitext(file_name)[0]
                             url = 'https://leetcode.com/problems/' + slug
-                            problem = { 'id': id, 'name': name, 'location' : location, 'url': url, 'python': python_link}
-                            self._problems.append(problem)
-            
+
+                        if file_name.endswith('.md'):
+                            # it contains the tag info
+                            file_path = os.path.join('.', problem_dir, file_name)
+                            tags = self._get_tags_from_md(file_path)
+
+                    problem = {
+                        'id': id,
+                        'name': name,
+                        'location' : location,
+                        'url': url,
+                        'python': python_link,
+                        'tags' : tags
+                    }
+                    self._problems.append(problem)
+
+                    for tag in tags:
+                        self._tag_problems[tag].append(problem)
+
+                    if not tags:
+                        self._tag_problems['Others'].append(problem)
 
     def create_readme_content(self):
         with open(os.path.join(self._dest), 'w') as f:
             content = self._template.substitute()
             f.write(content)
-            f.write("| Id |Name| Title | Solution |\n")
-            f.write("|----|----|-------|----------|\n")
-            for problem in self._problems:
-                line = "|{id}|{name}|[{name}]({url})|[python]({python})|\n".format(**problem)
-                f.write(line)
 
+            # tags ###
+            for tag, problems in self._tag_problems.items():
+                f.write('### {}\n'.format(tag))
+                f.write("| Id |Name| Title | Solution |\n")
+                f.write("|----|----|-------|----------|\n")
+                for problem in problems:
+                    line = "|{id}|{name}|[{name}]({url})|[python]({python})|\n".format(**problem)
+                    f.write(line)
 
-                
+                f.write('\n')
+
 
 
 def main():
