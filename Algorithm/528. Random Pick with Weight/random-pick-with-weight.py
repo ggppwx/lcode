@@ -32,9 +32,10 @@ import unittest
 import random
 
 class Solution:
-    # copy the funtion here
-
-
+    """
+    Normalize the weight
+    then binary search the random generated target value 
+    """
     def __init__(self, w: 'List[int]'):
         self.p = []
         sum_weight = 0

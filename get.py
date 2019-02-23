@@ -6,6 +6,8 @@ import requests
 import json
 import os
 import string
+import urllib.parse
+from collections import defaultdict
 
 PROBELM_DIR = 'Algorithm'
 
@@ -88,7 +90,8 @@ class TemplateCreator(object):
 
         # generate file: readme
         with open(dir_name + '/' + 'README.md', 'w') as f:
-            f.write('# test')
+            f.write('# Info')
+            f.write('## Tags')
 
         # generate file: python code 
         file_path  = dir_name + '/' + problem.slug + '.py'
@@ -102,62 +105,123 @@ class ReadmeContent(object):
         self._dest = dest
         self._dir = dir
         self._problems = []
+        self._tag_problems = defaultdict(list)
+        self._un_tag_problems = []
         self.get_info()
         with open('README.md.tmpl') as f:
             self._template = string.Template(f.read())
+
+    def _get_tags_from_md(self, file_path):
+        with open(file_path) as f:
+            tag_line = False
+            for line in f:
+                if line.startswith('## Tags'):
+                    # read tags
+                    tag_line = True
+                elif tag_line:
+                    tags = list(filter(None, line.rstrip().split('|')))
+                    return tags
+
+            return []
+
 
     def get_info(self):
         """Get probelm in info """
         for root, dirs, _ in os.walk(self._dir):
             for dir_name in dirs:
-                print(dir_name)
+                #print(dir_name)
                 for problem_dir, _, files in os.walk(os.path.join(root, dir_name)):
+                    id = dir_name.split('.')[0]
+                    name = dir_name.split('.')[1].strip(' ')
+                    location = None
+                    slug = None
+                    url = None
+                    python_link = None
+                    tags = []
                     for file_name in files:
-                        print(file_name)
+                        #print(file_name)
                         if file_name.endswith('.py'):
-                            name = dir_name
                             location = os.path.join('.', problem_dir, file_name)
+                            problem_dir_quoted = urllib.parse.quote(dir_name)
+                            python_link  = os.path.join('https://github.com/ggppwx/lcode/blob/master/Algorithm', problem_dir_quoted , file_name)
                             slug = os.path.splitext(file_name)[0]
                             url = 'https://leetcode.com/problems/' + slug
-                            problem = { 'name': name, 'location' : location, 'url': url}
-                            self._problems.append(problem)
-            
+
+                        if file_name.endswith('.md'):
+                            # it contains the tag info
+                            file_path = os.path.join('.', problem_dir, file_name)
+                            tags = self._get_tags_from_md(file_path)
+                            #print(tags)
+
+
+                    problem = {
+                        'id': id,
+                        'name': name,
+                        'location' : location,
+                        'url': url,
+                        'python': python_link,
+                        'tags' : tags
+                    }
+                    self._problems.append(problem)
+                    for tag in tags:
+                        self._tag_problems[tag].append(problem)
+                    if not tags:
+                        self._un_tag_problems.append(problem)
+
 
     def create_readme_content(self):
         with open(os.path.join(self._dest), 'w') as f:
             content = self._template.substitute()
             f.write(content)
-            f.write("|Name| Title | Solution |\n")
-            f.write("|----|-------|----------|\n")
-            for problem in self._problems:
-                line = "|{name}|[{name}]({url})|[python]({location})|\n".format(**problem)
+            # tags ###
+            for tag, problems in sorted(self._tag_problems.items()):
+                f.write('### {}\n'.format(tag))
+                f.write("| Id |Name| Title | Solution |\n")
+                f.write("|----|----|-------|----------|\n")
+                for problem in problems:
+                    line = "|{id}|{name}|[{name}]({url})|[python]({python})|\n".format(**problem)
+                    f.write(line)
+                f.write('\n')
+
+            f.write('### {}\n'.format('Untagged'))
+            f.write("| Id |Name| Title | Solution |\n")
+            f.write("|----|----|-------|----------|\n")
+            for problem in self._un_tag_problems:
+                line = "|{id}|{name}|[{name}]({url})|[python]({python})|\n".format(**problem)
                 f.write(line)
+            f.write('\n')
 
-
-                
 
 
 def main():
     parser = argparse.ArgumentParser()
     #parser.add_argument('-c', '--config', help='config file')
     parser.add_argument('-i', '--index', help='index of the probelms' )
+    parser.add_argument('-r', '--refresh', action="store_true", default = False,  help='refresh')
     args = parser.parse_args()
 
 
     print(args)
-    problem_index = int(args.index)
+
+    if args.index is not None:
+        problem_index = int(args.index)
 
 
-    web_parser = WebParser()
-    problem = web_parser.get_problem(problem_index)
+        web_parser = WebParser()
+        problem = web_parser.get_problem(problem_index)
 
 
-    tmpl = TemplateCreator(PROBELM_DIR)
-    tmpl.create_template(problem)
+        tmpl = TemplateCreator(PROBELM_DIR)
+        tmpl.create_template(problem)
 
 
-    readme_content = ReadmeContent(PROBELM_DIR)
-    readme_content.create_readme_content()
+        readme_content = ReadmeContent(PROBELM_DIR)
+        readme_content.create_readme_content()
+
+    elif args.refresh:
+        print('---refresh-----')
+        readme_content = ReadmeContent(PROBELM_DIR)
+        readme_content.create_readme_content()
     
 
 

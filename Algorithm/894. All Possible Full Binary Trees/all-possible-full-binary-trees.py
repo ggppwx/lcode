@@ -19,8 +19,8 @@ class Solution:
     # copy the funtion here
     def allPossibleFBT(self, N):
         """
-        :type N: int
-        :rtype: List[TreeNode]
+        Thinking as sub-problem
+        left, right all possible trees are sub-problems 
         """
         if N % 2 == 0:
             return []
