@@ -150,6 +150,7 @@ class ReadmeContent(object):
                             file_path = os.path.join('.', problem_dir, file_name)
                             tags = self._get_tags_from_md(file_path)
 
+
                     problem = {
                         'id': id,
                         'name': name,
@@ -159,18 +160,16 @@ class ReadmeContent(object):
                         'tags' : tags
                     }
                     self._problems.append(problem)
-
                     for tag in tags:
                         self._tag_problems[tag].append(problem)
-
                     if not tags:
                         self._tag_problems['Others'].append(problem)
+
 
     def create_readme_content(self):
         with open(os.path.join(self._dest), 'w') as f:
             content = self._template.substitute()
             f.write(content)
-
             # tags ###
             for tag, problems in self._tag_problems.items():
                 f.write('### {}\n'.format(tag))
