@@ -6,6 +6,7 @@ import requests
 import json
 import os
 import string
+import urllib.parse
 
 PROBELM_DIR = 'Algorithm'
 
@@ -115,11 +116,14 @@ class ReadmeContent(object):
                     for file_name in files:
                         print(file_name)
                         if file_name.endswith('.py'):
-                            name = dir_name
+                            id = dir_name.split('.')[0]
+                            name = dir_name.split('.')[1].strip(' ')
                             location = os.path.join('.', problem_dir, file_name)
+                            problem_dir_quoted = urllib.parse.quote(dir_name)
+                            python_link  = os.path.join('https://github.com/ggppwx/lcode/blob/master/Algorithm', problem_dir_quoted , file_name)
                             slug = os.path.splitext(file_name)[0]
                             url = 'https://leetcode.com/problems/' + slug
-                            problem = { 'name': name, 'location' : location, 'url': url}
+                            problem = { 'id': id, 'name': name, 'location' : location, 'url': url, 'python': python_link}
                             self._problems.append(problem)
             
 
@@ -127,10 +131,10 @@ class ReadmeContent(object):
         with open(os.path.join(self._dest), 'w') as f:
             content = self._template.substitute()
             f.write(content)
-            f.write("|Name| Title | Solution |\n")
-            f.write("|----|-------|----------|\n")
+            f.write("| Id |Name| Title | Solution |\n")
+            f.write("|----|----|-------|----------|\n")
             for problem in self._problems:
-                line = "|{name}|[{name}]({url})|[python]({location})|\n".format(**problem)
+                line = "|{id}|{name}|[{name}]({url})|[python]({python})|\n".format(**problem)
                 f.write(line)
 
 
@@ -141,23 +145,31 @@ def main():
     parser = argparse.ArgumentParser()
     #parser.add_argument('-c', '--config', help='config file')
     parser.add_argument('-i', '--index', help='index of the probelms' )
+    parser.add_argument('-r', '--refresh', action="store_true", default = False,  help='refresh')
     args = parser.parse_args()
 
 
     print(args)
-    problem_index = int(args.index)
+
+    if args.index is not None:
+        problem_index = int(args.index)
 
 
-    web_parser = WebParser()
-    problem = web_parser.get_problem(problem_index)
+        web_parser = WebParser()
+        problem = web_parser.get_problem(problem_index)
 
 
-    tmpl = TemplateCreator(PROBELM_DIR)
-    tmpl.create_template(problem)
+        tmpl = TemplateCreator(PROBELM_DIR)
+        tmpl.create_template(problem)
 
 
-    readme_content = ReadmeContent(PROBELM_DIR)
-    readme_content.create_readme_content()
+        readme_content = ReadmeContent(PROBELM_DIR)
+        readme_content.create_readme_content()
+
+    elif args.refresh:
+        print('---refresh-----')
+        readme_content = ReadmeContent(PROBELM_DIR)
+        readme_content.create_readme_content()
     
 
 
