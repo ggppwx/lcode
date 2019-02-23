@@ -17,19 +17,14 @@ Explanation: It's possible to divide it into 4 subsets (5), (1, 4), (2,3), (2,3)
 import unittest
 
 class Solution:
-    # copy the funtion here
+    """
+    Calculate the Target value ( sum(nums)/k ), then make up for the value 
+    """
     def canPartitionKSubsets(self, nums, k):
-        """
-        :type nums: List[int]
-        :type k: int
-        :rtype: bool
-        """
         def find(array, current, target, subnum):
             if subnum > k:
                 return False
 
-            #print(current)
-            #print(array)
             if len(array) == 0:
                 if current == 0:
                     return True
@@ -47,11 +42,10 @@ class Solution:
                 if array[i] <= current:
                     tmp = array[i]
                     array = array[:i] + array[i+1:]
-                    #print('->', tmp)
                     if find(array, current - tmp, target, subnum):
                         return True
                     array.insert(i, tmp)
-                    #print(array)
+
                 i += 1
 
             return False
