@@ -1,3 +1,3 @@
 # Info
 ## Tags
-|Binary serach|
+|Binary search|
