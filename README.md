@@ -18,9 +18,9 @@ This is a personal repo for some code
 ### Binary search
 | Id |Name| Title | Solution |
 |----|----|-------|----------|
-|911|Online Election|[Online Election](https://leetcode.com/problems/online-election)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/911.%20Online%20Election/online-election.py)|
-|528|Random Pick with Weight|[Random Pick with Weight](https://leetcode.com/problems/random-pick-with-weight)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/528.%20Random%20Pick%20with%20Weight/random-pick-with-weight.py)|
 |497|Random Point in Non-overlapping Rectangles|[Random Point in Non-overlapping Rectangles](https://leetcode.com/problems/random-point-in-non-overlapping-rectangles)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/497.%20Random%20Point%20in%20Non-overlapping%20Rectangles/random-point-in-non-overlapping-rectangles.py)|
+|528|Random Pick with Weight|[Random Pick with Weight](https://leetcode.com/problems/random-pick-with-weight)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/528.%20Random%20Pick%20with%20Weight/random-pick-with-weight.py)|
+|911|Online Election|[Online Election](https://leetcode.com/problems/online-election)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/911.%20Online%20Election/online-election.py)|
 
 ### Binary serach
 | Id |Name| Title | Solution |
@@ -36,21 +36,21 @@ This is a personal repo for some code
 | Id |Name| Title | Solution |
 |----|----|-------|----------|
 |698|Partition to K Equal Sum Subsets|[Partition to K Equal Sum Subsets](https://leetcode.com/problems/partition-to-k-equal-sum-subsets)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/698.%20Partition%20to%20K%20Equal%20Sum%20Subsets/partition-to-k-equal-sum-subsets.py)|
-|894|All Possible Full Binary Trees|[All Possible Full Binary Trees](https://leetcode.com/problems/all-possible-full-binary-trees)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/894.%20All%20Possible%20Full%20Binary%20Trees/all-possible-full-binary-trees.py)|
 |779|K-th Symbol in Grammar|[K-th Symbol in Grammar](https://leetcode.com/problems/k-th-symbol-in-grammar)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/779.%20K-th%20Symbol%20in%20Grammar/k-th-symbol-in-grammar.py)|
+|894|All Possible Full Binary Trees|[All Possible Full Binary Trees](https://leetcode.com/problems/all-possible-full-binary-trees)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/894.%20All%20Possible%20Full%20Binary%20Trees/all-possible-full-binary-trees.py)|
 
 ### Sort
 | Id |Name| Title | Solution |
 |----|----|-------|----------|
-|969|Pancake Sorting|[Pancake Sorting](https://leetcode.com/problems/.#pancake-sorting)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/969.%20Pancake%20Sorting/.#pancake-sorting.py)|
 |524|Longest Word in Dictionary through Deleting|[Longest Word in Dictionary through Deleting](https://leetcode.com/problems/longest-word-in-dictionary-through-deleting)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/524.%20Longest%20Word%20in%20Dictionary%20through%20Deleting/longest-word-in-dictionary-through-deleting.py)|
+|969|Pancake Sorting|[Pancake Sorting](https://leetcode.com/problems/.#pancake-sorting)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/969.%20Pancake%20Sorting/.#pancake-sorting.py)|
 
 ### Tree
 | Id |Name| Title | Solution |
 |----|----|-------|----------|
-|951|Flip Equivalent Binary Trees|[Flip Equivalent Binary Trees](https://leetcode.com/problems/flip-equivalent-binary-trees)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/951.%20Flip%20Equivalent%20Binary%20Trees/flip-equivalent-binary-trees.py)|
-|894|All Possible Full Binary Trees|[All Possible Full Binary Trees](https://leetcode.com/problems/all-possible-full-binary-trees)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/894.%20All%20Possible%20Full%20Binary%20Trees/all-possible-full-binary-trees.py)|
 |814|Binary Tree Pruning|[Binary Tree Pruning](https://leetcode.com/problems/binary-tree-pruning)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/814.%20Binary%20Tree%20Pruning/binary-tree-pruning.py)|
+|894|All Possible Full Binary Trees|[All Possible Full Binary Trees](https://leetcode.com/problems/all-possible-full-binary-trees)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/894.%20All%20Possible%20Full%20Binary%20Trees/all-possible-full-binary-trees.py)|
+|951|Flip Equivalent Binary Trees|[Flip Equivalent Binary Trees](https://leetcode.com/problems/flip-equivalent-binary-trees)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/951.%20Flip%20Equivalent%20Binary%20Trees/flip-equivalent-binary-trees.py)|
 |979|Distribute Coins in Binary Tree|[Distribute Coins in Binary Tree](https://leetcode.com/problems/distribute-coins-in-binary-tree)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/979.%20Distribute%20Coins%20in%20Binary%20Tree/distribute-coins-in-binary-tree.py)|
 
 ### Untagged

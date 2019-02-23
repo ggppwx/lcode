@@ -178,7 +178,7 @@ class ReadmeContent(object):
                 f.write('### {}\n'.format(tag))
                 f.write("| Id |Name| Title | Solution |\n")
                 f.write("|----|----|-------|----------|\n")
-                for problem in problems:
+                for problem in sorted(problems, key = lambda x: x['id']):
                     line = "|{id}|{name}|[{name}]({url})|[python]({python})|\n".format(**problem)
                     f.write(line)
                 f.write('\n')
