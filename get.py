@@ -90,8 +90,8 @@ class TemplateCreator(object):
 
         # generate file: readme
         with open(dir_name + '/' + 'README.md', 'w') as f:
-            f.write('# Info')
-            f.write('## Tags')
+            f.write('# Info\n')
+            f.write('## Tags\n')
 
         # generate file: python code 
         file_path  = dir_name + '/' + problem.slug + '.py'
