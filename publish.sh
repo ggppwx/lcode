@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# refresh readme
+python3 get.py -r
+
 # publish the change to github
 git add README.md
 git add Algorithm
