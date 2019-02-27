@@ -44,6 +44,7 @@ This is a personal repo for some code
 ### Tree
 | Id |Name| Title | Solution |
 |----|----|-------|----------|
+|654|Maximum Binary Tree|[Maximum Binary Tree](https://leetcode.com/problems/maximum-binary-tree)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/654.%20Maximum%20Binary%20Tree/maximum-binary-tree.py)|
 |814|Binary Tree Pruning|[Binary Tree Pruning](https://leetcode.com/problems/binary-tree-pruning)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/814.%20Binary%20Tree%20Pruning/binary-tree-pruning.py)|
 |889|Construct Binary Tree from Preorder and Postorder Traversal|[Construct Binary Tree from Preorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/889.%20Construct%20Binary%20Tree%20from%20Preorder%20and%20Postorder%20Traversal/construct-binary-tree-from-preorder-and-postorder-traversal.py)|
 |894|All Possible Full Binary Trees|[All Possible Full Binary Trees](https://leetcode.com/problems/all-possible-full-binary-trees)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/894.%20All%20Possible%20Full%20Binary%20Trees/all-possible-full-binary-trees.py)|

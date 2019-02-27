@@ -11,7 +11,7 @@ import unittest
 
 class Solution:
     """ Notes:
-    The difficult part is the corner case:
+    The difficult part is the special case:
     1, 2, 3, 4
     4, 3, 2, 1
     we put 2,3,4 in the left (or right ) and None on the right 
@@ -31,7 +31,11 @@ class Solution:
         left_post = []
         right_post = []
         for idx, val in enumerate(pre):
-            if val == post[-2]: 
+            if val == post[-2]:
+                """
+                At this moment, ask what if idx == 1 ? then we have 2 choice, we manually chose approach 1:
+                putting all nodes on the left side 
+                """
                 # idx is the right node
                 if idx == 1:
                     left_pre = pre[1:]
