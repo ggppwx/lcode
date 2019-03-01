@@ -28,6 +28,11 @@ This is a personal repo for some code
 |----|----|-------|----------|
 |979|Distribute Coins in Binary Tree|[Distribute Coins in Binary Tree](https://leetcode.com/problems/distribute-coins-in-binary-tree)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/979.%20Distribute%20Coins%20in%20Binary%20Tree/distribute-coins-in-binary-tree.py)|
 
+### Graph
+| Id |Name| Title | Solution |
+|----|----|-------|----------|
+|959|Regions Cut By Slashes|[Regions Cut By Slashes](https://leetcode.com/problems/regions-cut-by-slashes)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/959.%20Regions%20Cut%20By%20Slashes/regions-cut-by-slashes.py)|
+
 ### Recursion
 | Id |Name| Title | Solution |
 |----|----|-------|----------|
