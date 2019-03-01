@@ -8,6 +8,7 @@ import os
 import string
 import urllib.parse
 from collections import defaultdict
+import datetime
 
 PROBELM_DIR = 'Algorithm'
 
@@ -153,13 +154,19 @@ class ReadmeContent(object):
                             tags = self._get_tags_from_md(file_path)
                             #print(tags)
 
+                    modified_date =datetime.datetime.fromtimestamp(os.path.getmtime(location))
+                    diff = (datetime.datetime.now() - modified_date).days
+                    solution_title = 'python'
+                    if diff >= 14:
+                        solution_title += ' :alarm_clock:'
 
                     problem = {
                         'id': id,
                         'name': name,
                         'location' : location,
                         'url': url,
-                        'python': python_link,
+                        'solution' : solution_title,
+                        'solution_link': python_link,
                         'tags' : tags
                     }
                     self._problems.append(problem)
@@ -176,18 +183,18 @@ class ReadmeContent(object):
             # tags ###
             for tag, problems in sorted(self._tag_problems.items()):
                 f.write('### {}\n'.format(tag))
-                f.write("| Id |Name| Title | Solution |\n")
-                f.write("|----|----|-------|----------|\n")
+                f.write("| Id | Title | Solution |\n")
+                f.write("|----|-------|----------|\n")
                 for problem in sorted(problems, key = lambda x: x['id']):
-                    line = "|{id}|{name}|[{name}]({url})|[python]({python})|\n".format(**problem)
+                    line = "|{id}|[{name}]({url})|[{solution}]({solution_link})|\n".format(**problem)
                     f.write(line)
                 f.write('\n')
 
             f.write('### {}\n'.format('Untagged'))
-            f.write("| Id |Name| Title | Solution |\n")
-            f.write("|----|----|-------|----------|\n")
+            f.write("| Id | Title | Solution |\n")
+            f.write("|----|-------|----------|\n")
             for problem in self._un_tag_problems:
-                line = "|{id}|{name}|[{name}]({url})|[python]({python})|\n".format(**problem)
+                line = "|{id}|[{name}]({url})|[{solution}]({solution_link})|\n".format(**problem)
                 f.write(line)
             f.write('\n')
 
