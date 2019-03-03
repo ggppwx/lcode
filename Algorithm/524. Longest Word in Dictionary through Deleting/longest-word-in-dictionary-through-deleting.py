@@ -2,11 +2,9 @@
 Problem
 Longest Word in Dictionary through Deleting
 (https://leetcode.com/problems/longest-word-in-dictionary-through-deleting)
-
- Given a string and a string dictionary, find the longest string in the dictionary that can be formed by deleting some characters of the given string. If there are more than one possible results, return the longest word with the smallest lexicographical order. If there is no possible result, return the empty string.
+Given a string and a string dictionary, find the longest string in the dictionary that can be formed by deleting some characters of the given string. If there are more than one possible results, return the longest word with the smallest lexicographical order. If there is no possible result, return the empty string.
 
 Example 1:
-
 Input:
 s = "abpcplea", d = ["ale","apple","monkey","plea"]
 
@@ -27,15 +25,16 @@ Note:
     The size of the dictionary won't exceed 1,000.
     The length of all the strings in the input won't exceed 1,000.
 
-
-
 """
 import unittest
 
 class Solution:
-    # copy the funtion here
+    """
+    Sort based on length of the string, then do a "2-pointers" match 
+    """
     def findLongestWord(self, s: 'str', d: 'List[str]') -> 'str':
         def match(given, dict_str):
+            # 2 pointers compare if the dict_str is in given  
             i = 0
             j = 0
             while  i < len(given) and j < len(dict_str):
@@ -54,8 +53,6 @@ class Solution:
                 return dict_str
 
         return ''
-
-
 
 
 class TestSolution(unittest.TestCase):
