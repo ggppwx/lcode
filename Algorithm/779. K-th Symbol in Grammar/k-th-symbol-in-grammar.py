@@ -3,8 +3,8 @@ Problem
 K-th Symbol in Grammar
 (https://leetcode.com/problems/k-th-symbol-in-grammar)
 
-On the first row, we write a 0. Now in every subsequent row, we look at the previous row and replace each occurrence of 0 with 01, and each occurrence of 1 with 10.
-
+On the first row, we write a 0. Now in every subsequent row, we look at the previous row and replace each occurrence of 0 with 01, 
+and each occurrence of 1 with 10.
 Given row N and index K, return the K-th indexed symbol in row N. (The values of K are 1-indexed.) (1 indexed).
 
 Examples:
@@ -20,25 +20,22 @@ Output: 1
 Input: N = 4, K = 5
 Output: 1
 
-Explanation:
+* Explanation:
 row 1: 0
 row 2: 01
 row 3: 0110
 row 4: 01101001
-
-
 """
 import unittest
 import math
 
 class Solution:
-    # copy the funtion here
+    """
+    Simple recursion: only need to think about previous row.
+    I think this also could be done with Dynamic programming, but coming up with a space-saving algorithm is harder 
+    TAKES: The first step for DP problem is to find the state equation. then use recursion/bottom-up approach 
+    """
     def kthGrammar(self, N, K):
-        """
-        :type N: int
-        :type K: int
-        :rtype: int
-        """
         if N == 1: return 0
 
         previous = self.kthGrammar(N-1, math.ceil( K/2))
