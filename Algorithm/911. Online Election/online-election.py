@@ -4,15 +4,11 @@ Online Election
 (https://leetcode.com/problems/online-election)
 
 In an election, the i-th vote was cast for persons[i] at time times[i].
-
-Now, we would like to implement the following query function: TopVotedCandidate.q(int t) will return the number of the person that was leading the election at time t.  
-
+Now, we would like to implement the following query function: 
+TopVotedCandidate.q(int t) will return the number of the person that was leading the election at time t.  
 Votes cast at time t will count towards our query.  In the case of a tie, the most recent vote (among tied candidates) wins.
 
- 
-
 Example 1:
-
 Input: ["TopVotedCandidate","q","q","q","q","q","q"], [[[0,1,1,0,0,1,0],[0,5,10,15,20,25,30]],[3],[12],[25],[15],[24],[8]]
 Output: [null,0,1,1,0,0,1]
 Explanation: 
@@ -21,9 +17,7 @@ At time 12, the votes are [0,1,1], and 1 is leading.
 At time 25, the votes are [0,1,1,0,0,1], and 1 is leading (as ties go to the most recent vote.)
 This continues for 3 more queries at time 15, 24, and 8.
  
-
 Note:
-
 1 <= persons.length = times.length <= 5000
 0 <= persons[i] <= persons.length
 times is a strictly increasing array with all elements in [0, 10^9].
@@ -38,6 +32,11 @@ import collections
 import itertools
 import bisect
 class TopVotedCandidate:
+    """
+    Get a list of leading person at each time max_persons
+    Then do binary search.
+    Be aware: binary serach's boundary case: start == end, 
+    """
     def __init__(self, persons: 'List[int]', times: 'List[int]'):
         count = {}
         max_person = -1
@@ -48,10 +47,7 @@ class TopVotedCandidate:
             if count[p] >= max_count:
                 max_count = count[p]
                 max_person = p
-
             self.max_persons.append(max_person)
-
-
         self.times = times
         self.persons = persons
 
@@ -70,17 +66,18 @@ class TopVotedCandidate:
             else:
                 return self.max_persons[mid]
 
-        # the value is between high -> low
+        """the value is between [high , low )
+        don't forget to check if high < 0
+        """
+        if high < 0:
+            return None
         return self.max_persons[high]
-
 
 
 
 # Your TopVotedCandidate object will be instantiated and called as such:
 # obj = TopVotedCandidate(persons, times)
 # param_1 = obj.q(t)
-
-
 
 
 class TestSolution(unittest.TestCase):
@@ -90,10 +87,6 @@ class TestSolution(unittest.TestCase):
         print(s.q(3))
         print(s.q(99))
         print(s.q(78))
-
-        # ret = s.new_function()
-
-
 
 if __name__ == '__main__':
     unittest.main()
