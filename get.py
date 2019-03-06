@@ -19,6 +19,7 @@ class Problem(object):
         self.title = title
         self.slug = slug
         self.url = url
+        self.tags = []
 
 
     def fillDescription(self):
@@ -28,6 +29,10 @@ class Problem(object):
         #app = body.find('div', {'id' : 'app'})
         #print(app.prettify())
         pass
+
+    def add_tags(self, tags):
+        """add tags to the problem"""
+        self.tags = list(tags)
 
 class WebParser(object):
     def __init__(self):
@@ -41,7 +46,7 @@ class WebParser(object):
         content = json.loads(response.content)
         problems = content['stat_status_pairs']
         for problem in problems:
-            id = problem['stat']['frontend_question_id']
+            id = int(problem['stat']['frontend_question_id'])
             title = problem['stat']['question__title']
             slug = problem['stat']['question__title_slug']
 
@@ -93,6 +98,8 @@ class TemplateCreator(object):
         with open(dir_name + '/' + 'README.md', 'w') as f:
             f.write('# Info\n')
             f.write('## Tags\n')
+            f.write('|'.join(problem.tags) + '\n')
+            
 
         # generate file: python code 
         file_path  = dir_name + '/' + problem.slug + '.py'
@@ -132,7 +139,7 @@ class ReadmeContent(object):
             for dir_name in dirs:
                 #print(dir_name)
                 for problem_dir, _, files in os.walk(os.path.join(root, dir_name)):
-                    id = dir_name.split('.')[0]
+                    id = int(dir_name.split('.')[0])
                     name = dir_name.split('.')[1].strip(' ')
                     location = None
                     slug = None
@@ -204,6 +211,7 @@ def main():
     parser = argparse.ArgumentParser()
     #parser.add_argument('-c', '--config', help='config file')
     parser.add_argument('-i', '--index', help='index of the probelms' )
+    parser.add_argument('-t', '--tags', nargs='*', help='tag list')
     parser.add_argument('-r', '--refresh', action="store_true", default = False,  help='refresh')
     args = parser.parse_args()
 
@@ -217,10 +225,11 @@ def main():
         web_parser = WebParser()
         problem = web_parser.get_problem(problem_index)
 
+        if args.tags:
+            problem.add_tags(args.tags)
 
         tmpl = TemplateCreator(PROBELM_DIR)
         tmpl.create_template(problem)
-
 
         readme_content = ReadmeContent(PROBELM_DIR)
         readme_content.create_readme_content()
