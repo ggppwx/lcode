@@ -28,6 +28,12 @@ This is a personal repo for some code
 |----|-------|----------|
 |979|[Distribute Coins in Binary Tree](https://leetcode.com/problems/distribute-coins-in-binary-tree)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/979.%20Distribute%20Coins%20in%20Binary%20Tree/distribute-coins-in-binary-tree.py)|
 
+### DP
+| Id | Title | Solution |
+|----|-------|----------|
+|55|[Jump Game](https://leetcode.com/problems/jump-game)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/55.%20Jump%20Game/jump-game.py)|
+|213|[House Robber II](https://leetcode.com/problems/house-robber-ii)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/213.%20House%20Robber%20II/house-robber-ii.py)|
+
 ### Graph
 | Id | Title | Solution |
 |----|-------|----------|
