@@ -99,7 +99,7 @@ class TemplateCreator(object):
             f.write('# Info\n')
             f.write('## Tags\n')
             f.write('|'.join(problem.tags) + '\n')
-            
+            f.write('## Marks\n')
 
         # generate file: python code 
         file_path  = dir_name + '/' + problem.slug + '.py'
@@ -121,16 +121,25 @@ class ReadmeContent(object):
 
     def _get_tags_from_md(self, file_path):
         with open(file_path) as f:
+            tags = []
+            marks = []
             tag_line = False
+            mark_line = False
             for line in f:
                 if line.startswith('## Tags'):
                     # read tags
                     tag_line = True
                 elif tag_line:
                     tags = list(filter(None, line.rstrip().split('|')))
-                    return tags
+                    tag_line = False
 
-            return []
+                if line.startswith('## Marks'):
+                    mark_line = True
+                elif mark_line:
+                    marks = list(filter(None, line.rstrip().split('|')))
+                    mark_line = False
+
+            return (tags, marks)
 
 
     def get_info(self):
@@ -146,6 +155,7 @@ class ReadmeContent(object):
                     url = None
                     python_link = None
                     tags = []
+                    marks = []
                     for file_name in files:
                         #print(file_name)
                         if file_name.endswith('.py'):
@@ -158,7 +168,7 @@ class ReadmeContent(object):
                         if file_name.endswith('.md'):
                             # it contains the tag info
                             file_path = os.path.join('.', problem_dir, file_name)
-                            tags = self._get_tags_from_md(file_path)
+                            tags, marks = self._get_tags_from_md(file_path)
                             #print(tags)
 
                     modified_date =datetime.datetime.fromtimestamp(os.path.getmtime(location))
@@ -166,6 +176,9 @@ class ReadmeContent(object):
                     solution_title = 'python'
                     if diff >= 14:
                         solution_title += ' :alarm_clock:'
+                    for mark in marks:
+                        if mark == 'Help':
+                            solution_title += ' :sos:'
 
                     problem = {
                         'id': id,
@@ -174,7 +187,8 @@ class ReadmeContent(object):
                         'url': url,
                         'solution' : solution_title,
                         'solution_link': python_link,
-                        'tags' : tags
+                        'tags' : tags,
+                        'marks' : marks
                     }
                     self._problems.append(problem)
                     for tag in tags:
