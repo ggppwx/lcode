@@ -208,12 +208,11 @@ class ReadmeContent(object):
                                      if not timestamp
                                      else datetime.datetime.strptime(timestamp, "%Y-%m-%d"))
                     diff = (datetime.datetime.now() - modified_date).days
-                    solution_title = 'python'
                     if diff >= 14:
-                        solution_title += ' :alarm_clock:'
+                        name += ' :alarm_clock:'
                     for mark in marks:
                         if mark == 'Help':
-                            solution_title += ' :sos:'
+                            name += ' :sos:'
 
                     problem = {
                         'id': id,
