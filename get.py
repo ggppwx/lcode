@@ -9,6 +9,7 @@ import string
 import urllib.parse
 from collections import defaultdict
 import datetime
+import re
 
 PROBELM_DIR = 'Algorithm'
 
@@ -73,10 +74,12 @@ class TemplateCreator(object):
 
         with open('source_code.py.tmpl') as f:
             self._templates['py'] =   string.Template( f.read() )
+        with open('source_code.cpp.tmpl') as f:
+            self._templates['cpp'] =   string.Template( f.read() )
 
         
 
-    def create_template(self, problem):
+    def create_template(self, problem, language = 'python'):
         """Create a local problem template
         dir
         - problem name
@@ -100,14 +103,26 @@ class TemplateCreator(object):
             f.write('## Tags\n')
             f.write('|'.join(problem.tags) + '\n')
             f.write('## Marks\n')
+            f.write("[comment]: <timestamp:>")
 
-        # generate file: python code 
-        file_path  = dir_name + '/' + problem.slug + '.py'
-        substitutes = {'title' : problem.title, 'url': problem.url}
-        py_source = self._templates['py'].substitute(substitutes)
-        with open(file_path, "w") as f:
-            f.write( py_source)
+        if language == 'python':
+            # generate file: python code 
+            file_path  = dir_name + '/' + problem.slug + '.py'
+            if not os.path.exists(file_path):
+                substitutes = {'title' : problem.title, 'url': problem.url}
+                py_source = self._templates['py'].substitute(substitutes)
+                with open(file_path, "w") as f:
+                    f.write( py_source)
+        elif language == 'cpp':
+            file_path  = dir_name + '/' + problem.slug + '.cpp'
+            if not os.path.exists(file_path):
+                substitutes = {'title' : problem.title, 'url': problem.url}
+                cpp_source = self._templates['cpp'].substitute(substitutes)
+                with open(file_path, "w") as f:
+                    f.write( cpp_source)
 
+
+            
 class ReadmeContent(object):
     def __init__(self, dir, dest='./README.md'):
         self._dest = dest
@@ -123,6 +138,7 @@ class ReadmeContent(object):
         with open(file_path) as f:
             tags = []
             marks = []
+            timestamp = None
             tag_line = False
             mark_line = False
             for line in f:
@@ -139,7 +155,13 @@ class ReadmeContent(object):
                     marks = list(filter(None, line.rstrip().split('|')))
                     mark_line = False
 
-            return (tags, marks)
+                if line.startswith('[comment]: <timestamp'):
+                    timestamp = re.search('<timestamp:(\d{4}-\d{2}-\d{2})>', line).group(1)
+                    print(timestamp)
+            return (tags, marks, timestamp)
+
+    
+        
 
 
     def get_info(self):
@@ -153,9 +175,10 @@ class ReadmeContent(object):
                     location = None
                     slug = None
                     url = None
-                    python_link = None
+                    solutions  = []
                     tags = []
                     marks = []
+                    timestamp = None
                     for file_name in files:
                         #print(file_name)
                         if file_name.endswith('.py'):
@@ -164,14 +187,26 @@ class ReadmeContent(object):
                             python_link  = os.path.join('https://github.com/ggppwx/lcode/blob/master/Algorithm', problem_dir_quoted , file_name)
                             slug = os.path.splitext(file_name)[0]
                             url = 'https://leetcode.com/problems/' + slug
+                            solutions.append({'solution' : 'python', 'solution_link' : python_link})
+
+                        if file_name.endswith('.cpp'):
+                            location = os.path.join('.', problem_dir, file_name)
+                            problem_dir_quoted = urllib.parse.quote(dir_name)
+                            cpp_link  = os.path.join('https://github.com/ggppwx/lcode/blob/master/Algorithm', problem_dir_quoted , file_name)
+                            slug = os.path.splitext(file_name)[0]
+                            url = 'https://leetcode.com/problems/' + slug
+                            solutions.append({'solution' : 'cpp', 'solution_link' : cpp_link})
 
                         if file_name.endswith('.md'):
                             # it contains the tag info
                             file_path = os.path.join('.', problem_dir, file_name)
-                            tags, marks = self._get_tags_from_md(file_path)
+                            tags, marks, timestamp = self._get_tags_from_md(file_path)
+                            
                             #print(tags)
 
-                    modified_date =datetime.datetime.fromtimestamp(os.path.getmtime(location))
+                    modified_date = (datetime.datetime.fromtimestamp(os.path.getmtime(location))
+                                     if not timestamp
+                                     else datetime.datetime.strptime(timestamp, "%Y-%m-%d"))
                     diff = (datetime.datetime.now() - modified_date).days
                     solution_title = 'python'
                     if diff >= 14:
@@ -185,11 +220,11 @@ class ReadmeContent(object):
                         'name': name,
                         'location' : location,
                         'url': url,
-                        'solution' : solution_title,
-                        'solution_link': python_link,
                         'tags' : tags,
-                        'marks' : marks
+                        'marks' : marks,
+                        'solutions' : solutions
                     }
+
                     self._problems.append(problem)
                     for tag in tags:
                         self._tag_problems[tag].append(problem)
@@ -198,27 +233,30 @@ class ReadmeContent(object):
 
 
     def create_readme_content(self):
+        # tags ###
+        table = ""
+        for tag, problems in sorted(self._tag_problems.items()):
+            table += ('### {}\n'.format(tag))
+            table += ("| Id | Title | Solution |\n")
+            table += ("|----|-------|----------|\n")
+            for problem in sorted(problems, key = lambda x: x['id']):
+                solution_col = "".join(["[{solution}]({solution_link})".format(**s) for s in problem['solutions']] )
+                line = "|{id}|[{name}]({url})|{}|\n".format(solution_col, **problem)
+                table += line
+            table += '\n'
+
+        table += '### {}\n'.format('Untagged')
+        table += "| Id | Title | Solution |\n"
+        table += "|----|-------|----------|\n"
+        for problem in self._un_tag_problems:
+            solution_col = "".join(["[{solution}]({solution_link})".format(**s) for s in problem['solutions']] )
+            line = "|{id}|[{name}]({url})|{}|\n".format(solution_col, **problem)
+            table += line
+        table += '\n'
+
         with open(os.path.join(self._dest), 'w') as f:
-            content = self._template.substitute()
+            content = self._template.substitute({'table' : table})
             f.write(content)
-            # tags ###
-            for tag, problems in sorted(self._tag_problems.items()):
-                f.write('### {}\n'.format(tag))
-                f.write("| Id | Title | Solution |\n")
-                f.write("|----|-------|----------|\n")
-                for problem in sorted(problems, key = lambda x: x['id']):
-                    line = "|{id}|[{name}]({url})|[{solution}]({solution_link})|\n".format(**problem)
-                    f.write(line)
-                f.write('\n')
-
-            f.write('### {}\n'.format('Untagged'))
-            f.write("| Id | Title | Solution |\n")
-            f.write("|----|-------|----------|\n")
-            for problem in self._un_tag_problems:
-                line = "|{id}|[{name}]({url})|[{solution}]({solution_link})|\n".format(**problem)
-                f.write(line)
-            f.write('\n')
-
 
 
 def main():
@@ -226,6 +264,7 @@ def main():
     #parser.add_argument('-c', '--config', help='config file')
     parser.add_argument('-i', '--index', help='index of the probelms' )
     parser.add_argument('-t', '--tags', nargs='*', help='tag list')
+    parser.add_argument('-l', '--language', nargs = '?', help = 'the language, default is python')
     parser.add_argument('-r', '--refresh', action="store_true", default = False,  help='refresh')
     args = parser.parse_args()
 
@@ -243,7 +282,8 @@ def main():
             problem.add_tags(args.tags)
 
         tmpl = TemplateCreator(PROBELM_DIR)
-        tmpl.create_template(problem)
+        language = args.language if args.language else 'python'
+        tmpl.create_template(problem, language)
 
         readme_content = ReadmeContent(PROBELM_DIR)
         readme_content.create_readme_content()

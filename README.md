@@ -18,25 +18,25 @@ This is a personal repo for some code
 ### BFS
 | Id | Title | Solution |
 |----|-------|----------|
-|127|[Word Ladder](https://leetcode.com/problems/word-ladder)|[python :sos:](https://github.com/ggppwx/lcode/blob/master/Algorithm/127.%20Word%20Ladder/word-ladder.py)|
+|127|[Word Ladder](https://leetcode.com/problems/word-ladder)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/127.%20Word%20Ladder/word-ladder.py)|
 
 ### Backtracking
 | Id | Title | Solution |
 |----|-------|----------|
-|22|[Generate Parentheses](https://leetcode.com/problems/generate-parentheses)|[python](None)|
+|22|[Generate Parentheses](https://leetcode.com/problems/generate-parentheses)|[cpp](https://github.com/ggppwx/lcode/blob/master/Algorithm/22.%20Generate%20Parentheses/generate-parentheses.cpp)|
 
 ### Binary search
 | Id | Title | Solution |
 |----|-------|----------|
-|497|[Random Point in Non-overlapping Rectangles](https://leetcode.com/problems/random-point-in-non-overlapping-rectangles)|[python :alarm_clock:](https://github.com/ggppwx/lcode/blob/master/Algorithm/497.%20Random%20Point%20in%20Non-overlapping%20Rectangles/random-point-in-non-overlapping-rectangles.py)|
-|528|[Random Pick with Weight](https://leetcode.com/problems/random-pick-with-weight)|[python :alarm_clock:](https://github.com/ggppwx/lcode/blob/master/Algorithm/528.%20Random%20Pick%20with%20Weight/random-pick-with-weight.py)|
+|497|[Random Point in Non-overlapping Rectangles](https://leetcode.com/problems/random-point-in-non-overlapping-rectangles)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/497.%20Random%20Point%20in%20Non-overlapping%20Rectangles/random-point-in-non-overlapping-rectangles.py)|
+|528|[Random Pick with Weight](https://leetcode.com/problems/random-pick-with-weight)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/528.%20Random%20Pick%20with%20Weight/random-pick-with-weight.py)|
 |875|[Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/875.%20Koko%20Eating%20Bananas/koko-eating-bananas.py)|
 |911|[Online Election](https://leetcode.com/problems/online-election)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/911.%20Online%20Election/online-election.py)|
 
 ### DFS
 | Id | Title | Solution |
 |----|-------|----------|
-|979|[Distribute Coins in Binary Tree](https://leetcode.com/problems/distribute-coins-in-binary-tree)|[python :alarm_clock:](https://github.com/ggppwx/lcode/blob/master/Algorithm/979.%20Distribute%20Coins%20in%20Binary%20Tree/distribute-coins-in-binary-tree.py)|
+|979|[Distribute Coins in Binary Tree](https://leetcode.com/problems/distribute-coins-in-binary-tree)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/979.%20Distribute%20Coins%20in%20Binary%20Tree/distribute-coins-in-binary-tree.py)|
 
 ### DP
 | Id | Title | Solution |
@@ -53,9 +53,9 @@ This is a personal repo for some code
 ### Recursion
 | Id | Title | Solution |
 |----|-------|----------|
-|698|[Partition to K Equal Sum Subsets](https://leetcode.com/problems/partition-to-k-equal-sum-subsets)|[python :alarm_clock:](https://github.com/ggppwx/lcode/blob/master/Algorithm/698.%20Partition%20to%20K%20Equal%20Sum%20Subsets/partition-to-k-equal-sum-subsets.py)|
+|698|[Partition to K Equal Sum Subsets](https://leetcode.com/problems/partition-to-k-equal-sum-subsets)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/698.%20Partition%20to%20K%20Equal%20Sum%20Subsets/partition-to-k-equal-sum-subsets.py)|
 |779|[K-th Symbol in Grammar](https://leetcode.com/problems/k-th-symbol-in-grammar)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/779.%20K-th%20Symbol%20in%20Grammar/k-th-symbol-in-grammar.py)|
-|894|[All Possible Full Binary Trees](https://leetcode.com/problems/all-possible-full-binary-trees)|[python :alarm_clock: :sos:](https://github.com/ggppwx/lcode/blob/master/Algorithm/894.%20All%20Possible%20Full%20Binary%20Trees/all-possible-full-binary-trees.py)|
+|894|[All Possible Full Binary Trees](https://leetcode.com/problems/all-possible-full-binary-trees)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/894.%20All%20Possible%20Full%20Binary%20Trees/all-possible-full-binary-trees.py)|
 
 ### Sort
 | Id | Title | Solution |
@@ -66,7 +66,7 @@ This is a personal repo for some code
 ### String
 | Id | Title | Solution |
 |----|-------|----------|
-|22|[Generate Parentheses](https://leetcode.com/problems/generate-parentheses)|[python](None)|
+|22|[Generate Parentheses](https://leetcode.com/problems/generate-parentheses)|[cpp](https://github.com/ggppwx/lcode/blob/master/Algorithm/22.%20Generate%20Parentheses/generate-parentheses.cpp)|
 
 ### Tree
 | Id | Title | Solution |
@@ -75,11 +75,11 @@ This is a personal repo for some code
 |230|[Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/230.%20Kth%20Smallest%20Element%20in%20a%20BST/kth-smallest-element-in-a-bst.py)|
 |543|[Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/543.%20Diameter%20of%20Binary%20Tree/diameter-of-binary-tree.py)|
 |654|[Maximum Binary Tree](https://leetcode.com/problems/maximum-binary-tree)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/654.%20Maximum%20Binary%20Tree/maximum-binary-tree.py)|
-|814|[Binary Tree Pruning](https://leetcode.com/problems/binary-tree-pruning)|[python :alarm_clock:](https://github.com/ggppwx/lcode/blob/master/Algorithm/814.%20Binary%20Tree%20Pruning/binary-tree-pruning.py)|
+|814|[Binary Tree Pruning](https://leetcode.com/problems/binary-tree-pruning)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/814.%20Binary%20Tree%20Pruning/binary-tree-pruning.py)|
 |889|[Construct Binary Tree from Preorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/889.%20Construct%20Binary%20Tree%20from%20Preorder%20and%20Postorder%20Traversal/construct-binary-tree-from-preorder-and-postorder-traversal.py)|
-|894|[All Possible Full Binary Trees](https://leetcode.com/problems/all-possible-full-binary-trees)|[python :alarm_clock: :sos:](https://github.com/ggppwx/lcode/blob/master/Algorithm/894.%20All%20Possible%20Full%20Binary%20Trees/all-possible-full-binary-trees.py)|
-|951|[Flip Equivalent Binary Trees](https://leetcode.com/problems/flip-equivalent-binary-trees)|[python :alarm_clock:](https://github.com/ggppwx/lcode/blob/master/Algorithm/951.%20Flip%20Equivalent%20Binary%20Trees/flip-equivalent-binary-trees.py)|
-|979|[Distribute Coins in Binary Tree](https://leetcode.com/problems/distribute-coins-in-binary-tree)|[python :alarm_clock:](https://github.com/ggppwx/lcode/blob/master/Algorithm/979.%20Distribute%20Coins%20in%20Binary%20Tree/distribute-coins-in-binary-tree.py)|
+|894|[All Possible Full Binary Trees](https://leetcode.com/problems/all-possible-full-binary-trees)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/894.%20All%20Possible%20Full%20Binary%20Trees/all-possible-full-binary-trees.py)|
+|951|[Flip Equivalent Binary Trees](https://leetcode.com/problems/flip-equivalent-binary-trees)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/951.%20Flip%20Equivalent%20Binary%20Trees/flip-equivalent-binary-trees.py)|
+|979|[Distribute Coins in Binary Tree](https://leetcode.com/problems/distribute-coins-in-binary-tree)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/979.%20Distribute%20Coins%20in%20Binary%20Tree/distribute-coins-in-binary-tree.py)|
 
 ### Trie
 | Id | Title | Solution |
@@ -89,8 +89,8 @@ This is a personal repo for some code
 ### Untagged
 | Id | Title | Solution |
 |----|-------|----------|
-|1|[Two Sum](https://leetcode.com/problems/two-sum)|[python :alarm_clock:](https://github.com/ggppwx/lcode/blob/master/Algorithm/1.%20Two%20Sum/two-sum.py)|
-|841|[Keys and Rooms](https://leetcode.com/problems/keys-and-rooms)|[python :alarm_clock:](https://github.com/ggppwx/lcode/blob/master/Algorithm/841.%20Keys%20and%20Rooms/keys-and-rooms.py)|
+|1|[Two Sum](https://leetcode.com/problems/two-sum)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/1.%20Two%20Sum/two-sum.py)|
+|841|[Keys and Rooms](https://leetcode.com/problems/keys-and-rooms)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/841.%20Keys%20and%20Rooms/keys-and-rooms.py)|
 
 
 
