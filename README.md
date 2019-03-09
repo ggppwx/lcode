@@ -20,6 +20,11 @@ This is a personal repo for some code
 |----|-------|----------|
 |127|[Word Ladder](https://leetcode.com/problems/word-ladder)|[python :sos:](https://github.com/ggppwx/lcode/blob/master/Algorithm/127.%20Word%20Ladder/word-ladder.py)|
 
+### Backtracking
+| Id | Title | Solution |
+|----|-------|----------|
+|22|[Generate Parentheses](https://leetcode.com/problems/generate-parentheses)|[python](None)|
+
 ### Binary search
 | Id | Title | Solution |
 |----|-------|----------|
