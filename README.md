@@ -15,6 +15,11 @@ This is a personal repo for some code
 ----problem.cpp  
 
 ## problem table
+### BFS
+| Id | Title | Solution |
+|----|-------|----------|
+|127|[Word Ladder](https://leetcode.com/problems/word-ladder)|[python :sos:](https://github.com/ggppwx/lcode/blob/master/Algorithm/127.%20Word%20Ladder/word-ladder.py)|
+
 ### Binary search
 | Id | Title | Solution |
 |----|-------|----------|
