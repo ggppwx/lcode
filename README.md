@@ -1,4 +1,3 @@
-<timestamp:>
 # lcode
 This is a personal repo for some code
 ## features
@@ -93,3 +92,6 @@ This is a personal repo for some code
 |1|[Two Sum](https://leetcode.com/problems/two-sum)|[python :alarm_clock:](https://github.com/ggppwx/lcode/blob/master/Algorithm/1.%20Two%20Sum/two-sum.py)|
 |841|[Keys and Rooms](https://leetcode.com/problems/keys-and-rooms)|[python :alarm_clock:](https://github.com/ggppwx/lcode/blob/master/Algorithm/841.%20Keys%20and%20Rooms/keys-and-rooms.py)|
 
+
+
+<timestamp:>
