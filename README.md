@@ -1,3 +1,4 @@
+<timestamp:>
 # lcode
 This is a personal repo for some code
 ## features
@@ -62,6 +63,11 @@ This is a personal repo for some code
 |----|-------|----------|
 |524|[Longest Word in Dictionary through Deleting](https://leetcode.com/problems/longest-word-in-dictionary-through-deleting)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/524.%20Longest%20Word%20in%20Dictionary%20through%20Deleting/longest-word-in-dictionary-through-deleting.py)|
 |969|[Pancake Sorting](https://leetcode.com/problems/pancake-sorting)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/969.%20Pancake%20Sorting/pancake-sorting.py)|
+
+### String
+| Id | Title | Solution |
+|----|-------|----------|
+|22|[Generate Parentheses](https://leetcode.com/problems/generate-parentheses)|[python](None)|
 
 ### Tree
 | Id | Title | Solution |
