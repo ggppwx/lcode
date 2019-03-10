@@ -3,10 +3,10 @@ Problem
 Random Point in Non-overlapping Rectangles
 (https://leetcode.com/problems/random-point-in-non-overlapping-rectangles)
 
-Given a list of non-overlapping axis-aligned rectangles rects, write a function pick which randomly and uniformily picks an integer point in the space covered by the rectangles.
+Given a list of non-overlapping axis-aligned rectangles rects, write a function pick which randomly and uniformily picks
+an integer point in the space covered by the rectangles.
 
 Note:
-
     An integer point is a point that has integer coordinates. 
     A point on the perimeter of a rectangle is included in the space covered by the rectangles. 
     ith rectangle = rects[i] = [x1,y1,x2,y2], where [x1, y1] are the integer coordinates of the bottom-left corner, and [x2, y2] are the integer coordinates of the top-right corner.
@@ -30,9 +30,6 @@ Input:
 [[[[-2,-2,-1,-1],[1,0,3,0]]],[],[],[],[],[]]
 Output: 
 [null,[-1,-2],[2,0],[-2,-1],[3,0],[-2,-2]]
-
-
-
 
 """
 import unittest
@@ -63,12 +60,13 @@ class Solution:
 
         chose_index = self.findRandRect()
         chose_rect = self.rects[chose_index]
+
+        # randomly pick a point in the rectangle
         x1 = chose_rect[0]
         x2 = chose_rect[2]
         if x1 > x2:
             x1, x2 = x2, x1
         new_x = random.randint(x1, x2)
-
         y1 = chose_rect[1]
         y2 = chose_rect[3]
         if y1 > y2:
@@ -79,7 +77,9 @@ class Solution:
         
 
     def findRandRect(self):
-        # binary search find the rectangle
+        """binary search find the rectangle
+        normalize the problem: 0 - 10, 11 - 20, 21 - 50, randomly generate a number falls on which block 
+        """
         max_sum = self.area_sum[-1]
         target = random.randint(1, max_sum)
 

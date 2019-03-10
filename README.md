@@ -33,7 +33,7 @@ This is a personal repo for some code
 ### Binary search
 | Id | Title | Solution |
 |----|-------|----------|
-|497|[Random Point in Non-overlapping Rectangles :alarm_clock:](https://leetcode.com/problems/random-point-in-non-overlapping-rectangles)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/497.%20Random%20Point%20in%20Non-overlapping%20Rectangles/random-point-in-non-overlapping-rectangles.py)|
+|497|[Random Point in Non-overlapping Rectangles](https://leetcode.com/problems/random-point-in-non-overlapping-rectangles)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/497.%20Random%20Point%20in%20Non-overlapping%20Rectangles/random-point-in-non-overlapping-rectangles.py)|
 |528|[Random Pick with Weight :alarm_clock:](https://leetcode.com/problems/random-pick-with-weight)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/528.%20Random%20Pick%20with%20Weight/random-pick-with-weight.py)|
 |875|[Koko Eating Bananas :alarm_clock:](https://leetcode.com/problems/koko-eating-bananas)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/875.%20Koko%20Eating%20Bananas/koko-eating-bananas.py)|
 |911|[Online Election :alarm_clock:](https://leetcode.com/problems/online-election)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/911.%20Online%20Election/online-election.py)|

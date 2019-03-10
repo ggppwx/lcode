@@ -2,12 +2,11 @@
 
 timestamp=`date +%Y-%m-%d`
 
-git diff HEAD --name-only | while read -r line ; do
-    
+git diff HEAD --name-only | while read -r line ; do    
     if [[ $line =~ .*\.py$ ]] || [[ $line =~ .*\.cpp$ ]] || [[ $line =~ .*\.md$ ]]; then
         target_file=`echo $line | sed  "s/\/[^\/]*$/\/README.md/"`
         if [[  $target_file =~ .*\.md$ ]]; then
-            echo $target_file
+            echo "generating timestamp $target_file"
             sed -i -e "s/<timestamp.*$/<timestamp:$timestamp>/g" "$target_file"
         fi
     fi
