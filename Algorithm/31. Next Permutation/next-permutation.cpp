@@ -31,8 +31,7 @@ public:
               1
         =>
         3,  1, 2, we still need to swap and reverse
-
-        there's Only one exception: 3, 2, 1
+        There's Only one exception: 3, 2, 1
     **/
     void nextPermutation(vector<int>& nums) {
         // find the pviot
