@@ -158,7 +158,7 @@ class ReadmeContent(object):
                 if line.startswith('[comment]: <timestamp'):
                     found = re.search('<timestamp:(\d{4}-\d{2}-\d{2})>', line)
                     timestamp = found.group(1) if found else None
-                    print(timestamp)
+                    # print(timestamp)
             return (tags, marks, timestamp)
 
     

@@ -1,16 +1,14 @@
 #!/bin/bash
 
 timestamp=`date +%Y-%m-%d`
-echo -e "\n<$timestamp>" >> temp
-
 
 git diff HEAD --name-only | while read -r line ; do
     
-    if [[ $line =~ .*\.py$ ]] || [[ $line =~ .*\.cpp$ ]]; then
+    if [[ $line =~ .*\.py$ ]] || [[ $line =~ .*\.cpp$ ]] || [[ $line =~ .*\.md$ ]]; then
         target_file=`echo $line | sed  "s/\/[^\/]*$/\/README.md/"`
         if [[  $target_file =~ .*\.md$ ]]; then
             echo $target_file
-            sed -i "$s/<timestamp.*$/<timestamp:$timestamp>/" "$target_file"
+            sed -i -e "s/<timestamp.*$/<timestamp:$timestamp>/g" "$target_file"
         fi
     fi
 
@@ -22,5 +20,9 @@ done
 # do
 #     echo $file
 # done
+
+# useful command 
+# find  ./Algorithm/ -name "*.md" -exec sh -c 'echo \\n[comment]: \<timestamp:$(stat -c "%y" "{}" | cut -d" " -f 1)\> >> "{}" ' \;
+
 
 

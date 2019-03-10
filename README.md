@@ -18,7 +18,7 @@ This is a personal repo for some code
 ### Array
 | Id | Title | Solution |
 |----|-------|----------|
-|287|[Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number)|[cpp](https://github.com/ggppwx/lcode/blob/master/Algorithm/287.%20Find%20the%20Duplicate%20Number/find-the-duplicate-number.cpp)|
+|287|[Find the Duplicate Number :sos:](https://leetcode.com/problems/find-the-duplicate-number)|[cpp](https://github.com/ggppwx/lcode/blob/master/Algorithm/287.%20Find%20the%20Duplicate%20Number/find-the-duplicate-number.cpp)|
 
 ### BFS
 | Id | Title | Solution |
