@@ -42,7 +42,7 @@ public:
         }
 
         int result = 0;
-        acc_map[0] = 1;        
+        acc_map[0] = 1;
         for (int acc : num_acc) {
             // number ending with index i. 
             int target = acc - k;
