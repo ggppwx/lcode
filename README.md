@@ -18,7 +18,9 @@ This is a personal repo for some code
 ### Array
 | Id | Title | Solution |
 |----|-------|----------|
+|31|[Next Permutation :sos:](https://leetcode.com/problems/next-permutation)|[cpp](https://github.com/ggppwx/lcode/blob/master/Algorithm/31.%20Next%20Permutation/next-permutation.cpp)|
 |287|[Find the Duplicate Number :sos:](https://leetcode.com/problems/find-the-duplicate-number)|[cpp](https://github.com/ggppwx/lcode/blob/master/Algorithm/287.%20Find%20the%20Duplicate%20Number/find-the-duplicate-number.cpp)|
+|560|[Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k)|[cpp](https://github.com/ggppwx/lcode/blob/master/Algorithm/560.%20Subarray%20Sum%20Equals%20K/subarray-sum-equals-k.cpp)|
 
 ### BFS
 | Id | Title | Solution |
