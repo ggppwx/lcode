@@ -1,6 +1,6 @@
 #!/bin/bash
 
-bash ./timestamp.sh
+bash ./timestamp.sh ;
 
 # refresh readme
 python3 get.py -r
