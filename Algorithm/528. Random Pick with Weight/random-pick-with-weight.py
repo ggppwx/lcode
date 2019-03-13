@@ -60,9 +60,9 @@ class Solution:
             elif self.p[mid] > chose:
                 high = mid - 1
             else:
-                return self.p[mid]
+                return mid
 
-        return self.p[high + 1]
+        return high + 1
 
 
 
