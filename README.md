@@ -51,6 +51,8 @@ This is a personal repo for some code
 |55|[Jump Game](https://leetcode.com/problems/jump-game)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/55.%20Jump%20Game/jump-game.py)|
 |152|[Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/152.%20Maximum%20Product%20Subarray/maximum-product-subarray.py)|
 |213|[House Robber II](https://leetcode.com/problems/house-robber-ii)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/213.%20House%20Robber%20II/house-robber-ii.py)|
+|464|[Can I Win](https://leetcode.com/problems/can-i-win)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/464.%20Can%20I%20Win/can-i-win.py)|
+|486|[Predict the Winner](https://leetcode.com/problems/predict-the-winner)|[cpp](https://github.com/ggppwx/lcode/blob/master/Algorithm/486.%20Predict%20the%20Winner/predict-the-winner.cpp)|
 
 ### Graph
 | Id | Title | Solution |
@@ -61,6 +63,7 @@ This is a personal repo for some code
 ### Minmax
 | Id | Title | Solution |
 |----|-------|----------|
+|464|[Can I Win](https://leetcode.com/problems/can-i-win)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/464.%20Can%20I%20Win/can-i-win.py)|
 |486|[Predict the Winner](https://leetcode.com/problems/predict-the-winner)|[cpp](https://github.com/ggppwx/lcode/blob/master/Algorithm/486.%20Predict%20the%20Winner/predict-the-winner.cpp)|
 
 ### Recursion
