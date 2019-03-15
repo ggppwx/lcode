@@ -1,5 +1,5 @@
 # Info
 ## Tags
-|Graph|
-
-[comment]: <timestamp:2019-02-28>
+Graph|Union find
+## Marks
+[comment]: <timestamp:>

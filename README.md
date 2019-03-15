@@ -58,7 +58,7 @@ This is a personal repo for some code
 | Id | Title | Solution |
 |----|-------|----------|
 |802|[Find Eventual Safe States](https://leetcode.com/problems/find-eventual-safe-states)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/802.%20Find%20Eventual%20Safe%20States/find-eventual-safe-states.py)|
-|959|[Regions Cut By Slashes :alarm_clock:](https://leetcode.com/problems/regions-cut-by-slashes)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/959.%20Regions%20Cut%20By%20Slashes/regions-cut-by-slashes.py)|
+|959|[Regions Cut By Slashes](https://leetcode.com/problems/regions-cut-by-slashes)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/959.%20Regions%20Cut%20By%20Slashes/regions-cut-by-slashes.py)|
 
 ### Minmax
 | Id | Title | Solution |
@@ -107,6 +107,12 @@ This is a personal repo for some code
 | Id | Title | Solution |
 |----|-------|----------|
 |720|[Longest Word in Dictionary](https://leetcode.com/problems/longest-word-in-dictionary)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/720.%20Longest%20Word%20in%20Dictionary/longest-word-in-dictionary.py)|
+
+### Union find
+| Id | Title | Solution |
+|----|-------|----------|
+|547|[Friend Circles](https://leetcode.com/problems/friend-circles)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/547.%20Friend%20Circles/friend-circles.py)|
+|959|[Regions Cut By Slashes](https://leetcode.com/problems/regions-cut-by-slashes)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/959.%20Regions%20Cut%20By%20Slashes/regions-cut-by-slashes.py)|
 
 ### Untagged
 | Id | Title | Solution |

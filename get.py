@@ -182,6 +182,9 @@ class ReadmeContent(object):
                     timestamp = None
                     for file_name in files:
                         #print(file_name)
+                        if file_name.startswith('.'):
+                            continue
+                        
                         if file_name.endswith('.py'):
                             location = os.path.join('.', problem_dir, file_name)
                             problem_dir_quoted = urllib.parse.quote(dir_name)
