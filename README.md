@@ -58,7 +58,7 @@ This is a personal repo for some code
 | Id | Title | Solution |
 |----|-------|----------|
 |802|[Find Eventual Safe States](https://leetcode.com/problems/find-eventual-safe-states)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/802.%20Find%20Eventual%20Safe%20States/find-eventual-safe-states.py)|
-|959|[Regions Cut By Slashes](https://leetcode.com/problems/regions-cut-by-slashes)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/959.%20Regions%20Cut%20By%20Slashes/regions-cut-by-slashes.py)|
+|959|[Regions Cut By Slashes :alarm_clock:](https://leetcode.com/problems/regions-cut-by-slashes)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/959.%20Regions%20Cut%20By%20Slashes/regions-cut-by-slashes.py)|
 
 ### Minmax
 | Id | Title | Solution |
@@ -72,6 +72,11 @@ This is a personal repo for some code
 |698|[Partition to K Equal Sum Subsets :alarm_clock:](https://leetcode.com/problems/partition-to-k-equal-sum-subsets)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/698.%20Partition%20to%20K%20Equal%20Sum%20Subsets/partition-to-k-equal-sum-subsets.py)|
 |779|[K-th Symbol in Grammar :alarm_clock:](https://leetcode.com/problems/k-th-symbol-in-grammar)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/779.%20K-th%20Symbol%20in%20Grammar/k-th-symbol-in-grammar.py)|
 |894|[All Possible Full Binary Trees :sos:](https://leetcode.com/problems/all-possible-full-binary-trees)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/894.%20All%20Possible%20Full%20Binary%20Trees/all-possible-full-binary-trees.py)|
+
+### Sliding window
+| Id | Title | Solution |
+|----|-------|----------|
+|3|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/3.%20Longest%20Substring%20Without%20Repeating%20Characters/longest-substring-without-repeating-characters.py)|
 
 ### Sort
 | Id | Title | Solution |
@@ -106,7 +111,7 @@ This is a personal repo for some code
 ### Untagged
 | Id | Title | Solution |
 |----|-------|----------|
-|1|[Two Sum](https://leetcode.com/problems/two-sum)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/1.%20Two%20Sum/two-sum.py)|
+|1|[Two Sum :alarm_clock:](https://leetcode.com/problems/two-sum)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/1.%20Two%20Sum/two-sum.py)|
 |841|[Keys and Rooms :alarm_clock:](https://leetcode.com/problems/keys-and-rooms)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/841.%20Keys%20and%20Rooms/keys-and-rooms.py)|
 
 
