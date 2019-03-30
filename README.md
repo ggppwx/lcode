@@ -60,6 +60,11 @@ This is a personal repo for some code
 |802|[Find Eventual Safe States :alarm_clock:](https://leetcode.com/problems/find-eventual-safe-states)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/802.%20Find%20Eventual%20Safe%20States/find-eventual-safe-states.py)|
 |959|[Regions Cut By Slashes :alarm_clock:](https://leetcode.com/problems/regions-cut-by-slashes)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/959.%20Regions%20Cut%20By%20Slashes/regions-cut-by-slashes.py)|
 
+### Greedy
+| Id | Title | Solution |
+|----|-------|----------|
+|659|[Split Array into Consecutive Subsequences](https://leetcode.com/problems/split-array-into-consecutive-subsequences)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/659.%20Split%20Array%20into%20Consecutive%20Subsequences/split-array-into-consecutive-subsequences.py)|
+
 ### Minmax
 | Id | Title | Solution |
 |----|-------|----------|
@@ -118,7 +123,6 @@ This is a personal repo for some code
 | Id | Title | Solution |
 |----|-------|----------|
 |1|[Two Sum :alarm_clock:](https://leetcode.com/problems/two-sum)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/1.%20Two%20Sum/two-sum.py)|
-|659|[Split Array into Consecutive Subsequences](https://leetcode.com/problems/split-array-into-consecutive-subsequences)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/659.%20Split%20Array%20into%20Consecutive%20Subsequences/split-array-into-consecutive-subsequences.py)|
 |841|[Keys and Rooms :alarm_clock:](https://leetcode.com/problems/keys-and-rooms)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/841.%20Keys%20and%20Rooms/keys-and-rooms.py)|
 
 
