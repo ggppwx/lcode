@@ -76,7 +76,8 @@ class TemplateCreator(object):
             self._templates['py'] =   string.Template( f.read() )
         with open('source_code.cpp.tmpl') as f:
             self._templates['cpp'] =   string.Template( f.read() )
-
+        with open('problem_readme.md.tmpl') as f:
+            self._templates['md'] = string.Template(f.read())
         
 
     def create_template(self, problem, language = 'python'):
@@ -99,11 +100,15 @@ class TemplateCreator(object):
 
         # generate file: readme
         with open(dir_name + '/' + 'README.md', 'w') as f:
-            f.write('# Info\n')
-            f.write('## Tags\n')
-            f.write('|'.join(problem.tags) + '\n')
-            f.write('## Marks\n')
-            f.write("[comment]: <timestamp:>")
+            substitutes = {'tags' : '|'.join(problem.tags)}
+            readme = self._templates['md'].substitute(substitutes)
+            f.write(readme)
+            
+            # f.write('# Info\n')
+            # f.write('## Tags\n')
+            # f.write('|'.join(problem.tags) + '\n')
+            # f.write('## Marks\n')
+            # f.write("[comment]: <timestamp:>")
 
         if language == 'python':
             # generate file: python code 

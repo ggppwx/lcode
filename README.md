@@ -34,7 +34,7 @@ This is a personal repo for some code
 ### DFS
 | Id | Title | Solution |
 |----|-------|----------|
-|979|[Distribute Coins in Binary Tree](https://leetcode.com/problems/distribute-coins-in-binary-tree)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/979.%20Distribute%20Coins%20in%20Binary%20Tree/distribute-coins-in-binary-tree.py)|
+|979|[Distribute Coins in Binary Tree :alarm_clock:](https://leetcode.com/problems/distribute-coins-in-binary-tree)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/979.%20Distribute%20Coins%20in%20Binary%20Tree/distribute-coins-in-binary-tree.py)|
 
 ### DP
 | Id | Title | Solution |
@@ -44,17 +44,18 @@ This is a personal repo for some code
 |213|[House Robber II :alarm_clock:](https://leetcode.com/problems/house-robber-ii)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/213.%20House%20Robber%20II/house-robber-ii.py)|
 |464|[Can I Win :alarm_clock:](https://leetcode.com/problems/can-i-win)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/464.%20Can%20I%20Win/can-i-win.py)|
 |486|[Predict the Winner :alarm_clock:](https://leetcode.com/problems/predict-the-winner)|[cpp](https://github.com/ggppwx/lcode/blob/master/Algorithm/486.%20Predict%20the%20Winner/predict-the-winner.cpp)|
+|841|[Keys and Rooms](https://leetcode.com/problems/keys-and-rooms)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/841.%20Keys%20and%20Rooms/keys-and-rooms.py)|
 
 ### Graph
 | Id | Title | Solution |
 |----|-------|----------|
 |802|[Find Eventual Safe States :alarm_clock:](https://leetcode.com/problems/find-eventual-safe-states)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/802.%20Find%20Eventual%20Safe%20States/find-eventual-safe-states.py)|
-|959|[Regions Cut By Slashes :alarm_clock:](https://leetcode.com/problems/regions-cut-by-slashes)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/959.%20Regions%20Cut%20By%20Slashes/regions-cut-by-slashes.py)|
+|959|[Regions Cut By Slashes](https://leetcode.com/problems/regions-cut-by-slashes)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/959.%20Regions%20Cut%20By%20Slashes/regions-cut-by-slashes.py)|
 
 ### Greedy
 | Id | Title | Solution |
 |----|-------|----------|
-|659|[Split Array into Consecutive Subsequences](https://leetcode.com/problems/split-array-into-consecutive-subsequences)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/659.%20Split%20Array%20into%20Consecutive%20Subsequences/split-array-into-consecutive-subsequences.py)|
+|659|[Split Array into Consecutive Subsequences :alarm_clock:](https://leetcode.com/problems/split-array-into-consecutive-subsequences)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/659.%20Split%20Array%20into%20Consecutive%20Subsequences/split-array-into-consecutive-subsequences.py)|
 
 ### Minmax
 | Id | Title | Solution |
@@ -72,7 +73,7 @@ This is a personal repo for some code
 ### Sliding window
 | Id | Title | Solution |
 |----|-------|----------|
-|3|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/3.%20Longest%20Substring%20Without%20Repeating%20Characters/longest-substring-without-repeating-characters.py)|
+|3|[Longest Substring Without Repeating Characters :alarm_clock:](https://leetcode.com/problems/longest-substring-without-repeating-characters)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/3.%20Longest%20Substring%20Without%20Repeating%20Characters/longest-substring-without-repeating-characters.py)|
 
 ### Sort
 | Id | Title | Solution |
@@ -90,14 +91,14 @@ This is a personal repo for some code
 |----|-------|----------|
 |94|[Binary Tree Inorder Traversal :alarm_clock:](https://leetcode.com/problems/binary-tree-inorder-traversal)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/94.%20Binary%20Tree%20Inorder%20Traversal/binary-tree-inorder-traversal.py)|
 |230|[Kth Smallest Element in a BST :alarm_clock:](https://leetcode.com/problems/kth-smallest-element-in-a-bst)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/230.%20Kth%20Smallest%20Element%20in%20a%20BST/kth-smallest-element-in-a-bst.py)|
-|297|[Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree)|[cpp](https://github.com/ggppwx/lcode/blob/master/Algorithm/297.%20Serialize%20and%20Deserialize%20Binary%20Tree/serialize-and-deserialize-binary-tree.cpp)|
+|297|[Serialize and Deserialize Binary Tree :alarm_clock:](https://leetcode.com/problems/serialize-and-deserialize-binary-tree)|[cpp](https://github.com/ggppwx/lcode/blob/master/Algorithm/297.%20Serialize%20and%20Deserialize%20Binary%20Tree/serialize-and-deserialize-binary-tree.cpp)|
 |543|[Diameter of Binary Tree :alarm_clock:](https://leetcode.com/problems/diameter-of-binary-tree)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/543.%20Diameter%20of%20Binary%20Tree/diameter-of-binary-tree.py)|
 |654|[Maximum Binary Tree :alarm_clock:](https://leetcode.com/problems/maximum-binary-tree)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/654.%20Maximum%20Binary%20Tree/maximum-binary-tree.py)|
-|814|[Binary Tree Pruning](https://leetcode.com/problems/binary-tree-pruning)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/814.%20Binary%20Tree%20Pruning/binary-tree-pruning.py)|
+|814|[Binary Tree Pruning :alarm_clock:](https://leetcode.com/problems/binary-tree-pruning)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/814.%20Binary%20Tree%20Pruning/binary-tree-pruning.py)|
 |889|[Construct Binary Tree from Preorder and Postorder Traversal :alarm_clock:](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/889.%20Construct%20Binary%20Tree%20from%20Preorder%20and%20Postorder%20Traversal/construct-binary-tree-from-preorder-and-postorder-traversal.py)|
 |894|[All Possible Full Binary Trees :alarm_clock: :sos:](https://leetcode.com/problems/all-possible-full-binary-trees)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/894.%20All%20Possible%20Full%20Binary%20Trees/all-possible-full-binary-trees.py)|
 |951|[Flip Equivalent Binary Trees :alarm_clock:](https://leetcode.com/problems/flip-equivalent-binary-trees)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/951.%20Flip%20Equivalent%20Binary%20Trees/flip-equivalent-binary-trees.py)|
-|979|[Distribute Coins in Binary Tree](https://leetcode.com/problems/distribute-coins-in-binary-tree)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/979.%20Distribute%20Coins%20in%20Binary%20Tree/distribute-coins-in-binary-tree.py)|
+|979|[Distribute Coins in Binary Tree :alarm_clock:](https://leetcode.com/problems/distribute-coins-in-binary-tree)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/979.%20Distribute%20Coins%20in%20Binary%20Tree/distribute-coins-in-binary-tree.py)|
 
 ### Trie
 | Id | Title | Solution |
@@ -107,14 +108,13 @@ This is a personal repo for some code
 ### Union find
 | Id | Title | Solution |
 |----|-------|----------|
-|547|[Friend Circles :alarm_clock:](https://leetcode.com/problems/friend-circles)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/547.%20Friend%20Circles/friend-circles.py)|
-|959|[Regions Cut By Slashes :alarm_clock:](https://leetcode.com/problems/regions-cut-by-slashes)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/959.%20Regions%20Cut%20By%20Slashes/regions-cut-by-slashes.py)|
+|547|[Friend Circles](https://leetcode.com/problems/friend-circles)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/547.%20Friend%20Circles/friend-circles.py)|
+|959|[Regions Cut By Slashes](https://leetcode.com/problems/regions-cut-by-slashes)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/959.%20Regions%20Cut%20By%20Slashes/regions-cut-by-slashes.py)|
 
 ### Untagged
 | Id | Title | Solution |
 |----|-------|----------|
 |1|[Two Sum :alarm_clock:](https://leetcode.com/problems/two-sum)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/1.%20Two%20Sum/two-sum.py)|
-|841|[Keys and Rooms :alarm_clock:](https://leetcode.com/problems/keys-and-rooms)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/841.%20Keys%20and%20Rooms/keys-and-rooms.py)|
 
 
 
