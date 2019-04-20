@@ -242,11 +242,11 @@ class ReadmeContent(object):
         table = ""
         for tag, problems in sorted(self._tag_problems.items()):
             table += ('### {}\n'.format(tag))
-            table += ("| Id | Title | Solution | Dir |\n")
+            table += ("| Id | Title | Dir | Solution |\n")
             table += ("|----|-------|----------|-----|\n")
             for problem in sorted(problems, key = lambda x: x['id']):
                 solution_col = "".join(["[{solution}]({solution_link})".format(**s) for s in problem['solutions']] )
-                line = "|{id}|[{name}]({url})|{solution_dir}|{}|\n".format(solution_col, **problem)
+                line = "|{id}|[{name}]({url})|[dir]({solution_dir})|{}|\n".format(solution_col, **problem)
                 table += line
             table += '\n'
 
