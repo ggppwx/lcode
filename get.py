@@ -103,12 +103,6 @@ class TemplateCreator(object):
             substitutes = {'tags' : '|'.join(problem.tags)}
             readme = self._templates['md'].substitute(substitutes)
             f.write(readme)
-            
-            # f.write('# Info\n')
-            # f.write('## Tags\n')
-            # f.write('|'.join(problem.tags) + '\n')
-            # f.write('## Marks\n')
-            # f.write("[comment]: <timestamp:>")
 
         if language == 'python':
             # generate file: python code 
@@ -185,6 +179,8 @@ class ReadmeContent(object):
                     tags = []
                     marks = []
                     timestamp = None
+                    problem_dir_quoted = urllib.parse.quote(dir_name)
+                    problem_dir_link = os.path.join('https://github.com/ggppwx/lcode/blob/master/Algorithm', problem_dir_quoted)
                     for file_name in files:
                         #print(file_name)
                         if file_name.startswith('.'):
@@ -192,19 +188,19 @@ class ReadmeContent(object):
                         
                         if file_name.endswith('.py'):
                             location = os.path.join('.', problem_dir, file_name)
-                            problem_dir_quoted = urllib.parse.quote(dir_name)
-                            python_link  = os.path.join('https://github.com/ggppwx/lcode/blob/master/Algorithm', problem_dir_quoted , file_name)
+                            python_link  = os.path.join(problem_dir_link, file_name)
                             slug = os.path.splitext(file_name)[0]
                             url = 'https://leetcode.com/problems/' + slug
-                            solutions.append({'solution' : 'python', 'solution_link' : python_link})
+                            solutions.append({'solution' : 'python',
+                                              'solution_link' : python_link})
 
                         if file_name.endswith('.cpp'):
                             location = os.path.join('.', problem_dir, file_name)
-                            problem_dir_quoted = urllib.parse.quote(dir_name)
-                            cpp_link  = os.path.join('https://github.com/ggppwx/lcode/blob/master/Algorithm', problem_dir_quoted , file_name)
+                            cpp_link  = os.path.join(problem_dir_link, problem_dir_quoted , file_name)
                             slug = os.path.splitext(file_name)[0]
                             url = 'https://leetcode.com/problems/' + slug
-                            solutions.append({'solution' : 'cpp', 'solution_link' : cpp_link})
+                            solutions.append({'solution' : 'cpp',
+                                              'solution_link' : cpp_link})
 
                         if file_name.endswith('.md'):
                             # it contains the tag info
@@ -230,7 +226,8 @@ class ReadmeContent(object):
                         'url': url,
                         'tags' : tags,
                         'marks' : marks,
-                        'solutions' : solutions
+                        'solutions' : solutions,
+                        'solution_dir' : problem_dir_link
                     }
 
                     self._problems.append(problem)
@@ -245,11 +242,11 @@ class ReadmeContent(object):
         table = ""
         for tag, problems in sorted(self._tag_problems.items()):
             table += ('### {}\n'.format(tag))
-            table += ("| Id | Title | Solution |\n")
-            table += ("|----|-------|----------|\n")
+            table += ("| Id | Title | Solution | Dir |\n")
+            table += ("|----|-------|----------|-----|\n")
             for problem in sorted(problems, key = lambda x: x['id']):
                 solution_col = "".join(["[{solution}]({solution_link})".format(**s) for s in problem['solutions']] )
-                line = "|{id}|[{name}]({url})|{}|\n".format(solution_col, **problem)
+                line = "|{id}|[{name}]({url})|{solution_dir}|{}|\n".format(solution_col, **problem)
                 table += line
             table += '\n'
 
