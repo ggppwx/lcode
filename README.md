@@ -17,6 +17,7 @@ This is a personal repo for some code
 | Id | Title | Solution |
 |----|-------|----------|
 |127|[Word Ladder :alarm_clock: :sos:](https://leetcode.com/problems/word-ladder)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/127.%20Word%20Ladder/word-ladder.py)|
+|841|[Keys and Rooms](https://leetcode.com/problems/keys-and-rooms)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/841.%20Keys%20and%20Rooms/keys-and-rooms.py)|
 
 ### Backtracking
 | Id | Title | Solution |
@@ -114,7 +115,6 @@ This is a personal repo for some code
 | Id | Title | Solution |
 |----|-------|----------|
 |1|[Two Sum :alarm_clock:](https://leetcode.com/problems/two-sum)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/1.%20Two%20Sum/two-sum.py)|
-|841|[Keys and Rooms :alarm_clock:](https://leetcode.com/problems/keys-and-rooms)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/841.%20Keys%20and%20Rooms/keys-and-rooms.py)|
 
 
 
