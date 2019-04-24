@@ -92,6 +92,7 @@ This is a personal repo for some code
 |94|[Binary Tree Inorder Traversal :alarm_clock:](https://leetcode.com/problems/binary-tree-inorder-traversal)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/94.%20Binary%20Tree%20Inorder%20Traversal)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/94.%20Binary%20Tree%20Inorder%20Traversal/binary-tree-inorder-traversal.py)|
 |230|[Kth Smallest Element in a BST :alarm_clock:](https://leetcode.com/problems/kth-smallest-element-in-a-bst)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/230.%20Kth%20Smallest%20Element%20in%20a%20BST)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/230.%20Kth%20Smallest%20Element%20in%20a%20BST/kth-smallest-element-in-a-bst.py)|
 |297|[Serialize and Deserialize Binary Tree :alarm_clock:](https://leetcode.com/problems/serialize-and-deserialize-binary-tree)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/297.%20Serialize%20and%20Deserialize%20Binary%20Tree)|[cpp](https://github.com/ggppwx/lcode/blob/master/Algorithm/297.%20Serialize%20and%20Deserialize%20Binary%20Tree/297.%20Serialize%20and%20Deserialize%20Binary%20Tree/serialize-and-deserialize-binary-tree.cpp)|
+|508|[Most Frequent Subtree Sum](https://leetcode.com/problems/most-frequent-subtree-sum)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/508.%20Most%20Frequent%20Subtree%20Sum)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/508.%20Most%20Frequent%20Subtree%20Sum/most-frequent-subtree-sum.py)|
 |543|[Diameter of Binary Tree :alarm_clock:](https://leetcode.com/problems/diameter-of-binary-tree)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/543.%20Diameter%20of%20Binary%20Tree)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/543.%20Diameter%20of%20Binary%20Tree/diameter-of-binary-tree.py)|
 |654|[Maximum Binary Tree :alarm_clock:](https://leetcode.com/problems/maximum-binary-tree)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/654.%20Maximum%20Binary%20Tree)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/654.%20Maximum%20Binary%20Tree/maximum-binary-tree.py)|
 |814|[Binary Tree Pruning :alarm_clock:](https://leetcode.com/problems/binary-tree-pruning)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/814.%20Binary%20Tree%20Pruning)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/814.%20Binary%20Tree%20Pruning/binary-tree-pruning.py)|
@@ -115,7 +116,6 @@ This is a personal repo for some code
 | Id | Title | Solution |
 |----|-------|----------|
 |1|[Two Sum :alarm_clock:](https://leetcode.com/problems/two-sum)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/1.%20Two%20Sum/two-sum.py)|
-|508|[Most Frequent Subtree Sum](https://leetcode.com/problems/most-frequent-subtree-sum)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/508.%20Most%20Frequent%20Subtree%20Sum/most-frequent-subtree-sum.py)|
 
 
 
