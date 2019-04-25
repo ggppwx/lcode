@@ -80,7 +80,7 @@ class TemplateCreator(object):
             self._templates['md'] = string.Template(f.read())
         
 
-    def create_template(self, problem, language = 'python'):
+    def create_template(self, problem, language = None):
         """Create a local problem template
         dir
         - problem name
@@ -121,7 +121,6 @@ class TemplateCreator(object):
                     f.write( cpp_source)
 
 
-            
 class ReadmeContent(object):
     def __init__(self, dir, dest='./README.md'):
         self._dest = dest
@@ -160,8 +159,7 @@ class ReadmeContent(object):
                     # print(timestamp)
             return (tags, marks, timestamp)
 
-    
-        
+
 
 
     def get_info(self):
@@ -287,7 +285,7 @@ def main():
             problem.add_tags(args.tags)
 
         tmpl = TemplateCreator(PROBELM_DIR)
-        language = args.language if args.language else 'python'
+        language = args.language if args.language else None
         tmpl.create_template(problem, language)
 
         readme_content = ReadmeContent(PROBELM_DIR)
