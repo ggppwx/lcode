@@ -33,8 +33,6 @@ Time complexity `O(n)`
 # Solution
 ```python
 class Solution:
-    """ Notes: 
-    """
     # copy the funtion here
     def findFrequentTreeSum(self, root: TreeNode) -> List[int]:
         sum_counter = Counter()
@@ -58,4 +56,4 @@ class Solution:
 
 ## Marks
 
-[comment]: <timestamp:2019-04-24>
+[comment]: <timestamp:2019-05-02>

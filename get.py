@@ -202,6 +202,7 @@ class ReadmeContent(object):
 
                         if file_name.endswith('.md'):
                             # it contains the tag info
+                            location = os.path.join('.', problem_dir, file_name)
                             file_path = os.path.join('.', problem_dir, file_name)
                             tags, marks, timestamp = self._get_tags_from_md(file_path)
                             
