@@ -54,6 +54,7 @@ class Solution:
             for b in B:
                 if not isSubset(b, a):
                     isUniversal = False
+                    break
             if isUniversal:
                 result.append(a)
         return result
@@ -66,4 +67,4 @@ class Solution:
 
 ## Marks
 
-[comment]: <timestamp:>
+[comment]: <timestamp:2019-05-02>
