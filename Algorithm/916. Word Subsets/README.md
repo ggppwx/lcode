@@ -27,6 +27,11 @@ Example 5:
 Input: A = ["amazon","apple","facebook","google","leetcode"], B = ["ec","oc","ceo"]
 Output: ["facebook","leetcode"]
 # Analysis
+## Solution 1
+Naive solution time O(N^3)
+
+## Solution 2
+time O(N^2)
 
 # Thoughts
 
@@ -58,6 +63,14 @@ class Solution:
             if isUniversal:
                 result.append(a)
         return result
+
+```
+
+Better solution 
+```python
+class Solution:
+    def wordSubsets(self, A: List[str], B: List[str]) -> List[str]:
+    
 
 ```
 
