@@ -14,21 +14,28 @@ Output: ["facebook","google","leetcode"]
 ```
 
 Example 2:
+```
 Input: A = ["amazon","apple","facebook","google","leetcode"], B = ["l","e"]
 Output: ["apple","google","leetcode"]
+```
 
 Example 3:
+```
 Input: A = ["amazon","apple","facebook","google","leetcode"], B = ["e","oo"]
 Output: ["facebook","google"]
+```
 
 Example 4:
+```
 Input: A = ["amazon","apple","facebook","google","leetcode"], B = ["lo","eo"]
 Output: ["google","leetcode"]
+```
 
 Example 5:
+```
 Input: A = ["amazon","apple","facebook","google","leetcode"], B = ["ec","oc","ceo"]
 Output: ["facebook","leetcode"]
-
+```
 ## Analysis
 ### Solution 1
 Naive solution time O(N^3)
