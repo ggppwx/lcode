@@ -97,10 +97,15 @@ class TemplateCreator(object):
             os.mkdir(dir_name)
         except FileExistsError:
             print("Dir ", dir_name, " already exists ")
+            return
 
         # generate file: readme
         with open(dir_name + '/' + 'README.md', 'w') as f:
-            substitutes = {'tags' : '|'.join(problem.tags)}
+            substitutes = {
+                'title' : problem.title, 
+                'url': problem.url, 
+                'tags' : '|'.join(problem.tags)
+            }
             readme = self._templates['md'].substitute(substitutes)
             f.write(readme)
 
@@ -178,7 +183,7 @@ class ReadmeContent(object):
                     marks = []
                     timestamp = None
                     problem_dir_quoted = urllib.parse.quote(dir_name)
-                    problem_dir_link = os.path.join('https://github.com/ggppwx/lcode/blob/master/Algorithm', problem_dir_quoted)
+                    problem_dir_link = os.path.join('https://github.com/ggppwx/lcode/blob/master/Algorithm/', problem_dir_quoted)
                     for file_name in files:
                         #print(file_name)
                         if file_name.startswith('.'):
