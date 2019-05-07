@@ -191,7 +191,7 @@ class ReadmeContent(object):
                         
                         if file_name.endswith('.py'):
                             location = os.path.join('.', problem_dir, file_name)
-                            python_link  = os.path.join(problem_dir_link, file_name)
+                            python_link  = problem_dir_link + '/' + file_name
                             slug = os.path.splitext(file_name)[0]
                             url = 'https://leetcode.com/problems/' + slug
                             solutions.append({'solution' : 'python',
@@ -199,7 +199,7 @@ class ReadmeContent(object):
 
                         if file_name.endswith('.cpp'):
                             location = os.path.join('.', problem_dir, file_name)
-                            cpp_link  = os.path.join(problem_dir_link, problem_dir_quoted , file_name)
+                            cpp_link  = problem_dir_link + '/' + file_name
                             slug = os.path.splitext(file_name)[0]
                             url = 'https://leetcode.com/problems/' + slug
                             solutions.append({'solution' : 'cpp',
