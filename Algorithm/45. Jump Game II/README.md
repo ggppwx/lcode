@@ -25,8 +25,9 @@ You can assume that you can always reach the last index.
 ```
 
 ## Tags
-
+|BFS|Greedy|
 
 ## Marks
+Help
 
-[comment]: <timestamp:2019-05-06>
+[comment]: <timestamp:2019-05-07>
