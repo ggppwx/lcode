@@ -16,8 +16,16 @@ Note:
 You can assume that you can always reach the last index.
 
 ## Analysis
+Time
+- BFS: worst case O(n^2)
+- Greey: O(n)
 
 ## Thoughts
+- BFS should be easier to think about. 
+- given a hard problem, first thinking the brute force solution, in this case
+  BFS is the brute force 
+- Greedy solution is to update the farthest positon, but only increase the step when 
+  reaching the farthest position it sets before 
 
 ## Solution
 BFS: time limit exceeded 
@@ -35,7 +43,7 @@ class Solution:
                 queue.append((pos, depth + 1))
         return None        
 ```
-Greey:
+Greedy: this is another BFS
 ```python
 class Solution:
     def jump(self, nums: List[int]) -> int:
