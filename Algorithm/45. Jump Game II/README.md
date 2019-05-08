@@ -20,8 +20,34 @@ You can assume that you can always reach the last index.
 ## Thoughts
 
 ## Solution
+BFS: time limit exceeded 
 ```python
-
+class Solution:
+    def jump(self, nums: List[int]) -> int:
+        queue = [(0, 0)]
+        while queue:
+            front, depth = queue.pop(0)
+            if front >= len(nums) - 1:
+                return depth 
+            # front: current position
+            # nums[front]: jump distance 
+            for pos in range(front + 1, front+nums[front] + 1):
+                queue.append((pos, depth + 1))
+        return None        
+```
+Greey:
+```python
+class Solution:
+    def jump(self, nums: List[int]) -> int:
+        end = 0
+        farthest = 0 
+        steps = 0
+        for idx in range(len(nums) - 1):
+            farthest = max(farthest, idx + nums[idx] )
+            if idx == end: # end < len(nums) - 1
+                steps += 1
+                end = farthest
+        return steps 
 ```
 
 ## Tags
@@ -30,4 +56,4 @@ You can assume that you can always reach the last index.
 ## Marks
 Help
 
-[comment]: <timestamp:2019-05-07>
+[comment]: <timestamp:2019-05-08>
