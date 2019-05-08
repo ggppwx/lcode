@@ -142,9 +142,18 @@ class ReadmeContent(object):
             tags = []
             marks = []
             timestamp = None
+            url = None
             tag_line = False
             mark_line = False
+            problem_url_line = False
             for line in f:
+                if line.startswith('# Problem'):
+                    problem_url_line = True
+                elif problem_url_line:
+                    found = re.search('\[.*\]\((.*?)\)')
+                    url = found.group(1) if found else None 
+                    problem_url_line = False
+
                 if line.startswith('## Tags'):
                     # read tags
                     tag_line = True
@@ -156,13 +165,13 @@ class ReadmeContent(object):
                     mark_line = True
                 elif mark_line:
                     marks = list(filter(None, line.rstrip().split('|')))
-                    mark_line = False
+                    mark_line = False                
 
                 if line.startswith('[comment]: <timestamp'):
                     found = re.search('<timestamp:(\d{4}-\d{2}-\d{2})>', line)
                     timestamp = found.group(1) if found else None
                     # print(timestamp)
-            return (tags, marks, timestamp)
+            return (tags, marks, timestamp, url)
 
 
 
@@ -211,7 +220,7 @@ class ReadmeContent(object):
                             # it contains the tag info
                             location = os.path.join('.', problem_dir, file_name)
                             file_path = os.path.join('.', problem_dir, file_name)
-                            tags, marks, timestamp = self._get_tags_from_md(file_path)
+                            tags, marks, timestamp, url = self._get_tags_from_md(file_path)
                             
                             #print(tags)
 
