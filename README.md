@@ -16,6 +16,7 @@ This is a personal repo for some code
 ### BFS
 | Id | Title | Dir | Solution |
 |----|-------|----------|-----|
+|45|[Jump Game II :sos:](None)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/45.%20Jump%20Game%20II)||
 |127|[Word Ladder :alarm_clock: :sos:](https://leetcode.com/problems/word-ladder)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/127.%20Word%20Ladder)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/127.%20Word%20Ladder/word-ladder.py)|
 |841|[Keys and Rooms :alarm_clock:](https://leetcode.com/problems/keys-and-rooms)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/841.%20Keys%20and%20Rooms)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/841.%20Keys%20and%20Rooms/keys-and-rooms.py)|
 
@@ -55,6 +56,7 @@ This is a personal repo for some code
 ### Greedy
 | Id | Title | Dir | Solution |
 |----|-------|----------|-----|
+|45|[Jump Game II :sos:](None)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/45.%20Jump%20Game%20II)||
 |659|[Split Array into Consecutive Subsequences :alarm_clock:](https://leetcode.com/problems/split-array-into-consecutive-subsequences)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/659.%20Split%20Array%20into%20Consecutive%20Subsequences)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/659.%20Split%20Array%20into%20Consecutive%20Subsequences/split-array-into-consecutive-subsequences.py)|
 
 ### Minmax
@@ -117,8 +119,7 @@ This is a personal repo for some code
 | Id | Title | Solution |
 |----|-------|----------|
 |1|[Two Sum :alarm_clock:](https://leetcode.com/problems/two-sum)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/1.%20Two%20Sum/two-sum.py)|
-|45|[Jump Game II](None)||
 
 
 
-[comment]: <timestamp:2019-05-06>
+[comment]: <timestamp:2019-05-08>
