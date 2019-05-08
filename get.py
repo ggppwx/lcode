@@ -201,7 +201,7 @@ class ReadmeContent(object):
                         if file_name.endswith('.cpp'):
                             location = os.path.join('.', problem_dir, file_name)
                             cpp_link  = os.path.join(problem_dir_link + '/' , file_name)
-                            print(cpp_link)
+                            #print(cpp_link)
                             slug = os.path.splitext(file_name)[0]
                             url = 'https://leetcode.com/problems/' + slug
                             solutions.append({'solution' : 'cpp',
