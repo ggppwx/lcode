@@ -150,7 +150,7 @@ class ReadmeContent(object):
                 if line.startswith('# Problem'):
                     problem_url_line = True
                 elif problem_url_line:
-                    found = re.search('\[.*\]\((.*?)\)')
+                    found = re.search('\[.*\]\((.*?)\)', line)
                     url = found.group(1) if found else None 
                     problem_url_line = False
 
