@@ -138,7 +138,7 @@ class ReadmeContent(object):
             self._template = string.Template(f.read())
 
     def _get_tags_from_md(self, file_path):
-        with open(file_path) as f:
+        with open(file_path, encoding="utf8") as f:
             tags = []
             marks = []
             timestamp = None
