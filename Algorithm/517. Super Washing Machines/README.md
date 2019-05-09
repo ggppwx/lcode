@@ -43,14 +43,78 @@ The range of dresses number in a super washing machine is [0, 1e5].
 
 
 ## Analysis
+Time: O(N)
 
 ## Thoughts
-
+- This is a not DP, but a math problem
+- Solution2 is easier to understand.
+  - it tracks each machine, how many dresses move out, since it one machine can move 
+    one dress at a time, # of move = # of steps 
+  
 ## Solution
+Using math 
+```python
+class Solution:
+    def findMinMoves(self, machines: List[int]) -> int:
+        sum_machines = sum(machines)
+        if sum_machines % len(machines) != 0:
+            return -1
+
+        target = sum_machines/len(machines)
+        block_offset = 0
+        total_steps = 0
+        for machine in machines:
+            machine_offset = machine - target # -1 means need 1, +1 means exceed 1 
+
+            # the block from 0 to current pos, it needs block_offset dresses
+            # those dresses means steps, because they need to pass i 
+            block_offset += machine_offset
+
+            # at current pos, we at least to move abs(block_offset) steps 
+            # but if machine > target, at least we need to move (machine - target) steps,
+            # meanwhile we need at least move abs(block_offset) steps 
+            total_steps = max(total_steps,  max(machine - target, abs(block_offset)) )
+            
+        return total_steps 
+```
+solution 2: A easey to understand solution 
+```python
+class Solution:
+    def findMinMoves(self, machines: List[int]) -> int:
+        sum_machines = sum(machines)
+        if sum_machines % len(machines) != 0:
+            return -1
+        target = int(sum_machines/len(machines))
+
+        toleft = 0
+        toright = 0
+        # from machine 
+        result = 0 
+        for machine in machines:
+            toright = machine - target - toleft # to right could be negative, but it is fine 
+            # if toright < 0, this means NO moving to the right 
+            # --2-> X --1->  =>  toright = 1 toleft = -2  
+            # 在当前轮，为达到平衡，X 要至少象右移动一个
+
+            # this is to calculate how many dresses MOVED out from current machine 
+            # so we only consider Positive value 
+            if toleft > 0:
+                result = max(result, toleft)
+            if toright > 0:
+                result = max(result, toright)
+            if toleft > 0 and toright > 0:
+                result = max(result, toleft + toright)
+
+            # for example, currently moveto right 2, next item, we moveto left = -2  
+            toleft = - toright 
+        return result 
+
+```
 
 ## Tags
-
+|Math|
 
 ## Marks
+Help
 
-[comment]: <timestamp:2019-05-08>
+[comment]: <timestamp:2019-05-09>
