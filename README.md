@@ -125,6 +125,7 @@ This is a personal repo for some code
 | Id | Title | Solution |
 |----|-------|----------|
 |1|[Two Sum :alarm_clock:](None)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/1.%20Two%20Sum/two-sum.py)|
+|208|[Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree)||
 
 
 
