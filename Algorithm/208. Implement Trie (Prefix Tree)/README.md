@@ -26,6 +26,7 @@ Time: O(N)
   - It's very useful, for example `linkList` data structure has private class `Node`
 - Thinking to create your own API ?
 
+
 ## Solution
 ```python
 class Trie:
