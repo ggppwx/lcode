@@ -285,7 +285,8 @@ class ReadmeContent(object):
         with open(os.path.join(self._dest), 'w') as f:
             content = self._template.substitute({
                 'total' : total_number_of_problem,
-                'review': review_number_of_problem, 
+                'review': review_number_of_problem,
+                'ratio' : int((review_number_of_problem/total_number_of_problem) * 100),
                 'table' : table
             })
             f.write(content)

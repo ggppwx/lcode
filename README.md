@@ -1,9 +1,9 @@
 # lcode
 This is a personal repo for some code
-## features
-* genearete code template from leetcode
-* writing code 
-* generate a easy to read document
+## Status
+Total problems: 48
+Need review: 41
+![Progress](http://progressed.io/bar/85.41666666666666)
 
 ## problem table
 ### Array
@@ -129,4 +129,4 @@ This is a personal repo for some code
 
 
 
-[comment]: <timestamp:>
+[comment]: <timestamp:2019-05-12>
