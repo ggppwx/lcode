@@ -5,7 +5,7 @@ Total problems: 48
 
 Need review: 41
 
-![Progress](http://progressed.io/bar/85) 
+Review status: ![Progress](http://progressed.io/bar/85) 
 
 ## problem table
 ### Array
