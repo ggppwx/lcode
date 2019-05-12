@@ -2,7 +2,7 @@
 This is a personal repo for some code
 ## Status
 Total problems: 48
-Need review: 38  ![Progress](http://progressed.io/bar/79)
+Need review: 38  ![Progress](http://progressed.io/bar/79?title=Reviewed)
 
 ## problem table
 ### Array
