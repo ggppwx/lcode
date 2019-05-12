@@ -1,11 +1,8 @@
 # lcode
 This is a personal repo for some code
 ## Status
-Total problems: 48  
-
-Need review: 41
-
-Review status: ![Progress](http://progressed.io/bar/85) 
+Total problems: 48
+Need review: 38  ![Progress](http://progressed.io/bar/79)
 
 ## problem table
 ### Array
@@ -54,7 +51,7 @@ Review status: ![Progress](http://progressed.io/bar/85)
 | Id | Title | Dir | Solution |
 |----|-------|----------|-----|
 |802|[Find Eventual Safe States :alarm_clock:](None)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/802.%20Find%20Eventual%20Safe%20States)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/802.%20Find%20Eventual%20Safe%20States/find-eventual-safe-states.py)|
-|959|[Regions Cut By Slashes :alarm_clock:](https://leetcode.com/problems/regions-cut-by-slashes)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/959.%20Regions%20Cut%20By%20Slashes)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/959.%20Regions%20Cut%20By%20Slashes/regions-cut-by-slashes.py)|
+|959|[Regions Cut By Slashes](https://leetcode.com/problems/regions-cut-by-slashes)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/959.%20Regions%20Cut%20By%20Slashes)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/959.%20Regions%20Cut%20By%20Slashes/regions-cut-by-slashes.py)|
 
 ### Greedy
 | Id | Title | Dir | Solution |
@@ -121,8 +118,8 @@ Review status: ![Progress](http://progressed.io/bar/85)
 ### Union find
 | Id | Title | Dir | Solution |
 |----|-------|----------|-----|
-|547|[Friend Circles :alarm_clock:](None)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/547.%20Friend%20Circles)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/547.%20Friend%20Circles/friend-circles.py)|
-|959|[Regions Cut By Slashes :alarm_clock:](https://leetcode.com/problems/regions-cut-by-slashes)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/959.%20Regions%20Cut%20By%20Slashes)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/959.%20Regions%20Cut%20By%20Slashes/regions-cut-by-slashes.py)|
+|547|[Friend Circles](None)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/547.%20Friend%20Circles)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/547.%20Friend%20Circles/friend-circles.py)|
+|959|[Regions Cut By Slashes](https://leetcode.com/problems/regions-cut-by-slashes)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/959.%20Regions%20Cut%20By%20Slashes)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/959.%20Regions%20Cut%20By%20Slashes/regions-cut-by-slashes.py)|
 
 ### Untagged
 | Id | Title | Solution |
