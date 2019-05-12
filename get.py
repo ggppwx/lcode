@@ -228,8 +228,11 @@ class ReadmeContent(object):
                                      if not timestamp
                                      else datetime.datetime.strptime(timestamp, "%Y-%m-%d"))
                     diff = (datetime.datetime.now() - modified_date).days
+                    need_review = False
                     if diff >= 14:
                         name += ' :alarm_clock:'
+                        need_review = True
+
                     for mark in marks:
                         if mark == 'Help':
                             name += ' :sos:'
@@ -242,7 +245,8 @@ class ReadmeContent(object):
                         'tags' : tags,
                         'marks' : marks,
                         'solutions' : solutions,
-                        'solution_dir' : problem_dir_link
+                        'solution_dir' : problem_dir_link,
+                        'need_review' : need_review 
                     }
 
                     self._problems.append(problem)
@@ -255,6 +259,8 @@ class ReadmeContent(object):
     def create_readme_content(self):
         # tags ###
         table = ""
+        total_number_of_problem = 0
+        review_number_of_problem = 0
         for tag, problems in sorted(self._tag_problems.items()):
             table += ('### {}\n'.format(tag))
             table += ("| Id | Title | Dir | Solution |\n")
@@ -263,6 +269,8 @@ class ReadmeContent(object):
                 solution_col = "".join(["[{solution}]({solution_link})".format(**s) for s in problem['solutions']] )
                 line = "|{id}|[{name}]({url})|[dir]({solution_dir})|{}|\n".format(solution_col, **problem)
                 table += line
+                total_number_of_problem += 1
+                review_number_of_problem += 1 if problem['need_review'] else 0
             table += '\n'
 
         table += '### {}\n'.format('Untagged')
@@ -275,7 +283,11 @@ class ReadmeContent(object):
         table += '\n'
 
         with open(os.path.join(self._dest), 'w') as f:
-            content = self._template.substitute({'table' : table})
+            content = self._template.substitute({
+                'total' : total_number_of_problem,
+                'review': review_number_of_problem, 
+                'table' : table
+            })
             f.write(content)
 
 
