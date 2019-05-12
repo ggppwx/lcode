@@ -3,7 +3,7 @@ This is a personal repo for some code
 ## Status
 Total problems: 48
 Need review: 41
-![Progress](http://progressed.io/bar/85.41666666666666)
+![Progress](http://progressed.io/bar/85)
 
 ## problem table
 ### Array
@@ -129,4 +129,4 @@ Need review: 41
 
 
 
-[comment]: <timestamp:2019-05-12>
+[comment]: <timestamp:>
