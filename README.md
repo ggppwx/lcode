@@ -129,6 +129,7 @@ Need review: 41
 | Id | Title | Solution |
 |----|-------|----------|
 |1|[Two Sum :alarm_clock:](None)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/1.%20Two%20Sum/two-sum.py)|
+|1000|[Minimum Cost to Merge Stones](https://leetcode.com/problems/minimum-cost-to-merge-stones)||
 
 
 
