@@ -44,16 +44,40 @@ Note:
 ## Analysis
 
 ## Thoughts
+- Brute force 
+- DP 
+
 
 ## Solution    
+Brute force: exceeding time limit 
 ```python
 class Solution:
     def mergeStones(self, stones: List[int], K: int) -> int:
+        if len(stones) == 1:
+            return 0
+        if len(stones) < K:
+            return -1
+        sum_k_stone = sum(stones[:K])
+        min_cost = 10000000000
+        for i in range(len(stones)-K+1):
+            # starting from [0, K-1]        
+            temp = self.mergeStones(stones[:i] + [sum_k_stone] + stones [i+K:], K) 
+            if temp == -1:
+                return -1       
+            min_cost = min(min_cost, sum_k_stone + temp)
+            if i+K >= len(stones):
+                break
+            sum_k_stone = sum_k_stone - stones[i] + stones[i+K]
+
+        return min_cost 
+```
+DP:
+```python
 
 ```
 ## Tags
 
-
 ## Marks
+Help
 
-[comment]: <timestamp:>
+[comment]: <timestamp:2019-05-15>
