@@ -45,7 +45,13 @@ Note:
 
 ## Thoughts
 - Brute force 
-- DP 
+- DP solution
+    - If there's no K ? how to do it ? 
+        - divide to sub prolem `DP(i,j) = min(DP(i, k) + DP(k+1, j) + sum([i,j]))`
+    - It needs K to merge so `DP(.., 1) = DP(.., K) + sum`
+        - `DP(.., K)` can be divied to the sub problem `DP(left, K-1) + DP(right, 1)`
+    - DP cache usually uses index as key 
+        - in this case, `cache[i][j][P]`
 
 
 ## Solution    
@@ -73,11 +79,66 @@ class Solution:
 ```
 DP:
 ```python
+# state function:
+# DP(i,j) = min(DP(i, k) + DP(k+1, j) + sum([i,j])) when 
+#    [i, k] can reduce to K-1 pile, [k+1, j] can => 1
+# DP(i, j , 1) = DP(i, j, K) + sum 
+# DP(i, j , K) = DP(i, j, K-1) + DP(i, j, 1)
+class Solution:
+class Solution:
+    def mergeStones(self, stones: List[int], K: int) -> int:
+        MAX = 100000000000
 
+        def DP(i, j, P, cache):
+            if cache[i][j][P] != None:
+                return cache[i][j][P]
+            
+            if i == j:
+                if P == 1:
+                    cache[i][j][P] = 0
+                    return 0
+                cache[i][j][P] = MAX
+                return MAX
+                        
+            if P == 1:
+                temp = DP(i, j, K, cache)
+                if temp == MAX:
+                    cache[i][j][P] = MAX
+                    return MAX
+                res = temp + sum(stones[i:j+1])
+                cache[i][j][P] = res
+                return res
+
+
+            result = MAX
+            for k in range(i, j):
+
+                left = DP(i, k, P-1, cache)
+                if left == MAX:
+                    # unable to find the min cost 
+                    continue
+                right = DP(k+1, j, 1, cache)
+                if right == MAX:
+                    continue
+
+                result = min(result, left + right)
+            
+            cache[i][j][P] = result 
+            return result 
+
+        # enter here 
+        l = len(stones)
+        cache = [[[None for _ in range(K+1)] for _ in range(l)] for _ in range(l)]
+        result = DP(0, len(stones) - 1, 1, cache)
+        if result == MAX:
+            return -1
+            
+        return result 
 ```
 ## Tags
+DP
 
 ## Marks
 Help
 
-[comment]: <timestamp:2019-05-15>
+[comment]: <timestamp:2019-05-16>
