@@ -1,10 +1,10 @@
 # lcode
 This is a personal repo for some code
 ## Status
-Total problems: 51
+Total problems: 52
 
 Need review: 40
-![Progress](http://progressed.io/bar/21?title=Reviewed)
+![Progress](http://progressed.io/bar/23?title=Reviewed)
 
 ## problem table
 ### Array
@@ -50,6 +50,11 @@ Need review: 40
 |1000|[Minimum Cost to Merge Stones :sos:](https://leetcode.com/problems/minimum-cost-to-merge-stones)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/1000.%20Minimum%20Cost%20to%20Merge%20Stones)||
 |1024|[Video Stitching](https://leetcode.com/problems/video-stitching)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/1024.%20Video%20Stitching)||
 |1039|[Minimum Score Triangulation of Polygon :sos:](https://leetcode.com/problems/minimum-score-triangulation-of-polygon)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/1039.%20Minimum%20Score%20Triangulation%20of%20Polygon)||
+
+### Design
+| Id | Title | Dir | Solution |
+|----|-------|----------|-----|
+|284|[Peeking Iterator](https://leetcode.com/problems/peeking-iterator)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/284.%20Peeking%20Iterator)||
 
 ### Graph
 | Id | Title | Dir | Solution |
@@ -130,7 +135,6 @@ Need review: 40
 | Id | Title | Solution |
 |----|-------|----------|
 |1|[Two Sum :alarm_clock:](https://leetcode.com/problems/two-sum)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/1.%20Two%20Sum/two-sum.py)|
-|284|[Peeking Iterator](https://leetcode.com/problems/peeking-iterator)||
 
 
 
