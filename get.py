@@ -44,7 +44,7 @@ class WebParser(object):
         """Get all problems """
         query = 'https://leetcode.com/api/problems/algorithms/'
         response = requests.get(query, verify=False)
-        content = json.loads(response.content)
+        content = json.loads(response.content.decode('utf-8'))
         problems = content['stat_status_pairs']
         for problem in problems:
             id = int(problem['stat']['frontend_question_id'])
