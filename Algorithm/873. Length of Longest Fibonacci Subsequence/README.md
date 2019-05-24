@@ -33,20 +33,45 @@ Note:
 ```
 
 ## Analysis
+Time: O(N^2)
 
 ## Thoughts
+- Be aware of how fab constructed
+    - Ak = A_i - A_j, not calculating the diff !!
+- Once you get (i,j), you can calulate (j,k)
+    - state function => the max length for picking i, j 
+- `0 --> False` Be careful when checking index
+    - always explicitly check `if k is not None` !
 
 ## Solution
 ```python
 class Solution:
     def lenLongestFibSubseq(self, A: List[int]) -> int:
+        # DP(i, j ) =  max(DP (j, k) + 1) if A[i] - A[j] == A[k]
+        index_map = { a : idx for idx, a in enumerate(A)}
+        DP = [[1 for _ in range(len(A))] for _ in range(len(A))]
+        for i, a in enumerate(A, start=0):
+            for j in range(i): # [0, i-1]  
+                DP[i][j] = 2
+                A_k = A[i] - A[j]
+                k = index_map.get(A_k)
+                if k != None :
+                    DP[i][j] = DP[j][k] + 1
+
+        result =  0
+        for i in range(len(DP)):
+            for j in range(i):
+                #print (DP[i][j])
+                result  = max(result, DP[i][j])
+
+        return result if result > 2 else 0
 
 ```
 
 
 ## Tags
-
+DP
 
 ## Marks
 
-[comment]: <timestamp:>
+[comment]: <timestamp:2019-05-23>

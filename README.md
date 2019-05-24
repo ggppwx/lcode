@@ -1,10 +1,10 @@
 # lcode
 This is a personal repo for some code
 ## Status
-Total problems: 52
+Total problems: 53
 
-Need review: 45
-![Progress](http://progressed.io/bar/13?title=Reviewed)
+Need review: 47
+![Progress](http://progressed.io/bar/11?title=Reviewed)
 
 ## problem table
 ### Array
@@ -47,9 +47,10 @@ Need review: 45
 |213|[House Robber II :alarm_clock:](https://leetcode.com/problems/house-robber-ii)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/213.%20House%20Robber%20II)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/213.%20House%20Robber%20II/house-robber-ii.py)|
 |464|[Can I Win :alarm_clock:](https://leetcode.com/problems/can-i-win)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/464.%20Can%20I%20Win)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/464.%20Can%20I%20Win/can-i-win.py)|
 |486|[Predict the Winner :alarm_clock:](https://leetcode.com/problems/predict-the-winner)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/486.%20Predict%20the%20Winner)|[cpp](https://github.com/ggppwx/lcode/blob/master/Algorithm/486.%20Predict%20the%20Winner/predict-the-winner.cpp)|
+|873|[Length of Longest Fibonacci Subsequence](https://leetcode.com/problems/length-of-longest-fibonacci-subsequence)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/873.%20Length%20of%20Longest%20Fibonacci%20Subsequence)||
 |1000|[Minimum Cost to Merge Stones :sos:](https://leetcode.com/problems/minimum-cost-to-merge-stones)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/1000.%20Minimum%20Cost%20to%20Merge%20Stones)||
 |1024|[Video Stitching](https://leetcode.com/problems/video-stitching)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/1024.%20Video%20Stitching)||
-|1039|[Minimum Score Triangulation of Polygon :sos:](https://leetcode.com/problems/minimum-score-triangulation-of-polygon)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/1039.%20Minimum%20Score%20Triangulation%20of%20Polygon)||
+|1039|[Minimum Score Triangulation of Polygon :alarm_clock: :sos:](https://leetcode.com/problems/minimum-score-triangulation-of-polygon)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/1039.%20Minimum%20Score%20Triangulation%20of%20Polygon)||
 
 ### Design
 | Id | Title | Dir | Solution |
@@ -72,7 +73,7 @@ Need review: 45
 ### Math
 | Id | Title | Dir | Solution |
 |----|-------|----------|-----|
-|517|[Super Washing Machines :sos:](https://leetcode.com/problems/super-washing-machines)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/517.%20Super%20Washing%20Machines)||
+|517|[Super Washing Machines :alarm_clock: :sos:](https://leetcode.com/problems/super-washing-machines)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/517.%20Super%20Washing%20Machines)||
 
 ### Minmax
 | Id | Title | Dir | Solution |
@@ -135,7 +136,6 @@ Need review: 45
 | Id | Title | Solution |
 |----|-------|----------|
 |1|[Two Sum :alarm_clock:](None)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/1.%20Two%20Sum/two-sum.py)|
-|873|[Length of Longest Fibonacci Subsequence](https://leetcode.com/problems/length-of-longest-fibonacci-subsequence)||
 
 
 
