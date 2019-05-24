@@ -55,7 +55,7 @@ class Solution:
                 DP[i][j] = 2
                 A_k = A[i] - A[j]
                 k = index_map.get(A_k)
-                if k != None :
+                if k != None :  # shit happens here !!
                     DP[i][j] = DP[j][k] + 1
 
         result =  0
