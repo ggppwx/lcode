@@ -3,8 +3,8 @@ This is a personal repo for some code
 ## Status
 Total problems: 53
 
-Need review: 46
-![Progress](http://progressed.io/bar/13?title=Reviewed)
+Need review: 45
+![Progress](http://progressed.io/bar/15?title=Reviewed)
 
 ## problem table
 ### Array
@@ -12,7 +12,7 @@ Need review: 46
 |----|-------|----------|-----|
 |31|[Next Permutation :sos:](https://leetcode.com/problems/next-permutation)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/31.%20Next%20Permutation)|[cpp](https://github.com/ggppwx/lcode/blob/master/Algorithm/31.%20Next%20Permutation/next-permutation.cpp)|
 |287|[Find the Duplicate Number :sos:](https://leetcode.com/problems/find-the-duplicate-number)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/287.%20Find%20the%20Duplicate%20Number)|[cpp](https://github.com/ggppwx/lcode/blob/master/Algorithm/287.%20Find%20the%20Duplicate%20Number/find-the-duplicate-number.cpp)|
-|560|[Subarray Sum Equals K :alarm_clock:](None)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/560.%20Subarray%20Sum%20Equals%20K)|[cpp](https://github.com/ggppwx/lcode/blob/master/Algorithm/560.%20Subarray%20Sum%20Equals%20K/subarray-sum-equals-k.cpp)|
+|560|[Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/560.%20Subarray%20Sum%20Equals%20K)|[cpp](https://github.com/ggppwx/lcode/blob/master/Algorithm/560.%20Subarray%20Sum%20Equals%20K/subarray-sum-equals-k.cpp)|
 
 ### BFS
 | Id | Title | Dir | Solution |
