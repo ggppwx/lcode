@@ -3,8 +3,8 @@ This is a personal repo for some code
 ## Status
 Total problems: 53
 
-Need review: 45
-![Progress](http://progressed.io/bar/15?title=Reviewed)
+Need review: 44
+![Progress](http://progressed.io/bar/16?title=Reviewed)
 
 ## problem table
 ### Array
@@ -18,7 +18,7 @@ Need review: 45
 | Id | Title | Dir | Solution |
 |----|-------|----------|-----|
 |45|[Jump Game II :alarm_clock: :sos:](https://leetcode.com/problems/jump-game-ii)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/45.%20Jump%20Game%20II)||
-|127|[Word Ladder :alarm_clock: :sos:](https://leetcode.com/problems/word-ladder)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/127.%20Word%20Ladder)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/127.%20Word%20Ladder/word-ladder.py)|
+|127|[Word Ladder :sos:](https://leetcode.com/problems/word-ladder)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/127.%20Word%20Ladder)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/127.%20Word%20Ladder/word-ladder.py)|
 |841|[Keys and Rooms :alarm_clock:](None)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/841.%20Keys%20and%20Rooms)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/841.%20Keys%20and%20Rooms/keys-and-rooms.py)|
 
 ### Backtracking
