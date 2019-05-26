@@ -229,7 +229,7 @@ class ReadmeContent(object):
                                      else datetime.datetime.strptime(timestamp, "%Y-%m-%d"))
                     diff = (datetime.datetime.now() - modified_date).days
                     need_review = False
-                    if diff >= 14:
+                    if diff >= 30:
                         name += ' :alarm_clock:'
                         need_review = True
 
@@ -246,7 +246,8 @@ class ReadmeContent(object):
                         'marks' : marks,
                         'solutions' : solutions,
                         'solution_dir' : problem_dir_link,
-                        'need_review' : need_review 
+                        'need_review' : need_review,
+                        'diff' : diff
                     }
 
                     self._problems.append(problem)
@@ -263,11 +264,11 @@ class ReadmeContent(object):
         review_number_of_problem = 0
         for tag, problems in sorted(self._tag_problems.items()):
             table += ('### {}\n'.format(tag))
-            table += ("| Id | Title | Dir | Solution |\n")
-            table += ("|----|-------|----------|-----|\n")
+            table += ("| Id | Title | Dir | Solution | Review (days ago)|\n")
+            table += ("|----|-------|----------|-----|------------------|\n")
             for problem in sorted(problems, key = lambda x: x['id']):
                 solution_col = "".join(["[{solution}]({solution_link})".format(**s) for s in problem['solutions']] )
-                line = "|{id}|[{name}]({url})|[dir]({solution_dir})|{}|\n".format(solution_col, **problem)
+                line = "|{id}|[{name}]({url})|[dir]({solution_dir})|{}|{diff}|\n".format(solution_col, **problem)
                 table += line
                 total_number_of_problem += 1
                 review_number_of_problem += 1 if problem['need_review'] else 0
