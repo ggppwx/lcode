@@ -1,7 +1,64 @@
-# Info
+# Problem
+[Next Permutation](https://leetcode.com/problems/next-permutation)
+
+Implement next permutation, which rearranges numbers into the lexicographically next greater permutation of numbers.
+If such arrangement is not possible, it must rearrange it as the lowest possible order (ie, sorted in ascending order).
+The replacement must be in-place and use only constant extra memory.
+Here are some examples. Inputs are in the left-hand column and its corresponding outputs are in the right-hand column.
+```
+1,2,3 → 1,3,2
+3,2,1 → 1,2,3
+1,1,5 → 1,5,1
+```
+## Analysis
+Time: O(N)
+
+## Thoughts
+- Bruteforce, find all permutations possible, putting them to list.
+    This obviously will exceed the time limit 
+- 找规律， find the pattern. Use drawing to make the problem simpler 
+```
+    3                3                     3
+   /  2   =swap=>  2   \  =reverse=>  2   /  
+  1                     1               1
+
+      (3)            3
+  2   /  =swap=>   2  \
+    1                 (1)
+
+   (3)              3                     3
+  2  \    =swap=>     (2)   =reverse=>     \  2  
+      1                  1                  1
+```
+## Solution
+```cpp
+class Solution {
+public:
+    void nextPermutation(vector<int>& nums) {
+        int pivot = -1;
+        for (int i = nums.size() - 1; i > 0; i--){
+            if (nums[i-1] < nums[i]) {
+                pivot = i;
+                for (int j = nums.size() - 1; j >= pivot; j--) {
+                    if(nums[j] > nums[pivot-1]) {
+                        swap(nums[j], nums[pivot-1]);
+                        reverse(nums.begin() + pivot, nums.end());
+                        return;
+                    }
+                }
+            }
+        }
+        if (pivot == -1) { // already max
+            reverse(nums.begin(), nums.end());
+            return;
+        }
+        
+    }
+};
+```
 ## Tags
 Array
 ## Marks
 Help
 
-[comment]: <timestamp:2019-03-10>
+[comment]: <timestamp:2019-05-26>

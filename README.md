@@ -10,7 +10,7 @@ Need review: 47
 ### Array
 | Id | Title | Dir | Solution |
 |----|-------|----------|-----|
-|31|[Next Permutation :alarm_clock: :sos:](https://leetcode.com/problems/next-permutation)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/31.%20Next%20Permutation)|[cpp](https://github.com/ggppwx/lcode/blob/master/Algorithm/31.%20Next%20Permutation/next-permutation.cpp)|
+|31|[Next Permutation :sos:](https://leetcode.com/problems/next-permutation)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/31.%20Next%20Permutation)|[cpp](https://github.com/ggppwx/lcode/blob/master/Algorithm/31.%20Next%20Permutation/next-permutation.cpp)|
 |287|[Find the Duplicate Number :alarm_clock: :sos:](None)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/287.%20Find%20the%20Duplicate%20Number)|[cpp](https://github.com/ggppwx/lcode/blob/master/Algorithm/287.%20Find%20the%20Duplicate%20Number/find-the-duplicate-number.cpp)|
 |560|[Subarray Sum Equals K :alarm_clock:](None)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/560.%20Subarray%20Sum%20Equals%20K)|[cpp](https://github.com/ggppwx/lcode/blob/master/Algorithm/560.%20Subarray%20Sum%20Equals%20K/subarray-sum-equals-k.cpp)|
 
@@ -123,7 +123,7 @@ Need review: 47
 ### Trie
 | Id | Title | Dir | Solution |
 |----|-------|----------|-----|
-|208|[Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/208.%20Implement%20Trie%20%28Prefix%20Tree%29)||
+|208|[Implement Trie (Prefix Tree) :alarm_clock:](https://leetcode.com/problems/implement-trie-prefix-tree)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/208.%20Implement%20Trie%20%28Prefix%20Tree%29)||
 |720|[Longest Word in Dictionary :alarm_clock:](https://leetcode.com/problems/longest-word-in-dictionary)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/720.%20Longest%20Word%20in%20Dictionary)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/720.%20Longest%20Word%20in%20Dictionary/longest-word-in-dictionary.py)|
 
 ### Union find
