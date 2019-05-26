@@ -3,8 +3,8 @@ This is a personal repo for some code
 ## Status
 Total problems: 53
 
-Need review: 44
-![Progress](http://progressed.io/bar/16?title=Reviewed)
+Need review: 41
+![Progress](http://progressed.io/bar/22?title=Reviewed)
 
 ## problem table
 ### Array
@@ -19,12 +19,12 @@ Need review: 44
 |----|-------|----------|-----|
 |45|[Jump Game II :alarm_clock: :sos:](https://leetcode.com/problems/jump-game-ii)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/45.%20Jump%20Game%20II)||
 |127|[Word Ladder :sos:](https://leetcode.com/problems/word-ladder)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/127.%20Word%20Ladder)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/127.%20Word%20Ladder/word-ladder.py)|
-|841|[Keys and Rooms :alarm_clock:](None)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/841.%20Keys%20and%20Rooms)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/841.%20Keys%20and%20Rooms/keys-and-rooms.py)|
+|841|[Keys and Rooms](https://leetcode.com/problems/keys-and-rooms)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/841.%20Keys%20and%20Rooms)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/841.%20Keys%20and%20Rooms/keys-and-rooms.py)|
 
 ### Backtracking
 | Id | Title | Dir | Solution |
 |----|-------|----------|-----|
-|22|[Generate Parentheses :alarm_clock:](None)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/22.%20Generate%20Parentheses)|[cpp](https://github.com/ggppwx/lcode/blob/master/Algorithm/22.%20Generate%20Parentheses/generate-parentheses.cpp)|
+|22|[Generate Parentheses](https://leetcode.com/problems/generate-parentheses)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/22.%20Generate%20Parentheses)|[cpp](https://github.com/ggppwx/lcode/blob/master/Algorithm/22.%20Generate%20Parentheses/generate-parentheses.cpp)|
 
 ### Binary search
 | Id | Title | Dir | Solution |
@@ -102,7 +102,7 @@ Need review: 44
 ### String
 | Id | Title | Dir | Solution |
 |----|-------|----------|-----|
-|22|[Generate Parentheses :alarm_clock:](None)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/22.%20Generate%20Parentheses)|[cpp](https://github.com/ggppwx/lcode/blob/master/Algorithm/22.%20Generate%20Parentheses/generate-parentheses.cpp)|
+|22|[Generate Parentheses](https://leetcode.com/problems/generate-parentheses)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/22.%20Generate%20Parentheses)|[cpp](https://github.com/ggppwx/lcode/blob/master/Algorithm/22.%20Generate%20Parentheses/generate-parentheses.cpp)|
 |916|[Word Subsets :alarm_clock: :sos:](https://leetcode.com/problems/word-subsets/)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/916.%20Word%20Subsets)||
 
 ### Tree
