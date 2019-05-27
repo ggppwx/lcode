@@ -3,8 +3,8 @@ This is a personal repo for some code
 ## Status
 Total problems: 53
 
-Need review: 29
-![Progress](http://progressed.io/bar/45?title=Reviewed)
+Need review: 28
+![Progress](http://progressed.io/bar/47?title=Reviewed)
 
 ## problem table
 ### Array
@@ -32,7 +32,7 @@ Need review: 29
 |497|[Random Point in Non-overlapping Rectangles](https://leetcode.com/problems/random-point-in-non-overlapping-rectangles)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/497.%20Random%20Point%20in%20Non-overlapping%20Rectangles)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/497.%20Random%20Point%20in%20Non-overlapping%20Rectangles/random-point-in-non-overlapping-rectangles.py)|0|
 |528|[Random Pick with Weight](https://leetcode.com/problems/random-pick-with-weight)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/528.%20Random%20Pick%20with%20Weight)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/528.%20Random%20Pick%20with%20Weight/random-pick-with-weight.py)|1|
 |875|[Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/875.%20Koko%20Eating%20Bananas)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/875.%20Koko%20Eating%20Bananas/koko-eating-bananas.py)|0|
-|911|[Online Election :alarm_clock:](None)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/911.%20Online%20Election)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/911.%20Online%20Election/online-election.py)|93|
+|911|[Online Election](https://leetcode.com/problems/online-election)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/911.%20Online%20Election)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/911.%20Online%20Election/online-election.py)|0|
 
 ### DFS
 | Id | Title | Dir | Solution | Elapsed (d)|
