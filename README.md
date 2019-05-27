@@ -3,8 +3,8 @@ This is a personal repo for some code
 ## Status
 Total problems: 53
 
-Need review: 28
-![Progress](http://progressed.io/bar/47?title=Reviewed)
+Need review: 27
+![Progress](http://progressed.io/bar/49?title=Reviewed)
 
 ## problem table
 ### Array
@@ -42,7 +42,7 @@ Need review: 28
 ### DP
 | Id | Title | Dir | Solution | Elapsed (d)|
 |----|-------|----------|-----|------------|
-|55|[Jump Game :alarm_clock:](None)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/55.%20Jump%20Game)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/55.%20Jump%20Game/jump-game.py)|82|
+|55|[Jump Game](https://leetcode.com/problems/jump-game)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/55.%20Jump%20Game)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/55.%20Jump%20Game/jump-game.py)|0|
 |152|[Maximum Product Subarray :alarm_clock:](None)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/152.%20Maximum%20Product%20Subarray)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/152.%20Maximum%20Product%20Subarray/maximum-product-subarray.py)|79|
 |213|[House Robber II :alarm_clock:](https://leetcode.com/problems/house-robber-ii)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/213.%20House%20Robber%20II)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/213.%20House%20Robber%20II/house-robber-ii.py)|82|
 |464|[Can I Win :alarm_clock:](https://leetcode.com/problems/can-i-win)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/464.%20Can%20I%20Win)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/464.%20Can%20I%20Win/can-i-win.py)|74|
