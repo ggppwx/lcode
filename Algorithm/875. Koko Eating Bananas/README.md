@@ -58,4 +58,4 @@ class Solution(object):
 ## Tags
 |Binary search|
 
-[comment]: <timestamp:2019-05-27>
+[comment]: <timestamp:2019-05-28>
