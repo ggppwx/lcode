@@ -1,142 +1,142 @@
 # lcode
 This is a personal repo for some code
 ## Status
-Total problems: 53
+Total problems: 54
 
 Need review: 23
-![Progress](http://progressed.io/bar/56?title=Reviewed)
+![Progress](http://progressed.io/bar/57?title=Reviewed)
 
 ## problem table
 ### Array
 | Id | Title | Dir | Solution | Review (days ago)|
 |----|-------|----------|-----|------------------|
-|31|[Next Permutation :sos:](https://leetcode.com/problems/next-permutation)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/31.%20Next%20Permutation)|[cpp](https://github.com/ggppwx/lcode/blob/master/Algorithm/31.%20Next%20Permutation/next-permutation.cpp)|2|
-|287|[Find the Duplicate Number :sos:](https://leetcode.com/problems/find-the-duplicate-number)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/287.%20Find%20the%20Duplicate%20Number)|[cpp](https://github.com/ggppwx/lcode/blob/master/Algorithm/287.%20Find%20the%20Duplicate%20Number/find-the-duplicate-number.cpp)|2|
-|560|[Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/560.%20Subarray%20Sum%20Equals%20K)|[cpp](https://github.com/ggppwx/lcode/blob/master/Algorithm/560.%20Subarray%20Sum%20Equals%20K/subarray-sum-equals-k.cpp)|2|
+|31|[Next Permutation :sos:](https://leetcode.com/problems/next-permutation)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/31.%20Next%20Permutation)|[cpp](https://github.com/ggppwx/lcode/blob/master/Algorithm/31.%20Next%20Permutation/next-permutation.cpp)|4|
+|287|[Find the Duplicate Number :sos:](https://leetcode.com/problems/find-the-duplicate-number)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/287.%20Find%20the%20Duplicate%20Number)|[cpp](https://github.com/ggppwx/lcode/blob/master/Algorithm/287.%20Find%20the%20Duplicate%20Number/find-the-duplicate-number.cpp)|4|
+|560|[Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/560.%20Subarray%20Sum%20Equals%20K)|[cpp](https://github.com/ggppwx/lcode/blob/master/Algorithm/560.%20Subarray%20Sum%20Equals%20K/subarray-sum-equals-k.cpp)|4|
 
 ### BFS
 | Id | Title | Dir | Solution | Review (days ago)|
 |----|-------|----------|-----|------------------|
-|45|[Jump Game II :sos:](https://leetcode.com/problems/jump-game-ii)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/45.%20Jump%20Game%20II)||20|
-|127|[Word Ladder :sos:](https://leetcode.com/problems/word-ladder)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/127.%20Word%20Ladder)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/127.%20Word%20Ladder/word-ladder.py)|2|
-|841|[Keys and Rooms](https://leetcode.com/problems/keys-and-rooms)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/841.%20Keys%20and%20Rooms)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/841.%20Keys%20and%20Rooms/keys-and-rooms.py)|2|
+|45|[Jump Game II :sos:](https://leetcode.com/problems/jump-game-ii)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/45.%20Jump%20Game%20II)||22|
+|127|[Word Ladder :sos:](https://leetcode.com/problems/word-ladder)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/127.%20Word%20Ladder)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/127.%20Word%20Ladder/word-ladder.py)|4|
+|841|[Keys and Rooms](https://leetcode.com/problems/keys-and-rooms)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/841.%20Keys%20and%20Rooms)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/841.%20Keys%20and%20Rooms/keys-and-rooms.py)|4|
 
 ### Backtracking
 | Id | Title | Dir | Solution | Review (days ago)|
 |----|-------|----------|-----|------------------|
-|22|[Generate Parentheses](https://leetcode.com/problems/generate-parentheses)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/22.%20Generate%20Parentheses)|[cpp](https://github.com/ggppwx/lcode/blob/master/Algorithm/22.%20Generate%20Parentheses/generate-parentheses.cpp)|2|
+|22|[Generate Parentheses](https://leetcode.com/problems/generate-parentheses)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/22.%20Generate%20Parentheses)|[cpp](https://github.com/ggppwx/lcode/blob/master/Algorithm/22.%20Generate%20Parentheses/generate-parentheses.cpp)|4|
 
 ### Binary search
 | Id | Title | Dir | Solution | Review (days ago)|
 |----|-------|----------|-----|------------------|
-|497|[Random Point in Non-overlapping Rectangles](https://leetcode.com/problems/random-point-in-non-overlapping-rectangles)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/497.%20Random%20Point%20in%20Non-overlapping%20Rectangles)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/497.%20Random%20Point%20in%20Non-overlapping%20Rectangles/random-point-in-non-overlapping-rectangles.py)|1|
-|528|[Random Pick with Weight](https://leetcode.com/problems/random-pick-with-weight)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/528.%20Random%20Pick%20with%20Weight)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/528.%20Random%20Pick%20with%20Weight/random-pick-with-weight.py)|2|
-|875|[Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/875.%20Koko%20Eating%20Bananas)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/875.%20Koko%20Eating%20Bananas/koko-eating-bananas.py)|1|
-|911|[Online Election](https://leetcode.com/problems/online-election)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/911.%20Online%20Election)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/911.%20Online%20Election/online-election.py)|1|
+|497|[Random Point in Non-overlapping Rectangles](https://leetcode.com/problems/random-point-in-non-overlapping-rectangles)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/497.%20Random%20Point%20in%20Non-overlapping%20Rectangles)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/497.%20Random%20Point%20in%20Non-overlapping%20Rectangles/random-point-in-non-overlapping-rectangles.py)|3|
+|528|[Random Pick with Weight](https://leetcode.com/problems/random-pick-with-weight)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/528.%20Random%20Pick%20with%20Weight)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/528.%20Random%20Pick%20with%20Weight/random-pick-with-weight.py)|4|
+|875|[Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/875.%20Koko%20Eating%20Bananas)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/875.%20Koko%20Eating%20Bananas/koko-eating-bananas.py)|3|
+|911|[Online Election](https://leetcode.com/problems/online-election)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/911.%20Online%20Election)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/911.%20Online%20Election/online-election.py)|3|
 
 ### DFS
 | Id | Title | Dir | Solution | Review (days ago)|
 |----|-------|----------|-----|------------------|
-|979|[Distribute Coins in Binary Tree :sos:](https://leetcode.com/problems/distribute-coins-in-binary-tree)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/979.%20Distribute%20Coins%20in%20Binary%20Tree)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/979.%20Distribute%20Coins%20in%20Binary%20Tree/distribute-coins-in-binary-tree.py)|2|
+|979|[Distribute Coins in Binary Tree :sos:](https://leetcode.com/problems/distribute-coins-in-binary-tree)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/979.%20Distribute%20Coins%20in%20Binary%20Tree)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/979.%20Distribute%20Coins%20in%20Binary%20Tree/distribute-coins-in-binary-tree.py)|4|
 
 ### DP
 | Id | Title | Dir | Solution | Review (days ago)|
 |----|-------|----------|-----|------------------|
-|55|[Jump Game](https://leetcode.com/problems/jump-game)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/55.%20Jump%20Game)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/55.%20Jump%20Game/jump-game.py)|1|
-|152|[Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/152.%20Maximum%20Product%20Subarray)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/152.%20Maximum%20Product%20Subarray/maximum-product-subarray.py)|1|
-|213|[House Robber II :alarm_clock:](None)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/213.%20House%20Robber%20II)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/213.%20House%20Robber%20II/house-robber-ii.py)|83|
-|464|[Can I Win :alarm_clock:](None)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/464.%20Can%20I%20Win)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/464.%20Can%20I%20Win/can-i-win.py)|75|
-|486|[Predict the Winner :alarm_clock:](None)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/486.%20Predict%20the%20Winner)|[cpp](https://github.com/ggppwx/lcode/blob/master/Algorithm/486.%20Predict%20the%20Winner/predict-the-winner.cpp)|76|
-|873|[Length of Longest Fibonacci Subsequence](https://leetcode.com/problems/length-of-longest-fibonacci-subsequence)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/873.%20Length%20of%20Longest%20Fibonacci%20Subsequence)||5|
-|1000|[Minimum Cost to Merge Stones :sos:](https://leetcode.com/problems/minimum-cost-to-merge-stones)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/1000.%20Minimum%20Cost%20to%20Merge%20Stones)||2|
-|1024|[Video Stitching](https://leetcode.com/problems/video-stitching)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/1024.%20Video%20Stitching)||13|
-|1039|[Minimum Score Triangulation of Polygon :sos:](https://leetcode.com/problems/minimum-score-triangulation-of-polygon)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/1039.%20Minimum%20Score%20Triangulation%20of%20Polygon)||19|
+|55|[Jump Game](https://leetcode.com/problems/jump-game)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/55.%20Jump%20Game)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/55.%20Jump%20Game/jump-game.py)|3|
+|152|[Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/152.%20Maximum%20Product%20Subarray)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/152.%20Maximum%20Product%20Subarray/maximum-product-subarray.py)|3|
+|213|[House Robber II :alarm_clock:](None)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/213.%20House%20Robber%20II)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/213.%20House%20Robber%20II/house-robber-ii.py)|85|
+|363|[Max Sum of Rectangle No Larger Than K](https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/363.%20Max%20Sum%20of%20Rectangle%20No%20Larger%20Than%20K)||0|
+|464|[Can I Win :alarm_clock:](None)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/464.%20Can%20I%20Win)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/464.%20Can%20I%20Win/can-i-win.py)|77|
+|486|[Predict the Winner :alarm_clock:](None)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/486.%20Predict%20the%20Winner)|[cpp](https://github.com/ggppwx/lcode/blob/master/Algorithm/486.%20Predict%20the%20Winner/predict-the-winner.cpp)|78|
+|873|[Length of Longest Fibonacci Subsequence](https://leetcode.com/problems/length-of-longest-fibonacci-subsequence)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/873.%20Length%20of%20Longest%20Fibonacci%20Subsequence)||7|
+|1000|[Minimum Cost to Merge Stones :sos:](https://leetcode.com/problems/minimum-cost-to-merge-stones)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/1000.%20Minimum%20Cost%20to%20Merge%20Stones)||4|
+|1024|[Video Stitching](https://leetcode.com/problems/video-stitching)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/1024.%20Video%20Stitching)||15|
+|1039|[Minimum Score Triangulation of Polygon :sos:](https://leetcode.com/problems/minimum-score-triangulation-of-polygon)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/1039.%20Minimum%20Score%20Triangulation%20of%20Polygon)||21|
 
 ### Design
 | Id | Title | Dir | Solution | Review (days ago)|
 |----|-------|----------|-----|------------------|
-|284|[Peeking Iterator](https://leetcode.com/problems/peeking-iterator)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/284.%20Peeking%20Iterator)||10|
+|284|[Peeking Iterator](https://leetcode.com/problems/peeking-iterator)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/284.%20Peeking%20Iterator)||12|
 
 ### Graph
 | Id | Title | Dir | Solution | Review (days ago)|
 |----|-------|----------|-----|------------------|
-|802|[Find Eventual Safe States :alarm_clock:](None)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/802.%20Find%20Eventual%20Safe%20States)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/802.%20Find%20Eventual%20Safe%20States/find-eventual-safe-states.py)|87|
-|959|[Regions Cut By Slashes](https://leetcode.com/problems/regions-cut-by-slashes)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/959.%20Regions%20Cut%20By%20Slashes)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/959.%20Regions%20Cut%20By%20Slashes/regions-cut-by-slashes.py)|16|
+|802|[Find Eventual Safe States :alarm_clock:](None)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/802.%20Find%20Eventual%20Safe%20States)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/802.%20Find%20Eventual%20Safe%20States/find-eventual-safe-states.py)|89|
+|959|[Regions Cut By Slashes](https://leetcode.com/problems/regions-cut-by-slashes)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/959.%20Regions%20Cut%20By%20Slashes)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/959.%20Regions%20Cut%20By%20Slashes/regions-cut-by-slashes.py)|17|
 
 ### Greedy
 | Id | Title | Dir | Solution | Review (days ago)|
 |----|-------|----------|-----|------------------|
-|45|[Jump Game II :sos:](https://leetcode.com/problems/jump-game-ii)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/45.%20Jump%20Game%20II)||20|
-|659|[Split Array into Consecutive Subsequences :alarm_clock:](https://leetcode.com/problems/split-array-into-consecutive-subsequences)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/659.%20Split%20Array%20into%20Consecutive%20Subsequences)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/659.%20Split%20Array%20into%20Consecutive%20Subsequences/split-array-into-consecutive-subsequences.py)|59|
-|1024|[Video Stitching](https://leetcode.com/problems/video-stitching)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/1024.%20Video%20Stitching)||13|
+|45|[Jump Game II :sos:](https://leetcode.com/problems/jump-game-ii)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/45.%20Jump%20Game%20II)||22|
+|659|[Split Array into Consecutive Subsequences :alarm_clock:](https://leetcode.com/problems/split-array-into-consecutive-subsequences)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/659.%20Split%20Array%20into%20Consecutive%20Subsequences)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/659.%20Split%20Array%20into%20Consecutive%20Subsequences/split-array-into-consecutive-subsequences.py)|61|
+|1024|[Video Stitching](https://leetcode.com/problems/video-stitching)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/1024.%20Video%20Stitching)||15|
 
 ### Math
 | Id | Title | Dir | Solution | Review (days ago)|
 |----|-------|----------|-----|------------------|
-|517|[Super Washing Machines :sos:](https://leetcode.com/problems/super-washing-machines)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/517.%20Super%20Washing%20Machines)||19|
+|517|[Super Washing Machines :sos:](https://leetcode.com/problems/super-washing-machines)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/517.%20Super%20Washing%20Machines)||21|
 
 ### Minmax
 | Id | Title | Dir | Solution | Review (days ago)|
 |----|-------|----------|-----|------------------|
-|464|[Can I Win :alarm_clock:](None)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/464.%20Can%20I%20Win)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/464.%20Can%20I%20Win/can-i-win.py)|75|
-|486|[Predict the Winner :alarm_clock:](None)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/486.%20Predict%20the%20Winner)|[cpp](https://github.com/ggppwx/lcode/blob/master/Algorithm/486.%20Predict%20the%20Winner/predict-the-winner.cpp)|76|
+|464|[Can I Win :alarm_clock:](None)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/464.%20Can%20I%20Win)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/464.%20Can%20I%20Win/can-i-win.py)|77|
+|486|[Predict the Winner :alarm_clock:](None)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/486.%20Predict%20the%20Winner)|[cpp](https://github.com/ggppwx/lcode/blob/master/Algorithm/486.%20Predict%20the%20Winner/predict-the-winner.cpp)|78|
 
 ### Recursion
 | Id | Title | Dir | Solution | Review (days ago)|
 |----|-------|----------|-----|------------------|
-|698|[Partition to K Equal Sum Subsets :alarm_clock:](None)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/698.%20Partition%20to%20K%20Equal%20Sum%20Subsets)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/698.%20Partition%20to%20K%20Equal%20Sum%20Subsets/partition-to-k-equal-sum-subsets.py)|94|
-|779|[K-th Symbol in Grammar :alarm_clock:](None)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/779.%20K-th%20Symbol%20in%20Grammar)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/779.%20K-th%20Symbol%20in%20Grammar/k-th-symbol-in-grammar.py)|94|
-|894|[All Possible Full Binary Trees :alarm_clock: :sos:](None)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/894.%20All%20Possible%20Full%20Binary%20Trees)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/894.%20All%20Possible%20Full%20Binary%20Trees/all-possible-full-binary-trees.py)|82|
+|698|[Partition to K Equal Sum Subsets :alarm_clock:](None)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/698.%20Partition%20to%20K%20Equal%20Sum%20Subsets)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/698.%20Partition%20to%20K%20Equal%20Sum%20Subsets/partition-to-k-equal-sum-subsets.py)|96|
+|779|[K-th Symbol in Grammar :alarm_clock:](None)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/779.%20K-th%20Symbol%20in%20Grammar)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/779.%20K-th%20Symbol%20in%20Grammar/k-th-symbol-in-grammar.py)|96|
+|894|[All Possible Full Binary Trees :alarm_clock: :sos:](None)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/894.%20All%20Possible%20Full%20Binary%20Trees)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/894.%20All%20Possible%20Full%20Binary%20Trees/all-possible-full-binary-trees.py)|84|
 
 ### Sliding window
 | Id | Title | Dir | Solution | Review (days ago)|
 |----|-------|----------|-----|------------------|
-|3|[Longest Substring Without Repeating Characters :alarm_clock:](None)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/3.%20Longest%20Substring%20Without%20Repeating%20Characters)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/3.%20Longest%20Substring%20Without%20Repeating%20Characters/longest-substring-without-repeating-characters.py)|63|
+|3|[Longest Substring Without Repeating Characters :alarm_clock:](None)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/3.%20Longest%20Substring%20Without%20Repeating%20Characters)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/3.%20Longest%20Substring%20Without%20Repeating%20Characters/longest-substring-without-repeating-characters.py)|65|
 
 ### Sort
 | Id | Title | Dir | Solution | Review (days ago)|
 |----|-------|----------|-----|------------------|
-|524|[Longest Word in Dictionary through Deleting :alarm_clock:](None)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/524.%20Longest%20Word%20in%20Dictionary%20through%20Deleting)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/524.%20Longest%20Word%20in%20Dictionary%20through%20Deleting/longest-word-in-dictionary-through-deleting.py)|77|
-|969|[Pancake Sorting :alarm_clock:](None)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/969.%20Pancake%20Sorting)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/969.%20Pancake%20Sorting/pancake-sorting.py)|94|
+|524|[Longest Word in Dictionary through Deleting :alarm_clock:](None)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/524.%20Longest%20Word%20in%20Dictionary%20through%20Deleting)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/524.%20Longest%20Word%20in%20Dictionary%20through%20Deleting/longest-word-in-dictionary-through-deleting.py)|79|
+|969|[Pancake Sorting :alarm_clock:](None)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/969.%20Pancake%20Sorting)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/969.%20Pancake%20Sorting/pancake-sorting.py)|96|
 
 ### String
 | Id | Title | Dir | Solution | Review (days ago)|
 |----|-------|----------|-----|------------------|
-|22|[Generate Parentheses](https://leetcode.com/problems/generate-parentheses)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/22.%20Generate%20Parentheses)|[cpp](https://github.com/ggppwx/lcode/blob/master/Algorithm/22.%20Generate%20Parentheses/generate-parentheses.cpp)|2|
-|916|[Word Subsets :sos:](https://leetcode.com/problems/word-subsets/)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/916.%20Word%20Subsets)||24|
+|22|[Generate Parentheses](https://leetcode.com/problems/generate-parentheses)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/22.%20Generate%20Parentheses)|[cpp](https://github.com/ggppwx/lcode/blob/master/Algorithm/22.%20Generate%20Parentheses/generate-parentheses.cpp)|4|
+|916|[Word Subsets :sos:](https://leetcode.com/problems/word-subsets/)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/916.%20Word%20Subsets)||26|
 
 ### Tree
 | Id | Title | Dir | Solution | Review (days ago)|
 |----|-------|----------|-----|------------------|
-|94|[Binary Tree Inorder Traversal :alarm_clock:](None)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/94.%20Binary%20Tree%20Inorder%20Traversal)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/94.%20Binary%20Tree%20Inorder%20Traversal/binary-tree-inorder-traversal.py)|84|
-|230|[Kth Smallest Element in a BST :alarm_clock:](None)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/230.%20Kth%20Smallest%20Element%20in%20a%20BST)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/230.%20Kth%20Smallest%20Element%20in%20a%20BST/kth-smallest-element-in-a-bst.py)|84|
-|297|[Serialize and Deserialize Binary Tree :alarm_clock:](https://leetcode.com/problems/serialize-and-deserialize-binary-tree)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/297.%20Serialize%20and%20Deserialize%20Binary%20Tree)|[cpp](https://github.com/ggppwx/lcode/blob/master/Algorithm/297.%20Serialize%20and%20Deserialize%20Binary%20Tree/serialize-and-deserialize-binary-tree.cpp)|63|
-|508|[Most Frequent Subtree Sum](None)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/508.%20Most%20Frequent%20Subtree%20Sum)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/508.%20Most%20Frequent%20Subtree%20Sum/most-frequent-subtree-sum.py)|26|
-|543|[Diameter of Binary Tree :alarm_clock:](None)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/543.%20Diameter%20of%20Binary%20Tree)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/543.%20Diameter%20of%20Binary%20Tree/diameter-of-binary-tree.py)|84|
-|654|[Maximum Binary Tree :alarm_clock:](None)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/654.%20Maximum%20Binary%20Tree)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/654.%20Maximum%20Binary%20Tree/maximum-binary-tree.py)|91|
-|814|[Binary Tree Pruning :alarm_clock:](None)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/814.%20Binary%20Tree%20Pruning)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/814.%20Binary%20Tree%20Pruning/binary-tree-pruning.py)|63|
-|889|[Construct Binary Tree from Preorder and Postorder Traversal :alarm_clock:](None)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/889.%20Construct%20Binary%20Tree%20from%20Preorder%20and%20Postorder%20Traversal)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/889.%20Construct%20Binary%20Tree%20from%20Preorder%20and%20Postorder%20Traversal/construct-binary-tree-from-preorder-and-postorder-traversal.py)|92|
-|894|[All Possible Full Binary Trees :alarm_clock: :sos:](None)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/894.%20All%20Possible%20Full%20Binary%20Trees)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/894.%20All%20Possible%20Full%20Binary%20Trees/all-possible-full-binary-trees.py)|82|
-|951|[Flip Equivalent Binary Trees :alarm_clock:](None)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/951.%20Flip%20Equivalent%20Binary%20Trees)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/951.%20Flip%20Equivalent%20Binary%20Trees/flip-equivalent-binary-trees.py)|94|
-|979|[Distribute Coins in Binary Tree :sos:](https://leetcode.com/problems/distribute-coins-in-binary-tree)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/979.%20Distribute%20Coins%20in%20Binary%20Tree)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/979.%20Distribute%20Coins%20in%20Binary%20Tree/distribute-coins-in-binary-tree.py)|2|
+|94|[Binary Tree Inorder Traversal :alarm_clock:](None)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/94.%20Binary%20Tree%20Inorder%20Traversal)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/94.%20Binary%20Tree%20Inorder%20Traversal/binary-tree-inorder-traversal.py)|86|
+|230|[Kth Smallest Element in a BST :alarm_clock:](None)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/230.%20Kth%20Smallest%20Element%20in%20a%20BST)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/230.%20Kth%20Smallest%20Element%20in%20a%20BST/kth-smallest-element-in-a-bst.py)|86|
+|297|[Serialize and Deserialize Binary Tree :alarm_clock:](https://leetcode.com/problems/serialize-and-deserialize-binary-tree)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/297.%20Serialize%20and%20Deserialize%20Binary%20Tree)|[cpp](https://github.com/ggppwx/lcode/blob/master/Algorithm/297.%20Serialize%20and%20Deserialize%20Binary%20Tree/serialize-and-deserialize-binary-tree.cpp)|65|
+|508|[Most Frequent Subtree Sum](None)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/508.%20Most%20Frequent%20Subtree%20Sum)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/508.%20Most%20Frequent%20Subtree%20Sum/most-frequent-subtree-sum.py)|28|
+|543|[Diameter of Binary Tree :alarm_clock:](None)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/543.%20Diameter%20of%20Binary%20Tree)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/543.%20Diameter%20of%20Binary%20Tree/diameter-of-binary-tree.py)|86|
+|654|[Maximum Binary Tree :alarm_clock:](None)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/654.%20Maximum%20Binary%20Tree)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/654.%20Maximum%20Binary%20Tree/maximum-binary-tree.py)|93|
+|814|[Binary Tree Pruning :alarm_clock:](None)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/814.%20Binary%20Tree%20Pruning)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/814.%20Binary%20Tree%20Pruning/binary-tree-pruning.py)|65|
+|889|[Construct Binary Tree from Preorder and Postorder Traversal :alarm_clock:](None)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/889.%20Construct%20Binary%20Tree%20from%20Preorder%20and%20Postorder%20Traversal)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/889.%20Construct%20Binary%20Tree%20from%20Preorder%20and%20Postorder%20Traversal/construct-binary-tree-from-preorder-and-postorder-traversal.py)|94|
+|894|[All Possible Full Binary Trees :alarm_clock: :sos:](None)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/894.%20All%20Possible%20Full%20Binary%20Trees)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/894.%20All%20Possible%20Full%20Binary%20Trees/all-possible-full-binary-trees.py)|84|
+|951|[Flip Equivalent Binary Trees :alarm_clock:](None)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/951.%20Flip%20Equivalent%20Binary%20Trees)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/951.%20Flip%20Equivalent%20Binary%20Trees/flip-equivalent-binary-trees.py)|96|
+|979|[Distribute Coins in Binary Tree :sos:](https://leetcode.com/problems/distribute-coins-in-binary-tree)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/979.%20Distribute%20Coins%20in%20Binary%20Tree)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/979.%20Distribute%20Coins%20in%20Binary%20Tree/distribute-coins-in-binary-tree.py)|4|
 
 ### Trie
 | Id | Title | Dir | Solution | Review (days ago)|
 |----|-------|----------|-----|------------------|
-|208|[Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/208.%20Implement%20Trie%20%28Prefix%20Tree%29)||17|
-|720|[Longest Word in Dictionary :alarm_clock:](None)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/720.%20Longest%20Word%20in%20Dictionary)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/720.%20Longest%20Word%20in%20Dictionary/longest-word-in-dictionary.py)|82|
+|208|[Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/208.%20Implement%20Trie%20%28Prefix%20Tree%29)||19|
+|720|[Longest Word in Dictionary :alarm_clock:](None)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/720.%20Longest%20Word%20in%20Dictionary)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/720.%20Longest%20Word%20in%20Dictionary/longest-word-in-dictionary.py)|84|
 
 ### Union find
 | Id | Title | Dir | Solution | Review (days ago)|
 |----|-------|----------|-----|------------------|
-|547|[Friend Circles](None)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/547.%20Friend%20Circles)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/547.%20Friend%20Circles/friend-circles.py)|16|
-|959|[Regions Cut By Slashes](https://leetcode.com/problems/regions-cut-by-slashes)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/959.%20Regions%20Cut%20By%20Slashes)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/959.%20Regions%20Cut%20By%20Slashes/regions-cut-by-slashes.py)|16|
+|547|[Friend Circles](None)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/547.%20Friend%20Circles)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/547.%20Friend%20Circles/friend-circles.py)|17|
+|959|[Regions Cut By Slashes](https://leetcode.com/problems/regions-cut-by-slashes)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/959.%20Regions%20Cut%20By%20Slashes)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/959.%20Regions%20Cut%20By%20Slashes/regions-cut-by-slashes.py)|17|
 
 ### Untagged
 | Id | Title | Solution |
 |----|-------|----------|
 |1|[Two Sum :alarm_clock:](https://leetcode.com/problems/two-sum)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/1.%20Two%20Sum/two-sum.py)|
-|363|[Max Sum of Rectangle No Larger Than K](https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k)||
 
 
 
