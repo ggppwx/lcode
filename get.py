@@ -238,7 +238,7 @@ class ReadmeContent(object):
                         if mark == 'Help':
                             tag_text += ':sos: '
                         elif mark == 'Hard':
-                            tag_text += '<mark>Hard</mark> '
+                            tag_text += '![Hard](https://img.shields.io/badge/-Hard-red.svg) '
 
                     problem = {
                         'id': id,
