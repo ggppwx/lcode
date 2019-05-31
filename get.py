@@ -236,6 +236,8 @@ class ReadmeContent(object):
                     for mark in marks:
                         if mark == 'Help':
                             name += ' :sos:'
+                        elif mark == 'Hard':
+                            name += ' <mark>Hard</mark>'
 
                     problem = {
                         'id': id,
