@@ -26,7 +26,7 @@ class Solution:
 
 ```
 ## Tags
-
+DP
 
 ## Marks
 Hard
