@@ -189,6 +189,7 @@ class ReadmeContent(object):
                     url = None
                     solutions  = []
                     tags = []
+                    tag_text = ""
                     marks = []
                     timestamp = None
                     problem_dir_quoted = urllib.parse.quote(dir_name)
@@ -235,7 +236,9 @@ class ReadmeContent(object):
 
                     for mark in marks:
                         if mark == 'Help':
-                            name += ' :sos:'
+                            tag_text += ' :sos: '
+                        elif mark == 'Hard':
+                            tag_text += ' ![Hard](https://img.shields.io/badge/-Hard-red.svg) '
 
                     problem = {
                         'id': id,
@@ -247,7 +250,8 @@ class ReadmeContent(object):
                         'solutions' : solutions,
                         'solution_dir' : problem_dir_link,
                         'need_review' : need_review,
-                        'diff' : diff
+                        'diff' : diff,
+                        'tag_text': tag_text
                     }
 
                     self._problems.append(problem)
@@ -268,7 +272,7 @@ class ReadmeContent(object):
             table += ("|----|-------|----------|-----|------------------|\n")
             for problem in sorted(problems, key = lambda x: x['id']):
                 solution_col = "".join(["[{solution}]({solution_link})".format(**s) for s in problem['solutions']] )
-                line = "|{id}|[{name}]({url})|[dir]({solution_dir})|{}|{diff}|\n".format(solution_col, **problem)
+                line = "|{id}|[{name}]({url}) {tag_text}|[dir]({solution_dir})|{}|{diff}|\n".format(solution_col, **problem)
                 table += line
                 total_number_of_problem += 1
                 review_number_of_problem += 1 if problem['need_review'] else 0
