@@ -1,9 +1,9 @@
 # lcode
 This is a personal repo for some code
 ## Status
-![Progress](http://progressed.io/bar/48?title=Reviewed)    
+![Progress](http://progressed.io/bar/49?title=Reviewed)    
 
-Total problems: 54
+Total problems: 55
 
 Need review: 28
 
@@ -45,6 +45,7 @@ Need review: 28
 | Id | Title | Dir | Solution | Review (days ago)|
 |----|-------|----------|-----|------------------|
 |55|[Jump Game](https://leetcode.com/problems/jump-game) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/55.%20Jump%20Game)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/55.%20Jump%20Game/jump-game.py)|7|
+|63|[Unique Paths II](https://leetcode.com/problems/unique-paths-ii) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/63.%20Unique%20Paths%20II)||0|
 |152|[Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/152.%20Maximum%20Product%20Subarray)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/152.%20Maximum%20Product%20Subarray/maximum-product-subarray.py)|7|
 |213|[House Robber II :alarm_clock:](https://leetcode.com/problems/house-robber-ii) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/213.%20House%20Robber%20II)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/213.%20House%20Robber%20II/house-robber-ii.py)|89|
 |363|[Max Sum of Rectangle No Larger Than K](https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k)  ![Hard](https://img.shields.io/badge/-Hard-red.svg) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/363.%20Max%20Sum%20of%20Rectangle%20No%20Larger%20Than%20K)||2|
@@ -139,7 +140,6 @@ Need review: 28
 | Id | Title | Solution |
 |----|-------|----------|
 |1|[Two Sum](None)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/1.%20Two%20Sum/two-sum.py)|
-|63|[Unique Paths II](https://leetcode.com/problems/unique-paths-ii)||
 
 
 

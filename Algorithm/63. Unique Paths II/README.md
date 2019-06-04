@@ -24,14 +24,42 @@ There are two ways to reach the bottom-right corner:
 ```
 
 ## Analysis
+Time: O(n^2)
 
 ## Thoughts
+- typical DP problem 
+- Ask the corner case, could robot start on a obstacle ? `obstacleGrid[0][0] == 1`
+
 
 ## Solution
+```python
+class Solution:
+    def uniquePathsWithObstacles(self, obstacleGrid: List[List[int]]) -> int:        
+        m = len(obstacleGrid)
+        n = len(obstacleGrid[0])
+        path = [[0 for _ in range(n)] for _ in range(m)]
+        for i in range(m):
+            for j in range(n):                    
+                if obstacleGrid[i][j] == 1:
+                    path[i][j] = 0
+                elif i == 0 and j == 0:
+                    path[i][j] = 1
+                elif i == 0:
+                    path[i][j] = path[i][j-1]
+                elif j == 0:
+                    path[i][j] = path[i-1][j]
+                else:
+                    path[i][j] = path[i-1][j] + path[i][j-1]
+
+        return path[m-1][n-1]
+
+  
+```
 
 ## Tags
+DP
 
 
 ## Marks
 
-[comment]: <timestamp:>
+[comment]: <timestamp:2019-06-03>
