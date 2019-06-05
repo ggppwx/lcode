@@ -45,8 +45,23 @@ costs.length == 3
 ```
 
 ## Analysis
+Time: O(N)
 
 ## Thoughts
+- looking at keywords for DP
+  - **consecutive**
+  - **minimum**
+- thinking about the brute force first.
+  - obviously for each day, we have 3 choices, so the state function should be
+    find the minimum bewtween three cases
+  - directly using index of days is not that straight-foward. so why not using 
+    the actual day `days[i]` as the state index ? ( there are only 365 days. it's a hint)
+- By example:
+  ```
+  1, 3, 8 => dp(8) = dp(8-1) + 2, let's say since 7 is not in days, if we chose 1 day pass to cover
+  day 8, the total dp(8) = dp(3) + 2
+  ```
+- the state dp(i) => the minimum cost to cover day i 
 
 ## Solution
 ```python
@@ -54,7 +69,8 @@ class Solution:
     def mincostTickets(self, days: List[int], costs: List[int]) -> int:        
         days_set = set(days)
         DP = [0] * 366
-        for i in range(1, 366):
+        max_num = days[len(days)-1]
+        for i in range(1, max_num + 1):
             if i not in days_set:
                 DP[i] = DP[i-1]
                 continue
@@ -64,15 +80,15 @@ class Solution:
             tmp2 = DP[i-7] + costs[1] if i >=7 else costs[1]
             tmp3 = DP[i-30] + costs[2] if i >=30 else costs[2]
             DP[i] = min(tmp1, tmp2, tmp3)
-
+        return DP[max_num]
 
 
 
 ```
 
 ## Tags
-
+DP
 
 ## Marks
 
-[comment]: <timestamp:>
+[comment]: <timestamp:2019-06-04>

@@ -66,6 +66,10 @@ class Solution:
         return result 
 
 ```
+better solution:
+```python
+
+```
 
 ## Tags
 DP
@@ -73,4 +77,4 @@ DP
 ## Marks
 Hard
 
-[comment]: <timestamp:2019-06-01>
+[comment]: <timestamp:2019-06-04>
