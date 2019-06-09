@@ -26,6 +26,14 @@ Time
   BFS is the brute force 
 - Greedy solution is to update the farthest positon, but only increase the step when 
   reaching the farthest position it sets before 
+- At most we have N steps, N = len(nums)
+    ```
+    end = max jump index for step i 
+    So for step 1, it can only reach end = nums[0]
+    BUT, for step 2, it would be end = max(furthest(1) .. farthest(end))
+    Since we need to calculate the steps, we only need to calculate when
+    i == end 
+    ```
 
 ## Solution
 BFS: time limit exceeded 
@@ -51,8 +59,10 @@ class Solution:
         farthest = 0 
         steps = 0
         for idx in range(len(nums) - 1):
-            farthest = max(farthest, idx + nums[idx] )
+            # get furthest
+            farthest = max(farthest, idx + nums[idx] ) 
             if idx == end: # end < len(nums) - 1
+                # only when count step of when it reaches the end
                 steps += 1
                 end = farthest
         return steps 
@@ -64,4 +74,4 @@ class Solution:
 ## Marks
 Help
 
-[comment]: <timestamp:2019-05-08>
+[comment]: <timestamp:2019-06-09>
