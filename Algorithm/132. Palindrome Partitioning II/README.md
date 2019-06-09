@@ -1,0 +1,77 @@
+# Problem
+[Palindrome Partitioning II](https://leetcode.com/problems/palindrome-partitioning-ii)
+
+Given a string s, partition s such that every substring of the partition is a palindrome.
+Return the minimum cuts needed for a palindrome partitioning of s.
+
+Example:
+```
+Input: "aab"
+Output: 1
+Explanation: The palindrome partitioning ["aa","b"] could be produced using 1 cut.
+```
+## Analysis
+Time: O(N^2), so 
+
+## Thoughts
+- Using DP to find the palindrome table DP(i,j)
+- another DP from (0, length) 
+    - similar to MinCost DP problem. 
+    - Get the previous index starting from 0 to current **itself** , then find the minium
+    - constructing DP table requires O(N^2) so no need to optimize this second pass 
+- 居然做了两小时，中间被想到了另一道panlindrom, 但是显然那不是同一道题
+    - Longest Palindromic Substring: ( step 1 in this problem )
+    - Longest Palindromic Subsequence: aaba => aaa => 3
+
+## Solution
+```python
+class Solution:
+    def minCut(self, s: str) -> int:
+        # DP to find palindrome, DP = is palindrome        
+        # DP(i, j ) = DP (i + 1, j -1) if s[i] == s[j]
+        length = len(s)
+        dp = [[None for _ in range(length)] for _ in range(length)]
+        for k in range(length):
+            for i in range(length):                
+                j = i + k
+                if j >= length:
+                    break
+
+                if k == 0:
+                    # i == j
+                    dp[i][j] = True
+                    continue
+                if k == 1:
+                    dp[i][j] = (s[i] == s[j])
+                    continue                
+
+                dp[i][j]  = dp[i+1][j-1] and (s[i] == s[j])
+        
+        # now we have the palindrome table 
+        mincut = [10000000] * length
+        for current, c in enumerate(s):
+            if current == 0:
+                mincut[current] = 0
+                continue
+            for before in range(0, current+1):
+                if dp[before][current] == True:
+                    tmp = 0
+                    if before > 0:
+                        tmp = mincut[before - 1] + 1
+                    mincut[current] = min(mincut[current], tmp)            
+
+
+        return mincut[length -1]
+            
+
+
+
+```
+
+## Tags
+DP
+
+## Marks
+Hard
+
+[comment]: <timestamp:>
