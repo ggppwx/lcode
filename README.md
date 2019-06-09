@@ -1,11 +1,11 @@
 # lcode
 This is a personal repo for some code
 ## Status
-![Progress](http://progressed.io/bar/56?title=Reviewed)    
+![Progress](http://progressed.io/bar/61?title=Reviewed)    
 
 Total problems: 57
 
-Need review: 25
+Need review: 22
 
 
 ## problem table
@@ -66,8 +66,8 @@ Need review: 25
 ### Graph
 | Id | Title | Dir | Solution | Review (days ago)|
 |----|-------|----------|-----|------------------|
-|802|[Find Eventual Safe States :alarm_clock:](https://leetcode.com/problems/find-eventual-safe-states) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/802.%20Find%20Eventual%20Safe%20States)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/802.%20Find%20Eventual%20Safe%20States/find-eventual-safe-states.py)|99|
-|959|[Regions Cut By Slashes :alarm_clock:](https://leetcode.com/problems/regions-cut-by-slashes) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/959.%20Regions%20Cut%20By%20Slashes)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/959.%20Regions%20Cut%20By%20Slashes/regions-cut-by-slashes.py)|87|
+|802|[Find Eventual Safe States](https://leetcode.com/problems/find-eventual-safe-states) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/802.%20Find%20Eventual%20Safe%20States)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/802.%20Find%20Eventual%20Safe%20States/find-eventual-safe-states.py)|0|
+|959|[Regions Cut By Slashes](https://leetcode.com/problems/regions-cut-by-slashes) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/959.%20Regions%20Cut%20By%20Slashes)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/959.%20Regions%20Cut%20By%20Slashes/regions-cut-by-slashes.py)|0|
 
 ### Greedy
 | Id | Title | Dir | Solution | Review (days ago)|
@@ -136,7 +136,7 @@ Need review: 25
 | Id | Title | Dir | Solution | Review (days ago)|
 |----|-------|----------|-----|------------------|
 |547|[Friend Circles :alarm_clock:](None) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/547.%20Friend%20Circles)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/547.%20Friend%20Circles/friend-circles.py)|75|
-|959|[Regions Cut By Slashes :alarm_clock:](https://leetcode.com/problems/regions-cut-by-slashes) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/959.%20Regions%20Cut%20By%20Slashes)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/959.%20Regions%20Cut%20By%20Slashes/regions-cut-by-slashes.py)|87|
+|959|[Regions Cut By Slashes](https://leetcode.com/problems/regions-cut-by-slashes) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/959.%20Regions%20Cut%20By%20Slashes)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/959.%20Regions%20Cut%20By%20Slashes/regions-cut-by-slashes.py)|0|
 
 ### Untagged
 | Id | Title | Solution |
