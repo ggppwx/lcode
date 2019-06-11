@@ -1,7 +1,7 @@
 #!/bin/bash
 
 timestamp=`date +%Y-%m-%d`
-
+git config --global core.autocrlf true
 git diff HEAD --name-only | while read -r line ; do    
     if [[ $line =~ .*\.py$ ]] || [[ $line =~ .*\.cpp$ ]] || [[ $line =~ .*\.md$ ]]; then
         target_file=`echo $line | sed  "s/\/[^\/]*$/\/README.md/"`
