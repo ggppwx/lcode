@@ -27,16 +27,51 @@ N  will be in range [1, 1000].
 ## Analysis
 
 ## Thoughts
+- Sovling the problem by example.
+```
+XXX
+XXX
+Use P(3,3) to indicate the 2 * 3 board 
+P(3,3) = P(2,2) + P(1,2) + P(2,1) + P(1,1) + P(1,1)
+
+```
+
 
 ## Solution
 ```python
 class Solution:
     def numTilings(self, N: int) -> int:
+        if N == 0:
+            return 0
+        if N == 1:
+            return 1
         
+        P = [[0 for _ in range(l+1)] for _ in range(l+1)]
+        P[0][0] = 1
+        P[0][1] = 0
+        P[1][0] = 0
+        P[1][1] = 1
+        P[1][2] = 1
+        P[2][1] = 1
+        for i in range(2,N+1):
+            for j in range(2, N+1):
+                if abs(i - j) >= 2:
+                    P[i][j] = 0
+                    continue
+                if abs(i-j) == 1:
+                    if i > j:
+                        P[i][j] = P[i-2][j-1] + P[i-2][j]
+                    else:
+                        P[i][j] = P[i-1][j-2] + P[i][j-2]
+                    continue
+                P[i][j] = P[i-1][j-1] + P[i-2][j-2] + P[i-1][j-2] + P[i-2][j-1]
+
+        return P[N][N] % (10**9 + 7)    
 ```
 ## Tags
-
+DP
 
 ## Marks
+Help
 
 [comment]: <timestamp:>
