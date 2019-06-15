@@ -1,11 +1,11 @@
 # lcode
 This is a personal repo for some code
 ## Status
-![Progress](http://progressed.io/bar/64?title=Reviewed)    
+![Progress](http://progressed.io/bar/67?title=Reviewed)    
 
 Total problems: 59
 
-Need review: 21
+Need review: 19
 
 
 ## problem table
@@ -121,8 +121,8 @@ Need review: 21
 |297|[Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/297.%20Serialize%20and%20Deserialize%20Binary%20Tree)|[cpp](https://github.com/ggppwx/lcode/blob/master/Algorithm/297.%20Serialize%20and%20Deserialize%20Binary%20Tree/serialize-and-deserialize-binary-tree.cpp)|0|
 |508|[Most Frequent Subtree Sum :alarm_clock:](https://leetcode.com/problems/most-frequent-subtree-sum) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/508.%20Most%20Frequent%20Subtree%20Sum)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/508.%20Most%20Frequent%20Subtree%20Sum/most-frequent-subtree-sum.py)|44|
 |543|[Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/543.%20Diameter%20of%20Binary%20Tree)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/543.%20Diameter%20of%20Binary%20Tree/diameter-of-binary-tree.py)|0|
-|654|[Maximum Binary Tree :alarm_clock:](https://leetcode.com/problems/maximum-binary-tree) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/654.%20Maximum%20Binary%20Tree)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/654.%20Maximum%20Binary%20Tree/maximum-binary-tree.py)|109|
-|814|[Binary Tree Pruning :alarm_clock:](None) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/814.%20Binary%20Tree%20Pruning)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/814.%20Binary%20Tree%20Pruning/binary-tree-pruning.py)|81|
+|654|[Maximum Binary Tree](https://leetcode.com/problems/maximum-binary-tree) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/654.%20Maximum%20Binary%20Tree)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/654.%20Maximum%20Binary%20Tree/maximum-binary-tree.py)|0|
+|814|[Binary Tree Pruning](https://leetcode.com/problems/binary-tree-pruning) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/814.%20Binary%20Tree%20Pruning)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/814.%20Binary%20Tree%20Pruning/binary-tree-pruning.py)|0|
 |889|[Construct Binary Tree from Preorder and Postorder Traversal :alarm_clock:](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/889.%20Construct%20Binary%20Tree%20from%20Preorder%20and%20Postorder%20Traversal)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/889.%20Construct%20Binary%20Tree%20from%20Preorder%20and%20Postorder%20Traversal/construct-binary-tree-from-preorder-and-postorder-traversal.py)|110|
 |894|[All Possible Full Binary Trees :alarm_clock:](None)  :sos: |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/894.%20All%20Possible%20Full%20Binary%20Trees)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/894.%20All%20Possible%20Full%20Binary%20Trees/all-possible-full-binary-trees.py)|100|
 |951|[Flip Equivalent Binary Trees :alarm_clock:](https://leetcode.com/problems/flip-equivalent-binary-trees) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/951.%20Flip%20Equivalent%20Binary%20Trees)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/951.%20Flip%20Equivalent%20Binary%20Trees/flip-equivalent-binary-trees.py)|112|
