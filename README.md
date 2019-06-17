@@ -1,11 +1,11 @@
 # lcode
 This is a personal repo for some code
 ## Status
-![Progress](http://progressed.io/bar/70?title=Reviewed)    
+![Progress](http://progressed.io/bar/71?title=Reviewed)    
 
 Total problems: 60
 
-Need review: 18
+Need review: 17
 
 
 ## problem table
@@ -94,7 +94,7 @@ Need review: 18
 | Id | Title | Dir | Solution | Review (days ago)|
 |----|-------|----------|-----|------------------|
 |698|[Partition to K Equal Sum Subsets](https://leetcode.com/problems/partition-to-k-equal-sum-subsets) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/698.%20Partition%20to%20K%20Equal%20Sum%20Subsets)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/698.%20Partition%20to%20K%20Equal%20Sum%20Subsets/partition-to-k-equal-sum-subsets.py)|0|
-|779|[K-th Symbol in Grammar :alarm_clock:](None) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/779.%20K-th%20Symbol%20in%20Grammar)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/779.%20K-th%20Symbol%20in%20Grammar/k-th-symbol-in-grammar.py)|113|
+|779|[K-th Symbol in Grammar](https://leetcode.com/problems/k-th-symbol-in-grammar) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/779.%20K-th%20Symbol%20in%20Grammar)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/779.%20K-th%20Symbol%20in%20Grammar/k-th-symbol-in-grammar.py)|0|
 |894|[All Possible Full Binary Trees :alarm_clock:](None)  :sos: |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/894.%20All%20Possible%20Full%20Binary%20Trees)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/894.%20All%20Possible%20Full%20Binary%20Trees/all-possible-full-binary-trees.py)|101|
 
 ### Sliding window
