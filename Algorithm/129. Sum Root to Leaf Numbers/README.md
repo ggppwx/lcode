@@ -36,53 +36,14 @@ Therefore, sum = 495 + 491 + 40 = 1026.
 ```
 
 ## Analysis
-- Time: O(N)
-  
+
 ## Thoughts
-- Simple DFS
-- Be ware of only checking leaf node.
-  - if check `none` node, the result will be repeatly added 
 
 ## Solution
-```python
-# Definition for a binary tree node.
-# class TreeNode:
-#     def __init__(self, x):
-#         self.val = x
-#         self.left = None
-#         self.right = None
-
-class Solution:
-    def sumNumbers(self, root: TreeNode) -> int:
-        self.result = 0
-
-        def dfs(node, pre):
-            if not node:
-                # previous node is leaf                
-                return
-                        
-            curr = pre * 10 + node.val
-
-            if not node.left and not node.right: 
-                # leaf node
-                self.result += curr
-                return 
-
-            dfs(node.left, curr)
-            dfs(node.right, curr)
-        
-        dfs(root, 0)
-
-        return self.result 
-
-
-
-
-```
 
 ## Tags
-Tree
+
 
 ## Marks
 
-[comment]: <timestamp:2019-06-20>
+[comment]: <timestamp:>
