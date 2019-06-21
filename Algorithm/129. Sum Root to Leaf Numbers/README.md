@@ -73,10 +73,7 @@ class Solution:
         
         dfs(root, 0)
 
-        return self.result 
-
-
-
+        return self.result
 
 ```
 
