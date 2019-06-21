@@ -3,7 +3,7 @@ This is a personal repo for some code
 ## Status
 ![Progress](http://progressed.io/bar/70?title=Reviewed)    
 
-Total problems: 61
+Total problems: 62
 
 Need review: 18
 
@@ -27,7 +27,7 @@ Need review: 18
 | Id | Title | Dir | Solution | Review (days ago)|
 |----|-------|----------|-----|------------------|
 |22|[Generate Parentheses](https://leetcode.com/problems/generate-parentheses) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/22.%20Generate%20Parentheses)|[cpp](https://github.com/ggppwx/lcode/blob/master/Algorithm/22.%20Generate%20Parentheses/generate-parentheses.cpp)|25|
-|698|[Partition to K Equal Sum Subsets](https://leetcode.com/problems/partition-to-k-equal-sum-subsets) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/698.%20Partition%20to%20K%20Equal%20Sum%20Subsets)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/698.%20Partition%20to%20K%20Equal%20Sum%20Subsets/partition-to-k-equal-sum-subsets.py)|4|
+|698|[Partition to K Equal Sum Subsets](https://leetcode.com/problems/partition-to-k-equal-sum-subsets) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/698.%20Partition%20to%20K%20Equal%20Sum%20Subsets)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/698.%20Partition%20to%20K%20Equal%20Sum%20Subsets/partition-to-k-equal-sum-subsets.py)|0|
 
 ### Binary search
 | Id | Title | Dir | Solution | Review (days ago)|
@@ -53,7 +53,7 @@ Need review: 18
 |363|[Max Sum of Rectangle No Larger Than K](https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k)  ![Hard](https://img.shields.io/badge/-Hard-red.svg) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/363.%20Max%20Sum%20of%20Rectangle%20No%20Larger%20Than%20K)||16|
 |464|[Can I Win](https://leetcode.com/problems/can-i-win) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/464.%20Can%20I%20Win)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/464.%20Can%20I%20Win/can-i-win.py)|10|
 |486|[Predict the Winner](https://leetcode.com/problems/predict-the-winner) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/486.%20Predict%20the%20Winner)|[cpp](https://github.com/ggppwx/lcode/blob/master/Algorithm/486.%20Predict%20the%20Winner/predict-the-winner.cpp)|10|
-|790|[Domino and Tromino Tiling](https://leetcode.com/problems/domino-and-tromino-tiling)  :sos: |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/790.%20Domino%20and%20Tromino%20Tiling)||6|
+|790|[Domino and Tromino Tiling](https://leetcode.com/problems/domino-and-tromino-tiling)  :sos: |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/790.%20Domino%20and%20Tromino%20Tiling)||0|
 |823|[Binary Trees With Factors](https://leetcode.com/problems/binary-trees-with-factors) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/823.%20Binary%20Trees%20With%20Factors)||10|
 |873|[Length of Longest Fibonacci Subsequence](https://leetcode.com/problems/length-of-longest-fibonacci-subsequence) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/873.%20Length%20of%20Longest%20Fibonacci%20Subsequence)||28|
 |983|[Minimum Cost For Tickets](https://leetcode.com/problems/minimum-cost-for-tickets) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/983.%20Minimum%20Cost%20For%20Tickets)||16|
@@ -76,7 +76,7 @@ Need review: 18
 | Id | Title | Dir | Solution | Review (days ago)|
 |----|-------|----------|-----|------------------|
 |45|[Jump Game II](https://leetcode.com/problems/jump-game-ii)  :sos: |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/45.%20Jump%20Game%20II)||10|
-|659|[Split Array into Consecutive Subsequences :alarm_clock:](None) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/659.%20Split%20Array%20into%20Consecutive%20Subsequences)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/659.%20Split%20Array%20into%20Consecutive%20Subsequences/split-array-into-consecutive-subsequences.py)|82|
+|659|[Split Array into Consecutive Subsequences :alarm_clock:](https://leetcode.com/problems/split-array-into-consecutive-subsequences) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/659.%20Split%20Array%20into%20Consecutive%20Subsequences)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/659.%20Split%20Array%20into%20Consecutive%20Subsequences/split-array-into-consecutive-subsequences.py)|82|
 |955|[Delete Columns to Make Sorted II](https://leetcode.com/problems/delete-columns-to-make-sorted-ii)  :sos: |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/955.%20Delete%20Columns%20to%20Make%20Sorted%20II)||0|
 |1024|[Video Stitching :alarm_clock:](https://leetcode.com/problems/video-stitching) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/1024.%20Video%20Stitching)||36|
 
@@ -94,19 +94,19 @@ Need review: 18
 ### Recursion
 | Id | Title | Dir | Solution | Review (days ago)|
 |----|-------|----------|-----|------------------|
-|698|[Partition to K Equal Sum Subsets](https://leetcode.com/problems/partition-to-k-equal-sum-subsets) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/698.%20Partition%20to%20K%20Equal%20Sum%20Subsets)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/698.%20Partition%20to%20K%20Equal%20Sum%20Subsets/partition-to-k-equal-sum-subsets.py)|4|
-|779|[K-th Symbol in Grammar](https://leetcode.com/problems/k-th-symbol-in-grammar) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/779.%20K-th%20Symbol%20in%20Grammar)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/779.%20K-th%20Symbol%20in%20Grammar/k-th-symbol-in-grammar.py)|4|
+|698|[Partition to K Equal Sum Subsets](https://leetcode.com/problems/partition-to-k-equal-sum-subsets) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/698.%20Partition%20to%20K%20Equal%20Sum%20Subsets)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/698.%20Partition%20to%20K%20Equal%20Sum%20Subsets/partition-to-k-equal-sum-subsets.py)|0|
+|779|[K-th Symbol in Grammar](https://leetcode.com/problems/k-th-symbol-in-grammar) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/779.%20K-th%20Symbol%20in%20Grammar)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/779.%20K-th%20Symbol%20in%20Grammar/k-th-symbol-in-grammar.py)|0|
 |894|[All Possible Full Binary Trees :alarm_clock:](None)  :sos: |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/894.%20All%20Possible%20Full%20Binary%20Trees)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/894.%20All%20Possible%20Full%20Binary%20Trees/all-possible-full-binary-trees.py)|105|
 
 ### Sliding window
 | Id | Title | Dir | Solution | Review (days ago)|
 |----|-------|----------|-----|------------------|
-|3|[Longest Substring Without Repeating Characters :alarm_clock:](https://leetcode.com/problems/longest-substring-without-repeating-characters) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/3.%20Longest%20Substring%20Without%20Repeating%20Characters)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/3.%20Longest%20Substring%20Without%20Repeating%20Characters/longest-substring-without-repeating-characters.py)|86|
+|3|[Longest Substring Without Repeating Characters :alarm_clock:](None) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/3.%20Longest%20Substring%20Without%20Repeating%20Characters)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/3.%20Longest%20Substring%20Without%20Repeating%20Characters/longest-substring-without-repeating-characters.py)|86|
 
 ### Sort
 | Id | Title | Dir | Solution | Review (days ago)|
 |----|-------|----------|-----|------------------|
-|524|[Longest Word in Dictionary through Deleting :alarm_clock:](https://leetcode.com/problems/longest-word-in-dictionary-through-deleting) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/524.%20Longest%20Word%20in%20Dictionary%20through%20Deleting)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/524.%20Longest%20Word%20in%20Dictionary%20through%20Deleting/longest-word-in-dictionary-through-deleting.py)|100|
+|524|[Longest Word in Dictionary through Deleting :alarm_clock:](None) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/524.%20Longest%20Word%20in%20Dictionary%20through%20Deleting)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/524.%20Longest%20Word%20in%20Dictionary%20through%20Deleting/longest-word-in-dictionary-through-deleting.py)|100|
 |969|[Pancake Sorting :alarm_clock:](None) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/969.%20Pancake%20Sorting)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/969.%20Pancake%20Sorting/pancake-sorting.py)|117|
 
 ### String
@@ -118,35 +118,35 @@ Need review: 18
 ### Tree
 | Id | Title | Dir | Solution | Review (days ago)|
 |----|-------|----------|-----|------------------|
-|94|[Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/94.%20Binary%20Tree%20Inorder%20Traversal)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/94.%20Binary%20Tree%20Inorder%20Traversal/binary-tree-inorder-traversal.py)|5|
-|230|[Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/230.%20Kth%20Smallest%20Element%20in%20a%20BST)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/230.%20Kth%20Smallest%20Element%20in%20a%20BST/kth-smallest-element-in-a-bst.py)|5|
-|297|[Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/297.%20Serialize%20and%20Deserialize%20Binary%20Tree)|[cpp](https://github.com/ggppwx/lcode/blob/master/Algorithm/297.%20Serialize%20and%20Deserialize%20Binary%20Tree/serialize-and-deserialize-binary-tree.cpp)|5|
-|508|[Most Frequent Subtree Sum :alarm_clock:](https://leetcode.com/problems/most-frequent-subtree-sum) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/508.%20Most%20Frequent%20Subtree%20Sum)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/508.%20Most%20Frequent%20Subtree%20Sum/most-frequent-subtree-sum.py)|49|
-|543|[Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/543.%20Diameter%20of%20Binary%20Tree)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/543.%20Diameter%20of%20Binary%20Tree/diameter-of-binary-tree.py)|5|
-|654|[Maximum Binary Tree](https://leetcode.com/problems/maximum-binary-tree) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/654.%20Maximum%20Binary%20Tree)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/654.%20Maximum%20Binary%20Tree/maximum-binary-tree.py)|5|
-|814|[Binary Tree Pruning](https://leetcode.com/problems/binary-tree-pruning) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/814.%20Binary%20Tree%20Pruning)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/814.%20Binary%20Tree%20Pruning/binary-tree-pruning.py)|5|
-|889|[Construct Binary Tree from Preorder and Postorder Traversal :alarm_clock:](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/889.%20Construct%20Binary%20Tree%20from%20Preorder%20and%20Postorder%20Traversal)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/889.%20Construct%20Binary%20Tree%20from%20Preorder%20and%20Postorder%20Traversal/construct-binary-tree-from-preorder-and-postorder-traversal.py)|115|
+|94|[Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/94.%20Binary%20Tree%20Inorder%20Traversal)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/94.%20Binary%20Tree%20Inorder%20Traversal/binary-tree-inorder-traversal.py)|0|
+|129|[Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/129.%20Sum%20Root%20to%20Leaf%20Numbers)||0|
+|230|[Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/230.%20Kth%20Smallest%20Element%20in%20a%20BST)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/230.%20Kth%20Smallest%20Element%20in%20a%20BST/kth-smallest-element-in-a-bst.py)|0|
+|297|[Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/297.%20Serialize%20and%20Deserialize%20Binary%20Tree)|[cpp](https://github.com/ggppwx/lcode/blob/master/Algorithm/297.%20Serialize%20and%20Deserialize%20Binary%20Tree/serialize-and-deserialize-binary-tree.cpp)|0|
+|508|[Most Frequent Subtree Sum :alarm_clock:](None) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/508.%20Most%20Frequent%20Subtree%20Sum)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/508.%20Most%20Frequent%20Subtree%20Sum/most-frequent-subtree-sum.py)|49|
+|543|[Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/543.%20Diameter%20of%20Binary%20Tree)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/543.%20Diameter%20of%20Binary%20Tree/diameter-of-binary-tree.py)|0|
+|654|[Maximum Binary Tree](https://leetcode.com/problems/maximum-binary-tree) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/654.%20Maximum%20Binary%20Tree)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/654.%20Maximum%20Binary%20Tree/maximum-binary-tree.py)|0|
+|814|[Binary Tree Pruning](https://leetcode.com/problems/binary-tree-pruning) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/814.%20Binary%20Tree%20Pruning)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/814.%20Binary%20Tree%20Pruning/binary-tree-pruning.py)|0|
+|889|[Construct Binary Tree from Preorder and Postorder Traversal :alarm_clock:](None) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/889.%20Construct%20Binary%20Tree%20from%20Preorder%20and%20Postorder%20Traversal)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/889.%20Construct%20Binary%20Tree%20from%20Preorder%20and%20Postorder%20Traversal/construct-binary-tree-from-preorder-and-postorder-traversal.py)|115|
 |894|[All Possible Full Binary Trees :alarm_clock:](None)  :sos: |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/894.%20All%20Possible%20Full%20Binary%20Trees)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/894.%20All%20Possible%20Full%20Binary%20Trees/all-possible-full-binary-trees.py)|105|
-|951|[Flip Equivalent Binary Trees :alarm_clock:](https://leetcode.com/problems/flip-equivalent-binary-trees) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/951.%20Flip%20Equivalent%20Binary%20Trees)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/951.%20Flip%20Equivalent%20Binary%20Trees/flip-equivalent-binary-trees.py)|117|
+|951|[Flip Equivalent Binary Trees :alarm_clock:](None) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/951.%20Flip%20Equivalent%20Binary%20Trees)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/951.%20Flip%20Equivalent%20Binary%20Trees/flip-equivalent-binary-trees.py)|117|
 |979|[Distribute Coins in Binary Tree](https://leetcode.com/problems/distribute-coins-in-binary-tree)  :sos: |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/979.%20Distribute%20Coins%20in%20Binary%20Tree)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/979.%20Distribute%20Coins%20in%20Binary%20Tree/distribute-coins-in-binary-tree.py)|25|
 
 ### Trie
 | Id | Title | Dir | Solution | Review (days ago)|
 |----|-------|----------|-----|------------------|
 |208|[Implement Trie (Prefix Tree) :alarm_clock:](https://leetcode.com/problems/implement-trie-prefix-tree) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/208.%20Implement%20Trie%20%28Prefix%20Tree%29)||40|
-|720|[Longest Word in Dictionary :alarm_clock:](https://leetcode.com/problems/longest-word-in-dictionary) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/720.%20Longest%20Word%20in%20Dictionary)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/720.%20Longest%20Word%20in%20Dictionary/longest-word-in-dictionary.py)|105|
+|720|[Longest Word in Dictionary :alarm_clock:](None) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/720.%20Longest%20Word%20in%20Dictionary)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/720.%20Longest%20Word%20in%20Dictionary/longest-word-in-dictionary.py)|105|
 
 ### Union find
 | Id | Title | Dir | Solution | Review (days ago)|
 |----|-------|----------|-----|------------------|
-|547|[Friend Circles :alarm_clock:](None) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/547.%20Friend%20Circles)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/547.%20Friend%20Circles/friend-circles.py)|64|
+|547|[Friend Circles :alarm_clock:](None) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/547.%20Friend%20Circles)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/547.%20Friend%20Circles/friend-circles.py)|39|
 |959|[Regions Cut By Slashes](https://leetcode.com/problems/regions-cut-by-slashes) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/959.%20Regions%20Cut%20By%20Slashes)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/959.%20Regions%20Cut%20By%20Slashes/regions-cut-by-slashes.py)|10|
 
 ### Untagged
 | Id | Title | Solution |
 |----|-------|----------|
-|129|[Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers)||
-|1|[Two Sum](None)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/1.%20Two%20Sum/two-sum.py)|
+|1|[Two Sum](https://leetcode.com/problems/two-sum)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/1.%20Two%20Sum/two-sum.py)|
 
 
 
