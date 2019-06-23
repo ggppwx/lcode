@@ -1,11 +1,11 @@
 # lcode
 This is a personal repo for some code
 ## Status
-![Progress](http://progressed.io/bar/77?title=Reviewed)    
+![Progress](http://progressed.io/bar/80?title=Reviewed)    
 
 Total problems: 62
 
-Need review: 14
+Need review: 12
 
 
 ## problem table
@@ -106,8 +106,8 @@ Need review: 14
 ### Sort
 | Id | Title | Dir | Solution | Review (days ago)|
 |----|-------|----------|-----|------------------|
-|524|[Longest Word in Dictionary through Deleting :alarm_clock:](https://leetcode.com/problems/longest-word-in-dictionary-through-deleting) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/524.%20Longest%20Word%20in%20Dictionary%20through%20Deleting)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/524.%20Longest%20Word%20in%20Dictionary%20through%20Deleting/longest-word-in-dictionary-through-deleting.py)|103|
-|969|[Pancake Sorting :alarm_clock:](None) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/969.%20Pancake%20Sorting)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/969.%20Pancake%20Sorting/pancake-sorting.py)|120|
+|524|[Longest Word in Dictionary through Deleting](https://leetcode.com/problems/longest-word-in-dictionary-through-deleting) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/524.%20Longest%20Word%20in%20Dictionary%20through%20Deleting)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/524.%20Longest%20Word%20in%20Dictionary%20through%20Deleting/longest-word-in-dictionary-through-deleting.py)|0|
+|969|[Pancake Sorting](https://leetcode.com/problems/pancake-sorting) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/969.%20Pancake%20Sorting)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/969.%20Pancake%20Sorting/pancake-sorting.py)|0|
 
 ### String
 | Id | Title | Dir | Solution | Review (days ago)|
