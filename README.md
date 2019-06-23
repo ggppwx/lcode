@@ -1,11 +1,11 @@
 # lcode
 This is a personal repo for some code
 ## Status
-![Progress](http://progressed.io/bar/75?title=Reviewed)    
+![Progress](http://progressed.io/bar/77?title=Reviewed)    
 
 Total problems: 62
 
-Need review: 15
+Need review: 14
 
 
 ## problem table
@@ -101,7 +101,7 @@ Need review: 15
 ### Sliding window
 | Id | Title | Dir | Solution | Review (days ago)|
 |----|-------|----------|-----|------------------|
-|3|[Longest Substring Without Repeating Characters :alarm_clock:](https://leetcode.com/problems/longest-substring-without-repeating-characters) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/3.%20Longest%20Substring%20Without%20Repeating%20Characters)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/3.%20Longest%20Substring%20Without%20Repeating%20Characters/longest-substring-without-repeating-characters.py)|89|
+|3|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/3.%20Longest%20Substring%20Without%20Repeating%20Characters)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/3.%20Longest%20Substring%20Without%20Repeating%20Characters/longest-substring-without-repeating-characters.py)|0|
 
 ### Sort
 | Id | Title | Dir | Solution | Review (days ago)|
