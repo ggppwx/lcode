@@ -25,6 +25,7 @@ Time: O(N)
 - Simple Trie problem, Create a **helper data structure**
   - It's very useful, for example `linkList` data structure has private class `Node`
 - Thinking to create your own API ?
+- As we can see here, one benefits to use Trie is it's easy to find the **prefix**
 
 
 ## Solution
@@ -101,4 +102,4 @@ Trie
 
 ## Marks
 
-[comment]: <timestamp:2019-05-11>
+[comment]: <timestamp:2019-07-06>
