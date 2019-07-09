@@ -18,9 +18,67 @@ Return the minimum possible height that the total bookshelf can be after placing
 
 ## Solution
 
-## Tags
+Brute force: 
+DP
+```python
+class Solution:
+    def minHeightShelves(self, books: List[List[int]], shelf_width: int) -> int:
+        # dp(i) = the min height ending with i, i is the end block 
+        if not books:
+            return 0
 
+        dp = [0] * len(books)
+        dp[0] = books[0][1]
+        for i in range(1, len(books)):
+            current_max_height  =0 
+            width = 0
+            tmp = 100000000
+            for j in range(i, -1,-1): # j from i -> 0
+                # if current level is [j, i]
+                current_book = books[j]
+                width += current_book[0]
+                if width <= shelf_width:
+                    current_max_height = max(current_max_height, current_book[1])
+                    dp_j_1 = dp[j-1] if j > 0 else 0
+                    tmp = min(tmp, dp_j_1 + current_max_height )
+
+            dp[i] = tmp
+
+        return dp[len(books)-1]
+```
+
+
+
+```python
+class Solution:
+    def minHeightShelves(self, books: List[List[int]], shelf_width: int) -> int:
+        self.result = 1000000000
+        def gen(i, current_width, current_height, pre_level_total_height):
+            if current_height + pre_level_total_height > self.result:
+                return
+
+            if i == len(books):
+                # exceeding last book 
+                self.result = min( self.result, pre_level_total_height + current_height)
+                return 
+
+
+            book = books[i]
+            if current_width + book[0] <= shelf_width:
+                # put into the same level 
+                new_current_height = max(current_height, book[1])
+                gen(i+1, current_width + book[0], new_current_height, pre_level_total_height )
+
+            # new level 
+            gen(i+1, book[0], book[1], pre_level_total_height + current_height)
+
+        gen(0, 0, 0, 0)
+        return self.result
+```
+## Tags
+DP
 
 ## Marks
+Help
 
-[comment]: <timestamp:>
+[comment]: <timestamp:2019-07-08>
