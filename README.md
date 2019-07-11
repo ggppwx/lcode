@@ -1,9 +1,9 @@
 # lcode
 This is a personal repo for some code
 ## Status
-![Progress](http://progressed.io/bar/41?title=Reviewed)    
+![Progress](http://progressed.io/bar/42?title=Reviewed)    
 
-Total problems: 68
+Total problems: 69
 
 Need review: 40
 
@@ -34,6 +34,7 @@ Need review: 40
 |----|-------|----------|-----|------------------|
 |497|[Random Point in Non-overlapping Rectangles :alarm_clock:](https://leetcode.com/problems/random-point-in-non-overlapping-rectangles) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/497.%20Random%20Point%20in%20Non-overlapping%20Rectangles)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/497.%20Random%20Point%20in%20Non-overlapping%20Rectangles/random-point-in-non-overlapping-rectangles.py)|45|
 |528|[Random Pick with Weight :alarm_clock:](https://leetcode.com/problems/random-pick-with-weight) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/528.%20Random%20Pick%20with%20Weight)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/528.%20Random%20Pick%20with%20Weight/random-pick-with-weight.py)|46|
+|540|[Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/540.%20Single%20Element%20in%20a%20Sorted%20Array)||0|
 |875|[Koko Eating Bananas :alarm_clock:](https://leetcode.com/problems/koko-eating-bananas) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/875.%20Koko%20Eating%20Bananas)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/875.%20Koko%20Eating%20Bananas/koko-eating-bananas.py)|45|
 |911|[Online Election :alarm_clock:](https://leetcode.com/problems/online-election) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/911.%20Online%20Election)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/911.%20Online%20Election/online-election.py)|45|
 
@@ -86,7 +87,7 @@ Need review: 40
 ### Linked list
 | Id | Title | Dir | Solution | Review (days ago)|
 |----|-------|----------|-----|------------------|
-|445|[Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/445.%20Add%20Two%20Numbers%20II)||16|
+|445|[Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/445.%20Add%20Two%20Numbers%20II)||17|
 
 ### Math
 | Id | Title | Dir | Solution | Review (days ago)|
@@ -161,7 +162,6 @@ Need review: 40
 | Id | Title | Solution |
 |----|-------|----------|
 |1|[Two Sum :alarm_clock:](None)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/1.%20Two%20Sum/two-sum.py)|
-|540|[Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array)||
 
 
 

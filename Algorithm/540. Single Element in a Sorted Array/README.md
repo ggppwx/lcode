@@ -18,11 +18,47 @@ Note: Your solution should run in O(log n) time and O(1) space.
 ## Analysis
 
 ## Thoughts
+- typical binary serach 
+- binary serach 关键，不留空隙
+    - `r = mid - 1 - offset` if previous number is the same. Note that it's better to **EXCLUDE** invalid 
+        numbers 
+- 想的很快，做的很慢
 
 ## Solution
+```python
+class Solution:
+    def singleNonDuplicate(self, nums: List[int]) -> int:
+        if not nums:
+            return None
+        if len(nums) == 1:
+            return nums[0]
+        
+        if len(nums) == 2 :
+            return None
+
+        l = 0
+        r = len(nums) - 1
+        while l < r: 
+            mid = int((l + r)/2)
+            curr = nums[mid]
+            pre = nums[mid-1]
+            
+            offset = 0
+            if pre == curr:
+                offset = 1
+                        
+            left_count = mid - offset            
+            if left_count %2 != 0:
+                r = mid - 1 - offset
+            else:
+                l = mid + offset
+
+        return nums[l]
+
+```
 
 ## Tags
-
+Binary search
 
 ## Marks
 
