@@ -62,6 +62,7 @@ Time: O(N)
   day 8, the total dp(8) = dp(3) + 2
   ```
 - the state dp(i) => the minimum cost to cover day i 
+- state function: `dp(day) = min(dp(day-1) + cost1, dp(day-7) + cost2 ... )`  
 
 ## Solution
 ```python
@@ -91,4 +92,4 @@ DP
 
 ## Marks
 
-[comment]: <timestamp:2019-06-04>
+[comment]: <timestamp:2019-07-13>

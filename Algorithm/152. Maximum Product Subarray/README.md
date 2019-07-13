@@ -25,6 +25,7 @@ Explanation: The result cannot be 2, because [-2,-1] is not a subarray.
     max_ends(i) = max(max_end(i-1) * nums[i], nums[i])
     min_ends(i) = min(min_ends(i-1) * nums[i], nums[i])
     ```
+- discuss this problem by categories, `> < = `
 
 ## Solution
 ```python
@@ -61,4 +62,4 @@ class Solution:
 ## Tags
 DP
 ## Marks
-[comment]: <timestamp:2019-05-27>
+[comment]: <timestamp:2019-07-13>

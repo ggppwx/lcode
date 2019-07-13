@@ -22,6 +22,7 @@ Time: O(N^2), so
 - 居然做了两小时，中间被想到了另一道panlindrom, 但是显然那不是同一道题
     - Longest Palindromic Substring: ( step 1 in this problem )
     - Longest Palindromic Subsequence: aaba => aaa => 3
+- This problem usues multiple DP 
 
 ## Solution
 ```python
@@ -48,11 +49,14 @@ class Solution:
                 dp[i][j]  = dp[i+1][j-1] and (s[i] == s[j])
         
         # now we have the palindrome table 
+        # it seems this second is still a DP 
         mincut = [10000000] * length
         for current, c in enumerate(s):
             if current == 0:
                 mincut[current] = 0
                 continue
+
+            # find all minCut before current 
             for before in range(0, current+1):
                 if dp[before][current] == True:
                     tmp = 0
@@ -62,10 +66,6 @@ class Solution:
 
 
         return mincut[length -1]
-            
-
-
-
 ```
 
 ## Tags
@@ -74,4 +74,4 @@ DP
 ## Marks
 Hard
 
-[comment]: <timestamp:2019-06-10>
+[comment]: <timestamp:2019-07-13>

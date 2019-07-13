@@ -33,8 +33,7 @@ Explanation: Rob house 1 (money = 1) and then rob house 3 (money = 3).
 ```python
 class Solution:    
     def rob(self, nums: List[int]) -> int:
-        def rob_max(houses):
-            """DP Find the maximum value could robe """
+        def rob_max(houses):            
             if not houses:
                 return 0
             dp = [0] * len(houses)
@@ -55,10 +54,9 @@ class Solution:
             return nums[0]
 
         return max(rob_max(nums[:-1]), rob_max(nums[1:]))
-
 ```
 
 ## Tags
 DP
 
-[comment]: <timestamp:2019-06-10>
+[comment]: <timestamp:2019-07-13>

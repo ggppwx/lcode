@@ -28,6 +28,7 @@ Output: 4
 - Can this problem be solved with Dynamic programming ? 
 
 ## Solution
+BFS solution: 
 ```python
 class Solution:
     def maximalSquare(self, matrix: List[List[str]]) -> int:
@@ -81,4 +82,4 @@ DP
 ## Marks
 Help
 
-[comment]: <timestamp:>
+[comment]: <timestamp:2019-07-13>

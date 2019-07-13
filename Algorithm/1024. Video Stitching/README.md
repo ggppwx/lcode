@@ -54,8 +54,10 @@ Time: O(N) + O(nlogn)
     - find the furthest clip when start < condition
     - can be more clear, introducing `findFurthestEnd(max_start, clips)` method 
 
-- DP: `DP(i) = max(DP(i-1), c[i][1] if c[i][0] <= DP(i-1) )`
+- DP function: at clip i, it can at most covers. but it also requires sort first 
+- `DP(i) = max(DP(i-1), c[i][1] if c[i][0] <= DP(i-1) )`
     - `DP(i)` is valid, so only check if it can reach T
+    
 ## Solution
 ```python
 class Solution:
@@ -73,21 +75,27 @@ class Solution:
             start = clip[0]
             end = clip[1]
             if start <= max_start:
+                # the chip is good
                 if max_end < end:
                     max_end = end
                     
                 i += 1
             else:
+                # this chip doesn't work 
                 if max_end == -1:
+                    # No chip satisfy the condition
                     return -1
                 
                 count += 1
 
                 if max_end >= T:
                     return count
+                
+                # we need to reset max_start, because this chip doesn't 
+                # satisfy PREVIOUS max_start
                 # no any more
                 max_start = max_end
-                max_end = -1
+                max_end = -1 
                 continue
 
         count += 1
@@ -95,8 +103,6 @@ class Solution:
             return count
         
         return -1
-
-
 ```
 
 ## Tags
@@ -104,4 +110,4 @@ class Solution:
 
 ## Marks
 
-[comment]: <timestamp:2019-05-15>
+[comment]: <timestamp:2019-07-13>

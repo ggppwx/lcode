@@ -41,10 +41,11 @@ class Solution:
                 # pick integer
                 result = result and minmax(integers[:i] + integers[i+1:], target - integer, cache)
 
-            
+            # all next wins 
             if result:
                 cache[key] = False
                 return False
+                
             cache[key] = True
             return True
 
@@ -57,4 +58,4 @@ class Solution:
 ## Tags
 Minmax|DP
 ## Marks
-[comment]: <timestamp:2019-06-10>
+[comment]: <timestamp:2019-07-13>

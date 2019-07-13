@@ -47,9 +47,11 @@ class Solution:
 
         result = -10000000
         for i0 in range(0, M):
-            for j0 in range(0, N):
+            for j0 in range(0, N): 
+                # (i0, j0) = up-left point                
                 for i1 in range(i0, M):
                     for j1 in range(j0, N):
+                        # (i1, j1) = bottom-down point 
                         s  = 0
                         if i0 == 0 and j0 == 0:
                             s = sum[i1][j1]
@@ -58,13 +60,13 @@ class Solution:
                         elif j0 == 0:
                             s = sum[i1][j1] - sum[i0-1][j1]
                         else:
+                            # this is the key 
                             s = sum[i1][j1] - sum[i0-1][j1] - sum[i1][j0-1] + sum[i0-1][j0-1]
                         if s == k: 
                             return s
                         if s < k:
                             result = max(result, s)
-        return result 
-
+        return result
 ```
 better solution:
 ```python
@@ -77,4 +79,4 @@ DP
 ## Marks
 Hard
 
-[comment]: <timestamp:2019-06-04>
+[comment]: <timestamp:2019-07-13>

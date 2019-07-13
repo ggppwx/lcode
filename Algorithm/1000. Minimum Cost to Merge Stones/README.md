@@ -47,15 +47,17 @@ Note:
 - Brute force 
 - DP solution
     - If there's no K ? how to do it ? 
-        - divide to sub prolem `DP(i,j) = min(DP(i, k) + DP(k+1, j) + sum([i,j]))`
+        - divide to sub prolem `DP(i,j) = min(DP(i, k) + DP(k+1, j) + sum([i,j]))
+    - `DP( .., k: number of piles)`
     - It needs K to merge so `DP(.., 1) = DP(.., K) + sum`
         - `DP(.., K)` can be divied to the sub problem `DP(left, K-1) + DP(right, 1)`
     - DP cache usually uses index as key 
         - in this case, `cache[i][j][P]`
-
+- `DP(i, j, K)`: min value merging from (i, j), this merge to K piles
+- it's consective merge, so we can divide problem to sub-problems 
 
 ## Solution    
-Brute force: exceeding time limit 
+Brute force: exceeding time limit
 ```python
 class Solution:
     def mergeStones(self, stones: List[int], K: int) -> int:
@@ -66,13 +68,16 @@ class Solution:
         sum_k_stone = sum(stones[:K])
         min_cost = 10000000000
         for i in range(len(stones)-K+1):
-            # starting from [0, K-1]        
+            # starting from [0, K-1]     
+            # actually here we Merge (i, i+K-1)    
             temp = self.mergeStones(stones[:i] + [sum_k_stone] + stones [i+K:], K) 
             if temp == -1:
                 return -1       
             min_cost = min(min_cost, sum_k_stone + temp)
             if i+K >= len(stones):
                 break
+
+            # sliding window 
             sum_k_stone = sum_k_stone - stones[i] + stones[i+K]
 
         return min_cost 
@@ -105,6 +110,8 @@ class Solution:
                 if temp == MAX:
                     cache[i][j][P] = MAX
                     return MAX
+
+                # this merge costs sum(stones[i:j+1])
                 res = temp + sum(stones[i:j+1])
                 cache[i][j][P] = res
                 return res
@@ -112,7 +119,7 @@ class Solution:
 
             result = MAX
             for k in range(i, j):
-
+                # left-problem and right-problem                 
                 left = DP(i, k, P-1, cache)
                 if left == MAX:
                     # unable to find the min cost 
@@ -139,6 +146,6 @@ class Solution:
 DP
 
 ## Marks
-Help
+Help|Hard
 
-[comment]: <timestamp:2019-05-26>
+[comment]: <timestamp:2019-07-13>

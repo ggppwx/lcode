@@ -37,13 +37,14 @@ Time: O(N^2)
 2: 2    =>  1
 4: 4, 2-4-2 => 1 + P(2)* P(2) = 2
 16:
-16,   16      16
-     4  4    4  4    ..     
-            2 2
+16,   16      16     16        16
+     4  4    4  4   4  4      4  4
+            2 2       2 2    2 2 2 2
 P(16) => 1 + P(4) * P(4) = 5            
 ```
 - the state index i in P(i) is huge, so instead of crating an array,
   Use map 
+- Tree, think sub-problem `P(a) = 1 + all(P(left) * P(right))`
 
 ## Solution
 ```python
@@ -82,4 +83,4 @@ DP
 
 ## Marks
 
-[comment]: <timestamp:2019-06-10>
+[comment]: <timestamp:2019-07-13>

@@ -42,6 +42,9 @@ Time: O(N^2)
     - state function => the max length for picking i, j 
 - `0 --> False` Be careful when checking index
     - always explicitly check `if k is not None` !
+-  `Ak, ..... Aj, ..... Ai` => `DP(j, i) => length contains j, i `
+    - the final result will consider all combinations of (i,j)
+
 
 ## Solution
 ```python
@@ -57,6 +60,7 @@ class Solution:
                 k = index_map.get(A_k)
                 if k != None :  # shit happens here !!
                     DP[i][j] = DP[j][k] + 1
+        
 
         result =  0
         for i in range(len(DP)):
@@ -65,7 +69,6 @@ class Solution:
                 result  = max(result, DP[i][j])
 
         return result if result > 2 else 0
-
 ```
 
 
@@ -73,5 +76,6 @@ class Solution:
 DP
 
 ## Marks
+Help
 
-[comment]: <timestamp:2019-05-23>
+[comment]: <timestamp:2019-07-13>

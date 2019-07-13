@@ -52,8 +52,6 @@ class Solution:
                     path[i][j] = path[i-1][j] + path[i][j-1]
 
         return path[m-1][n-1]
-
-  
 ```
 
 ## Tags
@@ -62,4 +60,4 @@ DP
 
 ## Marks
 
-[comment]: <timestamp:2019-06-04>
+[comment]: <timestamp:2019-07-13>
