@@ -1,47 +1,47 @@
 # lcode
 This is a personal repo for some code
 ## Status
-![Progress](http://progressed.io/bar/65?title=Reviewed)    
+![Progress](http://progressed.io/bar/80?title=Reviewed)    
 
 Total problems: 70
 
-Need review: 24
+Need review: 14
 
 
 ## problem table
 ### Array
 | Id | Title | Dir | Solution | Review (days ago)|
 |----|-------|----------|-----|------------------|
-|31|[Next Permutation :alarm_clock:](https://leetcode.com/problems/next-permutation)  :sos: |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/31.%20Next%20Permutation)|[cpp](https://github.com/ggppwx/lcode/blob/master/Algorithm/31.%20Next%20Permutation/next-permutation.cpp)|49|
-|287|[Find the Duplicate Number :alarm_clock:](https://leetcode.com/problems/find-the-duplicate-number)  :sos: |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/287.%20Find%20the%20Duplicate%20Number)|[cpp](https://github.com/ggppwx/lcode/blob/master/Algorithm/287.%20Find%20the%20Duplicate%20Number/find-the-duplicate-number.cpp)|49|
-|560|[Subarray Sum Equals K :alarm_clock:](https://leetcode.com/problems/subarray-sum-equals-k) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/560.%20Subarray%20Sum%20Equals%20K)|[cpp](https://github.com/ggppwx/lcode/blob/master/Algorithm/560.%20Subarray%20Sum%20Equals%20K/subarray-sum-equals-k.cpp)|49|
+|31|[Next Permutation :alarm_clock:](https://leetcode.com/problems/next-permutation)  ![Help](https://img.shields.io/badge/stats-Help-yellow.svg)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/31.%20Next%20Permutation)|[cpp](https://github.com/ggppwx/lcode/blob/master/Algorithm/31.%20Next%20Permutation/next-permutation.cpp)|49|
+|287|[Find the Duplicate Number :alarm_clock:](https://leetcode.com/problems/find-the-duplicate-number)  ![Help](https://img.shields.io/badge/stats-Help-yellow.svg)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/287.%20Find%20the%20Duplicate%20Number)|[cpp](https://github.com/ggppwx/lcode/blob/master/Algorithm/287.%20Find%20the%20Duplicate%20Number/find-the-duplicate-number.cpp)|49|
+|560|[Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/560.%20Subarray%20Sum%20Equals%20K)|[cpp](https://github.com/ggppwx/lcode/blob/master/Algorithm/560.%20Subarray%20Sum%20Equals%20K/subarray-sum-equals-k.cpp)|49|
 
 ### BFS
 | Id | Title | Dir | Solution | Review (days ago)|
 |----|-------|----------|-----|------------------|
-|45|[Jump Game II :alarm_clock:](https://leetcode.com/problems/jump-game-ii)  :sos: |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/45.%20Jump%20Game%20II)||34|
-|127|[Word Ladder :alarm_clock:](https://leetcode.com/problems/word-ladder)  :sos: |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/127.%20Word%20Ladder)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/127.%20Word%20Ladder/word-ladder.py)|49|
-|841|[Keys and Rooms :alarm_clock:](https://leetcode.com/problems/keys-and-rooms) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/841.%20Keys%20and%20Rooms)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/841.%20Keys%20and%20Rooms/keys-and-rooms.py)|49|
+|45|[Jump Game II :alarm_clock:](https://leetcode.com/problems/jump-game-ii)  ![Help](https://img.shields.io/badge/stats-Help-yellow.svg)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/45.%20Jump%20Game%20II)||34|
+|127|[Word Ladder :alarm_clock:](https://leetcode.com/problems/word-ladder)  ![Help](https://img.shields.io/badge/stats-Help-yellow.svg)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/127.%20Word%20Ladder)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/127.%20Word%20Ladder/word-ladder.py)|49|
+|841|[Keys and Rooms](https://leetcode.com/problems/keys-and-rooms) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/841.%20Keys%20and%20Rooms)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/841.%20Keys%20and%20Rooms/keys-and-rooms.py)|49|
 
 ### Backtracking
 | Id | Title | Dir | Solution | Review (days ago)|
 |----|-------|----------|-----|------------------|
-|22|[Generate Parentheses :alarm_clock:](https://leetcode.com/problems/generate-parentheses) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/22.%20Generate%20Parentheses)|[cpp](https://github.com/ggppwx/lcode/blob/master/Algorithm/22.%20Generate%20Parentheses/generate-parentheses.cpp)|49|
+|22|[Generate Parentheses](https://leetcode.com/problems/generate-parentheses) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/22.%20Generate%20Parentheses)|[cpp](https://github.com/ggppwx/lcode/blob/master/Algorithm/22.%20Generate%20Parentheses/generate-parentheses.cpp)|49|
 |698|[Partition to K Equal Sum Subsets](https://leetcode.com/problems/partition-to-k-equal-sum-subsets) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/698.%20Partition%20to%20K%20Equal%20Sum%20Subsets)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/698.%20Partition%20to%20K%20Equal%20Sum%20Subsets/partition-to-k-equal-sum-subsets.py)|28|
 
 ### Binary search
 | Id | Title | Dir | Solution | Review (days ago)|
 |----|-------|----------|-----|------------------|
-|497|[Random Point in Non-overlapping Rectangles :alarm_clock:](https://leetcode.com/problems/random-point-in-non-overlapping-rectangles) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/497.%20Random%20Point%20in%20Non-overlapping%20Rectangles)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/497.%20Random%20Point%20in%20Non-overlapping%20Rectangles/random-point-in-non-overlapping-rectangles.py)|48|
-|528|[Random Pick with Weight :alarm_clock:](https://leetcode.com/problems/random-pick-with-weight) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/528.%20Random%20Pick%20with%20Weight)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/528.%20Random%20Pick%20with%20Weight/random-pick-with-weight.py)|49|
+|497|[Random Point in Non-overlapping Rectangles](https://leetcode.com/problems/random-point-in-non-overlapping-rectangles) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/497.%20Random%20Point%20in%20Non-overlapping%20Rectangles)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/497.%20Random%20Point%20in%20Non-overlapping%20Rectangles/random-point-in-non-overlapping-rectangles.py)|48|
+|528|[Random Pick with Weight](https://leetcode.com/problems/random-pick-with-weight) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/528.%20Random%20Pick%20with%20Weight)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/528.%20Random%20Pick%20with%20Weight/random-pick-with-weight.py)|49|
 |540|[Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/540.%20Single%20Element%20in%20a%20Sorted%20Array)||1|
-|875|[Koko Eating Bananas :alarm_clock:](https://leetcode.com/problems/koko-eating-bananas) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/875.%20Koko%20Eating%20Bananas)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/875.%20Koko%20Eating%20Bananas/koko-eating-bananas.py)|48|
-|911|[Online Election :alarm_clock:](https://leetcode.com/problems/online-election) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/911.%20Online%20Election)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/911.%20Online%20Election/online-election.py)|48|
+|875|[Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/875.%20Koko%20Eating%20Bananas)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/875.%20Koko%20Eating%20Bananas/koko-eating-bananas.py)|48|
+|911|[Online Election](https://leetcode.com/problems/online-election) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/911.%20Online%20Election)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/911.%20Online%20Election/online-election.py)|48|
 
 ### DFS
 | Id | Title | Dir | Solution | Review (days ago)|
 |----|-------|----------|-----|------------------|
-|979|[Distribute Coins in Binary Tree :alarm_clock:](https://leetcode.com/problems/distribute-coins-in-binary-tree)  :sos: |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/979.%20Distribute%20Coins%20in%20Binary%20Tree)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/979.%20Distribute%20Coins%20in%20Binary%20Tree/distribute-coins-in-binary-tree.py)|49|
+|979|[Distribute Coins in Binary Tree :alarm_clock:](https://leetcode.com/problems/distribute-coins-in-binary-tree)  ![Help](https://img.shields.io/badge/stats-Help-yellow.svg)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/979.%20Distribute%20Coins%20in%20Binary%20Tree)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/979.%20Distribute%20Coins%20in%20Binary%20Tree/distribute-coins-in-binary-tree.py)|49|
 
 ### DP
 | Id | Title | Dir | Solution | Review (days ago)|
@@ -51,49 +51,49 @@ Need review: 24
 |132|[Palindrome Partitioning II](https://leetcode.com/problems/palindrome-partitioning-ii)  ![Hard](https://img.shields.io/badge/-Hard-red.svg) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/132.%20Palindrome%20Partitioning%20II)||1|
 |152|[Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/152.%20Maximum%20Product%20Subarray)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/152.%20Maximum%20Product%20Subarray/maximum-product-subarray.py)|1|
 |213|[House Robber II](https://leetcode.com/problems/house-robber-ii) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/213.%20House%20Robber%20II)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/213.%20House%20Robber%20II/house-robber-ii.py)|1|
-|221|[Maximal Square](https://leetcode.com/problems/maximal-square)  :sos: |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/221.%20Maximal%20Square)||1|
+|221|[Maximal Square](https://leetcode.com/problems/maximal-square)  ![Help](https://img.shields.io/badge/stats-Help-yellow.svg)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/221.%20Maximal%20Square)||1|
 |363|[Max Sum of Rectangle No Larger Than K](https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k)  ![Hard](https://img.shields.io/badge/-Hard-red.svg) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/363.%20Max%20Sum%20of%20Rectangle%20No%20Larger%20Than%20K)||1|
 |464|[Can I Win](https://leetcode.com/problems/can-i-win) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/464.%20Can%20I%20Win)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/464.%20Can%20I%20Win/can-i-win.py)|1|
 |486|[Predict the Winner](https://leetcode.com/problems/predict-the-winner) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/486.%20Predict%20the%20Winner)|[cpp](https://github.com/ggppwx/lcode/blob/master/Algorithm/486.%20Predict%20the%20Winner/predict-the-winner.cpp)|1|
-|790|[Domino and Tromino Tiling](https://leetcode.com/problems/domino-and-tromino-tiling)  :sos: |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/790.%20Domino%20and%20Tromino%20Tiling)||29|
+|790|[Domino and Tromino Tiling :alarm_clock:](https://leetcode.com/problems/domino-and-tromino-tiling)  ![Help](https://img.shields.io/badge/stats-Help-yellow.svg)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/790.%20Domino%20and%20Tromino%20Tiling)||29|
 |823|[Binary Trees With Factors](https://leetcode.com/problems/binary-trees-with-factors) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/823.%20Binary%20Trees%20With%20Factors)||1|
-|873|[Length of Longest Fibonacci Subsequence](https://leetcode.com/problems/length-of-longest-fibonacci-subsequence)  :sos: |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/873.%20Length%20of%20Longest%20Fibonacci%20Subsequence)||1|
+|873|[Length of Longest Fibonacci Subsequence](https://leetcode.com/problems/length-of-longest-fibonacci-subsequence)  ![Help](https://img.shields.io/badge/stats-Help-yellow.svg)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/873.%20Length%20of%20Longest%20Fibonacci%20Subsequence)||1|
 |931|[Minimum Falling Path Sum](https://leetcode.com/problems/minimum-falling-path-sum) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/931.%20Minimum%20Falling%20Path%20Sum)||1|
 |983|[Minimum Cost For Tickets](https://leetcode.com/problems/minimum-cost-for-tickets) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/983.%20Minimum%20Cost%20For%20Tickets)||1|
-|1000|[Minimum Cost to Merge Stones](https://leetcode.com/problems/minimum-cost-to-merge-stones)  :sos:  ![Hard](https://img.shields.io/badge/-Hard-red.svg) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/1000.%20Minimum%20Cost%20to%20Merge%20Stones)||1|
+|1000|[Minimum Cost to Merge Stones](https://leetcode.com/problems/minimum-cost-to-merge-stones)  ![Help](https://img.shields.io/badge/stats-Help-yellow.svg) ![Hard](https://img.shields.io/badge/-Hard-red.svg) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/1000.%20Minimum%20Cost%20to%20Merge%20Stones)||1|
 |1024|[Video Stitching](https://leetcode.com/problems/video-stitching) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/1024.%20Video%20Stitching)||1|
-|1039|[Minimum Score Triangulation of Polygon :alarm_clock:](https://leetcode.com/problems/minimum-score-triangulation-of-polygon)  :sos: |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/1039.%20Minimum%20Score%20Triangulation%20of%20Polygon)||66|
-|1105|[Filling Bookcase Shelves](https://leetcode.com/problems/filling-bookcase-shelves)  :sos: |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/1105.%20Filling%20Bookcase%20Shelves)||6|
+|1039|[Minimum Score Triangulation of Polygon :alarm_clock:](https://leetcode.com/problems/minimum-score-triangulation-of-polygon)  ![Help](https://img.shields.io/badge/stats-Help-yellow.svg)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/1039.%20Minimum%20Score%20Triangulation%20of%20Polygon)||66|
+|1105|[Filling Bookcase Shelves](https://leetcode.com/problems/filling-bookcase-shelves)  ![Help](https://img.shields.io/badge/stats-Help-yellow.svg)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/1105.%20Filling%20Bookcase%20Shelves)||6|
 
 ### Design
 | Id | Title | Dir | Solution | Review (days ago)|
 |----|-------|----------|-----|------------------|
-|284|[Peeking Iterator :alarm_clock:](https://leetcode.com/problems/peeking-iterator) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/284.%20Peeking%20Iterator)||57|
+|284|[Peeking Iterator](https://leetcode.com/problems/peeking-iterator) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/284.%20Peeking%20Iterator)||57|
 
 ### Graph
 | Id | Title | Dir | Solution | Review (days ago)|
 |----|-------|----------|-----|------------------|
-|802|[Find Eventual Safe States :alarm_clock:](https://leetcode.com/problems/find-eventual-safe-states) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/802.%20Find%20Eventual%20Safe%20States)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/802.%20Find%20Eventual%20Safe%20States/find-eventual-safe-states.py)|34|
-|959|[Regions Cut By Slashes :alarm_clock:](https://leetcode.com/problems/regions-cut-by-slashes) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/959.%20Regions%20Cut%20By%20Slashes)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/959.%20Regions%20Cut%20By%20Slashes/regions-cut-by-slashes.py)|34|
+|802|[Find Eventual Safe States](https://leetcode.com/problems/find-eventual-safe-states) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/802.%20Find%20Eventual%20Safe%20States)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/802.%20Find%20Eventual%20Safe%20States/find-eventual-safe-states.py)|34|
+|959|[Regions Cut By Slashes](https://leetcode.com/problems/regions-cut-by-slashes) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/959.%20Regions%20Cut%20By%20Slashes)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/959.%20Regions%20Cut%20By%20Slashes/regions-cut-by-slashes.py)|34|
 
 ### Greedy
 | Id | Title | Dir | Solution | Review (days ago)|
 |----|-------|----------|-----|------------------|
-|45|[Jump Game II :alarm_clock:](https://leetcode.com/problems/jump-game-ii)  :sos: |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/45.%20Jump%20Game%20II)||34|
+|45|[Jump Game II :alarm_clock:](https://leetcode.com/problems/jump-game-ii)  ![Help](https://img.shields.io/badge/stats-Help-yellow.svg)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/45.%20Jump%20Game%20II)||34|
 |659|[Split Array into Consecutive Subsequences :alarm_clock:](None) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/659.%20Split%20Array%20into%20Consecutive%20Subsequences)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/659.%20Split%20Array%20into%20Consecutive%20Subsequences/split-array-into-consecutive-subsequences.py)|106|
-|955|[Delete Columns to Make Sorted II](https://leetcode.com/problems/delete-columns-to-make-sorted-ii)  :sos: |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/955.%20Delete%20Columns%20to%20Make%20Sorted%20II)||26|
+|955|[Delete Columns to Make Sorted II :alarm_clock:](https://leetcode.com/problems/delete-columns-to-make-sorted-ii)  ![Help](https://img.shields.io/badge/stats-Help-yellow.svg)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/955.%20Delete%20Columns%20to%20Make%20Sorted%20II)||26|
 |1024|[Video Stitching](https://leetcode.com/problems/video-stitching) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/1024.%20Video%20Stitching)||1|
 
 ### Linked list
 | Id | Title | Dir | Solution | Review (days ago)|
 |----|-------|----------|-----|------------------|
-|86|[Partition List](https://leetcode.com/problems/partition-list) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/86.%20Partition%20List)||0|
+|86|[Partition List](https://leetcode.com/problems/partition-list)  ![Overtime](https://img.shields.io/badge/stats-Overtime-yellowgreen.svg)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/86.%20Partition%20List)||0|
 |445|[Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/445.%20Add%20Two%20Numbers%20II)||8|
 
 ### Math
 | Id | Title | Dir | Solution | Review (days ago)|
 |----|-------|----------|-----|------------------|
-|517|[Super Washing Machines :alarm_clock:](https://leetcode.com/problems/super-washing-machines)  :sos: |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/517.%20Super%20Washing%20Machines)||66|
+|517|[Super Washing Machines :alarm_clock:](https://leetcode.com/problems/super-washing-machines)  ![Help](https://img.shields.io/badge/stats-Help-yellow.svg)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/517.%20Super%20Washing%20Machines)||66|
 
 ### Minmax
 | Id | Title | Dir | Solution | Review (days ago)|
@@ -111,7 +111,7 @@ Need review: 24
 |----|-------|----------|-----|------------------|
 |698|[Partition to K Equal Sum Subsets](https://leetcode.com/problems/partition-to-k-equal-sum-subsets) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/698.%20Partition%20to%20K%20Equal%20Sum%20Subsets)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/698.%20Partition%20to%20K%20Equal%20Sum%20Subsets/partition-to-k-equal-sum-subsets.py)|28|
 |779|[K-th Symbol in Grammar](https://leetcode.com/problems/k-th-symbol-in-grammar) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/779.%20K-th%20Symbol%20in%20Grammar)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/779.%20K-th%20Symbol%20in%20Grammar/k-th-symbol-in-grammar.py)|28|
-|894|[All Possible Full Binary Trees](https://leetcode.com/problems/all-possible-full-binary-trees)  :sos: |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/894.%20All%20Possible%20Full%20Binary%20Trees)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/894.%20All%20Possible%20Full%20Binary%20Trees/all-possible-full-binary-trees.py)|21|
+|894|[All Possible Full Binary Trees](https://leetcode.com/problems/all-possible-full-binary-trees)  ![Help](https://img.shields.io/badge/stats-Help-yellow.svg)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/894.%20All%20Possible%20Full%20Binary%20Trees)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/894.%20All%20Possible%20Full%20Binary%20Trees/all-possible-full-binary-trees.py)|21|
 
 ### Sliding window
 | Id | Title | Dir | Solution | Review (days ago)|
@@ -127,8 +127,8 @@ Need review: 24
 ### String
 | Id | Title | Dir | Solution | Review (days ago)|
 |----|-------|----------|-----|------------------|
-|22|[Generate Parentheses :alarm_clock:](https://leetcode.com/problems/generate-parentheses) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/22.%20Generate%20Parentheses)|[cpp](https://github.com/ggppwx/lcode/blob/master/Algorithm/22.%20Generate%20Parentheses/generate-parentheses.cpp)|49|
-|916|[Word Subsets :alarm_clock:](https://leetcode.com/problems/word-subsets/)  :sos: |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/916.%20Word%20Subsets)||71|
+|22|[Generate Parentheses](https://leetcode.com/problems/generate-parentheses) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/22.%20Generate%20Parentheses)|[cpp](https://github.com/ggppwx/lcode/blob/master/Algorithm/22.%20Generate%20Parentheses/generate-parentheses.cpp)|49|
+|916|[Word Subsets :alarm_clock:](https://leetcode.com/problems/word-subsets/)  ![Help](https://img.shields.io/badge/stats-Help-yellow.svg)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/916.%20Word%20Subsets)||71|
 
 ### Tree
 | Id | Title | Dir | Solution | Review (days ago)|
@@ -142,10 +142,10 @@ Need review: 24
 |654|[Maximum Binary Tree](https://leetcode.com/problems/maximum-binary-tree) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/654.%20Maximum%20Binary%20Tree)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/654.%20Maximum%20Binary%20Tree/maximum-binary-tree.py)|29|
 |814|[Binary Tree Pruning](https://leetcode.com/problems/binary-tree-pruning) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/814.%20Binary%20Tree%20Pruning)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/814.%20Binary%20Tree%20Pruning/binary-tree-pruning.py)|29|
 |889|[Construct Binary Tree from Preorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/889.%20Construct%20Binary%20Tree%20from%20Preorder%20and%20Postorder%20Traversal)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/889.%20Construct%20Binary%20Tree%20from%20Preorder%20and%20Postorder%20Traversal/construct-binary-tree-from-preorder-and-postorder-traversal.py)|21|
-|894|[All Possible Full Binary Trees](https://leetcode.com/problems/all-possible-full-binary-trees)  :sos: |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/894.%20All%20Possible%20Full%20Binary%20Trees)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/894.%20All%20Possible%20Full%20Binary%20Trees/all-possible-full-binary-trees.py)|21|
+|894|[All Possible Full Binary Trees](https://leetcode.com/problems/all-possible-full-binary-trees)  ![Help](https://img.shields.io/badge/stats-Help-yellow.svg)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/894.%20All%20Possible%20Full%20Binary%20Trees)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/894.%20All%20Possible%20Full%20Binary%20Trees/all-possible-full-binary-trees.py)|21|
 |951|[Flip Equivalent Binary Trees](https://leetcode.com/problems/flip-equivalent-binary-trees) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/951.%20Flip%20Equivalent%20Binary%20Trees)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/951.%20Flip%20Equivalent%20Binary%20Trees/flip-equivalent-binary-trees.py)|21|
 |958|[Check Completeness of a Binary Tree](https://leetcode.com/problems/check-completeness-of-a-binary-tree) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/958.%20Check%20Completeness%20of%20a%20Binary%20Tree)||8|
-|979|[Distribute Coins in Binary Tree :alarm_clock:](https://leetcode.com/problems/distribute-coins-in-binary-tree)  :sos: |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/979.%20Distribute%20Coins%20in%20Binary%20Tree)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/979.%20Distribute%20Coins%20in%20Binary%20Tree/distribute-coins-in-binary-tree.py)|49|
+|979|[Distribute Coins in Binary Tree :alarm_clock:](https://leetcode.com/problems/distribute-coins-in-binary-tree)  ![Help](https://img.shields.io/badge/stats-Help-yellow.svg)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/979.%20Distribute%20Coins%20in%20Binary%20Tree)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/979.%20Distribute%20Coins%20in%20Binary%20Tree/distribute-coins-in-binary-tree.py)|49|
 
 ### Trie
 | Id | Title | Dir | Solution | Review (days ago)|
@@ -157,12 +157,12 @@ Need review: 24
 | Id | Title | Dir | Solution | Review (days ago)|
 |----|-------|----------|-----|------------------|
 |547|[Friend Circles](https://leetcode.com/problems/friend-circles) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/547.%20Friend%20Circles)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/547.%20Friend%20Circles/friend-circles.py)|8|
-|959|[Regions Cut By Slashes :alarm_clock:](https://leetcode.com/problems/regions-cut-by-slashes) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/959.%20Regions%20Cut%20By%20Slashes)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/959.%20Regions%20Cut%20By%20Slashes/regions-cut-by-slashes.py)|34|
+|959|[Regions Cut By Slashes](https://leetcode.com/problems/regions-cut-by-slashes) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/959.%20Regions%20Cut%20By%20Slashes)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/959.%20Regions%20Cut%20By%20Slashes/regions-cut-by-slashes.py)|34|
 
 ### Untagged
 | Id | Title | Solution |
 |----|-------|----------|
-|1|[Two Sum :alarm_clock:](None)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/1.%20Two%20Sum/two-sum.py)|
+|1|[Two Sum](None)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/1.%20Two%20Sum/two-sum.py)|
 
 
 

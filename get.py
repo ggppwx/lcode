@@ -22,7 +22,6 @@ class Problem(object):
         self.url = url
         self.tags = []
 
-
     def fillDescription(self):
         #print(connection.read())
         #soup = BeautifulSoup(connection)
@@ -34,6 +33,7 @@ class Problem(object):
     def add_tags(self, tags):
         """add tags to the problem"""
         self.tags = list(tags)
+
 
 class WebParser(object):
     def __init__(self):
@@ -54,8 +54,6 @@ class WebParser(object):
             url = 'https://leetcode.com/problems/' + slug
             self._problems[id] = Problem(id, title, slug,  url)
 
-
-
     def get_problem(self, id):
         """Get the problem info based on id"""
         # TBD: use beautiful soup to get the description 
@@ -64,23 +62,19 @@ class WebParser(object):
         return problem
 
 
-
-
-
 class TemplateCreator(object):
     def __init__(self, dir):
         self._dir = dir
         self._templates = {}
 
         with open('source_code.py.tmpl') as f:
-            self._templates['py'] =   string.Template( f.read() )
+            self._templates['py'] = string.Template(f.read())
         with open('source_code.cpp.tmpl') as f:
-            self._templates['cpp'] =   string.Template( f.read() )
+            self._templates['cpp'] = string.Template(f.read())
         with open('problem_readme.md.tmpl') as f:
             self._templates['md'] = string.Template(f.read())
         
-
-    def create_template(self, problem, language = None):
+    def create_template(self, problem, language=None):
         """Create a local problem template
         dir
         - problem name
@@ -230,15 +224,27 @@ class ReadmeContent(object):
                                      else datetime.datetime.strptime(timestamp, "%Y-%m-%d"))
                     diff = (datetime.datetime.now() - modified_date).days
                     need_review = False
-                    if diff >= 30:
+                    expected_diff = 60
+                    for mark in marks:                        
+                        if mark == 'Hard':
+                            tag_text += ' ![Hard](https://img.shields.io/badge/-Hard-red.svg) '
+                            expected_diff = 35 
+                        elif mark == 'Help2':
+                            tag_text = ' ![Help2](https://img.shields.io/badge/stats-Help-orange.svg)'
+                            expected_diff = 15
+                        elif mark == 'Help':                            
+                            tag_text = ' ![Help](https://img.shields.io/badge/stats-Help-yellow.svg)'
+                            expected_diff = 25
+                        elif mark == 'Star':
+                            tag_text = ' :star: '
+                            expected_diff = 30
+                        elif mark == 'Overtime':
+                            tag_text = ' ![Overtime](https://img.shields.io/badge/stats-Overtime-yellowgreen.svg)'
+                            expected_diff = 40
+
+                    if diff >= expected_diff:
                         name += ' :alarm_clock:'
                         need_review = True
-
-                    for mark in marks:
-                        if mark == 'Help':
-                            tag_text += ' :sos: '
-                        elif mark == 'Hard':
-                            tag_text += ' ![Hard](https://img.shields.io/badge/-Hard-red.svg) '
 
                     problem = {
                         'id': id,
