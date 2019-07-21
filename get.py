@@ -227,19 +227,19 @@ class ReadmeContent(object):
                     expected_diff = 60
                     for mark in marks:
                         if mark == 'Overtime':
-                            tag_text = ' ![Overtime](https://img.shields.io/badge/stats-Overtime-yellowgreen.svg)'
+                            tag_text += ' ![Overtime](https://img.shields.io/badge/stats-Overtime-yellowgreen.svg)'
                             expected_diff = 40
                         if mark == 'Hard':
                             tag_text += ' ![Hard](https://img.shields.io/badge/-Hard-red.svg) '
                             expected_diff = 35 
                         if mark == 'Star':
-                            tag_text = ' :star: '
+                            tag_text += ' :star: '
                             expected_diff = 30
                         if mark == 'Help':                            
-                            tag_text = ' ![Help](https://img.shields.io/badge/stats-Help-yellow.svg)'
+                            tag_text += ' ![Help](https://img.shields.io/badge/stats-Help-yellow.svg)'
                             expected_diff = 25
                         if mark == 'Help2':
-                            tag_text = ' ![Help2](https://img.shields.io/badge/stats-Help-orange.svg)'
+                            tag_text += ' ![Help2](https://img.shields.io/badge/stats-Help-orange.svg)'
                             expected_diff = 15
 
 

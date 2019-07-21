@@ -19,7 +19,7 @@ Need review: 15
 ### BFS
 | Id | Title | Dir | Solution | Review (days ago)|
 |----|-------|----------|-----|------------------|
-|45|[Jump Game II :alarm_clock:](https://leetcode.com/problems/jump-game-ii)  ![Help](https://img.shields.io/badge/stats-Help-yellow.svg)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/45.%20Jump%20Game%20II)||41|
+|45|[Jump Game II :alarm_clock:](https://leetcode.com/problems/jump-game-ii)  ![Hard](https://img.shields.io/badge/-Hard-red.svg)  ![Help](https://img.shields.io/badge/stats-Help-yellow.svg)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/45.%20Jump%20Game%20II)||41|
 |127|[Word Ladder :alarm_clock:](https://leetcode.com/problems/word-ladder)  ![Help](https://img.shields.io/badge/stats-Help-yellow.svg)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/127.%20Word%20Ladder)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/127.%20Word%20Ladder/word-ladder.py)|56|
 |841|[Keys and Rooms](https://leetcode.com/problems/keys-and-rooms) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/841.%20Keys%20and%20Rooms)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/841.%20Keys%20and%20Rooms/keys-and-rooms.py)|56|
 
@@ -79,7 +79,7 @@ Need review: 15
 ### Greedy
 | Id | Title | Dir | Solution | Review (days ago)|
 |----|-------|----------|-----|------------------|
-|45|[Jump Game II :alarm_clock:](https://leetcode.com/problems/jump-game-ii)  ![Help](https://img.shields.io/badge/stats-Help-yellow.svg)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/45.%20Jump%20Game%20II)||41|
+|45|[Jump Game II :alarm_clock:](https://leetcode.com/problems/jump-game-ii)  ![Hard](https://img.shields.io/badge/-Hard-red.svg)  ![Help](https://img.shields.io/badge/stats-Help-yellow.svg)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/45.%20Jump%20Game%20II)||41|
 |659|[Split Array into Consecutive Subsequences :alarm_clock:](https://leetcode.com/problems/split-array-into-consecutive-subsequences) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/659.%20Split%20Array%20into%20Consecutive%20Subsequences)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/659.%20Split%20Array%20into%20Consecutive%20Subsequences/split-array-into-consecutive-subsequences.py)|113|
 |955|[Delete Columns to Make Sorted II :alarm_clock:](https://leetcode.com/problems/delete-columns-to-make-sorted-ii)  ![Help](https://img.shields.io/badge/stats-Help-yellow.svg)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/955.%20Delete%20Columns%20to%20Make%20Sorted%20II)||30|
 |1024|[Video Stitching](https://leetcode.com/problems/video-stitching) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/1024.%20Video%20Stitching)||8|
