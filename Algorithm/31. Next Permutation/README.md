@@ -18,9 +18,9 @@ Time: O(N)
     This obviously will exceed the time limit 
 - 找规律， find the pattern. Use drawing to make the problem simpler 
 ```
-    3                3                     3
-   /  2   =swap=>  2   \  =reverse=>  2   /  
-  1                     1               1
+    (3)               (3)                     3
+   /   2   =swap=>   2   \  =reverse=>  2   /  
+  1                       1               1
 
       (3)            3
   2   /  =swap=>   2  \
@@ -59,6 +59,6 @@ public:
 ## Tags
 Array
 ## Marks
-Help
+Star
 
-[comment]: <timestamp:2019-05-26>
+[comment]: <timestamp:2019-07-21>
