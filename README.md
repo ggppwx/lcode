@@ -1,11 +1,11 @@
 # lcode
 This is a personal repo for some code
 ## Status
-![Progress](http://progressed.io/bar/77?title=Reviewed)    
+![Progress](http://progressed.io/bar/79?title=Reviewed)    
 
 Total problems: 72
 
-Need review: 16
+Need review: 15
 
 
 ## problem table
@@ -13,7 +13,7 @@ Need review: 16
 | Id | Title | Dir | Solution | Review (days ago)|
 |----|-------|----------|-----|------------------|
 |31|[Next Permutation](https://leetcode.com/problems/next-permutation)  :star: |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/31.%20Next%20Permutation)|[cpp](https://github.com/ggppwx/lcode/blob/master/Algorithm/31.%20Next%20Permutation/next-permutation.cpp)|0|
-|287|[Find the Duplicate Number :alarm_clock:](https://leetcode.com/problems/find-the-duplicate-number)  ![Help](https://img.shields.io/badge/stats-Help-yellow.svg)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/287.%20Find%20the%20Duplicate%20Number)|[cpp](https://github.com/ggppwx/lcode/blob/master/Algorithm/287.%20Find%20the%20Duplicate%20Number/find-the-duplicate-number.cpp)|56|
+|287|[Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number)  :star: |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/287.%20Find%20the%20Duplicate%20Number)|[cpp](https://github.com/ggppwx/lcode/blob/master/Algorithm/287.%20Find%20the%20Duplicate%20Number/find-the-duplicate-number.cpp)|0|
 |560|[Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/560.%20Subarray%20Sum%20Equals%20K)|[cpp](https://github.com/ggppwx/lcode/blob/master/Algorithm/560.%20Subarray%20Sum%20Equals%20K/subarray-sum-equals-k.cpp)|56|
 
 ### BFS

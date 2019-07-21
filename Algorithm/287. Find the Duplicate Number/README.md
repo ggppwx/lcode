@@ -27,7 +27,8 @@ Time: O(nlogn)
 - First thought: hashtable.
     - modidfy the array to emulate a fake hash
 - No extra space, we could use **binary search**
-- solve the problem by example 
+- it's not a typical binary serach, the high/low are not index but actual values
+- solve the problem by example, otherwise it's very easy to make mistakes
     ```
     1 2 4 4 4, n = 4, mid = (1 + 4)/2 = 2, there are 2 number <= 2,which is NORMAL. target is in (2, 4]
     
@@ -81,6 +82,6 @@ public:
 ## Tags
 Array
 ## Marks
-Help
+Star
 
-[comment]: <timestamp:2019-05-26>
+[comment]: <timestamp:2019-07-21>
