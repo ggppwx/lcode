@@ -72,6 +72,6 @@ class Solution:
 |BFS|Greedy|
 
 ## Marks
-Help
+Hard|Help
 
 [comment]: <timestamp:2019-06-10>
