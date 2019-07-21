@@ -225,22 +225,23 @@ class ReadmeContent(object):
                     diff = (datetime.datetime.now() - modified_date).days
                     need_review = False
                     expected_diff = 60
-                    for mark in marks:                        
+                    for mark in marks:
+                        if mark == 'Overtime':
+                            tag_text = ' ![Overtime](https://img.shields.io/badge/stats-Overtime-yellowgreen.svg)'
+                            expected_diff = 40
                         if mark == 'Hard':
                             tag_text += ' ![Hard](https://img.shields.io/badge/-Hard-red.svg) '
                             expected_diff = 35 
-                        elif mark == 'Help2':
-                            tag_text = ' ![Help2](https://img.shields.io/badge/stats-Help-orange.svg)'
-                            expected_diff = 15
-                        elif mark == 'Help':                            
-                            tag_text = ' ![Help](https://img.shields.io/badge/stats-Help-yellow.svg)'
-                            expected_diff = 25
-                        elif mark == 'Star':
+                        if mark == 'Star':
                             tag_text = ' :star: '
                             expected_diff = 30
-                        elif mark == 'Overtime':
-                            tag_text = ' ![Overtime](https://img.shields.io/badge/stats-Overtime-yellowgreen.svg)'
-                            expected_diff = 40
+                        if mark == 'Help':                            
+                            tag_text = ' ![Help](https://img.shields.io/badge/stats-Help-yellow.svg)'
+                            expected_diff = 25
+                        if mark == 'Help2':
+                            tag_text = ' ![Help2](https://img.shields.io/badge/stats-Help-orange.svg)'
+                            expected_diff = 15
+
 
                     if diff >= expected_diff:
                         name += ' :alarm_clock:'
