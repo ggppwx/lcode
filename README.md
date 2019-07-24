@@ -55,7 +55,7 @@ Need review: 15
 |363|[Max Sum of Rectangle No Larger Than K](https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k)  ![Hard](https://img.shields.io/badge/-Hard-red.svg) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/363.%20Max%20Sum%20of%20Rectangle%20No%20Larger%20Than%20K)||10|
 |464|[Can I Win](https://leetcode.com/problems/can-i-win) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/464.%20Can%20I%20Win)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/464.%20Can%20I%20Win/can-i-win.py)|10|
 |486|[Predict the Winner](https://leetcode.com/problems/predict-the-winner) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/486.%20Predict%20the%20Winner)|[cpp](https://github.com/ggppwx/lcode/blob/master/Algorithm/486.%20Predict%20the%20Winner/predict-the-winner.cpp)|10|
-|790|[Domino and Tromino Tiling :alarm_clock:](https://leetcode.com/problems/domino-and-tromino-tiling)  ![Help](https://img.shields.io/badge/stats-Help-yellow.svg)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/790.%20Domino%20and%20Tromino%20Tiling)||39|
+|790|[Domino and Tromino Tiling :alarm_clock:](https://leetcode.com/problems/domino-and-tromino-tiling)  ![Help](https://img.shields.io/badge/stats-Help-yellow.svg)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/790.%20Domino%20and%20Tromino%20Tiling)||38|
 |823|[Binary Trees With Factors](https://leetcode.com/problems/binary-trees-with-factors) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/823.%20Binary%20Trees%20With%20Factors)||10|
 |873|[Length of Longest Fibonacci Subsequence](https://leetcode.com/problems/length-of-longest-fibonacci-subsequence)  ![Help](https://img.shields.io/badge/stats-Help-yellow.svg)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/873.%20Length%20of%20Longest%20Fibonacci%20Subsequence)||10|
 |931|[Minimum Falling Path Sum](https://leetcode.com/problems/minimum-falling-path-sum) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/931.%20Minimum%20Falling%20Path%20Sum)||2|
@@ -81,14 +81,14 @@ Need review: 15
 |----|-------|----------|-----|------------------|
 |45|[Jump Game II :alarm_clock:](https://leetcode.com/problems/jump-game-ii)  ![Hard](https://img.shields.io/badge/-Hard-red.svg)  ![Help](https://img.shields.io/badge/stats-Help-yellow.svg)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/45.%20Jump%20Game%20II)||43|
 |659|[Split Array into Consecutive Subsequences :alarm_clock:](None) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/659.%20Split%20Array%20into%20Consecutive%20Subsequences)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/659.%20Split%20Array%20into%20Consecutive%20Subsequences/split-array-into-consecutive-subsequences.py)|115|
-|955|[Delete Columns to Make Sorted II :alarm_clock:](https://leetcode.com/problems/delete-columns-to-make-sorted-ii)  ![Help](https://img.shields.io/badge/stats-Help-yellow.svg)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/955.%20Delete%20Columns%20to%20Make%20Sorted%20II)||33|
+|955|[Delete Columns to Make Sorted II :alarm_clock:](https://leetcode.com/problems/delete-columns-to-make-sorted-ii)  ![Help](https://img.shields.io/badge/stats-Help-yellow.svg)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/955.%20Delete%20Columns%20to%20Make%20Sorted%20II)||35|
 |1024|[Video Stitching](https://leetcode.com/problems/video-stitching) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/1024.%20Video%20Stitching)||10|
 
 ### Linked list
 | Id | Title | Dir | Solution | Review (days ago)|
 |----|-------|----------|-----|------------------|
-|86|[Partition List](https://leetcode.com/problems/partition-list)  ![Overtime](https://img.shields.io/badge/stats-Overtime-yellowgreen.svg)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/86.%20Partition%20List)||8|
-|445|[Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/445.%20Add%20Two%20Numbers%20II)||28|
+|86|[Partition List](https://leetcode.com/problems/partition-list)  ![Overtime](https://img.shields.io/badge/stats-Overtime-yellowgreen.svg)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/86.%20Partition%20List)||9|
+|445|[Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/445.%20Add%20Two%20Numbers%20II)||17|
 
 ### Math
 | Id | Title | Dir | Solution | Review (days ago)|
@@ -105,7 +105,7 @@ Need review: 15
 ### Queue
 | Id | Title | Dir | Solution | Review (days ago)|
 |----|-------|----------|-----|------------------|
-|622|[Design Circular Queue](https://leetcode.com/problems/design-circular-queue) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/622.%20Design%20Circular%20Queue)||26|
+|622|[Design Circular Queue](https://leetcode.com/problems/design-circular-queue) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/622.%20Design%20Circular%20Queue)||17|
 
 ### Recursion
 | Id | Title | Dir | Solution | Review (days ago)|
@@ -151,7 +151,7 @@ Need review: 15
 |889|[Construct Binary Tree from Preorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/889.%20Construct%20Binary%20Tree%20from%20Preorder%20and%20Postorder%20Traversal)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/889.%20Construct%20Binary%20Tree%20from%20Preorder%20and%20Postorder%20Traversal/construct-binary-tree-from-preorder-and-postorder-traversal.py)|30|
 |894|[All Possible Full Binary Trees :alarm_clock:](https://leetcode.com/problems/all-possible-full-binary-trees)  ![Help](https://img.shields.io/badge/stats-Help-yellow.svg)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/894.%20All%20Possible%20Full%20Binary%20Trees)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/894.%20All%20Possible%20Full%20Binary%20Trees/all-possible-full-binary-trees.py)|30|
 |951|[Flip Equivalent Binary Trees](https://leetcode.com/problems/flip-equivalent-binary-trees) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/951.%20Flip%20Equivalent%20Binary%20Trees)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/951.%20Flip%20Equivalent%20Binary%20Trees/flip-equivalent-binary-trees.py)|30|
-|958|[Check Completeness of a Binary Tree](https://leetcode.com/problems/check-completeness-of-a-binary-tree) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/958.%20Check%20Completeness%20of%20a%20Binary%20Tree)||14|
+|958|[Check Completeness of a Binary Tree](https://leetcode.com/problems/check-completeness-of-a-binary-tree) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/958.%20Check%20Completeness%20of%20a%20Binary%20Tree)||17|
 |979|[Distribute Coins in Binary Tree :alarm_clock:](https://leetcode.com/problems/distribute-coins-in-binary-tree)  ![Help](https://img.shields.io/badge/stats-Help-yellow.svg)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/979.%20Distribute%20Coins%20in%20Binary%20Tree)|[python](https://github.com/ggppwx/lcode/blob/master/Algorithm/979.%20Distribute%20Coins%20in%20Binary%20Tree/distribute-coins-in-binary-tree.py)|58|
 
 ### Trie
