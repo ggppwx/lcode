@@ -1,7 +1,8 @@
 #!/bin/bash
-git config --global core.autocrlf true
-bash ./timestamp.sh ;
 
+
+git config --global core.autocrlf true
+bash ./timestamp.sh
 # refresh readme
 python3 get.py -r
 

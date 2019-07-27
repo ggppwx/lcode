@@ -15,6 +15,7 @@ Output:
 ```
 
 ## Analysis
+O(n^2)
 
 ## Thoughts
 - solve by example. 
@@ -91,4 +92,4 @@ class Solution:
 Array
 
 ## Marks
-[comment]: <timestamp:>
+[comment]: <timestamp:2019-07-27>
