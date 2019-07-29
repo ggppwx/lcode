@@ -61,6 +61,13 @@ class Solution:
 ```
 Solution 2: pick triangle, DP solution
 ```python
+class Solution:
+    def minScoreTriangulation(self, A: List[int]) -> int:
+
+
+
+
+    
 
 ```
 
@@ -71,4 +78,4 @@ Solution 2: pick triangle, DP solution
 ## Marks
 Help
 
-[comment]: <timestamp:2019-05-09>
+[comment]: <timestamp:2019-07-29>
