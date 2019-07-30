@@ -30,6 +30,10 @@ Explanation: There are two triangulations, with possible scores: 3*7*5 + 4*5*7 =
     - a triangle will split the polygon into 2 pieces 
     - for point 0 and N-1, it always constructs a triangle 
 
+- Using bottom up solution ? 
+  - the filling order diagonally (0,2) -> (1, 3) -> (2, 4) -> (3, 5)
+  - nested loop, second loop `right = left + offset`
+
 ## Solution
 Solution 1: exceeding time limit 
 ```python
@@ -63,11 +67,36 @@ Solution 2: pick triangle, DP solution
 ```python
 class Solution:
     def minScoreTriangulation(self, A: List[int]) -> int:
-
-
-
-
-    
+        # 0, 1, 2 ... N-1
+        if not A:
+            return 0
+        
+        N = len(A)
+        
+        cache = [[None for _ in range(N)] for _ in range(N)]
+        
+        def dp(i, j, cache):
+            if j - i < 2:
+                return 0 
+            
+            if cache[i][j]:
+                return cache[i][j]
+            
+            result = 10000000 # max
+            
+            for k in range(i+1, j):
+                left = dp(i,k, cache)
+                right = dp(k,j, cache)
+                # i, j, k
+                val = A[i] * A[j] * A[k]
+                result = min(result, val + left + right )
+                
+            
+            cache[i][j] = result 
+            return result 
+        
+        
+        return dp(0, N-1, cache)
 
 ```
 
