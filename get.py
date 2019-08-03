@@ -241,7 +241,9 @@ class ReadmeContent(object):
                         if mark == 'Help2':
                             tag_text += ' ![Help2](https://img.shields.io/badge/stats-Help-orange.svg)'
                             expected_diff = 15
-
+                        if mark == '2':
+                            tag_text += ' ![Redone](https://img.shields.io/badge/stats-Help-green.svg)'
+                            expected_diff += 30
 
                     if diff >= expected_diff:
                         name += ' :alarm_clock:'
@@ -252,7 +254,7 @@ class ReadmeContent(object):
                         'name': name,
                         'location' : location,
                         'url': url,
-                        'tags' : tags,
+                        'tags': tags,
                         'marks' : marks,
                         'solutions' : solutions,
                         'solution_dir' : problem_dir_link,
