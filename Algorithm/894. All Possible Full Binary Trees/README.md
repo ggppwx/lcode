@@ -22,28 +22,39 @@ class Solution:
         Thinking as sub-problem
         left, right all possible trees are sub-problems 
         """
-        if N % 2 == 0:
-            return []
+# Definition for a binary tree node.
+# class TreeNode:
+#     def __init__(self, x):
+#         self.val = x
+#         self.left = None
+#         self.right = None
 
+class Solution:
+    def allPossibleFBT(self, N: int) -> List[TreeNode]:
+        # exit condition and corner case
+        if N == 0:
+            return [] 
         if N == 1:
             return [TreeNode(0)]
-
+        if N == 2:
+            return []
+        
         result = []
-        for i in range(N):
-            leftN = i
-            rightN = N - i - 1
-            for rootLeft in self.allPossibleFBT(leftN):
-                for rootRight in self.allPossibleFBT(rightN):
-                    node = TreeNode(0)
-                    node.left = rootLeft
-                    node.right = rootRight
-                    result.append(node)
-        return result
+        for left_count in range(1,N-1):
+            right_count = N - 1 -left_count
+            for l_node in self.allPossibleFBT(left_count):
+                for r_node in self.allPossibleFBT(right_count):
+                    newnode = TreeNode(0)
+                    newnode.left = l_node
+                    newnode.right = r_node
+                    result.append(newnode)
+                    
+        return result             
 ```
 
 ## Tags
 |Recursion|Tree|
 ## Marks
-Help
+2
 
-[comment]: <timestamp:2019-06-23>
+[comment]: <timestamp:2019-08-03>
