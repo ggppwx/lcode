@@ -242,7 +242,7 @@ class ReadmeContent(object):
                             tag_text += ' ![Help2](https://img.shields.io/badge/stats-Help-orange.svg)'
                             expected_diff = 15
                         if mark == '2':
-                            tag_text += ' ![Redone](https://img.shields.io/badge/stats-Help-green.svg)'
+                            tag_text += ' ![Redone](https://img.shields.io/badge/-Redone-green.svg)'
                             expected_diff += 30
 
                     if diff >= expected_diff:
