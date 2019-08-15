@@ -44,7 +44,7 @@ class Solution:
 
 ```
 ## Tags
-Arrary
+Arary
 
 ## Marks
 

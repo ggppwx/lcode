@@ -9,7 +9,7 @@ Need review: 32
 
 
 ## problem table
-### Arrary
+### Arary
 | Id | Title | Dir | Solution | Review (days ago)|
 |----|-------|----------|-----|------------------|
 |163|[Missing Ranges](https://leetcode.com/problems/missing-ranges) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/163.%20Missing%20Ranges)||0|
