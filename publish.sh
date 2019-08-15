@@ -10,6 +10,4 @@ python3 get.py -r
 git add README.md
 git add Algorithm
 git commit -m 'update lcode'
-git push 
-
-
+git push
