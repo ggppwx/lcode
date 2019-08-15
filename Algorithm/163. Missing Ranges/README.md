@@ -40,7 +40,7 @@ class Solution:
             result.append("{}->{}".format(start, upper))
             
 
-        return result 
+        return result
 
 ```
 ## Tags
@@ -49,4 +49,4 @@ Arrary
 ## Marks
 
 
-[comment]: <timestamp:>
+[comment]: <timestamp:2019-08-14>
