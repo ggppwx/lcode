@@ -233,7 +233,7 @@ class ReadmeContent(object):
                             tag_text += ' ![Hard](https://img.shields.io/badge/-Hard-red.svg) '
                             expected_diff = 35 
                         if mark == 'Star':
-                            tag_text += ' :star: '
+                            tag_text += ' ⭐ '
                             expected_diff = 30
                         if mark == 'Help':                            
                             tag_text += ' ![Help](https://img.shields.io/badge/stats-Help-yellow.svg)'
