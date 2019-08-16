@@ -16,7 +16,7 @@ Need review: 32
 
 | Id | Title | Dir | Solution | Review \(days ago\) |
 | :--- | :--- | :--- | :--- | :--- |
-| 31 | [Next Permutation](https://leetcode.com/problems/next-permutation)  :star: | [dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/31.%20Next%20Permutation) | [cpp](https://github.com/ggppwx/lcode/blob/master/Algorithm/31.%20Next%20Permutation/next-permutation.cpp) | 24 |
+| 31 | [Next Permutation](https://leetcode.com/problems/next-permutation)  ⭐  | [dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/31.%20Next%20Permutation) | [cpp](https://github.com/ggppwx/lcode/blob/master/Algorithm/31.%20Next%20Permutation/next-permutation.cpp) | 24 |
 | 59 | [Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii) | [dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/59.%20Spiral%20Matrix%20II) |  | 18 |
 | 163 | [Missing Ranges](https://leetcode.com/problems/missing-ranges) | [dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/163.%20Missing%20Ranges) |  | 0 |
 | 287 | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number)  :star: | [dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/287.%20Find%20the%20Duplicate%20Number) | [cpp](https://github.com/ggppwx/lcode/blob/master/Algorithm/287.%20Find%20the%20Duplicate%20Number/find-the-duplicate-number.cpp) | 24 |
