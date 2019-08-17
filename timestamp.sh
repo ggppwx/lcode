@@ -5,7 +5,7 @@ timestamp=`date +%Y-%m-%d`
 git config --global core.autocrlf true
 git diff HEAD --name-only | while read -r line ; do    
     if [[ $line =~ .*\.py$ ]] || [[ $line =~ .*\.cpp$ ]] || [[ $line =~ .*\.md$ ]]; then
-        target_file=`echo $line | sed  "s/\/[^\/]*$/\/README.md/"`
+        target_file=`echo $line`
         if [[  $target_file =~ .*\.md$ ]]; then
             echo "generating timestamp $target_file"
             sed -i -e "s/<timestamp.*$/<timestamp:$timestamp>/g" "$target_file"

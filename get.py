@@ -11,7 +11,7 @@ from collections import defaultdict
 import datetime
 import re
 
-PROBELM_DIR = 'Algorithm'
+PROBELM_DIR = 'algorithm'
 
 
 class Problem(object):
@@ -83,41 +83,22 @@ class TemplateCreator(object):
         -- problem.cpp
         """
         print('creating ... ')
-        dir_name = self._dir + '/' + str(problem.id) + '. ' + problem.title
+        problem_md_path = self._dir + '/' + str(problem.id) + '. ' + problem.title + '.md'
+        
         # generate a dir with title
-
-        try:
-            print(dir_name)
-            os.mkdir(dir_name)
-        except FileExistsError:
-            print("Dir ", dir_name, " already exists ")
+        if os.path.exists(problem_md_path):
+            print('{} already exists'.format(problem_md_path))
             return
 
         # generate file: readme
-        with open(dir_name + '/' + 'README.md', 'w') as f:
+        with open(problem_md_path, 'w') as f:
             substitutes = {
-                'title' : problem.title, 
-                'url': problem.url, 
-                'tags' : '|'.join(problem.tags)
+                'title': problem.title,
+                'url': problem.url,
+                'tags': '|'.join(problem.tags)
             }
             readme = self._templates['md'].substitute(substitutes)
             f.write(readme)
-
-        if language == 'python':
-            # generate file: python code 
-            file_path  = dir_name + '/' + problem.slug + '.py'
-            if not os.path.exists(file_path):
-                substitutes = {'title' : problem.title, 'url': problem.url}
-                py_source = self._templates['py'].substitute(substitutes)
-                with open(file_path, "w") as f:
-                    f.write( py_source)
-        elif language == 'cpp':
-            file_path  = dir_name + '/' + problem.slug + '.cpp'
-            if not os.path.exists(file_path):
-                substitutes = {'title' : problem.title, 'url': problem.url}
-                cpp_source = self._templates['cpp'].substitute(substitutes)
-                with open(file_path, "w") as f:
-                    f.write( cpp_source)
 
 
 class ReadmeContent(object):
@@ -172,102 +153,84 @@ class ReadmeContent(object):
 
     def get_info(self):
         """Get probelm in info """
-        for root, dirs, _ in os.walk(self._dir):
-            for dir_name in dirs:
-                #print(dir_name)
-                for problem_dir, _, files in os.walk(os.path.join(root, dir_name)):
-                    id = int(dir_name.split('.')[0])
-                    name = dir_name.split('.')[1].strip(' ')
-                    location = None
-                    slug = None
-                    url = None
-                    solutions  = []
-                    tags = []
-                    tag_text = ""
-                    marks = []
-                    timestamp = None
-                    problem_dir_quoted = urllib.parse.quote(dir_name)
-                    problem_dir_link = os.path.join('https://github.com/ggppwx/lcode/blob/master/Algorithm/', problem_dir_quoted)
-                    for file_name in files:
-                        #print(file_name)
-                        if file_name.startswith('.'):
-                            continue
-                        
-                        if file_name.endswith('.py'):
-                            location = os.path.join('.', problem_dir, file_name)
-                            python_link  =  os.path.join(problem_dir_link + '/' , file_name)
-                            #print(python_link)
-                            slug = os.path.splitext(file_name)[0]
-                            url = 'https://leetcode.com/problems/' + slug
-                            solutions.append({'solution' : 'python',
-                                              'solution_link' : python_link})
+        for root, dirs, files in os.walk(self._dir):
+            for file_name in files:
+                if file_name.startswith('.'):
+                    continue
 
-                        if file_name.endswith('.cpp'):
-                            location = os.path.join('.', problem_dir, file_name)
-                            cpp_link  = os.path.join(problem_dir_link + '/' , file_name)
-                            #print(cpp_link)
-                            slug = os.path.splitext(file_name)[0]
-                            url = 'https://leetcode.com/problems/' + slug
-                            solutions.append({'solution' : 'cpp',
-                                              'solution_link' : cpp_link})
+                if not file_name.endswith('.md'):
+                    continue
+                                
+                id = None
+                try:
+                    id = int(file_name.split('.')[0])
+                except:
+                    continue
 
-                        if file_name.endswith('.md'):
-                            # it contains the tag info
-                            location = os.path.join('.', problem_dir, file_name)
-                            file_path = os.path.join('.', problem_dir, file_name)
-                            tags, marks, timestamp, url = self._get_tags_from_md(file_path)
-                            
-                            #print(tags)
+                name = file_name.split('.')[1].strip(' ')                
+                slug = None
+                url = None
+                solutions = []
+                tags = []
+                tag_text = ""
+                marks = []
+                timestamp = None
+                problem_dir = self._dir
+                problem_dir_quoted = urllib.parse.quote("")
+                problem_dir_link = os.path.join('https://github.com/ggppwx/lcode/blob/master/Algorithm/', problem_dir_quoted)                                                                
+                location = os.path.join('.', problem_dir, file_name)
+                file_path = os.path.join('.', problem_dir, file_name)                
+                tags, marks, timestamp, url = self._get_tags_from_md(file_path)
+                                                
+                modified_date = (datetime.datetime.fromtimestamp(os.path.getmtime(location))
+                                    if not timestamp
+                                    else datetime.datetime.strptime(timestamp, "%Y-%m-%d"))
+                diff = (datetime.datetime.now() - modified_date).days
+                need_review = False
+                expected_diff = 60
+                for mark in marks:
+                    if mark == 'Overtime':
+                        tag_text += ' ![Overtime](https://img.shields.io/badge/stats-Overtime-yellowgreen.svg)'
+                        expected_diff = 40
+                    if mark == 'Hard':
+                        tag_text += ' ![Hard](https://img.shields.io/badge/-Hard-red.svg) '
+                        expected_diff = 35 
+                    if mark == 'Star':
+                        tag_text += ' ⭐ '
+                        expected_diff = 30
+                    if mark == 'Help':                            
+                        tag_text += ' ![Help](https://img.shields.io/badge/stats-Help-yellow.svg)'
+                        expected_diff = 25
+                    if mark == 'Help2':
+                        tag_text += ' ![Help2](https://img.shields.io/badge/stats-Help-orange.svg)'
+                        expected_diff = 15
+                    if mark == '2':
+                        tag_text += ' ![Redone](https://img.shields.io/badge/-Redone-green.svg)'
+                        expected_diff += 30
 
-                    modified_date = (datetime.datetime.fromtimestamp(os.path.getmtime(location))
-                                     if not timestamp
-                                     else datetime.datetime.strptime(timestamp, "%Y-%m-%d"))
-                    diff = (datetime.datetime.now() - modified_date).days
-                    need_review = False
-                    expected_diff = 60
-                    for mark in marks:
-                        if mark == 'Overtime':
-                            tag_text += ' ![Overtime](https://img.shields.io/badge/stats-Overtime-yellowgreen.svg)'
-                            expected_diff = 40
-                        if mark == 'Hard':
-                            tag_text += ' ![Hard](https://img.shields.io/badge/-Hard-red.svg) '
-                            expected_diff = 35 
-                        if mark == 'Star':
-                            tag_text += ' ⭐ '
-                            expected_diff = 30
-                        if mark == 'Help':                            
-                            tag_text += ' ![Help](https://img.shields.io/badge/stats-Help-yellow.svg)'
-                            expected_diff = 25
-                        if mark == 'Help2':
-                            tag_text += ' ![Help2](https://img.shields.io/badge/stats-Help-orange.svg)'
-                            expected_diff = 15
-                        if mark == '2':
-                            tag_text += ' ![Redone](https://img.shields.io/badge/-Redone-green.svg)'
-                            expected_diff += 30
+                if diff >= expected_diff:
+                    name += ' ⏰ '
+                    need_review = True
 
-                    if diff >= expected_diff:
-                        name += ' :alarm_clock:'
-                        need_review = True
-
-                    problem = {
-                        'id': id,
-                        'name': name,
-                        'location' : location,
-                        'url': url,
-                        'tags': tags,
-                        'marks' : marks,
-                        'solutions' : solutions,
-                        'solution_dir' : problem_dir_link,
-                        'need_review' : need_review,
-                        'diff' : diff,
-                        'tag_text': tag_text
-                    }
-
-                    self._problems.append(problem)
-                    for tag in tags:
-                        self._tag_problems[tag].append(problem)
-                    if not tags:
-                        self._un_tag_problems.append(problem)
+                problem = {
+                    'id': id,
+                    'name': name,
+                    'location' : location,
+                    'url': url,
+                    'tags': tags,
+                    'marks' : marks,
+                    'solutions' : solutions,
+                    'solution_dir' : problem_dir_link,
+                    'need_review' : need_review,
+                    'diff' : diff,
+                    'tag_text': tag_text
+                }                
+                print(problem)
+                self._problems.append(problem)
+                for tag in tags:
+                    self._tag_problems[tag].append(problem)
+                if not tags:
+                    self._un_tag_problems.append(problem)
 
 
     def create_readme_content(self):
@@ -309,19 +272,16 @@ class ReadmeContent(object):
 def main():
     parser = argparse.ArgumentParser()
     #parser.add_argument('-c', '--config', help='config file')
-    parser.add_argument('-i', '--index', help='index of the probelms' )
+    parser.add_argument('-i', '--index', help='index of the probelms')
     parser.add_argument('-t', '--tags', nargs='*', help='tag list')
-    parser.add_argument('-l', '--language', nargs = '?', help = 'the language, default is python')
-    parser.add_argument('-r', '--refresh', action="store_true", default = False,  help='refresh')
+    parser.add_argument('-l', '--language', nargs='?', help='the language, default is python')
+    parser.add_argument('-r', '--refresh', action="store_true", default=False, help='refresh')
     args = parser.parse_args()
-
 
     print(args)
 
     if args.index is not None:
         problem_index = int(args.index)
-
-
         web_parser = WebParser()
         problem = web_parser.get_problem(problem_index)
 
