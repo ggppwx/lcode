@@ -3,12 +3,17 @@ This is a personal repo for some code
 ## Status
 Review Status: 100 %  
 
-Total problems: 6
+Total problems: 7
 
 Need review: 0
 
 
 ## problem table
+### Array
+| Id | Title | Dir | Solution | Review (days ago)|
+|----|-------|----------|-----|------------------|
+|31|[next permutation](None)  ⭐ |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/)||0|
+
 ### DFS
 | Id | Title | Dir | Solution | Review (days ago)|
 |----|-------|----------|-----|------------------|
@@ -78,7 +83,6 @@ Need review: 0
 |517|[super washing machines](None)||
 |297|[serialize and deserialize binary tree](None)||
 |1024|[video stitching](None)||
-|31|[next permutation](None)||
 |43|[multiply strings](None)||
 |497|[random point in non overlapping rectangles](None)||
 |60|[permutation sequence](None)||
