@@ -12,7 +12,7 @@ Need review: 0
 ### DFS
 | Id | Title | Dir | Solution | Review (days ago)|
 |----|-------|----------|-----|------------------|
-|1110|[Delete Nodes And Return Forest](None) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/)||0|
+|1110|[Delete Nodes And Return Forest](None)  ⭐ |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/)||0|
 
 ### DP
 | Id | Title | Dir | Solution | Review (days ago)|
@@ -29,7 +29,7 @@ Need review: 0
 | Id | Title | Dir | Solution | Review (days ago)|
 |----|-------|----------|-----|------------------|
 |889|[-construct-binary-tree-from-preorder-and-postorder-traversal](None) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/)||0|
-|1110|[Delete Nodes And Return Forest](None) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/)||0|
+|1110|[Delete Nodes And Return Forest](None)  ⭐ |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/)||0|
 
 ### Untagged
 | Id | Title | Solution |
