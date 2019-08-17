@@ -3,7 +3,7 @@ This is a personal repo for some code
 ## Status
 Review Status: 100 %  
 
-Total problems: 7
+Total problems: 13
 
 Need review: 0
 
@@ -13,6 +13,15 @@ Need review: 0
 | Id | Title | Dir | Solution | Review (days ago)|
 |----|-------|----------|-----|------------------|
 |31|[next permutation](None)  ⭐ |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/)||0|
+|59|[spiral matrix ii](None) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/)||0|
+|163|[missing ranges](None) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/)||0|
+|287|[find the duplicate number](None)  ⭐ |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/)||0|
+|560|[subarray sum equals k](None) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/)||0|
+
+### BFS
+| Id | Title | Dir | Solution | Review (days ago)|
+|----|-------|----------|-----|------------------|
+|45|[jump game ii](None)  ![Hard](https://img.shields.io/badge/-Hard-red.svg)  ![Help](https://img.shields.io/badge/stats-Help-yellow.svg)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/)||0|
 
 ### DFS
 | Id | Title | Dir | Solution | Review (days ago)|
@@ -24,6 +33,11 @@ Need review: 0
 |----|-------|----------|-----|------------------|
 |55|[jump game](None) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/)||0|
 |688|[Knight Probability in Chessboard](None) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/)||0|
+
+### Greedy
+| Id | Title | Dir | Solution | Review (days ago)|
+|----|-------|----------|-----|------------------|
+|45|[jump game ii](None)  ![Hard](https://img.shields.io/badge/-Hard-red.svg)  ![Help](https://img.shields.io/badge/stats-Help-yellow.svg)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/)||0|
 
 ### Sort
 | Id | Title | Dir | Solution | Review (days ago)|
@@ -45,7 +59,6 @@ Need review: 0
 |698|[partition to k equal sum subsets](None)||
 |94|[binary tree inorder traversal](None)||
 |363|[max sum of rectangle no larger than k](None)||
-|45|[jump game ii](None)||
 |524|[longest word in dictionary through deleting](None)||
 |654|[maximum binary tree](None)||
 |213|[house robber ii](None)||
@@ -56,11 +69,9 @@ Need review: 0
 |543|[diameter of binary tree](None)||
 |622|[design circular queue](None)||
 |221|[maximal square](None)||
-|560|[subarray sum equals k](None)||
 |63|[unique paths ii](None)||
 |823|[binary trees with factors](None)||
 |134|[gas station](None)||
-|59|[spiral matrix ii](None)||
 |208|[implement trie prefix tree](None)||
 |86|[partition list](None)||
 |779|[k th symbol in grammar](None)||
@@ -90,11 +101,9 @@ Need review: 0
 |814|[binary tree pruning](None)||
 |1105|[filling bookcase shelves](None)||
 |720|[longest word in dictionary](None)||
-|163|[missing ranges](None)||
 |802|[find eventual safe states](None)||
 |284|[peeking iterator](None)||
 |841|[keys and rooms](None)||
-|287|[find the duplicate number](None)||
 |146|[lru cache](None)||
 |540|[single element in a sorted array](None)||
 |911|[online election](None)||
