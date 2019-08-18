@@ -22,7 +22,8 @@
   * [single element in a sorted array](algorithm/540.-single-element-in-a-sorted-array.md)
   * [koko eating bananas](algorithm/875.-koko-eating-bananas.md)
   * [online election](algorithm/911.-online-election.md)
-
+  
+* [DFS](algorithm/README.md)
   * [most frequent subtree sum](algorithm/508.-most-frequent-subtree-sum.md)
   * [partition list](algorithm/86.-partition-list.md)
   * [minimum falling path sum](algorithm/931.-minimum-falling-path-sum.md)
