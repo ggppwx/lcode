@@ -62,7 +62,7 @@ Need review: 0
 |873|[length of longest fibonacci subsequence](https://leetcode.com/problems/length-of-longest-fibonacci-subsequence)  ![Help](https://img.shields.io/badge/stats-Help-yellow.svg)|[link](algorithm/873.-length-of-longest-fibonacci-subsequence.md)|0|
 |931|[minimum falling path sum](https://leetcode.com/problems/minimum-falling-path-sum) |[link](algorithm/931.-minimum-falling-path-sum.md)|0|
 |983|[minimum cost for tickets](https://leetcode.com/problems/minimum-cost-for-tickets) |[link](algorithm/983.-minimum-cost-for-tickets.md)|0|
-|1000|[DP(i, j , K) = DP(i, j, K-1) + DP(i, j, 1)](None)  ![Help](https://img.shields.io/badge/stats-Help-yellow.svg) ![Hard](https://img.shields.io/badge/-Hard-red.svg) |[link](algorithm/1000.-minimum-cost-to-merge-stones.md)|0|
+|1000|[minimum cost to merge stones](https://leetcode.com/problems/minimum-cost-to-merge-stones)  ![Help](https://img.shields.io/badge/stats-Help-yellow.svg) ![Hard](https://img.shields.io/badge/-Hard-red.svg) |[link](algorithm/1000.-minimum-cost-to-merge-stones.md)|0|
 |1024|[video stitching](https://leetcode.com/problems/video-stitching) |[link](algorithm/1024.-video-stitching.md)|0|
 |1039|[minimum score triangulation of polygon](https://leetcode.com/problems/minimum-score-triangulation-of-polygon)  ![Help](https://img.shields.io/badge/stats-Help-yellow.svg)|[link](algorithm/1039.-minimum-score-triangulation-of-polygon.md)|0|
 |1105|[filling bookcase shelves](https://leetcode.com/problems/filling-bookcase-shelves)  ![Help](https://img.shields.io/badge/stats-Help-yellow.svg)|[link](algorithm/1105.-filling-bookcase-shelves.md)|0|
@@ -70,7 +70,7 @@ Need review: 0
 ### Design
 | Id | Title  | Solution | Review (days ago)|
 |----|-------|----------|------------------|
-|284|[        """](None) |[link](algorithm/284.-peeking-iterator.md)|0|
+|284|[peeking iterator](https://leetcode.com/problems/peeking-iterator) |[link](algorithm/284.-peeking-iterator.md)|0|
 
 ### Graph
 | Id | Title  | Solution | Review (days ago)|
@@ -88,7 +88,7 @@ Need review: 0
 ### Linked list
 | Id | Title  | Solution | Review (days ago)|
 |----|-------|----------|------------------|
-|86|[        self.next = None](None)  ![Overtime](https://img.shields.io/badge/stats-Overtime-yellowgreen.svg)|[link](algorithm/86.-partition-list.md)|0|
+|86|[partition list](https://leetcode.com/problems/partition-list)  ![Overtime](https://img.shields.io/badge/stats-Overtime-yellowgreen.svg)|[link](algorithm/86.-partition-list.md)|0|
 |146|[lru cache](https://leetcode.com/problems/lru-cache)  ⭐ |[link](algorithm/146.-lru-cache.md)|0|
 |147|[insertion sort list](https://leetcode.com/problems/insertion-sort-list)  ⭐ |[link](algorithm/147.-insertion-sort-list.md)|0|
 |445|[add two numbers ii](https://leetcode.com/problems/add-two-numbers-ii) |[link](algorithm/445.-add-two-numbers-ii.md)|0|
@@ -102,14 +102,14 @@ Need review: 0
 ### Queue
 | Id | Title  | Solution | Review (days ago)|
 |----|-------|----------|------------------|
-|622|[param_6 = obj.isFull()](None) |[link](algorithm/622.-design-circular-queue.md)|0|
+|622|[design circular queue](https://leetcode.com/problems/design-circular-queue) |[link](algorithm/622.-design-circular-queue.md)|0|
 
 ### Recursion
 | Id | Title  | Solution | Review (days ago)|
 |----|-------|----------|------------------|
 |698|[partition to k equal sum subsets](https://leetcode.com/problems/partition-to-k-equal-sum-subsets) |[link](algorithm/698.-partition-to-k-equal-sum-subsets.md)|0|
 |779|[k th symbol in grammar](https://leetcode.com/problems/k-th-symbol-in-grammar) |[link](algorithm/779.-k-th-symbol-in-grammar.md)|0|
-|894|[        self.right = None](None)  ![Redone](https://img.shields.io/badge/-Redone-green.svg)|[link](algorithm/894.-all-possible-full-binary-trees.md)|0|
+|894|[all possible full binary trees](https://leetcode.com/problems/all-possible-full-binary-trees)  ![Redone](https://img.shields.io/badge/-Redone-green.svg)|[link](algorithm/894.-all-possible-full-binary-trees.md)|0|
 
 ### Sort
 | Id | Title  | Solution | Review (days ago)|
@@ -133,7 +133,7 @@ Need review: 0
 | Id | Title  | Solution | Review (days ago)|
 |----|-------|----------|------------------|
 |94|[binary tree inorder traversal](https://leetcode.com/problems/binary-tree-inorder-traversal) |[link](algorithm/94.-binary-tree-inorder-traversal.md)|0|
-|129|[        self.right = None](None) |[link](algorithm/129.-sum-root-to-leaf-numbers.md)|0|
+|129|[sum root to leaf numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers) |[link](algorithm/129.-sum-root-to-leaf-numbers.md)|0|
 |230|[kth smallest element in a bst](https://leetcode.com/problems/kth-smallest-element-in-a-bst) |[link](algorithm/230.-kth-smallest-element-in-a-bst.md)|0|
 |297|[serialize and deserialize binary tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree) |[link](algorithm/297.-serialize-and-deserialize-binary-tree.md)|0|
 |508|[most frequent subtree sum](None) |[link](algorithm/508.-most-frequent-subtree-sum.md)|0|
@@ -141,7 +141,7 @@ Need review: 0
 |654|[maximum binary tree](https://leetcode.com/problems/maximum-binary-tree) |[link](algorithm/654.-maximum-binary-tree.md)|0|
 |814|[binary tree pruning](https://leetcode.com/problems/binary-tree-pruning) |[link](algorithm/814.-binary-tree-pruning.md)|0|
 |889|[Construct Binary Tree from Preorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal) |[link](algorithm/889.-construct-binary-tree-from-preorder-and-postorder-traversal.md)|0|
-|894|[        self.right = None](None)  ![Redone](https://img.shields.io/badge/-Redone-green.svg)|[link](algorithm/894.-all-possible-full-binary-trees.md)|0|
+|894|[all possible full binary trees](https://leetcode.com/problems/all-possible-full-binary-trees)  ![Redone](https://img.shields.io/badge/-Redone-green.svg)|[link](algorithm/894.-all-possible-full-binary-trees.md)|0|
 |951|[flip equivalent binary trees](https://leetcode.com/problems/flip-equivalent-binary-trees) |[link](algorithm/951.-flip-equivalent-binary-trees.md)|0|
 |958|[check completeness of a binary tree](https://leetcode.com/problems/check-completeness-of-a-binary-tree) |[link](algorithm/958.-check-completeness-of-a-binary-tree.md)|0|
 |979|[distribute coins in binary tree](https://leetcode.com/problems/distribute-coins-in-binary-tree)  ![Help](https://img.shields.io/badge/stats-Help-yellow.svg)|[link](algorithm/979.-distribute-coins-in-binary-tree.md)|0|
@@ -150,7 +150,7 @@ Need review: 0
 ### Trie
 | Id | Title  | Solution | Review (days ago)|
 |----|-------|----------|------------------|
-|208|[param_3 = obj.startsWith(prefix)](None) |[link](algorithm/208.-implement-trie-prefix-tree.md)|0|
+|208|[implement trie prefix tree](https://leetcode.com/problems/implement-trie-prefix-tree) |[link](algorithm/208.-implement-trie-prefix-tree.md)|0|
 |720|[Longest Word in Dictionary](https://leetcode.com/problems/longest-word-in-dictionary) |[link](algorithm/720.-longest-word-in-dictionary.md)|0|
 
 ### Untagged
@@ -159,4 +159,3 @@ Need review: 0
 
 
 
-[comment]: <timestamp:>

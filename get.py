@@ -123,7 +123,7 @@ class ReadmeContent(object):
             mark_line = False
             problem_url_line = False
             for line in f:
-                if line.startswith('# '):
+                if line.startswith('# ') and not name:
                     name = line[2:].rstrip()
                     problem_url_line = True
                 elif problem_url_line:
