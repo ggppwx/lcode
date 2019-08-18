@@ -220,8 +220,7 @@ class ReadmeContent(object):
                     'url': url,
                     'tags': tags,
                     'marks' : marks,
-                    'solutions' : solutions,
-                    'solution_dir' : problem_dir_link,
+                    'solutions' : [{'solution': 'link', 'solution_link': ''}],                    
                     'need_review' : need_review,
                     'diff' : diff,
                     'tag_text': tag_text
@@ -241,11 +240,11 @@ class ReadmeContent(object):
         review_number_of_problem = 0
         for tag, problems in sorted(self._tag_problems.items()):
             table += ('### {}\n'.format(tag))
-            table += ("| Id | Title | Dir | Solution | Review (days ago)|\n")
-            table += ("|----|-------|----------|-----|------------------|\n")
+            table += ("| Id | Title  | Solution | Review (days ago)|\n")
+            table += ("|----|-------|----------|------------------|\n")
             for problem in sorted(problems, key = lambda x: x['id']):
                 solution_col = "".join(["[{solution}]({solution_link})".format(**s) for s in problem['solutions']] )
-                line = "|{id}|[{name}]({url}) {tag_text}|[dir]({solution_dir})|{}|{diff}|\n".format(solution_col, **problem)
+                line = "|{id}|[{name}]({url}) {tag_text}|{}|{diff}|\n".format(solution_col, **problem)
                 table += line
                 total_number_of_problem += 1
                 review_number_of_problem += 1 if problem['need_review'] else 0
