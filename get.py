@@ -134,13 +134,15 @@ class ReadmeContent(object):
                     tag_line = True
                 elif tag_line:
                     tags = list(filter(None, line.rstrip().split('|')))
-                    tag_line = False
+                    if tags or line.startswith('#'):
+                        tag_line = False
 
                 if line.startswith('## Marks'):
                     mark_line = True
                 elif mark_line:
                     marks = list(filter(None, line.rstrip().split('|')))
-                    mark_line = False                
+                    if marks or line.startswith('['):
+                        mark_line = False                
 
                 if line.startswith('[comment]: <timestamp'):
                     found = re.search('<timestamp:(\d{4}-\d{2}-\d{2})>', line)
