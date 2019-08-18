@@ -11,5 +11,5 @@ do
 
     echo $entry    
     echo $problem
-    sed -i -e "s/\|/,/g" "$entry"
+    sed -i -e "s/\\\|/,/g" "$entry"
 done
