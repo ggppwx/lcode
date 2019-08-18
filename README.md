@@ -3,7 +3,7 @@ This is a personal repo for some code
 ## Status
 Review Status: 100 %  
 
-Total problems: 70
+Total problems: 72
 
 Need review: 0
 
@@ -23,6 +23,7 @@ Need review: 0
 |----|-------|----------|-----|------------------|
 |45|[jump game ii](None)  ![Hard](https://img.shields.io/badge/-Hard-red.svg)  ![Help](https://img.shields.io/badge/stats-Help-yellow.svg)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/)||0|
 |127|[word ladder](None)  ![Help](https://img.shields.io/badge/stats-Help-yellow.svg)|[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/)||0|
+|841|[keys and rooms](None) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/)||0|
 
 ### Backtracking
 | Id | Title | Dir | Solution | Review (days ago)|
@@ -135,6 +136,7 @@ Need review: 0
 |129|[sum root to leaf numbers](None) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/)||0|
 |230|[kth smallest element in a bst](None) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/)||0|
 |297|[serialize and deserialize binary tree](None) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/)||0|
+|508|[most frequent subtree sum](None) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/)||0|
 |543|[diameter of binary tree](None) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/)||0|
 |654|[maximum binary tree](None) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/)||0|
 |814|[binary tree pruning](None) |[dir](https://github.com/ggppwx/lcode/blob/master/Algorithm/)||0|
@@ -154,8 +156,6 @@ Need review: 0
 ### Untagged
 | Id | Title | Solution |
 |----|-------|----------|
-|508|[most frequent subtree sum](None)||
-|841|[keys and rooms](None)||
 
 
 
