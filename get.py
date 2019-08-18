@@ -112,22 +112,25 @@ class ReadmeContent(object):
         with open('README.md.tmpl') as f:
             self._template = string.Template(f.read())
 
-    def _get_tags_from_md(self, file_path):
+    def _get_info_from_md(self, file_path):
         with open(file_path, encoding="utf8") as f:
             tags = []
             marks = []
+            name = None
             timestamp = None
             url = None
             tag_line = False
             mark_line = False
             problem_url_line = False
             for line in f:
-                if line.startswith('# Problem'):
+                if line.startswith('# '):
+                    name = line[2:]
                     problem_url_line = True
                 elif problem_url_line:
                     found = re.search('\[.*\]\((.*?)\)', line)
                     url = found.group(1) if found else None 
-                    problem_url_line = False
+                    if url:
+                        problem_url_line = False
 
                 if line.startswith('## Tags'):
                     # read tags
@@ -148,7 +151,7 @@ class ReadmeContent(object):
                     found = re.search('<timestamp:(\d{4}-\d{2}-\d{2})>', line)
                     timestamp = found.group(1) if found else None
                     # print(timestamp)
-            return (tags, marks, timestamp, url)
+            return (name, tags, marks, timestamp, url)
 
     def get_info(self):
         """Get probelm in info """
@@ -165,8 +168,7 @@ class ReadmeContent(object):
                     id = int(file_name.split('.')[0])
                 except:
                     continue
-
-                name = file_name.split('.')[1].strip(' ')                
+                
                 slug = None
                 url = None
                 solutions = []
@@ -179,7 +181,7 @@ class ReadmeContent(object):
                 problem_dir_link = os.path.join('https://github.com/ggppwx/lcode/blob/master/Algorithm/', problem_dir_quoted)                                                                
                 location = os.path.join('.', problem_dir, file_name)
                 file_path = os.path.join('.', problem_dir, file_name)                
-                tags, marks, timestamp, url = self._get_tags_from_md(file_path)
+                name, tags, marks, timestamp, url = self._get_info_from_md(file_path)
                                                 
                 modified_date = (datetime.datetime.fromtimestamp(os.path.getmtime(location))
                                     if not timestamp
