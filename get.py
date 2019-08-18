@@ -124,7 +124,7 @@ class ReadmeContent(object):
             problem_url_line = False
             for line in f:
                 if line.startswith('# '):
-                    name = line[2:]
+                    name = line[2:].rstrip()
                     problem_url_line = True
                 elif problem_url_line:
                     found = re.search('\[.*\]\((.*?)\)', line)
