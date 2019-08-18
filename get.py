@@ -171,14 +171,12 @@ class ReadmeContent(object):
                 
                 slug = None
                 url = None
-                solutions = []
                 tags = []
                 tag_text = ""
                 marks = []
                 timestamp = None
-                problem_dir = self._dir
-                problem_dir_quoted = urllib.parse.quote("")
-                problem_dir_link = os.path.join('https://github.com/ggppwx/lcode/blob/master/Algorithm/', problem_dir_quoted)                                                                
+                solution_link = os.path.join('algorithm', file_name)
+                problem_dir = self._dir                
                 location = os.path.join('.', problem_dir, file_name)
                 file_path = os.path.join('.', problem_dir, file_name)                
                 name, tags, marks, timestamp, url = self._get_info_from_md(file_path)
@@ -220,7 +218,7 @@ class ReadmeContent(object):
                     'url': url,
                     'tags': tags,
                     'marks' : marks,
-                    'solutions' : [{'solution': 'link', 'solution_link': ''}],                    
+                    'solutions' : [{'solution': 'link', 'solution_link': solution_link}],                    
                     'need_review' : need_review,
                     'diff' : diff,
                     'tag_text': tag_text
