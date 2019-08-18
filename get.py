@@ -133,14 +133,14 @@ class ReadmeContent(object):
                     # read tags
                     tag_line = True
                 elif tag_line:
-                    tags = list(filter(None, line.rstrip().split('|')))
+                    tags = list(filter(None, line.rstrip().split(',')))
                     if tags or line.startswith('#'):
                         tag_line = False
 
                 if line.startswith('## Marks'):
                     mark_line = True
                 elif mark_line:
-                    marks = list(filter(None, line.rstrip().split('|')))
+                    marks = list(filter(None, line.rstrip().split(',')))
                     if marks or line.startswith('['):
                         mark_line = False                
 
@@ -149,9 +149,6 @@ class ReadmeContent(object):
                     timestamp = found.group(1) if found else None
                     # print(timestamp)
             return (tags, marks, timestamp, url)
-
-
-
 
     def get_info(self):
         """Get probelm in info """
