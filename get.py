@@ -148,7 +148,7 @@ class ReadmeContent(object):
                         mark_line = False                
 
                 if line.startswith('@timestamp'):
-                    found = re.search('@timestamp:(\d{4}-\d{2}-\d{2})>', line)
+                    found = re.search('@timestamp:(\d{4}-\d{2}-\d{2})', line)
                     timestamp = found.group(1) if found else None
                     # print(timestamp)
             return (name, tags, marks, timestamp, url)
