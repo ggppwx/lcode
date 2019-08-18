@@ -75,7 +75,4 @@
   * [k th symbol in grammar](algorithm/779.-k-th-symbol-in-grammar.md)
   * [peeking iterator](algorithm/284.-peeking-iterator.md)
   * [permutation sequence](algorithm/60.-permutation-sequence.md)
-* [docs](docs/README.md)
-  * [Welcome to MkDocs](docs/index.md)
-  * [problems](docs/algorithm.md)
 
