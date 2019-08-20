@@ -75,4 +75,5 @@
   * [k th symbol in grammar](algorithm/779.-k-th-symbol-in-grammar.md)
   * [peeking iterator](algorithm/284.-peeking-iterator.md)
   * [permutation sequence](algorithm/60.-permutation-sequence.md)
+  * [Strobogrammatic Number II](algorithm/247.strobogrammatic-number-ii.md)
 
