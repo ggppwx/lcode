@@ -230,6 +230,20 @@ class ReadmeContent(object):
                 if not tags:
                     self._un_tag_problems.append(problem)
 
+    def create_summary_content(self):
+        content = """
+# Table of contents
+* [lcode](README.md)
+"""
+        for tag, problems in sorted(self._tag_problems.items()):
+            content += ('* [{}]({})\n'.format(tag,'algorithm/README.md'))            
+            for problem in sorted(problems, key = lambda x: x['id']):
+                content += '  * [{name}]({})\n'.format(problem['solutions'][0]['solution_link'], **problem)                
+            content += '\n'
+
+        with open('SUMMARY.md', 'w') as f:
+            f.write(content)
+
 
     def create_readme_content(self):
         # tags ###
@@ -292,11 +306,13 @@ def main():
 
         readme_content = ReadmeContent(PROBELM_DIR)
         readme_content.create_readme_content()
+        readme_content.create_summary_content()
 
     elif args.refresh:
         print('---refresh-----')
         readme_content = ReadmeContent(PROBELM_DIR)
         readme_content.create_readme_content()
+        readme_content.create_summary_content()
     
 
 
