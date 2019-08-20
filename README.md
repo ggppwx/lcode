@@ -107,7 +107,7 @@ Need review: 0
 ### Recursion
 | Id | Title  | Solution | Review (days ago)|
 |----|-------|----------|------------------|
-|247|[Strobogrammatic Number II](https://leetcode.com/problems/strobogrammatic-number-ii) |[link](algorithm/247. Strobogrammatic Number II.md)|0|
+|247|[Strobogrammatic Number II](https://leetcode.com/problems/strobogrammatic-number-ii) |[link](algorithm/247.strobogrammatic-number-ii.md)|0|
 |698|[partition to k equal sum subsets](https://leetcode.com/problems/partition-to-k-equal-sum-subsets) |[link](algorithm/698.-partition-to-k-equal-sum-subsets.md)|1|
 |779|[k th symbol in grammar](https://leetcode.com/problems/k-th-symbol-in-grammar) |[link](algorithm/779.-k-th-symbol-in-grammar.md)|1|
 |894|[all possible full binary trees](https://leetcode.com/problems/all-possible-full-binary-trees)  ![Redone](https://img.shields.io/badge/-Redone-green.svg)|[link](algorithm/894.-all-possible-full-binary-trees.md)|1|

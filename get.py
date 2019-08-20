@@ -83,7 +83,7 @@ class TemplateCreator(object):
         -- problem.cpp
         """
         print('creating ... ')
-        problem_md_path = self._dir + '/' + str(problem.id) + '. ' + problem.title + '.md'
+        problem_md_path = self._dir + '/' + str(problem.id) + '.' + problem.slug + '.md'
         
         # generate a dir with title
         if os.path.exists(problem_md_path):
