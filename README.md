@@ -9,11 +9,6 @@ Need review: 0
 
 
 ## problem table
-### ## Marks
-| Id | Title  | Solution | Review (days ago)|
-|----|-------|----------|------------------|
-|222|[Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes) |[link](algorithm/222.count-complete-tree-nodes.md)|0|
-
 ### Array
 | Id | Title  | Solution | Review (days ago)|
 |----|-------|----------|------------------|
@@ -39,6 +34,7 @@ Need review: 0
 ### Binary search
 | Id | Title  | Solution | Review (days ago)|
 |----|-------|----------|------------------|
+|222|[Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes) |[link](algorithm/222.count-complete-tree-nodes.md)|0|
 |497|[random point in non overlapping rectangles](https://leetcode.com/problems/random-point-in-non-overlapping-rectangles) |[link](algorithm/497.-random-point-in-non-overlapping-rectangles.md)|10|
 |528|[random pick with weight](https://leetcode.com/problems/random-pick-with-weight) |[link](algorithm/528.-random-pick-with-weight.md)|10|
 |540|[single element in a sorted array](https://leetcode.com/problems/single-element-in-a-sorted-array) |[link](algorithm/540.-single-element-in-a-sorted-array.md)|11|
