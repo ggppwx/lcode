@@ -9,6 +9,7 @@ python3 get.py -r
 
 # publish the change to github
 git add README.md
+git add SUMMARY.md
 git add algorithm
 git commit -m 'update lcode'
 git push

@@ -18,6 +18,7 @@
   * [partition to k equal sum subsets](algorithm/698.-partition-to-k-equal-sum-subsets.md)
 
 * [Binary search](algorithm/README.md)
+  * [Count Complete Tree Nodes](algorithm/222.count-complete-tree-nodes.md)
   * [random point in non overlapping rectangles](algorithm/497.-random-point-in-non-overlapping-rectangles.md)
   * [random pick with weight](algorithm/528.-random-pick-with-weight.md)
   * [single element in a sorted array](algorithm/540.-single-element-in-a-sorted-array.md)
@@ -58,6 +59,9 @@
   * [gas station](algorithm/134.-gas-station.md)
   * [delete columns to make sorted ii](algorithm/955.-delete-columns-to-make-sorted-ii.md)
   * [video stitching](algorithm/1024.-video-stitching.md)
+
+* [Hash](algorithm/README.md)
+  * [Maximum Frequency Stack](algorithm/895.maximum-frequency-stack.md)
 
 * [Linked list](algorithm/README.md)
   * [partition list](algorithm/86.-partition-list.md)
