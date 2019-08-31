@@ -38,6 +38,7 @@
   * [maximal square](algorithm/221.-maximal-square.md)
   * [max sum of rectangle no larger than k](algorithm/363.-max-sum-of-rectangle-no-larger-than-k.md)
   * [Knight Probability in Chessboard](algorithm/688.-knight-probability-in-chessboard.md)
+  * [Minimum Window Subsequence](algorithm/727.minimum-window-subsequence.md)
   * [domino and tromino tiling](algorithm/790.-domino-and-tromino-tiling.md)
   * [binary trees with factors](algorithm/823.-binary-trees-with-factors.md)
   * [length of longest fibonacci subsequence](algorithm/873.-length-of-longest-fibonacci-subsequence.md)
