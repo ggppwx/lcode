@@ -58,7 +58,7 @@ Need review: 0
 |221|[maximal square](https://leetcode.com/problems/maximal-square)  ![Help](https://img.shields.io/badge/stats-Help-yellow.svg)|[link](algorithm/221.-maximal-square.md)|13|
 |363|[max sum of rectangle no larger than k](https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k)  ![Hard](https://img.shields.io/badge/-Hard-red.svg) |[link](algorithm/363.-max-sum-of-rectangle-no-larger-than-k.md)|13|
 |688|[Knight Probability in Chessboard](https://leetcode.com/problems/knight-probability-in-chessboard) |[link](algorithm/688.-knight-probability-in-chessboard.md)|13|
-|727|[Minimum Window Subsequence](https://leetcode.com/problems/minimum-window-subsequence)  ![Hard](https://img.shields.io/badge/-Hard-red.svg) |[link](algorithm/727.minimum-window-subsequence.md)|0|
+|727|[Minimum Window Subsequence](https://leetcode.com/problems/minimum-window-subsequence)  ![Hard](https://img.shields.io/badge/-Hard-red.svg)  ![Help](https://img.shields.io/badge/stats-Help-yellow.svg)|[link](algorithm/727.minimum-window-subsequence.md)|0|
 |790|[domino and tromino tiling](https://leetcode.com/problems/domino-and-tromino-tiling)  ![Help](https://img.shields.io/badge/stats-Help-yellow.svg)|[link](algorithm/790.-domino-and-tromino-tiling.md)|14|
 |823|[binary trees with factors](https://leetcode.com/problems/binary-trees-with-factors) |[link](algorithm/823.-binary-trees-with-factors.md)|13|
 |873|[length of longest fibonacci subsequence](https://leetcode.com/problems/length-of-longest-fibonacci-subsequence)  ![Help](https://img.shields.io/badge/stats-Help-yellow.svg)|[link](algorithm/873.-length-of-longest-fibonacci-subsequence.md)|13|
