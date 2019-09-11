@@ -66,6 +66,7 @@
   * [Maximum Frequency Stack](algorithm/895.maximum-frequency-stack.md)
 
 * [Linked list](algorithm/README.md)
+  * [Reverse Nodes in k-Group](algorithm/25.reverse-nodes-in-k-group.md)
   * [partition list](algorithm/86.-partition-list.md)
   * [lru cache](algorithm/146.-lru-cache.md)
   * [insertion sort list](algorithm/147.-insertion-sort-list.md)
