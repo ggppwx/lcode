@@ -9,8 +9,8 @@
   * [subarray sum equals k](algorithm/560.-subarray-sum-equals-k.md)
 
 * [BFS](algorithm/README.md)
-  * [jump game ii](algorithm/45.-jump-game-ii.md)
-  * [word ladder](algorithm/127.-word-ladder.md)
+  * [jump game ii ⏰ ](algorithm/45.-jump-game-ii.md)
+  * [word ladder ⏰ ](algorithm/127.-word-ladder.md)
   * [Keys and Rooms](algorithm/841.-keys-and-rooms.md)
 
 * [Backtracking](algorithm/README.md)
@@ -26,6 +26,7 @@
   * [online election](algorithm/911.-online-election.md)
 
 * [DFS](algorithm/README.md)
+  * [K-Similar Strings](algorithm/854.k-similar-strings.md)
   * [distribute coins in binary tree](algorithm/979.-distribute-coins-in-binary-tree.md)
   * [Delete Nodes And Return Forest](algorithm/1110.-delete-nodes-and-return-forest.md)
 
@@ -35,19 +36,19 @@
   * [palindrome partitioning ii](algorithm/132.-palindrome-partitioning-ii.md)
   * [maximum product subarray](algorithm/152.-maximum-product-subarray.md)
   * [house robber ii](algorithm/213.-house-robber-ii.md)
-  * [maximal square](algorithm/221.-maximal-square.md)
+  * [maximal square ⏰ ](algorithm/221.-maximal-square.md)
   * [max sum of rectangle no larger than k](algorithm/363.-max-sum-of-rectangle-no-larger-than-k.md)
   * [Knight Probability in Chessboard](algorithm/688.-knight-probability-in-chessboard.md)
   * [Minimum Window Subsequence](algorithm/727.minimum-window-subsequence.md)
-  * [domino and tromino tiling](algorithm/790.-domino-and-tromino-tiling.md)
+  * [domino and tromino tiling ⏰ ](algorithm/790.-domino-and-tromino-tiling.md)
   * [binary trees with factors](algorithm/823.-binary-trees-with-factors.md)
-  * [length of longest fibonacci subsequence](algorithm/873.-length-of-longest-fibonacci-subsequence.md)
+  * [length of longest fibonacci subsequence ⏰ ](algorithm/873.-length-of-longest-fibonacci-subsequence.md)
   * [minimum falling path sum](algorithm/931.-minimum-falling-path-sum.md)
   * [minimum cost for tickets](algorithm/983.-minimum-cost-for-tickets.md)
   * [minimum cost to merge stones](algorithm/1000.-minimum-cost-to-merge-stones.md)
   * [video stitching](algorithm/1024.-video-stitching.md)
-  * [minimum score triangulation of polygon](algorithm/1039.-minimum-score-triangulation-of-polygon.md)
-  * [filling bookcase shelves](algorithm/1105.-filling-bookcase-shelves.md)
+  * [minimum score triangulation of polygon ⏰ ](algorithm/1039.-minimum-score-triangulation-of-polygon.md)
+  * [filling bookcase shelves ⏰ ](algorithm/1105.-filling-bookcase-shelves.md)
 
 * [Design](algorithm/README.md)
   * [peeking iterator](algorithm/284.-peeking-iterator.md)
@@ -56,10 +57,10 @@
   * [find eventual safe states](algorithm/802.-find-eventual-safe-states.md)
 
 * [Greedy](algorithm/README.md)
-  * [jump game ii](algorithm/45.-jump-game-ii.md)
+  * [jump game ii ⏰ ](algorithm/45.-jump-game-ii.md)
   * [gas station](algorithm/134.-gas-station.md)
   * [Meeting Rooms II](algorithm/253.meeting-rooms-ii.md)
-  * [delete columns to make sorted ii](algorithm/955.-delete-columns-to-make-sorted-ii.md)
+  * [delete columns to make sorted ii ⏰ ](algorithm/955.-delete-columns-to-make-sorted-ii.md)
   * [video stitching](algorithm/1024.-video-stitching.md)
 
 * [Hash](algorithm/README.md)
@@ -74,7 +75,7 @@
 
 * [Math](algorithm/README.md)
   * [permutation sequence](algorithm/60.-permutation-sequence.md)
-  * [super washing machines](algorithm/517.-super-washing-machines.md)
+  * [super washing machines ⏰ ](algorithm/517.-super-washing-machines.md)
 
 * [Queue](algorithm/README.md)
   * [design circular queue](algorithm/622.-design-circular-queue.md)
@@ -95,7 +96,7 @@
 * [String](algorithm/README.md)
   * [generate parentheses](algorithm/22.-generate-parentheses.md)
   * [multiply strings](algorithm/43.-multiply-strings.md)
-  * [word subsets](algorithm/916.-word-subsets.md)
+  * [word subsets ⏰ ](algorithm/916.-word-subsets.md)
 
 * [Tree](algorithm/README.md)
   * [binary tree inorder traversal](algorithm/94.-binary-tree-inorder-traversal.md)
