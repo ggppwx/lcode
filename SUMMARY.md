@@ -9,8 +9,8 @@
   * [subarray sum equals k](algorithm/560.-subarray-sum-equals-k.md)
 
 * [BFS](algorithm/README.md)
-  * [jump game ii ⏰ ](algorithm/45.-jump-game-ii.md)
-  * [word ladder ⏰ ](algorithm/127.-word-ladder.md)
+  * [jump game ii](algorithm/45.-jump-game-ii.md)
+  * [word ladder](algorithm/127.-word-ladder.md)
   * [Keys and Rooms](algorithm/841.-keys-and-rooms.md)
 
 * [Backtracking](algorithm/README.md)
@@ -36,11 +36,11 @@
   * [palindrome partitioning ii](algorithm/132.-palindrome-partitioning-ii.md)
   * [maximum product subarray](algorithm/152.-maximum-product-subarray.md)
   * [house robber ii](algorithm/213.-house-robber-ii.md)
-  * [maximal square ⏰ ](algorithm/221.-maximal-square.md)
+  * [maximal square](algorithm/221.-maximal-square.md)
   * [max sum of rectangle no larger than k](algorithm/363.-max-sum-of-rectangle-no-larger-than-k.md)
   * [Knight Probability in Chessboard](algorithm/688.-knight-probability-in-chessboard.md)
   * [Minimum Window Subsequence](algorithm/727.minimum-window-subsequence.md)
-  * [domino and tromino tiling ⏰ ](algorithm/790.-domino-and-tromino-tiling.md)
+  * [domino and tromino tiling](algorithm/790.-domino-and-tromino-tiling.md)
   * [binary trees with factors](algorithm/823.-binary-trees-with-factors.md)
   * [length of longest fibonacci subsequence ⏰ ](algorithm/873.-length-of-longest-fibonacci-subsequence.md)
   * [minimum falling path sum](algorithm/931.-minimum-falling-path-sum.md)
@@ -57,7 +57,7 @@
   * [find eventual safe states](algorithm/802.-find-eventual-safe-states.md)
 
 * [Greedy](algorithm/README.md)
-  * [jump game ii ⏰ ](algorithm/45.-jump-game-ii.md)
+  * [jump game ii](algorithm/45.-jump-game-ii.md)
   * [gas station](algorithm/134.-gas-station.md)
   * [Meeting Rooms II](algorithm/253.meeting-rooms-ii.md)
   * [delete columns to make sorted ii ⏰ ](algorithm/955.-delete-columns-to-make-sorted-ii.md)
