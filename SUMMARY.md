@@ -2,10 +2,10 @@
 # Table of contents
 * [lcode](README.md)
 * [Array](algorithm/README.md)
-  * [next permutation](algorithm/31.-next-permutation.md)
+  * [next permutation ⏰ ](algorithm/31.-next-permutation.md)
   * [spiral matrix ii](algorithm/59.-spiral-matrix-ii.md)
   * [missing ranges](algorithm/163.-missing-ranges.md)
-  * [find the duplicate number](algorithm/287.-find-the-duplicate-number.md)
+  * [find the duplicate number ⏰ ](algorithm/287.-find-the-duplicate-number.md)
   * [subarray sum equals k](algorithm/560.-subarray-sum-equals-k.md)
 
 * [BFS](algorithm/README.md)
@@ -27,7 +27,7 @@
 
 * [DFS](algorithm/README.md)
   * [K-Similar Strings](algorithm/854.k-similar-strings.md)
-  * [distribute coins in binary tree](algorithm/979.-distribute-coins-in-binary-tree.md)
+  * [distribute coins in binary tree ⏰ ](algorithm/979.-distribute-coins-in-binary-tree.md)
   * [Delete Nodes And Return Forest](algorithm/1110.-delete-nodes-and-return-forest.md)
 
 * [DP](algorithm/README.md)
@@ -42,13 +42,14 @@
   * [Minimum Window Subsequence](algorithm/727.minimum-window-subsequence.md)
   * [domino and tromino tiling](algorithm/790.-domino-and-tromino-tiling.md)
   * [binary trees with factors](algorithm/823.-binary-trees-with-factors.md)
-  * [length of longest fibonacci subsequence ⏰ ](algorithm/873.-length-of-longest-fibonacci-subsequence.md)
+  * [length of longest fibonacci subsequence](algorithm/873.-length-of-longest-fibonacci-subsequence.md)
   * [minimum falling path sum](algorithm/931.-minimum-falling-path-sum.md)
   * [minimum cost for tickets](algorithm/983.-minimum-cost-for-tickets.md)
   * [minimum cost to merge stones](algorithm/1000.-minimum-cost-to-merge-stones.md)
   * [video stitching](algorithm/1024.-video-stitching.md)
-  * [minimum score triangulation of polygon ⏰ ](algorithm/1039.-minimum-score-triangulation-of-polygon.md)
-  * [filling bookcase shelves ⏰ ](algorithm/1105.-filling-bookcase-shelves.md)
+  * [minimum score triangulation of polygon](algorithm/1039.-minimum-score-triangulation-of-polygon.md)
+  * [Shortest Way to Form String](algorithm/1055.shortest-way-to-form-string.md)
+  * [filling bookcase shelves](algorithm/1105.-filling-bookcase-shelves.md)
 
 * [Design](algorithm/README.md)
   * [peeking iterator](algorithm/284.-peeking-iterator.md)
@@ -58,10 +59,11 @@
 
 * [Greedy](algorithm/README.md)
   * [jump game ii](algorithm/45.-jump-game-ii.md)
-  * [gas station](algorithm/134.-gas-station.md)
+  * [gas station ⏰ ](algorithm/134.-gas-station.md)
   * [Meeting Rooms II](algorithm/253.meeting-rooms-ii.md)
   * [delete columns to make sorted ii ⏰ ](algorithm/955.-delete-columns-to-make-sorted-ii.md)
   * [video stitching](algorithm/1024.-video-stitching.md)
+  * [Shortest Way to Form String](algorithm/1055.shortest-way-to-form-string.md)
 
 * [Hash](algorithm/README.md)
   * [Maximum Frequency Stack](algorithm/895.maximum-frequency-stack.md)
@@ -69,13 +71,13 @@
 * [Linked list](algorithm/README.md)
   * [Reverse Nodes in k-Group](algorithm/25.reverse-nodes-in-k-group.md)
   * [partition list](algorithm/86.-partition-list.md)
-  * [lru cache](algorithm/146.-lru-cache.md)
-  * [insertion sort list](algorithm/147.-insertion-sort-list.md)
+  * [lru cache ⏰ ](algorithm/146.-lru-cache.md)
+  * [insertion sort list ⏰ ](algorithm/147.-insertion-sort-list.md)
   * [add two numbers ii](algorithm/445.-add-two-numbers-ii.md)
 
 * [Math](algorithm/README.md)
   * [permutation sequence](algorithm/60.-permutation-sequence.md)
-  * [super washing machines ⏰ ](algorithm/517.-super-washing-machines.md)
+  * [super washing machines](algorithm/517.-super-washing-machines.md)
 
 * [Queue](algorithm/README.md)
   * [design circular queue](algorithm/622.-design-circular-queue.md)
@@ -96,7 +98,7 @@
 * [String](algorithm/README.md)
   * [generate parentheses](algorithm/22.-generate-parentheses.md)
   * [multiply strings](algorithm/43.-multiply-strings.md)
-  * [word subsets ⏰ ](algorithm/916.-word-subsets.md)
+  * [word subsets](algorithm/916.-word-subsets.md)
 
 * [Tree](algorithm/README.md)
   * [binary tree inorder traversal](algorithm/94.-binary-tree-inorder-traversal.md)
@@ -111,7 +113,7 @@
   * [all possible full binary trees](algorithm/894.-all-possible-full-binary-trees.md)
   * [flip equivalent binary trees](algorithm/951.-flip-equivalent-binary-trees.md)
   * [check completeness of a binary tree](algorithm/958.-check-completeness-of-a-binary-tree.md)
-  * [distribute coins in binary tree](algorithm/979.-distribute-coins-in-binary-tree.md)
+  * [distribute coins in binary tree ⏰ ](algorithm/979.-distribute-coins-in-binary-tree.md)
   * [Delete Nodes And Return Forest](algorithm/1110.-delete-nodes-and-return-forest.md)
 
 * [Trie](algorithm/README.md)

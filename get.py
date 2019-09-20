@@ -1,5 +1,5 @@
 """
-This script downloads the code 
+This script downloads the code
 """
 import argparse
 import requests
@@ -56,7 +56,7 @@ class WebParser(object):
 
     def get_problem(self, id):
         """Get the problem info based on id"""
-        # TBD: use beautiful soup to get the description 
+        # TBD: use beautiful soup to get the description
         problem = self._problems.get(id, {})
         problem.fillDescription()
         return problem
@@ -73,7 +73,7 @@ class TemplateCreator(object):
             self._templates['cpp'] = string.Template(f.read())
         with open('problem_readme.md.tmpl') as f:
             self._templates['md'] = string.Template(f.read())
-        
+
     def create_template(self, problem, language=None):
         """Create a local problem template
         dir
@@ -84,7 +84,7 @@ class TemplateCreator(object):
         """
         print('creating ... ')
         problem_md_path = self._dir + '/' + str(problem.id) + '.' + problem.slug + '.md'
-        
+
         # generate a dir with title
         if os.path.exists(problem_md_path):
             print('{} already exists'.format(problem_md_path))
@@ -128,7 +128,7 @@ class ReadmeContent(object):
                     problem_url_line = True
                 elif problem_url_line:
                     found = re.search('\[.*\]\((.*?)\)', line)
-                    url = found.group(1) if found else None 
+                    url = found.group(1) if found else None
                     if url:
                         problem_url_line = False
 
@@ -145,7 +145,7 @@ class ReadmeContent(object):
                 elif mark_line:
                     marks = list(filter(None, line.rstrip().split(',')))
                     if marks or line.startswith('['):
-                        mark_line = False                
+                        mark_line = False
 
                 if line.startswith('@timestamp'):
                     found = re.search('@timestamp:(\d{4}-\d{2}-\d{2})', line)
@@ -162,13 +162,13 @@ class ReadmeContent(object):
 
                 if not file_name.endswith('.md'):
                     continue
-                                
+
                 id = None
                 try:
                     id = int(file_name.split('.')[0])
                 except:
                     continue
-                
+
                 slug = None
                 url = None
                 tags = []
@@ -176,11 +176,11 @@ class ReadmeContent(object):
                 marks = []
                 timestamp = None
                 solution_link = os.path.join('algorithm', file_name)
-                problem_dir = self._dir                
+                problem_dir = self._dir
                 location = os.path.join('.', problem_dir, file_name)
-                file_path = os.path.join('.', problem_dir, file_name)                
+                file_path = os.path.join('.', problem_dir, file_name)
                 name, tags, marks, timestamp, url = self._get_info_from_md(file_path)
-                                                
+
                 modified_date = (datetime.datetime.fromtimestamp(os.path.getmtime(location))
                                     if not timestamp
                                     else datetime.datetime.strptime(timestamp, "%Y-%m-%d"))
@@ -191,13 +191,16 @@ class ReadmeContent(object):
                     if mark == 'Overtime':
                         tag_text += ' ![Overtime](https://img.shields.io/badge/stats-Overtime-yellowgreen.svg)'
                         expected_diff = 40
+                    if mark == 'Better':
+                        tag_text += ' ⁉️ '
+                        expected_diff = 40
                     if mark == 'Hard':
                         tag_text += ' ![Hard](https://img.shields.io/badge/-Hard-red.svg) '
-                        expected_diff = 35 
+                        expected_diff = 35
                     if mark == 'Star':
                         tag_text += ' ⭐ '
                         expected_diff = 30
-                    if mark == 'Help':                            
+                    if mark == 'Help':
                         tag_text += ' ![Help](https://img.shields.io/badge/stats-Help-yellow.svg)'
                         expected_diff = 25
                     if mark == 'Help2':
@@ -218,11 +221,11 @@ class ReadmeContent(object):
                     'url': url,
                     'tags': tags,
                     'marks' : marks,
-                    'solutions' : [{'solution': 'link', 'solution_link': solution_link}],                    
+                    'solutions' : [{'solution': 'link', 'solution_link': solution_link}],
                     'need_review' : need_review,
                     'diff' : diff,
                     'tag_text': tag_text
-                }                
+                }
                 print(problem)
                 self._problems.append(problem)
                 for tag in tags:
@@ -236,9 +239,9 @@ class ReadmeContent(object):
 * [lcode](README.md)
 """
         for tag, problems in sorted(self._tag_problems.items()):
-            content += ('* [{}]({})\n'.format(tag,'algorithm/README.md'))            
+            content += ('* [{}]({})\n'.format(tag,'algorithm/README.md'))
             for problem in sorted(problems, key = lambda x: x['id']):
-                content += '  * [{name}]({})\n'.format(problem['solutions'][0]['solution_link'], **problem)                
+                content += '  * [{name}]({})\n'.format(problem['solutions'][0]['solution_link'], **problem)
             content += '\n'
 
         with open('SUMMARY.md', 'w') as f:
@@ -313,7 +316,7 @@ def main():
         readme_content = ReadmeContent(PROBELM_DIR)
         readme_content.create_readme_content()
         readme_content.create_summary_content()
-    
+
 
 
 if __name__ == "__main__":
