@@ -243,7 +243,7 @@ class ReadmeContent(object):
             for problem in sorted(problems, key = lambda x: x['id']):
                 if problem['need_review']:
                     content += '  * [{name}]({})\n'.format(problem['solutions'][0]['solution_link'], **problem)
-
+        content += '\n'
 
         for tag, problems in sorted(self._tag_problems.items()):
             content += ('* [{}]({})\n'.format(tag,'algorithm/README.md'))
