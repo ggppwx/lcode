@@ -1,6 +1,11 @@
 
 # Table of contents
 * [lcode](README.md)
+* [Review](algorithm/README.md)
+  * [next permutation ⏰ ](algorithm/31.-next-permutation.md)
+  * [find the duplicate number ⏰ ](algorithm/287.-find-the-duplicate-number.md)
+  * [distribute coins in binary tree ⏰ ](algorithm/979.-distribute-coins-in-binary-tree.md)
+
 * [Array](algorithm/README.md)
   * [next permutation ⏰ ](algorithm/31.-next-permutation.md)
   * [spiral matrix ii](algorithm/59.-spiral-matrix-ii.md)
