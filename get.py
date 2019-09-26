@@ -238,11 +238,21 @@ class ReadmeContent(object):
 # Table of contents
 * [lcode](README.md)
 """
+        content += '* [{}]({})\n'.format('Review','algorithm/README.md')
+        for tag, problems in sorted(self._tag_problems.items()):
+            for problem in sorted(problems, key = lambda x: x['id']):
+                if problem['need_review']:
+                    content += '  * [{name}]({})\n'.format(problem['solutions'][0]['solution_link'], **problem)
+
+
         for tag, problems in sorted(self._tag_problems.items()):
             content += ('* [{}]({})\n'.format(tag,'algorithm/README.md'))
             for problem in sorted(problems, key = lambda x: x['id']):
                 content += '  * [{name}]({})\n'.format(problem['solutions'][0]['solution_link'], **problem)
             content += '\n'
+
+
+
 
         with open('SUMMARY.md', 'w') as f:
             f.write(content)
