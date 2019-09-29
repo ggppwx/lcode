@@ -1,177 +1,173 @@
 # lcode
 This is a personal repo for some code
 ## Status
-Review Status: 84 %  
+Review Status: 83 %  
 
 Total problems: 84
 
-Need review: 13
+Need review: 14
 
 
 ## problem table
-###  Math
-| Id | Title  | Solution | Review (days ago)|
-|----|-------|----------|------------------|
-|382|[Linked List Random Node](https://leetcode.com/problems/linked-list-random-node)  ⭐ |[link](algorithm/382.linked-list-random-node.md)|5|
-
 ### Array
 | Id | Title  | Solution | Review (days ago)|
 |----|-------|----------|------------------|
-|31|[next permutation ⏰ ](https://leetcode.com/problems/next-permutation)  ⭐ |[link](algorithm/31.-next-permutation.md)|39|
-|59|[spiral matrix ii](https://leetcode.com/problems/spiral-matrix-ii) |[link](algorithm/59.-spiral-matrix-ii.md)|40|
-|163|[missing ranges](https://leetcode.com/problems/missing-ranges) |[link](algorithm/163.-missing-ranges.md)|41|
-|287|[find the duplicate number ⏰ ](https://leetcode.com/problems/find-the-duplicate-number)  ⭐ |[link](algorithm/287.-find-the-duplicate-number.md)|39|
-|560|[subarray sum equals k](https://leetcode.com/problems/subarray-sum-equals-k) |[link](algorithm/560.-subarray-sum-equals-k.md)|40|
+|31|[next permutation ⏰ ](https://leetcode.com/problems/next-permutation)  ⭐ |[link](algorithm/31.-next-permutation.md)|42|
+|59|[spiral matrix ii](https://leetcode.com/problems/spiral-matrix-ii) |[link](algorithm/59.-spiral-matrix-ii.md)|43|
+|163|[missing ranges](https://leetcode.com/problems/missing-ranges) |[link](algorithm/163.-missing-ranges.md)|44|
+|287|[find the duplicate number](https://leetcode.com/problems/find-the-duplicate-number)  ⭐ |[link](algorithm/287.-find-the-duplicate-number.md)|0|
+|560|[subarray sum equals k](https://leetcode.com/problems/subarray-sum-equals-k) |[link](algorithm/560.-subarray-sum-equals-k.md)|43|
 
 ### BFS
 | Id | Title  | Solution | Review (days ago)|
 |----|-------|----------|------------------|
-|45|[jump game ii](https://leetcode.com/problems/jump-game-ii)  ![Hard](https://img.shields.io/badge/-Hard-red.svg)  ![Help](https://img.shields.io/badge/stats-Help-yellow.svg)|[link](algorithm/45.-jump-game-ii.md)|11|
-|127|[word ladder](https://leetcode.com/problems/word-ladder)  ![Help](https://img.shields.io/badge/stats-Help-yellow.svg)|[link](algorithm/127.-word-ladder.md)|11|
-|841|[Keys and Rooms](https://leetcode.com/problems/keys-and-rooms) |[link](algorithm/841.-keys-and-rooms.md)|39|
+|45|[jump game ii](https://leetcode.com/problems/jump-game-ii)  ![Hard](https://img.shields.io/badge/-Hard-red.svg)  ![Help](https://img.shields.io/badge/stats-Help-yellow.svg)|[link](algorithm/45.-jump-game-ii.md)|14|
+|127|[word ladder](https://leetcode.com/problems/word-ladder)  ![Help](https://img.shields.io/badge/stats-Help-yellow.svg)|[link](algorithm/127.-word-ladder.md)|14|
+|841|[Keys and Rooms](https://leetcode.com/problems/keys-and-rooms) |[link](algorithm/841.-keys-and-rooms.md)|42|
 
 ### Backtracking
 | Id | Title  | Solution | Review (days ago)|
 |----|-------|----------|------------------|
-|22|[generate parentheses](https://leetcode.com/problems/generate-parentheses) |[link](algorithm/22.-generate-parentheses.md)|39|
-|698|[partition to k equal sum subsets](https://leetcode.com/problems/partition-to-k-equal-sum-subsets) |[link](algorithm/698.-partition-to-k-equal-sum-subsets.md)|39|
+|22|[generate parentheses](https://leetcode.com/problems/generate-parentheses) |[link](algorithm/22.-generate-parentheses.md)|42|
+|698|[partition to k equal sum subsets](https://leetcode.com/problems/partition-to-k-equal-sum-subsets) |[link](algorithm/698.-partition-to-k-equal-sum-subsets.md)|42|
 
 ### Binary search
 | Id | Title  | Solution | Review (days ago)|
 |----|-------|----------|------------------|
-|222|[Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes) |[link](algorithm/222.count-complete-tree-nodes.md)|29|
-|497|[random point in non overlapping rectangles](https://leetcode.com/problems/random-point-in-non-overlapping-rectangles) |[link](algorithm/497.-random-point-in-non-overlapping-rectangles.md)|39|
-|528|[random pick with weight](https://leetcode.com/problems/random-pick-with-weight) |[link](algorithm/528.-random-pick-with-weight.md)|39|
-|540|[single element in a sorted array](https://leetcode.com/problems/single-element-in-a-sorted-array) |[link](algorithm/540.-single-element-in-a-sorted-array.md)|40|
-|875|[koko eating bananas](https://leetcode.com/problems/koko-eating-bananas) |[link](algorithm/875.-koko-eating-bananas.md)|39|
-|911|[online election](https://leetcode.com/problems/online-election) |[link](algorithm/911.-online-election.md)|39|
+|222|[Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes) |[link](algorithm/222.count-complete-tree-nodes.md)|32|
+|497|[random point in non overlapping rectangles](https://leetcode.com/problems/random-point-in-non-overlapping-rectangles) |[link](algorithm/497.-random-point-in-non-overlapping-rectangles.md)|42|
+|528|[random pick with weight](https://leetcode.com/problems/random-pick-with-weight) |[link](algorithm/528.-random-pick-with-weight.md)|42|
+|540|[single element in a sorted array](https://leetcode.com/problems/single-element-in-a-sorted-array) |[link](algorithm/540.-single-element-in-a-sorted-array.md)|43|
+|875|[koko eating bananas](https://leetcode.com/problems/koko-eating-bananas) |[link](algorithm/875.-koko-eating-bananas.md)|42|
+|911|[online election](https://leetcode.com/problems/online-election) |[link](algorithm/911.-online-election.md)|42|
 
 ### DFS
 | Id | Title  | Solution | Review (days ago)|
 |----|-------|----------|------------------|
-|854|[K-Similar Strings](https://leetcode.com/problems/k-similar-strings)  ![Hard](https://img.shields.io/badge/-Hard-red.svg) |[link](algorithm/854.k-similar-strings.md)|12|
-|979|[distribute coins in binary tree ⏰ ](https://leetcode.com/problems/distribute-coins-in-binary-tree)  ![Help](https://img.shields.io/badge/stats-Help-yellow.svg)|[link](algorithm/979.-distribute-coins-in-binary-tree.md)|35|
-|1110|[Delete Nodes And Return Forest ⏰ ](https://leetcode.com/problems/delete-nodes-and-return-forest)  ⭐ |[link](algorithm/1110.-delete-nodes-and-return-forest.md)|35|
+|854|[K-Similar Strings](https://leetcode.com/problems/k-similar-strings)  ![Hard](https://img.shields.io/badge/-Hard-red.svg) |[link](algorithm/854.k-similar-strings.md)|15|
+|979|[distribute coins in binary tree](https://leetcode.com/problems/distribute-coins-in-binary-tree)  ![Help](https://img.shields.io/badge/stats-Help-yellow.svg)|[link](algorithm/979.-distribute-coins-in-binary-tree.md)|0|
+|1110|[Delete Nodes And Return Forest](https://leetcode.com/problems/delete-nodes-and-return-forest)  ⭐ |[link](algorithm/1110.-delete-nodes-and-return-forest.md)|0|
 
 ### DP
 | Id | Title  | Solution | Review (days ago)|
 |----|-------|----------|------------------|
-|55|[Jump Game](https://leetcode.com/problems/jump-game) |[link](algorithm/55.-jump-game.md)|8|
-|63|[unique paths ii](https://leetcode.com/problems/unique-paths-ii) |[link](algorithm/63.-unique-paths-ii.md)|8|
-|132|[palindrome partitioning ii](https://leetcode.com/problems/palindrome-partitioning-ii)  ![Hard](https://img.shields.io/badge/-Hard-red.svg) |[link](algorithm/132.-palindrome-partitioning-ii.md)|8|
-|152|[maximum product subarray](https://leetcode.com/problems/maximum-product-subarray) |[link](algorithm/152.-maximum-product-subarray.md)|8|
-|213|[house robber ii](https://leetcode.com/problems/house-robber-ii) |[link](algorithm/213.-house-robber-ii.md)|8|
-|221|[maximal square](https://leetcode.com/problems/maximal-square)  ![Help](https://img.shields.io/badge/stats-Help-yellow.svg)|[link](algorithm/221.-maximal-square.md)|11|
-|363|[max sum of rectangle no larger than k](https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k)  ![Hard](https://img.shields.io/badge/-Hard-red.svg) |[link](algorithm/363.-max-sum-of-rectangle-no-larger-than-k.md)|8|
-|688|[Knight Probability in Chessboard](https://leetcode.com/problems/knight-probability-in-chessboard) |[link](algorithm/688.-knight-probability-in-chessboard.md)|8|
-|727|[Minimum Window Subsequence ⏰ ](https://leetcode.com/problems/minimum-window-subsequence)  ![Hard](https://img.shields.io/badge/-Hard-red.svg)  ![Help](https://img.shields.io/badge/stats-Help-yellow.svg)|[link](algorithm/727.minimum-window-subsequence.md)|26|
-|790|[domino and tromino tiling](https://leetcode.com/problems/domino-and-tromino-tiling)  ![Help](https://img.shields.io/badge/stats-Help-yellow.svg)|[link](algorithm/790.-domino-and-tromino-tiling.md)|11|
-|823|[binary trees with factors](https://leetcode.com/problems/binary-trees-with-factors) |[link](algorithm/823.-binary-trees-with-factors.md)|8|
-|873|[length of longest fibonacci subsequence](https://leetcode.com/problems/length-of-longest-fibonacci-subsequence)  ![Help](https://img.shields.io/badge/stats-Help-yellow.svg)|[link](algorithm/873.-length-of-longest-fibonacci-subsequence.md)|2|
-|931|[minimum falling path sum](https://leetcode.com/problems/minimum-falling-path-sum) |[link](algorithm/931.-minimum-falling-path-sum.md)|40|
-|983|[minimum cost for tickets](https://leetcode.com/problems/minimum-cost-for-tickets) |[link](algorithm/983.-minimum-cost-for-tickets.md)|8|
-|1000|[minimum cost to merge stones](https://leetcode.com/problems/minimum-cost-to-merge-stones)  ![Help](https://img.shields.io/badge/stats-Help-yellow.svg) ![Hard](https://img.shields.io/badge/-Hard-red.svg) |[link](algorithm/1000.-minimum-cost-to-merge-stones.md)|8|
-|1024|[video stitching](https://leetcode.com/problems/video-stitching) |[link](algorithm/1024.-video-stitching.md)|8|
-|1039|[minimum score triangulation of polygon](https://leetcode.com/problems/minimum-score-triangulation-of-polygon)  ![Help](https://img.shields.io/badge/stats-Help-yellow.svg)|[link](algorithm/1039.-minimum-score-triangulation-of-polygon.md)|2|
-|1055|[Shortest Way to Form String](https://leetcode.com/problems/shortest-way-to-form-string)  ⁉️ |[link](algorithm/1055.shortest-way-to-form-string.md)|9|
-|1105|[filling bookcase shelves](https://leetcode.com/problems/filling-bookcase-shelves)  ![Help](https://img.shields.io/badge/stats-Help-yellow.svg)|[link](algorithm/1105.-filling-bookcase-shelves.md)|8|
+|55|[Jump Game](https://leetcode.com/problems/jump-game) |[link](algorithm/55.-jump-game.md)|42|
+|63|[unique paths ii](https://leetcode.com/problems/unique-paths-ii) |[link](algorithm/63.-unique-paths-ii.md)|42|
+|132|[palindrome partitioning ii ⏰ ](https://leetcode.com/problems/palindrome-partitioning-ii)  ![Hard](https://img.shields.io/badge/-Hard-red.svg) |[link](algorithm/132.-palindrome-partitioning-ii.md)|42|
+|152|[maximum product subarray](https://leetcode.com/problems/maximum-product-subarray) |[link](algorithm/152.-maximum-product-subarray.md)|42|
+|213|[house robber ii](https://leetcode.com/problems/house-robber-ii) |[link](algorithm/213.-house-robber-ii.md)|42|
+|221|[maximal square](https://leetcode.com/problems/maximal-square)  ![Help](https://img.shields.io/badge/stats-Help-yellow.svg)|[link](algorithm/221.-maximal-square.md)|14|
+|363|[max sum of rectangle no larger than k ⏰ ](https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k)  ![Hard](https://img.shields.io/badge/-Hard-red.svg) |[link](algorithm/363.-max-sum-of-rectangle-no-larger-than-k.md)|42|
+|688|[Knight Probability in Chessboard](https://leetcode.com/problems/knight-probability-in-chessboard) |[link](algorithm/688.-knight-probability-in-chessboard.md)|42|
+|727|[Minimum Window Subsequence](https://leetcode.com/problems/minimum-window-subsequence)  ![Hard](https://img.shields.io/badge/-Hard-red.svg)  ![Help](https://img.shields.io/badge/stats-Help-yellow.svg)|[link](algorithm/727.minimum-window-subsequence.md)|0|
+|790|[domino and tromino tiling](https://leetcode.com/problems/domino-and-tromino-tiling)  ![Help](https://img.shields.io/badge/stats-Help-yellow.svg)|[link](algorithm/790.-domino-and-tromino-tiling.md)|14|
+|823|[binary trees with factors](https://leetcode.com/problems/binary-trees-with-factors) |[link](algorithm/823.-binary-trees-with-factors.md)|42|
+|873|[length of longest fibonacci subsequence](https://leetcode.com/problems/length-of-longest-fibonacci-subsequence)  ![Help](https://img.shields.io/badge/stats-Help-yellow.svg)|[link](algorithm/873.-length-of-longest-fibonacci-subsequence.md)|5|
+|931|[minimum falling path sum](https://leetcode.com/problems/minimum-falling-path-sum) |[link](algorithm/931.-minimum-falling-path-sum.md)|43|
+|983|[minimum cost for tickets](https://leetcode.com/problems/minimum-cost-for-tickets) |[link](algorithm/983.-minimum-cost-for-tickets.md)|42|
+|1000|[minimum cost to merge stones ⏰ ](https://leetcode.com/problems/minimum-cost-to-merge-stones)  ![Help](https://img.shields.io/badge/stats-Help-yellow.svg) ![Hard](https://img.shields.io/badge/-Hard-red.svg) |[link](algorithm/1000.-minimum-cost-to-merge-stones.md)|42|
+|1024|[video stitching](https://leetcode.com/problems/video-stitching) |[link](algorithm/1024.-video-stitching.md)|42|
+|1039|[minimum score triangulation of polygon](https://leetcode.com/problems/minimum-score-triangulation-of-polygon)  ![Help](https://img.shields.io/badge/stats-Help-yellow.svg)|[link](algorithm/1039.-minimum-score-triangulation-of-polygon.md)|5|
+|1055|[Shortest Way to Form String](https://leetcode.com/problems/shortest-way-to-form-string)  ⁉️ |[link](algorithm/1055.shortest-way-to-form-string.md)|12|
+|1105|[filling bookcase shelves ⏰ ](https://leetcode.com/problems/filling-bookcase-shelves)  ![Help](https://img.shields.io/badge/stats-Help-yellow.svg)|[link](algorithm/1105.-filling-bookcase-shelves.md)|42|
 
 ### Design
 | Id | Title  | Solution | Review (days ago)|
 |----|-------|----------|------------------|
-|284|[peeking iterator](https://leetcode.com/problems/peeking-iterator) |[link](algorithm/284.-peeking-iterator.md)|40|
+|284|[peeking iterator](https://leetcode.com/problems/peeking-iterator) |[link](algorithm/284.-peeking-iterator.md)|43|
 
 ### Graph
 | Id | Title  | Solution | Review (days ago)|
 |----|-------|----------|------------------|
-|802|[find eventual safe states](https://leetcode.com/problems/find-eventual-safe-states) |[link](algorithm/802.-find-eventual-safe-states.md)|8|
+|802|[find eventual safe states](https://leetcode.com/problems/find-eventual-safe-states) |[link](algorithm/802.-find-eventual-safe-states.md)|42|
 
 ### Greedy
 | Id | Title  | Solution | Review (days ago)|
 |----|-------|----------|------------------|
-|45|[jump game ii](https://leetcode.com/problems/jump-game-ii)  ![Hard](https://img.shields.io/badge/-Hard-red.svg)  ![Help](https://img.shields.io/badge/stats-Help-yellow.svg)|[link](algorithm/45.-jump-game-ii.md)|11|
-|134|[gas station ⏰ ](https://leetcode.com/problems/gas-station)  ⭐ |[link](algorithm/134.-gas-station.md)|40|
-|253|[Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii)  ![Help](https://img.shields.io/badge/stats-Help-yellow.svg) ⭐ |[link](algorithm/253.meeting-rooms-ii.md)|22|
-|955|[delete columns to make sorted ii ⏰ ](https://leetcode.com/problems/delete-columns-to-make-sorted-ii)  ![Help](https://img.shields.io/badge/stats-Help-yellow.svg)|[link](algorithm/955.-delete-columns-to-make-sorted-ii.md)|40|
-|1024|[video stitching](https://leetcode.com/problems/video-stitching) |[link](algorithm/1024.-video-stitching.md)|8|
-|1055|[Shortest Way to Form String](https://leetcode.com/problems/shortest-way-to-form-string)  ⁉️ |[link](algorithm/1055.shortest-way-to-form-string.md)|9|
+|45|[jump game ii](https://leetcode.com/problems/jump-game-ii)  ![Hard](https://img.shields.io/badge/-Hard-red.svg)  ![Help](https://img.shields.io/badge/stats-Help-yellow.svg)|[link](algorithm/45.-jump-game-ii.md)|14|
+|134|[gas station ⏰ ](https://leetcode.com/problems/gas-station)  ⭐ |[link](algorithm/134.-gas-station.md)|43|
+|253|[Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii)  ![Help](https://img.shields.io/badge/stats-Help-yellow.svg) ⭐ |[link](algorithm/253.meeting-rooms-ii.md)|25|
+|955|[delete columns to make sorted ii ⏰ ](https://leetcode.com/problems/delete-columns-to-make-sorted-ii)  ![Help](https://img.shields.io/badge/stats-Help-yellow.svg)|[link](algorithm/955.-delete-columns-to-make-sorted-ii.md)|43|
+|1024|[video stitching](https://leetcode.com/problems/video-stitching) |[link](algorithm/1024.-video-stitching.md)|42|
+|1055|[Shortest Way to Form String](https://leetcode.com/problems/shortest-way-to-form-string)  ⁉️ |[link](algorithm/1055.shortest-way-to-form-string.md)|12|
 
 ### Hash
 | Id | Title  | Solution | Review (days ago)|
 |----|-------|----------|------------------|
-|299|[Bulls and Cows](https://leetcode.com/problems/bulls-and-cows) |[link](algorithm/299.bulls-and-cows.md)|1|
-|895|[Maximum Frequency Stack ⏰ ](https://leetcode.com/problems/maximum-frequency-stack)  ![Help](https://img.shields.io/badge/stats-Help-yellow.svg)|[link](algorithm/895.maximum-frequency-stack.md)|32|
+|299|[Bulls and Cows](https://leetcode.com/problems/bulls-and-cows) |[link](algorithm/299.bulls-and-cows.md)|4|
+|895|[Maximum Frequency Stack ⏰ ](https://leetcode.com/problems/maximum-frequency-stack)  ![Help](https://img.shields.io/badge/stats-Help-yellow.svg)|[link](algorithm/895.maximum-frequency-stack.md)|35|
 
 ### Linked list
 | Id | Title  | Solution | Review (days ago)|
 |----|-------|----------|------------------|
-|25|[Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group)  ![Overtime](https://img.shields.io/badge/stats-Overtime-yellowgreen.svg)|[link](algorithm/25.reverse-nodes-in-k-group.md)|16|
-|86|[partition list ⏰ ](https://leetcode.com/problems/partition-list)  ![Overtime](https://img.shields.io/badge/stats-Overtime-yellowgreen.svg)|[link](algorithm/86.-partition-list.md)|40|
-|146|[lru cache ⏰ ](https://leetcode.com/problems/lru-cache)  ⭐ |[link](algorithm/146.-lru-cache.md)|40|
-|147|[insertion sort list ⏰ ](https://leetcode.com/problems/insertion-sort-list)  ⭐ |[link](algorithm/147.-insertion-sort-list.md)|40|
-|382|[Linked List Random Node](https://leetcode.com/problems/linked-list-random-node)  ⭐ |[link](algorithm/382.linked-list-random-node.md)|5|
-|445|[add two numbers ii](https://leetcode.com/problems/add-two-numbers-ii) |[link](algorithm/445.-add-two-numbers-ii.md)|40|
+|25|[Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group)  ![Overtime](https://img.shields.io/badge/stats-Overtime-yellowgreen.svg)|[link](algorithm/25.reverse-nodes-in-k-group.md)|19|
+|86|[partition list ⏰ ](https://leetcode.com/problems/partition-list)  ![Overtime](https://img.shields.io/badge/stats-Overtime-yellowgreen.svg)|[link](algorithm/86.-partition-list.md)|43|
+|146|[lru cache ⏰ ](https://leetcode.com/problems/lru-cache)  ⭐ |[link](algorithm/146.-lru-cache.md)|43|
+|147|[insertion sort list ⏰ ](https://leetcode.com/problems/insertion-sort-list)  ⭐ |[link](algorithm/147.-insertion-sort-list.md)|43|
+|382|[Linked List Random Node](https://leetcode.com/problems/linked-list-random-node)  ⭐ |[link](algorithm/382.linked-list-random-node.md)|8|
+|445|[add two numbers ii](https://leetcode.com/problems/add-two-numbers-ii) |[link](algorithm/445.-add-two-numbers-ii.md)|43|
 
 ### Math
 | Id | Title  | Solution | Review (days ago)|
 |----|-------|----------|------------------|
-|60|[permutation sequence](https://leetcode.com/problems/permutation-sequence)  ![Overtime](https://img.shields.io/badge/stats-Overtime-yellowgreen.svg)|[link](algorithm/60.-permutation-sequence.md)|8|
-|517|[super washing machines](https://leetcode.com/problems/super-washing-machines)  ![Help](https://img.shields.io/badge/stats-Help-yellow.svg)|[link](algorithm/517.-super-washing-machines.md)|8|
+|60|[permutation sequence ⏰ ](https://leetcode.com/problems/permutation-sequence)  ![Overtime](https://img.shields.io/badge/stats-Overtime-yellowgreen.svg)|[link](algorithm/60.-permutation-sequence.md)|42|
+|382|[Linked List Random Node](https://leetcode.com/problems/linked-list-random-node)  ⭐ |[link](algorithm/382.linked-list-random-node.md)|8|
+|517|[super washing machines ⏰ ](https://leetcode.com/problems/super-washing-machines)  ![Help](https://img.shields.io/badge/stats-Help-yellow.svg)|[link](algorithm/517.-super-washing-machines.md)|42|
 
 ### Queue
 | Id | Title  | Solution | Review (days ago)|
 |----|-------|----------|------------------|
-|622|[design circular queue](https://leetcode.com/problems/design-circular-queue) |[link](algorithm/622.-design-circular-queue.md)|40|
+|622|[design circular queue](https://leetcode.com/problems/design-circular-queue) |[link](algorithm/622.-design-circular-queue.md)|43|
 
 ### Recursion
 | Id | Title  | Solution | Review (days ago)|
 |----|-------|----------|------------------|
-|247|[Strobogrammatic Number II](https://leetcode.com/problems/strobogrammatic-number-ii) |[link](algorithm/247.strobogrammatic-number-ii.md)|38|
-|698|[partition to k equal sum subsets](https://leetcode.com/problems/partition-to-k-equal-sum-subsets) |[link](algorithm/698.-partition-to-k-equal-sum-subsets.md)|39|
-|779|[k th symbol in grammar](https://leetcode.com/problems/k-th-symbol-in-grammar) |[link](algorithm/779.-k-th-symbol-in-grammar.md)|8|
-|894|[all possible full binary trees](https://leetcode.com/problems/all-possible-full-binary-trees)  ![Redone](https://img.shields.io/badge/-Redone-green.svg)|[link](algorithm/894.-all-possible-full-binary-trees.md)|8|
+|247|[Strobogrammatic Number II](https://leetcode.com/problems/strobogrammatic-number-ii) |[link](algorithm/247.strobogrammatic-number-ii.md)|41|
+|698|[partition to k equal sum subsets](https://leetcode.com/problems/partition-to-k-equal-sum-subsets) |[link](algorithm/698.-partition-to-k-equal-sum-subsets.md)|42|
+|779|[k th symbol in grammar](https://leetcode.com/problems/k-th-symbol-in-grammar) |[link](algorithm/779.-k-th-symbol-in-grammar.md)|42|
+|894|[all possible full binary trees](https://leetcode.com/problems/all-possible-full-binary-trees)  ![Redone](https://img.shields.io/badge/-Redone-green.svg)|[link](algorithm/894.-all-possible-full-binary-trees.md)|42|
 
 ### Sort
 | Id | Title  | Solution | Review (days ago)|
 |----|-------|----------|------------------|
-|524|[longest word in dictionary through deleting](https://leetcode.com/problems/longest-word-in-dictionary-through-deleting) |[link](algorithm/524.-longest-word-in-dictionary-through-deleting.md)|8|
-|969|[Pancake Sorting](https://leetcode.com/problems/pancake-sorting) |[link](algorithm/969.-pancake-sorting.md)|8|
+|524|[longest word in dictionary through deleting](https://leetcode.com/problems/longest-word-in-dictionary-through-deleting) |[link](algorithm/524.-longest-word-in-dictionary-through-deleting.md)|42|
+|969|[Pancake Sorting](https://leetcode.com/problems/pancake-sorting) |[link](algorithm/969.-pancake-sorting.md)|42|
 
 ### Stack
 | Id | Title  | Solution | Review (days ago)|
 |----|-------|----------|------------------|
-|71|[simplify path](https://leetcode.com/problems/simplify-path) |[link](algorithm/71.-simplify-path.md)|8|
+|71|[simplify path](https://leetcode.com/problems/simplify-path) |[link](algorithm/71.-simplify-path.md)|42|
 
 ### String
 | Id | Title  | Solution | Review (days ago)|
 |----|-------|----------|------------------|
-|22|[generate parentheses](https://leetcode.com/problems/generate-parentheses) |[link](algorithm/22.-generate-parentheses.md)|39|
-|43|[multiply strings](https://leetcode.com/problems/multiply-strings) |[link](algorithm/43.-multiply-strings.md)|40|
-|916|[word subsets](https://leetcode.com/problems/word-subsets/)  ![Help](https://img.shields.io/badge/stats-Help-yellow.svg)|[link](algorithm/916.-word-subsets.md)|8|
+|22|[generate parentheses](https://leetcode.com/problems/generate-parentheses) |[link](algorithm/22.-generate-parentheses.md)|42|
+|43|[multiply strings](https://leetcode.com/problems/multiply-strings) |[link](algorithm/43.-multiply-strings.md)|43|
+|916|[word subsets ⏰ ](https://leetcode.com/problems/word-subsets/)  ![Help](https://img.shields.io/badge/stats-Help-yellow.svg)|[link](algorithm/916.-word-subsets.md)|42|
 
 ### Tree
 | Id | Title  | Solution | Review (days ago)|
 |----|-------|----------|------------------|
-|94|[binary tree inorder traversal](https://leetcode.com/problems/binary-tree-inorder-traversal) |[link](algorithm/94.-binary-tree-inorder-traversal.md)|8|
-|129|[sum root to leaf numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers) |[link](algorithm/129.-sum-root-to-leaf-numbers.md)|40|
-|230|[kth smallest element in a bst](https://leetcode.com/problems/kth-smallest-element-in-a-bst) |[link](algorithm/230.-kth-smallest-element-in-a-bst.md)|8|
-|297|[serialize and deserialize binary tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree) |[link](algorithm/297.-serialize-and-deserialize-binary-tree.md)|8|
-|508|[most frequent subtree sum](None) |[link](algorithm/508.-most-frequent-subtree-sum.md)|8|
-|543|[diameter of binary tree](https://leetcode.com/problems/diameter-of-binary-tree) |[link](algorithm/543.-diameter-of-binary-tree.md)|8|
-|654|[maximum binary tree](https://leetcode.com/problems/maximum-binary-tree) |[link](algorithm/654.-maximum-binary-tree.md)|8|
-|814|[binary tree pruning](https://leetcode.com/problems/binary-tree-pruning) |[link](algorithm/814.-binary-tree-pruning.md)|8|
-|889|[Construct Binary Tree from Preorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal) |[link](algorithm/889.-construct-binary-tree-from-preorder-and-postorder-traversal.md)|8|
-|894|[all possible full binary trees](https://leetcode.com/problems/all-possible-full-binary-trees)  ![Redone](https://img.shields.io/badge/-Redone-green.svg)|[link](algorithm/894.-all-possible-full-binary-trees.md)|8|
-|951|[flip equivalent binary trees](https://leetcode.com/problems/flip-equivalent-binary-trees) |[link](algorithm/951.-flip-equivalent-binary-trees.md)|8|
-|958|[check completeness of a binary tree](https://leetcode.com/problems/check-completeness-of-a-binary-tree) |[link](algorithm/958.-check-completeness-of-a-binary-tree.md)|40|
-|979|[distribute coins in binary tree ⏰ ](https://leetcode.com/problems/distribute-coins-in-binary-tree)  ![Help](https://img.shields.io/badge/stats-Help-yellow.svg)|[link](algorithm/979.-distribute-coins-in-binary-tree.md)|35|
-|1110|[Delete Nodes And Return Forest ⏰ ](https://leetcode.com/problems/delete-nodes-and-return-forest)  ⭐ |[link](algorithm/1110.-delete-nodes-and-return-forest.md)|35|
+|94|[binary tree inorder traversal](https://leetcode.com/problems/binary-tree-inorder-traversal) |[link](algorithm/94.-binary-tree-inorder-traversal.md)|42|
+|129|[sum root to leaf numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers) |[link](algorithm/129.-sum-root-to-leaf-numbers.md)|43|
+|230|[kth smallest element in a bst](https://leetcode.com/problems/kth-smallest-element-in-a-bst) |[link](algorithm/230.-kth-smallest-element-in-a-bst.md)|42|
+|297|[serialize and deserialize binary tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree) |[link](algorithm/297.-serialize-and-deserialize-binary-tree.md)|42|
+|508|[most frequent subtree sum](None) |[link](algorithm/508.-most-frequent-subtree-sum.md)|42|
+|543|[diameter of binary tree](https://leetcode.com/problems/diameter-of-binary-tree) |[link](algorithm/543.-diameter-of-binary-tree.md)|42|
+|654|[maximum binary tree](https://leetcode.com/problems/maximum-binary-tree) |[link](algorithm/654.-maximum-binary-tree.md)|42|
+|814|[binary tree pruning](https://leetcode.com/problems/binary-tree-pruning) |[link](algorithm/814.-binary-tree-pruning.md)|42|
+|889|[Construct Binary Tree from Preorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal) |[link](algorithm/889.-construct-binary-tree-from-preorder-and-postorder-traversal.md)|42|
+|894|[all possible full binary trees](https://leetcode.com/problems/all-possible-full-binary-trees)  ![Redone](https://img.shields.io/badge/-Redone-green.svg)|[link](algorithm/894.-all-possible-full-binary-trees.md)|42|
+|951|[flip equivalent binary trees](https://leetcode.com/problems/flip-equivalent-binary-trees) |[link](algorithm/951.-flip-equivalent-binary-trees.md)|42|
+|958|[check completeness of a binary tree](https://leetcode.com/problems/check-completeness-of-a-binary-tree) |[link](algorithm/958.-check-completeness-of-a-binary-tree.md)|43|
+|979|[distribute coins in binary tree](https://leetcode.com/problems/distribute-coins-in-binary-tree)  ![Help](https://img.shields.io/badge/stats-Help-yellow.svg)|[link](algorithm/979.-distribute-coins-in-binary-tree.md)|0|
+|1110|[Delete Nodes And Return Forest](https://leetcode.com/problems/delete-nodes-and-return-forest)  ⭐ |[link](algorithm/1110.-delete-nodes-and-return-forest.md)|0|
 
 ### Trie
 | Id | Title  | Solution | Review (days ago)|
 |----|-------|----------|------------------|
-|208|[implement trie prefix tree](https://leetcode.com/problems/implement-trie-prefix-tree) |[link](algorithm/208.-implement-trie-prefix-tree.md)|8|
-|720|[Longest Word in Dictionary](https://leetcode.com/problems/longest-word-in-dictionary) |[link](algorithm/720.-longest-word-in-dictionary.md)|8|
+|208|[implement trie prefix tree](https://leetcode.com/problems/implement-trie-prefix-tree) |[link](algorithm/208.-implement-trie-prefix-tree.md)|42|
+|720|[Longest Word in Dictionary](https://leetcode.com/problems/longest-word-in-dictionary) |[link](algorithm/720.-longest-word-in-dictionary.md)|42|
 
 ### Untagged
 | Id | Title | Solution |
