@@ -8,6 +8,7 @@
   * [minimum cost to merge stones ⏰ ](algorithm/1000.-minimum-cost-to-merge-stones.md)
   * [filling bookcase shelves ⏰ ](algorithm/1105.-filling-bookcase-shelves.md)
   * [gas station ⏰ ](algorithm/134.-gas-station.md)
+  * [Meeting Rooms II ⏰ ](algorithm/253.meeting-rooms-ii.md)
   * [delete columns to make sorted ii ⏰ ](algorithm/955.-delete-columns-to-make-sorted-ii.md)
   * [Maximum Frequency Stack ⏰ ](algorithm/895.maximum-frequency-stack.md)
   * [partition list ⏰ ](algorithm/86.-partition-list.md)
@@ -21,6 +22,7 @@
   * [next permutation ⏰ ](algorithm/31.-next-permutation.md)
   * [spiral matrix ii](algorithm/59.-spiral-matrix-ii.md)
   * [missing ranges](algorithm/163.-missing-ranges.md)
+  * [Product of Array Except Self](algorithm/238.product-of-array-except-self.md)
   * [find the duplicate number](algorithm/287.-find-the-duplicate-number.md)
   * [subarray sum equals k](algorithm/560.-subarray-sum-equals-k.md)
 
@@ -31,6 +33,7 @@
 
 * [Backtracking](algorithm/README.md)
   * [generate parentheses](algorithm/22.-generate-parentheses.md)
+  * [N-Queens II](algorithm/52.n-queens-ii.md)
   * [partition to k equal sum subsets](algorithm/698.-partition-to-k-equal-sum-subsets.md)
 
 * [Binary search](algorithm/README.md)
@@ -42,6 +45,7 @@
   * [online election](algorithm/911.-online-election.md)
 
 * [DFS](algorithm/README.md)
+  * [N-Queens II](algorithm/52.n-queens-ii.md)
   * [K-Similar Strings](algorithm/854.k-similar-strings.md)
   * [distribute coins in binary tree](algorithm/979.-distribute-coins-in-binary-tree.md)
   * [Delete Nodes And Return Forest](algorithm/1110.-delete-nodes-and-return-forest.md)
@@ -76,13 +80,14 @@
 * [Greedy](algorithm/README.md)
   * [jump game ii](algorithm/45.-jump-game-ii.md)
   * [gas station ⏰ ](algorithm/134.-gas-station.md)
-  * [Meeting Rooms II](algorithm/253.meeting-rooms-ii.md)
+  * [Meeting Rooms II ⏰ ](algorithm/253.meeting-rooms-ii.md)
   * [delete columns to make sorted ii ⏰ ](algorithm/955.-delete-columns-to-make-sorted-ii.md)
   * [video stitching](algorithm/1024.-video-stitching.md)
   * [Shortest Way to Form String](algorithm/1055.shortest-way-to-form-string.md)
 
 * [Hash](algorithm/README.md)
   * [Bulls and Cows](algorithm/299.bulls-and-cows.md)
+  * [Longest Substring with At Most K Distinct Characters](algorithm/340.longest-substring-with-at-most-k-distinct-characters.md)
   * [Maximum Frequency Stack ⏰ ](algorithm/895.maximum-frequency-stack.md)
 
 * [Linked list](algorithm/README.md)
@@ -107,6 +112,9 @@
   * [k th symbol in grammar](algorithm/779.-k-th-symbol-in-grammar.md)
   * [all possible full binary trees](algorithm/894.-all-possible-full-binary-trees.md)
 
+* [Sliding window](algorithm/README.md)
+  * [Longest Substring with At Most K Distinct Characters](algorithm/340.longest-substring-with-at-most-k-distinct-characters.md)
+
 * [Sort](algorithm/README.md)
   * [longest word in dictionary through deleting](algorithm/524.-longest-word-in-dictionary-through-deleting.md)
   * [Pancake Sorting](algorithm/969.-pancake-sorting.md)
@@ -121,11 +129,13 @@
 
 * [Tree](algorithm/README.md)
   * [binary tree inorder traversal](algorithm/94.-binary-tree-inorder-traversal.md)
+  * [Validate Binary Search Tree](algorithm/98.validate-binary-search-tree.md)
   * [sum root to leaf numbers](algorithm/129.-sum-root-to-leaf-numbers.md)
   * [kth smallest element in a bst](algorithm/230.-kth-smallest-element-in-a-bst.md)
   * [serialize and deserialize binary tree](algorithm/297.-serialize-and-deserialize-binary-tree.md)
   * [most frequent subtree sum](algorithm/508.-most-frequent-subtree-sum.md)
   * [diameter of binary tree](algorithm/543.-diameter-of-binary-tree.md)
+  * [Binary Tree Longest Consecutive Sequence II](algorithm/549.binary-tree-longest-consecutive-sequence-ii.md)
   * [maximum binary tree](algorithm/654.-maximum-binary-tree.md)
   * [binary tree pruning](algorithm/814.-binary-tree-pruning.md)
   * [Construct Binary Tree from Preorder and Postorder Traversal](algorithm/889.-construct-binary-tree-from-preorder-and-postorder-traversal.md)
