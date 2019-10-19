@@ -226,7 +226,7 @@ class ReadmeContent(object):
                     'diff' : diff,
                     'tag_text': tag_text
                 }
-                print(problem)
+                # print(problem)
                 self._problems.append(problem)
                 for tag in tags:
                     self._tag_problems[tag].append(problem)
