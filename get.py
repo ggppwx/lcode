@@ -186,7 +186,7 @@ class ReadmeContent(object):
                                     else datetime.datetime.strptime(timestamp, "%Y-%m-%d"))
                 diff = (datetime.datetime.now() - modified_date).days
                 need_review = False
-                expected_diff = 60
+                expected_diff = 90
                 for mark in marks:
                     if mark == 'Overtime':
                         tag_text += ' ![Overtime](https://img.shields.io/badge/stats-Overtime-yellowgreen.svg)'
