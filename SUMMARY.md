@@ -4,9 +4,6 @@
 * [Review](algorithm/README.md)
   * [next permutation ⏰ ](algorithm/31.-next-permutation.md)
   * [find the duplicate number ⏰ ](algorithm/287.-find-the-duplicate-number.md)
-  * [jump game ii ⏰ ](algorithm/45.-jump-game-ii.md)
-  * [word ladder ⏰ ](algorithm/127.-word-ladder.md)
-  * [K-Similar Strings ⏰ ](algorithm/854.k-similar-strings.md)
   * [distribute coins in binary tree ⏰ ](algorithm/979.-distribute-coins-in-binary-tree.md)
   * [Delete Nodes And Return Forest ⏰ ](algorithm/1110.-delete-nodes-and-return-forest.md)
   * [maximal square ⏰ ](algorithm/221.-maximal-square.md)
@@ -18,7 +15,6 @@
   * [minimum score triangulation of polygon ⏰ ](algorithm/1039.-minimum-score-triangulation-of-polygon.md)
   * [Shortest Way to Form String ⏰ ](algorithm/1055.shortest-way-to-form-string.md)
   * [filling bookcase shelves ⏰ ](algorithm/1105.-filling-bookcase-shelves.md)
-  * [jump game ii ⏰ ](algorithm/45.-jump-game-ii.md)
   * [gas station ⏰ ](algorithm/134.-gas-station.md)
   * [Meeting Rooms II ⏰ ](algorithm/253.meeting-rooms-ii.md)
   * [delete columns to make sorted ii ⏰ ](algorithm/955.-delete-columns-to-make-sorted-ii.md)
@@ -45,8 +41,8 @@
   * [subarray sum equals k](algorithm/560.-subarray-sum-equals-k.md)
 
 * [BFS](algorithm/README.md)
-  * [jump game ii ⏰ ](algorithm/45.-jump-game-ii.md)
-  * [word ladder ⏰ ](algorithm/127.-word-ladder.md)
+  * [jump game ii](algorithm/45.-jump-game-ii.md)
+  * [word ladder](algorithm/127.-word-ladder.md)
   * [Keys and Rooms](algorithm/841.-keys-and-rooms.md)
 
 * [Backtracking](algorithm/README.md)
@@ -64,7 +60,7 @@
 
 * [DFS](algorithm/README.md)
   * [N-Queens II](algorithm/52.n-queens-ii.md)
-  * [K-Similar Strings ⏰ ](algorithm/854.k-similar-strings.md)
+  * [K-Similar Strings](algorithm/854.k-similar-strings.md)
   * [distribute coins in binary tree ⏰ ](algorithm/979.-distribute-coins-in-binary-tree.md)
   * [Delete Nodes And Return Forest ⏰ ](algorithm/1110.-delete-nodes-and-return-forest.md)
 
@@ -96,7 +92,7 @@
   * [find eventual safe states](algorithm/802.-find-eventual-safe-states.md)
 
 * [Greedy](algorithm/README.md)
-  * [jump game ii ⏰ ](algorithm/45.-jump-game-ii.md)
+  * [jump game ii](algorithm/45.-jump-game-ii.md)
   * [gas station ⏰ ](algorithm/134.-gas-station.md)
   * [Meeting Rooms II ⏰ ](algorithm/253.meeting-rooms-ii.md)
   * [delete columns to make sorted ii ⏰ ](algorithm/955.-delete-columns-to-make-sorted-ii.md)
