@@ -240,14 +240,16 @@ class ReadmeContent(object):
 * [lcode](README.md)
 """
         content += '* [{}]({})\n'.format('Review','algorithm/README.md')
-        for tag, problems in sorted(self._tag_problems.items()):
+        tag_problem_list = list(self._tag_problems.items())
+        random.shuffle(tag_problem_list)
+        for tag, problems in tag_problem_list:
             for problem in sorted(problems, key = lambda x: x['id']):
                 if problem['need_review']:
                     content += '  * [{name}]({})\n'.format(problem['solutions'][0]['solution_link'], **problem)
         content += '\n'
-        tag_problem_list = list(self._tag_problems.items())
-        random.shuffle(tag_problem_list)
-        for tag, problems in tag_problem_list:
+        
+
+        for tag, problems in sorted(self._tag_problems.items()):
             content += ('* [{}]({})\n'.format(tag,'algorithm/README.md'))
             for problem in sorted(problems, key = lambda x: x['id']):
                 content += '  * [{name}]({})\n'.format(problem['solutions'][0]['solution_link'], **problem)
