@@ -10,6 +10,7 @@ import urllib.parse
 from collections import defaultdict
 import datetime
 import re
+import random
 
 PROBELM_DIR = 'algorithm'
 
@@ -245,14 +246,11 @@ class ReadmeContent(object):
                     content += '  * [{name}]({})\n'.format(problem['solutions'][0]['solution_link'], **problem)
         content += '\n'
 
-        for tag, problems in sorted(self._tag_problems.items()):
+        for tag, problems in random.shuffle(sorted(self._tag_problems.items())):
             content += ('* [{}]({})\n'.format(tag,'algorithm/README.md'))
             for problem in sorted(problems, key = lambda x: x['id']):
                 content += '  * [{name}]({})\n'.format(problem['solutions'][0]['solution_link'], **problem)
             content += '\n'
-
-
-
 
         with open('SUMMARY.md', 'w') as f:
             f.write(content)
