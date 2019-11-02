@@ -32,10 +32,49 @@
   * [distribute coins in binary tree ⏰ ](algorithm/979.-distribute-coins-in-binary-tree.md)
   * [Delete Nodes And Return Forest ⏰ ](algorithm/1110.-delete-nodes-and-return-forest.md)
 
+* [Linked list](algorithm/README.md)
+  * [Reverse Nodes in k-Group ⏰ ](algorithm/25.reverse-nodes-in-k-group.md)
+  * [partition list ⏰ ](algorithm/86.-partition-list.md)
+  * [lru cache ⏰ ](algorithm/146.-lru-cache.md)
+  * [insertion sort list ⏰ ](algorithm/147.-insertion-sort-list.md)
+  * [Linked List Random Node ⏰ ](algorithm/382.linked-list-random-node.md)
+  * [add two numbers ii](algorithm/445.-add-two-numbers-ii.md)
+
+* [Stack](algorithm/README.md)
+  * [simplify path](algorithm/71.-simplify-path.md)
+
+* [Math](algorithm/README.md)
+  * [permutation sequence ⏰ ](algorithm/60.-permutation-sequence.md)
+  * [Linked List Random Node ⏰ ](algorithm/382.linked-list-random-node.md)
+  * [super washing machines ⏰ ](algorithm/517.-super-washing-machines.md)
+
+* [Graph](algorithm/README.md)
+  * [find eventual safe states](algorithm/802.-find-eventual-safe-states.md)
+
+* [Sort](algorithm/README.md)
+  * [longest word in dictionary through deleting](algorithm/524.-longest-word-in-dictionary-through-deleting.md)
+  * [Pancake Sorting](algorithm/969.-pancake-sorting.md)
+
 * [BFS](algorithm/README.md)
   * [jump game ii](algorithm/45.-jump-game-ii.md)
   * [word ladder](algorithm/127.-word-ladder.md)
   * [Keys and Rooms](algorithm/841.-keys-and-rooms.md)
+
+* [Sliding window](algorithm/README.md)
+  * [Longest Substring with At Most K Distinct Characters](algorithm/340.longest-substring-with-at-most-k-distinct-characters.md)
+
+* [Backtracking](algorithm/README.md)
+  * [generate parentheses](algorithm/22.-generate-parentheses.md)
+  * [N-Queens II](algorithm/52.n-queens-ii.md)
+  * [partition to k equal sum subsets](algorithm/698.-partition-to-k-equal-sum-subsets.md)
+
+* [Binary search](algorithm/README.md)
+  * [Count Complete Tree Nodes](algorithm/222.count-complete-tree-nodes.md)
+  * [random point in non overlapping rectangles](algorithm/497.-random-point-in-non-overlapping-rectangles.md)
+  * [random pick with weight](algorithm/528.-random-pick-with-weight.md)
+  * [single element in a sorted array](algorithm/540.-single-element-in-a-sorted-array.md)
+  * [koko eating bananas](algorithm/875.-koko-eating-bananas.md)
+  * [online election](algorithm/911.-online-election.md)
 
 * [DFS](algorithm/README.md)
   * [N-Queens II](algorithm/52.n-queens-ii.md)
@@ -43,13 +82,27 @@
   * [distribute coins in binary tree ⏰ ](algorithm/979.-distribute-coins-in-binary-tree.md)
   * [Delete Nodes And Return Forest ⏰ ](algorithm/1110.-delete-nodes-and-return-forest.md)
 
-* [Array](algorithm/README.md)
-  * [next permutation ⏰ ](algorithm/31.-next-permutation.md)
-  * [spiral matrix ii](algorithm/59.-spiral-matrix-ii.md)
-  * [missing ranges](algorithm/163.-missing-ranges.md)
-  * [Product of Array Except Self](algorithm/238.product-of-array-except-self.md)
-  * [find the duplicate number ⏰ ](algorithm/287.-find-the-duplicate-number.md)
-  * [subarray sum equals k](algorithm/560.-subarray-sum-equals-k.md)
+* [Trie](algorithm/README.md)
+  * [implement trie prefix tree](algorithm/208.-implement-trie-prefix-tree.md)
+  * [Longest Word in Dictionary](algorithm/720.-longest-word-in-dictionary.md)
+
+* [Greedy](algorithm/README.md)
+  * [jump game ii](algorithm/45.-jump-game-ii.md)
+  * [gas station ⏰ ](algorithm/134.-gas-station.md)
+  * [Meeting Rooms II ⏰ ](algorithm/253.meeting-rooms-ii.md)
+  * [delete columns to make sorted ii ⏰ ](algorithm/955.-delete-columns-to-make-sorted-ii.md)
+  * [video stitching](algorithm/1024.-video-stitching.md)
+  * [Shortest Way to Form String ⏰ ](algorithm/1055.shortest-way-to-form-string.md)
+
+* [String](algorithm/README.md)
+  * [generate parentheses](algorithm/22.-generate-parentheses.md)
+  * [multiply strings](algorithm/43.-multiply-strings.md)
+  * [word subsets ⏰ ](algorithm/916.-word-subsets.md)
+
+* [Hash](algorithm/README.md)
+  * [Bulls and Cows](algorithm/299.bulls-and-cows.md)
+  * [Longest Substring with At Most K Distinct Characters](algorithm/340.longest-substring-with-at-most-k-distinct-characters.md)
+  * [Maximum Frequency Stack ⏰ ](algorithm/895.maximum-frequency-stack.md)
 
 * [DP](algorithm/README.md)
   * [Jump Game](algorithm/55.-jump-game.md)
@@ -72,63 +125,14 @@
   * [Shortest Way to Form String ⏰ ](algorithm/1055.shortest-way-to-form-string.md)
   * [filling bookcase shelves ⏰ ](algorithm/1105.-filling-bookcase-shelves.md)
 
-* [Stack](algorithm/README.md)
-  * [simplify path](algorithm/71.-simplify-path.md)
-
-* [Math](algorithm/README.md)
-  * [permutation sequence ⏰ ](algorithm/60.-permutation-sequence.md)
-  * [Linked List Random Node ⏰ ](algorithm/382.linked-list-random-node.md)
-  * [super washing machines ⏰ ](algorithm/517.-super-washing-machines.md)
-
 * [Recursion](algorithm/README.md)
   * [Strobogrammatic Number II](algorithm/247.strobogrammatic-number-ii.md)
   * [partition to k equal sum subsets](algorithm/698.-partition-to-k-equal-sum-subsets.md)
   * [k th symbol in grammar](algorithm/779.-k-th-symbol-in-grammar.md)
   * [all possible full binary trees](algorithm/894.-all-possible-full-binary-trees.md)
 
-* [Binary search](algorithm/README.md)
-  * [Count Complete Tree Nodes](algorithm/222.count-complete-tree-nodes.md)
-  * [random point in non overlapping rectangles](algorithm/497.-random-point-in-non-overlapping-rectangles.md)
-  * [random pick with weight](algorithm/528.-random-pick-with-weight.md)
-  * [single element in a sorted array](algorithm/540.-single-element-in-a-sorted-array.md)
-  * [koko eating bananas](algorithm/875.-koko-eating-bananas.md)
-  * [online election](algorithm/911.-online-election.md)
-
-* [Sliding window](algorithm/README.md)
-  * [Longest Substring with At Most K Distinct Characters](algorithm/340.longest-substring-with-at-most-k-distinct-characters.md)
-
-* [Backtracking](algorithm/README.md)
-  * [generate parentheses](algorithm/22.-generate-parentheses.md)
-  * [N-Queens II](algorithm/52.n-queens-ii.md)
-  * [partition to k equal sum subsets](algorithm/698.-partition-to-k-equal-sum-subsets.md)
-
-* [Hash](algorithm/README.md)
-  * [Bulls and Cows](algorithm/299.bulls-and-cows.md)
-  * [Longest Substring with At Most K Distinct Characters](algorithm/340.longest-substring-with-at-most-k-distinct-characters.md)
-  * [Maximum Frequency Stack ⏰ ](algorithm/895.maximum-frequency-stack.md)
-
-* [Sort](algorithm/README.md)
-  * [longest word in dictionary through deleting](algorithm/524.-longest-word-in-dictionary-through-deleting.md)
-  * [Pancake Sorting](algorithm/969.-pancake-sorting.md)
-
-* [Linked list](algorithm/README.md)
-  * [Reverse Nodes in k-Group ⏰ ](algorithm/25.reverse-nodes-in-k-group.md)
-  * [partition list ⏰ ](algorithm/86.-partition-list.md)
-  * [lru cache ⏰ ](algorithm/146.-lru-cache.md)
-  * [insertion sort list ⏰ ](algorithm/147.-insertion-sort-list.md)
-  * [Linked List Random Node ⏰ ](algorithm/382.linked-list-random-node.md)
-  * [add two numbers ii](algorithm/445.-add-two-numbers-ii.md)
-
-* [String](algorithm/README.md)
-  * [generate parentheses](algorithm/22.-generate-parentheses.md)
-  * [multiply strings](algorithm/43.-multiply-strings.md)
-  * [word subsets ⏰ ](algorithm/916.-word-subsets.md)
-
 * [Design](algorithm/README.md)
   * [peeking iterator](algorithm/284.-peeking-iterator.md)
-
-* [Queue](algorithm/README.md)
-  * [design circular queue](algorithm/622.-design-circular-queue.md)
 
 * [Tree](algorithm/README.md)
   * [binary tree inorder traversal](algorithm/94.-binary-tree-inorder-traversal.md)
@@ -148,18 +152,14 @@
   * [distribute coins in binary tree ⏰ ](algorithm/979.-distribute-coins-in-binary-tree.md)
   * [Delete Nodes And Return Forest ⏰ ](algorithm/1110.-delete-nodes-and-return-forest.md)
 
-* [Graph](algorithm/README.md)
-  * [find eventual safe states](algorithm/802.-find-eventual-safe-states.md)
+* [Queue](algorithm/README.md)
+  * [design circular queue](algorithm/622.-design-circular-queue.md)
 
-* [Trie](algorithm/README.md)
-  * [implement trie prefix tree](algorithm/208.-implement-trie-prefix-tree.md)
-  * [Longest Word in Dictionary](algorithm/720.-longest-word-in-dictionary.md)
-
-* [Greedy](algorithm/README.md)
-  * [jump game ii](algorithm/45.-jump-game-ii.md)
-  * [gas station ⏰ ](algorithm/134.-gas-station.md)
-  * [Meeting Rooms II ⏰ ](algorithm/253.meeting-rooms-ii.md)
-  * [delete columns to make sorted ii ⏰ ](algorithm/955.-delete-columns-to-make-sorted-ii.md)
-  * [video stitching](algorithm/1024.-video-stitching.md)
-  * [Shortest Way to Form String ⏰ ](algorithm/1055.shortest-way-to-form-string.md)
+* [Array](algorithm/README.md)
+  * [next permutation ⏰ ](algorithm/31.-next-permutation.md)
+  * [spiral matrix ii](algorithm/59.-spiral-matrix-ii.md)
+  * [missing ranges](algorithm/163.-missing-ranges.md)
+  * [Product of Array Except Self](algorithm/238.product-of-array-except-self.md)
+  * [find the duplicate number ⏰ ](algorithm/287.-find-the-duplicate-number.md)
+  * [subarray sum equals k](algorithm/560.-subarray-sum-equals-k.md)
 
