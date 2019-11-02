@@ -245,8 +245,9 @@ class ReadmeContent(object):
                 if problem['need_review']:
                     content += '  * [{name}]({})\n'.format(problem['solutions'][0]['solution_link'], **problem)
         content += '\n'
-
-        for tag, problems in random.shuffle(sorted(self._tag_problems.items())):
+        tag_problem_list = self._tag_problems.items()
+        random.shuffle(tag_problem_list)
+        for tag, problems in tag_problem_list:
             content += ('* [{}]({})\n'.format(tag,'algorithm/README.md'))
             for problem in sorted(problems, key = lambda x: x['id']):
                 content += '  * [{name}]({})\n'.format(problem['solutions'][0]['solution_link'], **problem)
