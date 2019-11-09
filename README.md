@@ -1,11 +1,11 @@
 # lcode
 This is a personal repo for some code
 ## Status
-Review Status: 72 %  
+Review Status: 74 %  
 
 Total problems: 91
 
-Need review: 25
+Need review: 23
 
 
 ## problem table
@@ -98,7 +98,7 @@ Need review: 25
 | Id | Title  | Solution | Review (days ago)|
 |----|-------|----------|------------------|
 |299|[Bulls and Cows](https://leetcode.com/problems/bulls-and-cows) |[link](algorithm/299.bulls-and-cows.md)|44|
-|340|[Longest Substring with At Most K Distinct Characters ⏰ ](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters)  ![Hard](https://img.shields.io/badge/-Hard-red.svg)  ⭐ |[link](algorithm/340.longest-substring-with-at-most-k-distinct-characters.md)|34|
+|340|[Longest Substring with At Most K Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters)  ![Hard](https://img.shields.io/badge/-Hard-red.svg)  ⭐ |[link](algorithm/340.longest-substring-with-at-most-k-distinct-characters.md)|0|
 |895|[Maximum Frequency Stack ⏰ ](https://leetcode.com/problems/maximum-frequency-stack)  ![Help](https://img.shields.io/badge/stats-Help-yellow.svg)|[link](algorithm/895.maximum-frequency-stack.md)|75|
 
 ### Linked list
@@ -134,7 +134,7 @@ Need review: 25
 ### Sliding window
 | Id | Title  | Solution | Review (days ago)|
 |----|-------|----------|------------------|
-|340|[Longest Substring with At Most K Distinct Characters ⏰ ](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters)  ![Hard](https://img.shields.io/badge/-Hard-red.svg)  ⭐ |[link](algorithm/340.longest-substring-with-at-most-k-distinct-characters.md)|34|
+|340|[Longest Substring with At Most K Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters)  ![Hard](https://img.shields.io/badge/-Hard-red.svg)  ⭐ |[link](algorithm/340.longest-substring-with-at-most-k-distinct-characters.md)|0|
 
 ### Sort
 | Id | Title  | Solution | Review (days ago)|
