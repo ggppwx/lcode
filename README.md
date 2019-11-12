@@ -1,11 +1,11 @@
 # lcode
 This is a personal repo for some code
 ## Status
-Review Status: 76 %  
+Review Status: 78 %  
 
 Total problems: 91
 
-Need review: 21
+Need review: 20
 
 
 ## problem table
@@ -15,7 +15,7 @@ Need review: 21
 |31|[next permutation ⏰ ](https://leetcode.com/problems/next-permutation)  ⭐ |[link](algorithm/31.-next-permutation.md)|85|
 |59|[spiral matrix ii](https://leetcode.com/problems/spiral-matrix-ii) |[link](algorithm/59.-spiral-matrix-ii.md)|86|
 |163|[missing ranges](https://leetcode.com/problems/missing-ranges) |[link](algorithm/163.-missing-ranges.md)|87|
-|238|[Product of Array Except Self ⏰ ](https://leetcode.com/problems/product-of-array-except-self)  ⭐ |[link](algorithm/238.product-of-array-except-self.md)|37|
+|238|[Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self)  ⭐ |[link](algorithm/238.product-of-array-except-self.md)|0|
 |287|[find the duplicate number ⏰ ](https://leetcode.com/problems/find-the-duplicate-number)  ⭐ |[link](algorithm/287.-find-the-duplicate-number.md)|43|
 |560|[subarray sum equals k](https://leetcode.com/problems/subarray-sum-equals-k) |[link](algorithm/560.-subarray-sum-equals-k.md)|86|
 
