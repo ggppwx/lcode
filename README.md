@@ -1,11 +1,11 @@
 # lcode
 This is a personal repo for some code
 ## Status
-Review Status: 35 %  
+Review Status: 38 %  
 
 Total problems: 92
 
-Need review: 59
+Need review: 57
 
 
 ## problem table
@@ -13,7 +13,7 @@ Need review: 59
 | Id | Title  | Solution | Review (days ago)|
 |----|-------|----------|------------------|
 |31|[next permutation ⏰ ](https://leetcode.com/problems/next-permutation)  ⭐ |[link](algorithm/31.-next-permutation.md)|95|
-|59|[spiral matrix ii ⏰ ](https://leetcode.com/problems/spiral-matrix-ii) |[link](algorithm/59.-spiral-matrix-ii.md)|96|
+|59|[spiral matrix ii](https://leetcode.com/problems/spiral-matrix-ii) |[link](algorithm/59.-spiral-matrix-ii.md)|0|
 |163|[missing ranges ⏰ ](https://leetcode.com/problems/missing-ranges) |[link](algorithm/163.-missing-ranges.md)|97|
 |238|[Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self)  ⭐ |[link](algorithm/238.product-of-array-except-self.md)|10|
 |287|[find the duplicate number ⏰ ](https://leetcode.com/problems/find-the-duplicate-number)  ⭐ |[link](algorithm/287.-find-the-duplicate-number.md)|53|
@@ -126,7 +126,7 @@ Need review: 59
 ### Queue
 | Id | Title  | Solution | Review (days ago)|
 |----|-------|----------|------------------|
-|622|[design circular queue ⏰ ](https://leetcode.com/problems/design-circular-queue) |[link](algorithm/622.-design-circular-queue.md)|96|
+|622|[design circular queue](https://leetcode.com/problems/design-circular-queue) |[link](algorithm/622.-design-circular-queue.md)|0|
 
 ### Recursion
 | Id | Title  | Solution | Review (days ago)|
