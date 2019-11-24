@@ -2,11 +2,6 @@
 # Table of contents
 * [lcode](README.md)
 * [Review](algorithm/README.md)
-  * [next permutation ⏰ ](algorithm/31.-next-permutation.md)
-  * [find the duplicate number ⏰ ](algorithm/287.-find-the-duplicate-number.md)
-  * [word subsets ⏰ ](algorithm/916.-word-subsets.md)
-  * [permutation sequence ⏰ ](algorithm/60.-permutation-sequence.md)
-  * [super washing machines ⏰ ](algorithm/517.-super-washing-machines.md)
   * [palindrome partitioning ii ⏰ ](algorithm/132.-palindrome-partitioning-ii.md)
   * [maximal square ⏰ ](algorithm/221.-maximal-square.md)
   * [max sum of rectangle no larger than k ⏰ ](algorithm/363.-max-sum-of-rectangle-no-larger-than-k.md)
@@ -18,13 +13,16 @@
   * [filling bookcase shelves ⏰ ](algorithm/1105.-filling-bookcase-shelves.md)
   * [Reverse Nodes in k-Group ⏰ ](algorithm/25.reverse-nodes-in-k-group.md)
   * [insertion sort list ⏰ ](algorithm/147.-insertion-sort-list.md)
+  * [permutation sequence ⏰ ](algorithm/60.-permutation-sequence.md)
+  * [super washing machines ⏰ ](algorithm/517.-super-washing-machines.md)
+  * [next permutation ⏰ ](algorithm/31.-next-permutation.md)
 
 * [Array](algorithm/README.md)
   * [next permutation ⏰ ](algorithm/31.-next-permutation.md)
   * [spiral matrix ii](algorithm/59.-spiral-matrix-ii.md)
   * [missing ranges](algorithm/163.-missing-ranges.md)
   * [Product of Array Except Self](algorithm/238.product-of-array-except-self.md)
-  * [find the duplicate number ⏰ ](algorithm/287.-find-the-duplicate-number.md)
+  * [find the duplicate number](algorithm/287.-find-the-duplicate-number.md)
   * [subarray sum equals k](algorithm/560.-subarray-sum-equals-k.md)
 
 * [BFS](algorithm/README.md)
@@ -130,7 +128,7 @@
 * [String](algorithm/README.md)
   * [generate parentheses](algorithm/22.-generate-parentheses.md)
   * [multiply strings](algorithm/43.-multiply-strings.md)
-  * [word subsets ⏰ ](algorithm/916.-word-subsets.md)
+  * [word subsets](algorithm/916.-word-subsets.md)
 
 * [Tree](algorithm/README.md)
   * [binary tree inorder traversal](algorithm/94.-binary-tree-inorder-traversal.md)
