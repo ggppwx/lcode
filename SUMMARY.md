@@ -11,11 +11,14 @@
   * [minimum cost to merge stones ⏰ ](algorithm/1000.-minimum-cost-to-merge-stones.md)
   * [minimum score triangulation of polygon ⏰ ](algorithm/1039.-minimum-score-triangulation-of-polygon.md)
   * [filling bookcase shelves ⏰ ](algorithm/1105.-filling-bookcase-shelves.md)
+  * [next permutation ⏰ ](algorithm/31.-next-permutation.md)
+  * [jump game ii ⏰ ](algorithm/45.-jump-game-ii.md)
+  * [word ladder ⏰ ](algorithm/127.-word-ladder.md)
+  * [jump game ii ⏰ ](algorithm/45.-jump-game-ii.md)
   * [Reverse Nodes in k-Group ⏰ ](algorithm/25.reverse-nodes-in-k-group.md)
   * [insertion sort list ⏰ ](algorithm/147.-insertion-sort-list.md)
   * [permutation sequence ⏰ ](algorithm/60.-permutation-sequence.md)
   * [super washing machines ⏰ ](algorithm/517.-super-washing-machines.md)
-  * [next permutation ⏰ ](algorithm/31.-next-permutation.md)
 
 * [Array](algorithm/README.md)
   * [next permutation ⏰ ](algorithm/31.-next-permutation.md)
@@ -26,8 +29,8 @@
   * [subarray sum equals k](algorithm/560.-subarray-sum-equals-k.md)
 
 * [BFS](algorithm/README.md)
-  * [jump game ii](algorithm/45.-jump-game-ii.md)
-  * [word ladder](algorithm/127.-word-ladder.md)
+  * [jump game ii ⏰ ](algorithm/45.-jump-game-ii.md)
+  * [word ladder ⏰ ](algorithm/127.-word-ladder.md)
   * [Keys and Rooms](algorithm/841.-keys-and-rooms.md)
 
 * [Backtracking](algorithm/README.md)
@@ -78,7 +81,7 @@
   * [find eventual safe states](algorithm/802.-find-eventual-safe-states.md)
 
 * [Greedy](algorithm/README.md)
-  * [jump game ii](algorithm/45.-jump-game-ii.md)
+  * [jump game ii ⏰ ](algorithm/45.-jump-game-ii.md)
   * [gas station](algorithm/134.-gas-station.md)
   * [Meeting Rooms II](algorithm/253.meeting-rooms-ii.md)
   * [delete columns to make sorted ii](algorithm/955.-delete-columns-to-make-sorted-ii.md)
@@ -151,4 +154,7 @@
 * [Trie](algorithm/README.md)
   * [implement trie prefix tree](algorithm/208.-implement-trie-prefix-tree.md)
   * [Longest Word in Dictionary](algorithm/720.-longest-word-in-dictionary.md)
+
+* [Union find](algorithm/README.md)
+  * [Friend Circles](algorithm/547.friend-circles.md)
 
