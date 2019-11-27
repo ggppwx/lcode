@@ -1,11 +1,11 @@
 # lcode
 This is a personal repo for some code
 ## Status
-Review Status: 81 %  
+Review Status: 82 %  
 
 Total problems: 94
 
-Need review: 17
+Need review: 16
 
 
 ## problem table
@@ -56,7 +56,7 @@ Need review: 17
 |----|-------|----------|------------------|
 |55|[Jump Game](https://leetcode.com/problems/jump-game) |[link](algorithm/55.-jump-game.md)|100|
 |63|[unique paths ii](https://leetcode.com/problems/unique-paths-ii) |[link](algorithm/63.-unique-paths-ii.md)|100|
-|132|[palindrome partitioning ii ⏰ ](https://leetcode.com/problems/palindrome-partitioning-ii)  ![Hard](https://img.shields.io/badge/-Hard-red.svg)  ⭐ |[link](algorithm/132.-palindrome-partitioning-ii.md)|38|
+|132|[palindrome partitioning ii](https://leetcode.com/problems/palindrome-partitioning-ii)  ![Hard](https://img.shields.io/badge/-Hard-red.svg)  ⭐ |[link](algorithm/132.-palindrome-partitioning-ii.md)|0|
 |152|[maximum product subarray](https://leetcode.com/problems/maximum-product-subarray) |[link](algorithm/152.-maximum-product-subarray.md)|100|
 |213|[house robber ii](https://leetcode.com/problems/house-robber-ii) |[link](algorithm/213.-house-robber-ii.md)|100|
 |221|[maximal square ⏰ ](https://leetcode.com/problems/maximal-square)  ![Help](https://img.shields.io/badge/stats-Help-yellow.svg)|[link](algorithm/221.-maximal-square.md)|72|
