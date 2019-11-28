@@ -2,14 +2,6 @@
 # Table of contents
 * [lcode](README.md)
 * [Review](algorithm/README.md)
-  * [jump game ii ⏰ ](algorithm/45.-jump-game-ii.md)
-  * [next permutation ⏰ ](algorithm/31.-next-permutation.md)
-  * [Reverse Nodes in k-Group ⏰ ](algorithm/25.reverse-nodes-in-k-group.md)
-  * [insertion sort list ⏰ ](algorithm/147.-insertion-sort-list.md)
-  * [permutation sequence ⏰ ](algorithm/60.-permutation-sequence.md)
-  * [super washing machines ⏰ ](algorithm/517.-super-washing-machines.md)
-  * [jump game ii ⏰ ](algorithm/45.-jump-game-ii.md)
-  * [word ladder ⏰ ](algorithm/127.-word-ladder.md)
   * [maximal square ⏰ ](algorithm/221.-maximal-square.md)
   * [max sum of rectangle no larger than k ⏰ ](algorithm/363.-max-sum-of-rectangle-no-larger-than-k.md)
   * [Minimum Window Subsequence ⏰ ](algorithm/727.minimum-window-subsequence.md)
@@ -18,6 +10,15 @@
   * [minimum cost to merge stones ⏰ ](algorithm/1000.-minimum-cost-to-merge-stones.md)
   * [minimum score triangulation of polygon ⏰ ](algorithm/1039.-minimum-score-triangulation-of-polygon.md)
   * [filling bookcase shelves ⏰ ](algorithm/1105.-filling-bookcase-shelves.md)
+  * [next permutation ⏰ ](algorithm/31.-next-permutation.md)
+  * [permutation sequence ⏰ ](algorithm/60.-permutation-sequence.md)
+  * [super washing machines ⏰ ](algorithm/517.-super-washing-machines.md)
+  * [Reverse Nodes in k-Group ⏰ ](algorithm/25.reverse-nodes-in-k-group.md)
+  * [insertion sort list ⏰ ](algorithm/147.-insertion-sort-list.md)
+  * [word ladder ⏰ ](algorithm/127.-word-ladder.md)
+
+* [ Greedy](algorithm/README.md)
+  * [Jump Game](algorithm/55.-jump-game.md)
 
 * [Array](algorithm/README.md)
   * [next permutation ⏰ ](algorithm/31.-next-permutation.md)
@@ -28,7 +29,7 @@
   * [subarray sum equals k](algorithm/560.-subarray-sum-equals-k.md)
 
 * [BFS](algorithm/README.md)
-  * [jump game ii ⏰ ](algorithm/45.-jump-game-ii.md)
+  * [jump game ii](algorithm/45.-jump-game-ii.md)
   * [word ladder ⏰ ](algorithm/127.-word-ladder.md)
   * [Keys and Rooms](algorithm/841.-keys-and-rooms.md)
 
@@ -80,7 +81,7 @@
   * [find eventual safe states](algorithm/802.-find-eventual-safe-states.md)
 
 * [Greedy](algorithm/README.md)
-  * [jump game ii ⏰ ](algorithm/45.-jump-game-ii.md)
+  * [jump game ii](algorithm/45.-jump-game-ii.md)
   * [gas station](algorithm/134.-gas-station.md)
   * [Meeting Rooms II](algorithm/253.meeting-rooms-ii.md)
   * [delete columns to make sorted ii](algorithm/955.-delete-columns-to-make-sorted-ii.md)
