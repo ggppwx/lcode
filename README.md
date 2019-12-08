@@ -1,11 +1,11 @@
 # lcode
 This is a personal repo for some code
 ## Status
-Review Status: 82 %  
+Review Status: 83 %  
 
 Total problems: 95
 
-Need review: 17
+Need review: 16
 
 
 ## problem table
@@ -52,7 +52,7 @@ Need review: 17
 | Id | Title  | Solution | Review (days ago)|
 |----|-------|----------|------------------|
 |52|[N-Queens II](https://leetcode.com/problems/n-queens-ii) |[link](algorithm/52.n-queens-ii.md)|64|
-|854|[K-Similar Strings ⏰ ](https://leetcode.com/problems/k-similar-strings)  ![Hard](https://img.shields.io/badge/-Hard-red.svg) |[link](algorithm/854.k-similar-strings.md)|37|
+|854|[K-Similar Strings](https://leetcode.com/problems/k-similar-strings)  ![Hard](https://img.shields.io/badge/-Hard-red.svg) |[link](algorithm/854.k-similar-strings.md)|37|
 |979|[distribute coins in binary tree ⏰ ](https://leetcode.com/problems/distribute-coins-in-binary-tree)  ![Help](https://img.shields.io/badge/stats-Help-yellow.svg)|[link](algorithm/979.-distribute-coins-in-binary-tree.md)|30|
 |1110|[Delete Nodes And Return Forest ⏰ ](https://leetcode.com/problems/delete-nodes-and-return-forest)  ⭐ |[link](algorithm/1110.-delete-nodes-and-return-forest.md)|30|
 
