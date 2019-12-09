@@ -1,19 +1,14 @@
 # lcode
 This is a personal repo for some code
 ## Status
-Review Status: 83 %  
+Review Status: 84 %  
 
 Total problems: 95
 
-Need review: 16
+Need review: 15
 
 
 ## problem table
-###  Greedy
-| Id | Title  | Solution | Review (days ago)|
-|----|-------|----------|------------------|
-|55|[Jump Game](https://leetcode.com/problems/jump-game)  ⭐ |[link](algorithm/55.-jump-game.md)|11|
-
 ### Array
 | Id | Title  | Solution | Review (days ago)|
 |----|-------|----------|------------------|
@@ -59,13 +54,13 @@ Need review: 16
 ### DP
 | Id | Title  | Solution | Review (days ago)|
 |----|-------|----------|------------------|
-|55|[Jump Game](https://leetcode.com/problems/jump-game)  ⭐ |[link](algorithm/55.-jump-game.md)|11|
+|55|[Jump Game](https://leetcode.com/problems/jump-game)  ⭐ |[link](algorithm/55.-jump-game.md)|0|
 |63|[unique paths ii](https://leetcode.com/problems/unique-paths-ii) |[link](algorithm/63.-unique-paths-ii.md)|112|
 |132|[palindrome partitioning ii](https://leetcode.com/problems/palindrome-partitioning-ii)  ![Hard](https://img.shields.io/badge/-Hard-red.svg)  ⭐ |[link](algorithm/132.-palindrome-partitioning-ii.md)|12|
 |152|[maximum product subarray](https://leetcode.com/problems/maximum-product-subarray) |[link](algorithm/152.-maximum-product-subarray.md)|112|
 |213|[house robber ii](https://leetcode.com/problems/house-robber-ii) |[link](algorithm/213.-house-robber-ii.md)|112|
 |221|[maximal square](https://leetcode.com/problems/maximal-square)  ![Help](https://img.shields.io/badge/stats-Help-yellow.svg) ⭐ |[link](algorithm/221.-maximal-square.md)|7|
-|363|[max sum of rectangle no larger than k ⏰ ](https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k)  ![Hard](https://img.shields.io/badge/-Hard-red.svg)  ⭐ |[link](algorithm/363.-max-sum-of-rectangle-no-larger-than-k.md)|80|
+|363|[max sum of rectangle no larger than k](https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k)  ![Hard](https://img.shields.io/badge/-Hard-red.svg)  ⭐ |[link](algorithm/363.-max-sum-of-rectangle-no-larger-than-k.md)|0|
 |688|[Knight Probability in Chessboard](https://leetcode.com/problems/knight-probability-in-chessboard) |[link](algorithm/688.-knight-probability-in-chessboard.md)|112|
 |698|[partition to k equal sum subsets](https://leetcode.com/problems/partition-to-k-equal-sum-subsets)  ![Help](https://img.shields.io/badge/stats-Help-yellow.svg)|[link](algorithm/698.-partition-to-k-equal-sum-subsets.md)|15|
 |727|[Minimum Window Subsequence](https://leetcode.com/problems/minimum-window-subsequence)  ![Hard](https://img.shields.io/badge/-Hard-red.svg)  ![Help](https://img.shields.io/badge/stats-Help-yellow.svg)|[link](algorithm/727.minimum-window-subsequence.md)|0|
@@ -94,6 +89,7 @@ Need review: 16
 | Id | Title  | Solution | Review (days ago)|
 |----|-------|----------|------------------|
 |45|[jump game ii](https://leetcode.com/problems/jump-game-ii)  ![Hard](https://img.shields.io/badge/-Hard-red.svg)  ⭐ |[link](algorithm/45.-jump-game-ii.md)|11|
+|55|[Jump Game](https://leetcode.com/problems/jump-game)  ⭐ |[link](algorithm/55.-jump-game.md)|0|
 |134|[gas station ⏰ ](https://leetcode.com/problems/gas-station)  ⭐ |[link](algorithm/134.-gas-station.md)|30|
 |253|[Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii)  ![Help](https://img.shields.io/badge/stats-Help-yellow.svg) ⭐ |[link](algorithm/253.meeting-rooms-ii.md)|26|
 |955|[delete columns to make sorted ii ⏰ ](https://leetcode.com/problems/delete-columns-to-make-sorted-ii)  ![Help](https://img.shields.io/badge/stats-Help-yellow.svg)|[link](algorithm/955.-delete-columns-to-make-sorted-ii.md)|26|
