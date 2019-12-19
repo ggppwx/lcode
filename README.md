@@ -1,11 +1,11 @@
 # lcode
 This is a personal repo for some code
 ## Status
-Review Status: 47 %  
+Review Status: 51 %  
 
 Total problems: 95
 
-Need review: 50
+Need review: 46
 
 
 ## problem table
@@ -70,7 +70,7 @@ Need review: 50
 |931|[minimum falling path sum ⏰ ](https://leetcode.com/problems/minimum-falling-path-sum) |[link](algorithm/931.-minimum-falling-path-sum.md)|123|
 |983|[minimum cost for tickets ⏰ ](https://leetcode.com/problems/minimum-cost-for-tickets) |[link](algorithm/983.-minimum-cost-for-tickets.md)|122|
 |1000|[minimum cost to merge stones](https://leetcode.com/problems/minimum-cost-to-merge-stones)  ![Help](https://img.shields.io/badge/stats-Help-yellow.svg) ![Hard](https://img.shields.io/badge/-Hard-red.svg) |[link](algorithm/1000.-minimum-cost-to-merge-stones.md)|10|
-|1024|[video stitching ⏰ ](https://leetcode.com/problems/video-stitching) |[link](algorithm/1024.-video-stitching.md)|122|
+|1024|[video stitching](https://leetcode.com/problems/video-stitching) |[link](algorithm/1024.-video-stitching.md)|0|
 |1039|[minimum score triangulation of polygon](https://leetcode.com/problems/minimum-score-triangulation-of-polygon)  ![Help](https://img.shields.io/badge/stats-Help-yellow.svg) ⭐ |[link](algorithm/1039.-minimum-score-triangulation-of-polygon.md)|11|
 |1055|[Shortest Way to Form String](https://leetcode.com/problems/shortest-way-to-form-string)  ⁉️ |[link](algorithm/1055.shortest-way-to-form-string.md)|34|
 |1105|[filling bookcase shelves](https://leetcode.com/problems/filling-bookcase-shelves)  ![Help](https://img.shields.io/badge/stats-Help-yellow.svg) ![Redone](https://img.shields.io/badge/-Redone-green.svg)|[link](algorithm/1105.-filling-bookcase-shelves.md)|11|
@@ -91,9 +91,9 @@ Need review: 50
 |45|[jump game ii](https://leetcode.com/problems/jump-game-ii)  ![Hard](https://img.shields.io/badge/-Hard-red.svg)  ⭐ |[link](algorithm/45.-jump-game-ii.md)|21|
 |55|[Jump Game](https://leetcode.com/problems/jump-game)  ⭐ |[link](algorithm/55.-jump-game.md)|10|
 |134|[gas station](https://leetcode.com/problems/gas-station)  ⭐ |[link](algorithm/134.-gas-station.md)|7|
-|253|[Meeting Rooms II ⏰ ](https://leetcode.com/problems/meeting-rooms-ii)  ![Help](https://img.shields.io/badge/stats-Help-yellow.svg) ⭐ |[link](algorithm/253.meeting-rooms-ii.md)|36|
+|253|[Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii)  ![Help](https://img.shields.io/badge/stats-Help-yellow.svg) ⭐ |[link](algorithm/253.meeting-rooms-ii.md)|0|
 |955|[delete columns to make sorted ii](https://leetcode.com/problems/delete-columns-to-make-sorted-ii)  ![Help](https://img.shields.io/badge/stats-Help-yellow.svg)|[link](algorithm/955.-delete-columns-to-make-sorted-ii.md)|2|
-|1024|[video stitching ⏰ ](https://leetcode.com/problems/video-stitching) |[link](algorithm/1024.-video-stitching.md)|122|
+|1024|[video stitching](https://leetcode.com/problems/video-stitching) |[link](algorithm/1024.-video-stitching.md)|0|
 |1055|[Shortest Way to Form String](https://leetcode.com/problems/shortest-way-to-form-string)  ⁉️ |[link](algorithm/1055.shortest-way-to-form-string.md)|34|
 
 ### Hash
@@ -106,7 +106,7 @@ Need review: 50
 ### Heap
 | Id | Title  | Solution | Review (days ago)|
 |----|-------|----------|------------------|
-|253|[Meeting Rooms II ⏰ ](https://leetcode.com/problems/meeting-rooms-ii)  ![Help](https://img.shields.io/badge/stats-Help-yellow.svg) ⭐ |[link](algorithm/253.meeting-rooms-ii.md)|36|
+|253|[Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii)  ![Help](https://img.shields.io/badge/stats-Help-yellow.svg) ⭐ |[link](algorithm/253.meeting-rooms-ii.md)|0|
 
 ### Linked list
 | Id | Title  | Solution | Review (days ago)|
